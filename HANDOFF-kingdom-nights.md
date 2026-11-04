@@ -824,6 +824,12 @@ He deferred all device testing (FPS, 2-device Quick Play, 4p, revive) **to the e
    source-migration note only). Blood Moon decision still open; default = ship as 2x rewards only.
    `claude-out/studio-patches/2026-11-04-qa-tools/ConfigIntegrityCheck.luau` = §31.1 config checks + manifest-vs-modules
    proof for the command bar (paste, expect only the Monetize Id-0 FAILs until ids are in).
+   **2026-11-04 local session (Studio):** repo now has `claude-tools/`, `chatgpt-out/`, `graphify-out/` (no cache) on
+   main. QA §0 all ✅ and §4.4 ✅: slice 4 survived; Lobby 16/16 + 13/13, **Match 22/22 + 12/12**, 0 failed; Blood Moon
+   debug win `+1284 crowns` (428×1.5×2), `+75 shards` (30×1.25×2), saved `EventProgress wins=1`. Cleaned up: Studio key
+   `Event_Studio` removed, `KN_PlaceKindOverride`/`KN_MapOverride` nil, leftover test passes reverted (profile
+   `passes=[]`, 14,613 Crowns). Checker fixed: models are looked up at `Assets.<Folder>.<id>`. Next: QA §1–§3 + §4.1–4.3, §4.5,
+   §5 extras (all Studio), then Omar's IDs → publish gate §6.
 3. ~~Hero power cap~~ DONE 2026-11-02 (spec §36.1, boards v2).
 3b. Hardening audit DONE 2026-11-02 + fixes B1/M1/M2/L1/L2 applied (M3 bans skipped by Omar). 2-client Studio test DONE
     (both players' heroes capped + toast each, 2p wave scaling 6→8, morning clean). Late joiner still untested.

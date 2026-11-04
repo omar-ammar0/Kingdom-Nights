@@ -21,12 +21,12 @@ Legend: ☐ not run · ✅ pass · ❌ fail (open a numbered bug under §7) · �
 
 | # | Check | Expect | Status |
 |---|---|---|---|
-| 0.1 | `script_grep CodeService` and `script_grep EventService` | Both found: CodeService in Lobby manifest, EventService in **both** manifests (slice 4 was built but Studio MCP dropped before save) | ☐ |
-| 0.2 | Boot Lobby, boot Match | Baselines above, 0 failed, no red in Output | ☐ |
-| 0.3 | Studio `KN_LiveConfig` key `Event_Studio` | Still set from 2026-11-03. Leave it set for §4.4, **clear it at the end** (see §6) | ☐ |
-| 0.4 | Workspace attribute `KN_PlaceKindOverride` | Note current value; must be cleared before publish (§6) | ☐ |
-| 0.5 | `Config.Monetize` ids | Record how many are still `0`. Store shows COMING SOON for each 0 | ☐ |
-| 0.6 | `EnablePerfTools` | `false` (audit fix B1). Only flip true for the device pass build, then back | ☐ |
+| 0.1 | `script_grep CodeService` and `script_grep EventService` | Both found: CodeService in Lobby manifest, EventService in **both** manifests (slice 4 was built but Studio MCP dropped before save) | ✅ 2026-11-04 local: Config L1010 Lobby `CodeService, EventService`, L1029 Match `EventService`; ProgressionService hooks present |
+| 0.2 | Boot Lobby, boot Match | Baselines above, 0 failed, no red in Output | ✅ Lobby 16/16 init (14 started), client 13/13, 0 failed. **Match 22/22 init (17 started), client 12/12, 0 failed** — new Match baseline (EventService + EventController added) |
+| 0.3 | Studio `KN_LiveConfig` key `Event_Studio` | Still set from 2026-11-03. Leave it set for §4.4, **clear it at the end** (see §6) | ✅ was set (`[Event] flag now BloodMoon …` on both boots); **cleared** after §4.4 (RemoveAsync → GetAsync nil) |
+| 0.4 | Workspace attribute `KN_PlaceKindOverride` | Note current value; must be cleared before publish (§6) | ✅ was `Lobby`; **cleared** (and `KN_MapOverride` nil) |
+| 0.5 | `Config.Monetize` ids | Record how many are still `0`. Store shows COMING SOON for each 0 | ✅ recorded: **21 at 0** = the 15 launch items + 6 not sold at launch (checker counts every entry) |
+| 0.6 | `EnablePerfTools` | `false` (audit fix B1). Only flip true for the device pass build, then back | ✅ checker `flags` section clean |
 
 ---
 
@@ -93,8 +93,8 @@ Pass bar for this section: every row green with server + both client Outputs cle
 | 4.1 | 1 Settings/Audio/Juice | Toggle Music/Sfx/ReduceEffects in SETTINGS, replay a night | Attributes mirror; sounds stop/start; effects reduced; hostile `Settings_Set` values rejected | ☐ |
 | 4.2 | 2 Endless | Lobby level ≥5 → Lastwatch → play 6 nights | Milestone elite pack night 5; defeat → crowns + `[Leaderboard] ... lastwatch` ok; RANKS 5th tab shows it. Map is still the **Blackfen stand-in** until ChatGPT's `Map_Lastwatch` lands | ☐ |
 | 4.3 | 3 Monetization | `Debug_SetPass` royal_treasury+double_xp true, debug win | Crowns ×1.5, XP ×2, shards ×1.25 (e.g. 642/320/37 pattern); `Debug_Purchase` same id twice → granted once; revert passes after | ☐ |
-| 4.4 | 4 Codes + Blood Moon | Lobby: redeem a fresh test code via CODES tab, repeat, spam 20× | Granted once; "already redeemed"; rate-limited to 1 per 5 s. Match: with `Event_Studio` set, debug win → **Crowns ×2, shards ×2, `EventProgress.Wins` 1**; banner shows "BLOOD MOON - 2x ... left" | ☐ |
-| 4.5 | 4 Event poll | Clear `Event_Studio`, publish `KN_Event` message (or wait `PollSeconds`) | Banner disappears; multipliers back to ×1; failed DataStore read keeps last value (simulate by renaming key, watch no error) | ☐ |
+| 4.4 | 4 Codes + Blood Moon | Lobby: redeem a fresh test code via CODES tab, repeat, spam 20× | Granted once; "already redeemed"; rate-limited to 1 per 5 s. Match: with `Event_Studio` set, debug win → **Crowns ×2, shards ×2, `EventProgress.Wins` 1**; banner shows "BLOOD MOON - 2x ... left" | ✅ Lobby half 2026-11-03 (LAUNCH via UI +1,000/+40; repeat "already redeemed"; unknown/number/5000-char rejected; 20× NIGHTFALL → 1 grant). Match 2026-11-04: `+1284 crowns` (428 × 1.5 treasury × **2**), `+75 hero shards` (30 × 1.25 × **2**); saved profile `EventProgress = BloodMoon/1793896044/wins=1`, Crowns 13,329 → 14,613 |
+| 4.5 | 4 Event poll | Clear `Event_Studio`, publish `KN_Event` message (or wait `PollSeconds`) | Banner disappears; multipliers back to ×1; failed DataStore read keeps last value (simulate by renaming key, watch no error) | ☐ key cleared, but the banner-disappears / ×1 boot not yet observed |
 
 Blood Moon decision still open with Omar: ships as **2x rewards only** (no `ForcedMutator`, no banner cosmetic) unless
 he says "build mutators". If he does, that is new slice work, not QA.
@@ -110,8 +110,8 @@ numbers), map models and numbers, character/building model names, the **`Config.
 ModuleScripts** (this is the "did slice 4 survive" proof: CodeService in Lobby, EventService + EventController in both),
 Monetize ids ≠ 0, Codes/Events/Mutators shape, `EnablePerfTools == false`.
 
-Expected before ids are in: exactly the `Monetize ... Id is 0` FAILs (up to 15) plus the two known WARNs (`lastwatch`
-stand-in model, `BloodMoon.ForcedMutator` unused). Anything else is a real finding → §7.
+Expected before ids are in: the `Monetize ... Id is 0` FAILs (21 entries, 15 sold at launch) plus WARNs for the `lastwatch`
+stand-in model, `BloodMoon.ForcedMutator` unused, and 7 known missing models (golem + 6 unslotted buildings, §7 B1). Anything else is a real finding → §7.
 
 Also run (already exist from earlier sessions, rerun once): the map validator on every map (§23.2), the 200-enemy
 `Debug_Stress` with tick time + memory flat over 60 s, and a profile round-trip (save → clear → load → equal; add a
@@ -142,4 +142,6 @@ dummy template field → reconcile fills it, nothing else changes). Paste the pr
 
 | # | Case | What happened | Severity | Fix / status |
 |---|---|---|---|---|
-| B1 |  |  |  |  |
+| B1 | §5 checker | 36 `Model "X" not found` WARNs: the checker looked up Config `Model` names, but models live at `ReplicatedStorage.Assets.<Enemies/Units/Heroes/Buildings>.<id>` | Tooling | Fixed in ConfigIntegrityCheck.luau (looks up by id). Real gaps by id: unit `golem`; buildings Temple, RoyalForge, Blacksmith, HeroQuarters, Harbour, Field (known, HANDOFF §7 item 4; not on any map slot) |
+| B2 | §4.3 / §6.3 | HANDOFF said test passes were reverted, but the Studio profile still owned royal_treasury, double_xp, hero_collector. A `Debug_SetPass false` fired during Results didn't stick | Low (Studio store only) | Reverted on a fresh boot 2026-11-04: profile `passes=[]`. Fire Debug_SetPass mid-run, not after the run ends |
+| — | §5 checker 2026-11-04 | `1 FAIL, 38 WARN` before the B1 fix: FAIL = Monetize ids 0 (expected); WARN = lastwatch stand-in, ForcedMutator unused, 36 B1 false positives | — | — |

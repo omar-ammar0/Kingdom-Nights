@@ -133,15 +133,21 @@ section("maps", function()
 	end
 end)
 
--- 7. Character / building models resolve
+-- 7. Character / building models resolve. Models live at
+-- ReplicatedStorage.Assets.<Folder>.<config id> (the Config `Model` field is not the lookup key).
 section("models", function()
-	local function chk(kind: string, id: string, model: any)
-		if typeof(model) == "string" and not findAnywhere(model) then WARN(`{kind} {id}: Model "{model}" not found (graybox fallback?)`) end
+	local assets = RS:FindFirstChild("Assets")
+	if not assets then FAIL("ReplicatedStorage.Assets missing") return end
+	local function chk(folder: string, t: any)
+		local f = assets:FindFirstChild(folder)
+		for id, v in t do
+			if typeof(v) == "table" and not (f and f:FindFirstChild(id)) then WARN(`{folder}.{id}: no model (graybox fallback)`) end
+		end
 	end
-	for id, e in Config.Enemies do chk("enemy", id, e.Model) end
-	for id, u in Config.Units do if typeof(u) == "table" then chk("unit", id, u.Model) end end
-	for id, h in Config.Heroes do chk("hero", id, h.Model) end
-	for id, b in Config.Buildings do chk("building", id, b.Model) end
+	chk("Enemies", Config.Enemies)
+	chk("Units", Config.Units)
+	chk("Heroes", Config.Heroes)
+	chk("Buildings", Config.Buildings)
 end)
 
 -- 8. Place manifests → modules exist (this is the "did slice 4 survive" check)
