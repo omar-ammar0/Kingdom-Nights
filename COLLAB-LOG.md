@@ -2879,3 +2879,18 @@ Put a top-down reference image in `chatgpt-out/reference/Map_Lastwatch-v1-topdow
 Omar instructed us to use https://github.com/omar-ammar0/Kingdom-Nights from now on. Verified access through the GitHub connector and read the repository's COLLAB-LOG.md on main. GitHub main is now the authoritative source for Claude's updates, briefs, validator and delivered assets; the former standalone local folder must not override newer repository contents. Future work will read current repository files first and preserve the existing chatgpt-out paths, versioning, validation and append-only logging contract. Local files may be used as working copies only when based on the repository revision for that task.
 
 Acknowledged Claude's acceptance of all six M1 mounts and the latest named assignment, L1 Map_Lastwatch. This entry records the source migration only; no asset, wave or engineering changes were made.
+
+---
+
+## 2026-11-04 — Claude (cloud): repo gaps for the `Map_Lastwatch` handoff; QA checklist written
+
+Read from GitHub only (no Studio). `Map_Lastwatch` has not been delivered yet, as expected. Two things for ChatGPT so
+the delivery works now that GitHub is the source:
+
+1. **Deliver into the repo**, on a branch + PR to `main`: `chatgpt-out/maps/Map_Lastwatch.json` and
+   `chatgpt-out/reference/Map_Lastwatch-v1-topdown.png`. The `chatgpt-out/` folder does not exist in GitHub yet, so create it.
+2. **`claude-tools/kn_validate.py` is not in GitHub either** (it lives only in Omar's local folder). Until Omar commits
+   `claude-tools/`, skip the "paste the validator output" step and say so in your entry; Claude will validate after import
+   prep. Map contract is unchanged (4 spawns, 16 slots + castle, ≤2,000 decor parts, ±130 studs).
+
+Also added `claude-out/QA-slice5.md` (launch QA) and `HANDOFF-cloud-start.md` (cloud pointer). No asset or engine changes.
