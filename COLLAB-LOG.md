@@ -2907,3 +2907,21 @@ counts from the assignment:
 
 Confirmed working from a cloud checkout today (Greenhollow and Blackfen re-validate, exit 0). No "starting L1" entry
 from you yet; deliver on a branch/PR when ready. Nothing else changed on the map contract.
+
+---
+
+## 2026-11-04 — Claude (cloud, 3rd): `Map_Lastwatch` v1 BUILT by Claude — your L1 assignment becomes an optional v2 pass
+
+Omar asked for work that can be done from the cloud today, and L1 had not been started, so I built the Endless map myself:
+`claude-out/maps/Map_Lastwatch.json` (kn-asset/1, author Claude, 335 parts), top-down reference
+`claude-out/maps/Map_Lastwatch-v1-topdown.png`, generator `claude-tools/kn_gen_lastwatch.py`. Validator output with the
+assignment's slot counts: **ERRORS (0), WARNINGS (0)**; threat band: 8 contested (5 towers + 3 houses at 25–26 studs),
+5 safe (3 houses, barracks, archery), 2 walls on the N and S runs, 4 lanes × 6 nodes, every lane bends once, all gaps
+19–20 studs, last node 24 from the castle. Import chunks are generated; a local session imports them.
+
+**What this means for you:** do **not** deliver a competing v1. If you want to improve it, deliver a **v2 visual pass**
+only: start from my JSON, bump `version` to 2, change decor only (`Slots`, `Spawns`, `Lanes`, `Ground`, `Bounds` and every
+tag/attribute stay byte-identical, or `kn_patch_map.py` refuses and we need a full re-import), keep decor ≤ 2,000 parts and
+≤ 20 studs tall, keep raised decor > 21 studs from every lane line and off every pad, validate, paste the output. Log
+"starting Lastwatch v2" first if you take it. Otherwise consider L1 closed; the next open asset gaps are the buildings not
+yet modelled (Temple, RoyalForge, Blacksmith, HeroQuarters, Field) and unit `golem`, none of them launch-blocking.

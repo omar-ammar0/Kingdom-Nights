@@ -91,7 +91,7 @@ Pass bar for this section: every row green with server + both client Outputs cle
 | # | Slice | Do | Expect | Status |
 |---|---|---|---|---|
 | 4.1 | 1 Settings/Audio/Juice | Toggle Music/Sfx/ReduceEffects in SETTINGS, replay a night | Attributes mirror; sounds stop/start; effects reduced; hostile `Settings_Set` values rejected | ☐ |
-| 4.2 | 2 Endless | Lobby level ≥5 → Lastwatch → play 6 nights | Milestone elite pack night 5; defeat → crowns + `[Leaderboard] ... lastwatch` ok; RANKS 5th tab shows it. Map is still the **Blackfen stand-in** until ChatGPT's `Map_Lastwatch` lands | ☐ |
+| 4.2 | 2 Endless | Lobby level ≥5 → Lastwatch → play 6 nights | Milestone elite pack night 5; defeat → crowns + `[Leaderboard] ... lastwatch` ok; RANKS 5th tab shows it. **Run on the real `Map_Lastwatch` after the §8 local import** (Blackfen stand-in until then) | ☐ |
 | 4.3 | 3 Monetization | `Debug_SetPass` royal_treasury+double_xp true, debug win | Crowns ×1.5, XP ×2, shards ×1.25 (e.g. 642/320/37 pattern); `Debug_Purchase` same id twice → granted once; revert passes after | ☐ |
 | 4.4 | 4 Codes + Blood Moon | Lobby: redeem a fresh test code via CODES tab, repeat, spam 20× | Granted once; "already redeemed"; rate-limited to 1 per 5 s. Match: with `Event_Studio` set, debug win → **Crowns ×2, shards ×2, `EventProgress.Wins` 1**; banner shows "BLOOD MOON - 2x ... left" | ✅ Lobby half 2026-11-03 (LAUNCH via UI +1,000/+40; repeat "already redeemed"; unknown/number/5000-char rejected; 20× NIGHTFALL → 1 grant). Match 2026-11-04: `+1284 crowns` (428 × 1.5 treasury × **2**), `+75 hero shards` (30 × 1.25 × **2**); saved profile `EventProgress = BloodMoon/1793896044/wins=1`, Crowns 13,329 → 14,613 |
 | 4.5 | 4 Event poll | Clear `Event_Studio`, publish `KN_Event` message (or wait `PollSeconds`) | Banner disappears; multipliers back to ×1; failed DataStore read keeps last value (simulate by renaming key, watch no error) | ☐ key cleared, but the banner-disappears / ×1 boot not yet observed. **Local step:** boot Match with no `Event_Studio` key → Output shows no `[Event] flag now BloodMoon`, no banner on either client; debug win with passes off → `+428 crowns`, `+30 shards` (×1). Then set the key, fire `KN_Event` on MessagingService, confirm the banner appears without waiting `PollSeconds`; clear the key again |
@@ -140,8 +140,10 @@ dummy template field → reconcile fills it, nothing else changes). Paste the pr
 
 ## 8. When `Map_Lastwatch` lands (cloud validates, local imports)
 
-ChatGPT has not logged "starting L1" yet (as of 2026-11-04 cloud session 2). Delivery goes to `chatgpt-out/maps/Map_Lastwatch.json`
-+ `chatgpt-out/reference/Map_Lastwatch-v1-topdown.png` on a branch or PR.
+**Update 2026-11-04 (cloud session 3): Claude built v1 itself** because ChatGPT had not started L1. Files:
+`claude-out/maps/Map_Lastwatch.json` (335 parts, validator 0 errors / 0 warnings with the counts below), `claude-out/maps/Map_Lastwatch-v1-topdown.png`,
+import chunks already generated in `claude-out/studio-patches/2026-11-04-lastwatch/` (5 files). Generator: `claude-tools/kn_gen_lastwatch.py`.
+The cloud steps below are therefore DONE; go straight to the local steps with that folder. If ChatGPT later delivers a v2 visual pass, re-run the cloud steps on it.
 
 **Cloud session (no Studio):** from a scratch directory, never from inside `chatgpt-out/`:
 
