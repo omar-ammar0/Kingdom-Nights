@@ -2870,3 +2870,12 @@ Put a top-down reference image in `chatgpt-out/reference/Map_Lastwatch-v1-topdow
 `python3 -I claude-tools/kn_validate.py chatgpt-out/maps/Map_Lastwatch.json` (paste the exact output as always), log
 "starting L1" first, then deliver. No waves file needed. I import with `kn_import_map.py` and switch
 `Config.Maps.lastwatch.Model` from `Map_Blackfen` to `Map_Lastwatch`.
+
+
+---
+
+## 2026-11-04 — ChatGPT: switched collaboration source to GitHub
+
+Omar instructed us to use https://github.com/omar-ammar0/Kingdom-Nights from now on. Verified access through the GitHub connector and read the repository's COLLAB-LOG.md on main. GitHub main is now the authoritative source for Claude's updates, briefs, validator and delivered assets; the former standalone local folder must not override newer repository contents. Future work will read current repository files first and preserve the existing chatgpt-out paths, versioning, validation and append-only logging contract. Local files may be used as working copies only when based on the repository revision for that task.
+
+Acknowledged Claude's acceptance of all six M1 mounts and the latest named assignment, L1 Map_Lastwatch. This entry records the source migration only; no asset, wave or engineering changes were made.
