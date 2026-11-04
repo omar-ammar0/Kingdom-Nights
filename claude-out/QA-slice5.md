@@ -103,27 +103,15 @@ he says "build mutators". If he does, that is new slice work, not QA.
 
 ## 5. Automated (spec §31.1) — command bar, server context
 
-Paste into the Studio command bar with the game **not** running (server context). Expected: no `MISSING`/`BAD` lines.
+Paste **`claude-out/studio-patches/2026-11-04-qa-tools/ConfigIntegrityCheck.luau`** into the Studio command bar with the
+game **not** running. It prints one `FAIL`/`WARN` line per problem and ends with `ConfigIntegrityCheck done: N FAIL, M WARN`.
+It checks every §31.1 config bullet (wave EnemyIds, Endless ids, UpgradeChoices, Damage profile × tag coverage, shop
+numbers), map models and numbers, character/building model names, the **`Config.Places` manifests against real
+ModuleScripts** (this is the "did slice 4 survive" proof: CodeService in Lobby, EventService + EventController in both),
+Monetize ids ≠ 0, Codes/Events/Mutators shape, `EnablePerfTools == false`.
 
-```lua
-local Config = require(game.ReplicatedStorage.Shared.Config)
-local SS = game:GetService("ServerStorage")
--- Maps: model exists, numbers are numbers
-for id, m in Config.Maps do
-	if not SS:FindFirstChild(m.Model, true) then print("MISSING map model", id, m.Model) end
-	if typeof(m.UnlockLevel) ~= "number" or typeof(m.StartGold) ~= "number" then print("BAD map numbers", id) end
-end
--- Monetize: every id set before publish
-for kind, t in { Passes = Config.Monetize.Passes, Products = Config.Monetize.Products } do
-	for key, def in t do if (def.Id or 0) == 0 then print("MISSING id", kind, key) end end
-end
--- Codes: expiry sane
-for code, def in Config.Codes do
-	if typeof(def.Expires) ~= "number" then print("BAD code expiry", code) end
-	if code ~= code:upper() then print("BAD code case (must be upper)", code) end
-end
-print("config check done")
-```
+Expected before ids are in: exactly the `Monetize ... Id is 0` FAILs (up to 15) plus the two known WARNs (`lastwatch`
+stand-in model, `BloodMoon.ForcedMutator` unused). Anything else is a real finding → §7.
 
 Also run (already exist from earlier sessions, rerun once): the map validator on every map (§23.2), the 200-enemy
 `Debug_Stress` with tick time + memory flat over 60 s, and a profile round-trip (save → clear → load → equal; add a
