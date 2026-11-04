@@ -843,6 +843,12 @@ He deferred all device testing (FPS, 2-device Quick Play, 4p, revive) **to the e
    **Local:** run the 5 chunks in the Edit datamodel in filename order, then `Config.Maps.lastwatch.Model = "Map_Lastwatch"`,
    boot Match with `KN_MapOverride = "lastwatch"`, confirm 4 spawns feed 4 lanes, rerun QA §4.2, clear the override.
    ChatGPT's L1 assignment is now at most a v2 visual pass (COLLAB-LOG 2026-11-04, 3rd entry).
+   **Also from cloud session 3 (repo only):** `claude-tools/kn_sim_economy.py` → `claude-out/SIM-2026-11-04-economy-endless.md`
+   (progression/economy/Endless model; findings: Frostmere L6 lands ~day 7 and Blackfen L10 ~day 24 for a free 3-runs-a-day
+   player; Endless L5 ~day 5; Crown sink runs dry ~day 15 → first liveops sink; BudgetHpFactor 1.0 confirmed, tops expected
+   ~night 30–35; Robux ladder 40→63 Crowns/R$ sane; Starter Pack ≈12k Crowns of value). `claude-out/art/` = prompt pack for
+   icon/thumbnails/15 store icons/Blood Moon banner + Canva composition drafts with links. `claude-out/launch-copy-2026-11-04.md`
+   = title, Creator Hub description (744 chars), launch post, v1.0 notes, Blood Moon post, code template.
 3. ~~Hero power cap~~ DONE 2026-11-02 (spec §36.1, boards v2).
 3b. Hardening audit DONE 2026-11-02 + fixes B1/M1/M2/L1/L2 applied (M3 bans skipped by Omar). 2-client Studio test DONE
     (both players' heroes capped + toast each, 2p wave scaling 6→8, morning clean). Late joiner still untested.
