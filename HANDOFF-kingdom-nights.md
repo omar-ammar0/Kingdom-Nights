@@ -822,6 +822,8 @@ He deferred all device testing (FPS, 2-device Quick Play, 4p, revive) **to the e
    (audit), `chatgpt-out/` and `graphify-out/` are NOT in GitHub — Omar must commit them from the local folder before a
    cloud session can validate Lastwatch or run graphify. Lastwatch not delivered yet (COLLAB-LOG 2026-11-04 is ChatGPT's
    source-migration note only). Blood Moon decision still open; default = ship as 2x rewards only.
+   `claude-out/studio-patches/2026-11-04-qa-tools/ConfigIntegrityCheck.luau` = §31.1 config checks + manifest-vs-modules
+   proof for the command bar (paste, expect only the Monetize Id-0 FAILs until ids are in).
 3. ~~Hero power cap~~ DONE 2026-11-02 (spec §36.1, boards v2).
 3b. Hardening audit DONE 2026-11-02 + fixes B1/M1/M2/L1/L2 applied (M3 bans skipped by Omar). 2-client Studio test DONE
     (both players' heroes capped + toast each, 2p wave scaling 6→8, morning clean). Late joiner still untested.
