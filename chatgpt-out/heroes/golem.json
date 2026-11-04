@@ -1,0 +1,453 @@
+{
+  "format": "kn-asset/1",
+  "kind": "hero",
+  "name": "golem",
+  "version": 1,
+  "author": "ChatGPT",
+  "notes": "Epic: moss granite, ivory trim and amber cracks. Massive separated fists/shins/shoulders; one floating amber ornament. Height 7.02. One invisible base root; front -Z; no built-in flight offset or particles.",
+  "parts": [
+    {
+      "name": "HumanoidRootPart",
+      "shape": "Block",
+      "size": [
+        1,
+        0.2,
+        1
+      ],
+      "position": [
+        0,
+        0.1,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#28343D",
+      "material": "SmoothPlastic",
+      "root": true,
+      "transparency": 1
+    },
+    {
+      "name": "Torso",
+      "shape": "Block",
+      "size": [
+        3.3,
+        2.7,
+        1.9
+      ],
+      "position": [
+        0,
+        3.95,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#727D6B",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "Head",
+      "shape": "Block",
+      "size": [
+        2.15,
+        1.6,
+        1.8
+      ],
+      "position": [
+        0,
+        6.22,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#727D6B",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "Foot_L",
+      "shape": "Block",
+      "size": [
+        1.4,
+        0.65,
+        1.8
+      ],
+      "position": [
+        -1,
+        0.325,
+        -0.12
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#727D6B",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "Shin_L",
+      "shape": "Block",
+      "size": [
+        1.15,
+        1.5,
+        1.25
+      ],
+      "position": [
+        -1,
+        1.47,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#727D6B",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "Fist_L",
+      "shape": "Block",
+      "size": [
+        1.55,
+        1.75,
+        1.7
+      ],
+      "position": [
+        -3.1,
+        3.05,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#727D6B",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "Shoulder_L",
+      "shape": "Block",
+      "size": [
+        1.4,
+        1.15,
+        1.65
+      ],
+      "position": [
+        -3.0,
+        4.7,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#727D6B",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "ShoulderTrim_L",
+      "shape": "Block",
+      "size": [
+        1.2,
+        0.2,
+        1.7
+      ],
+      "position": [
+        -3.0,
+        5.25,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#E9E2CD",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "ShinGlow_L",
+      "shape": "Block",
+      "size": [
+        0.13,
+        1.1,
+        0.06
+      ],
+      "position": [
+        -1,
+        1.45,
+        -0.655
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#E4AB52",
+      "material": "Neon"
+    },
+    {
+      "name": "Foot_R",
+      "shape": "Block",
+      "size": [
+        1.4,
+        0.65,
+        1.8
+      ],
+      "position": [
+        1,
+        0.325,
+        -0.12
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#727D6B",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "Shin_R",
+      "shape": "Block",
+      "size": [
+        1.15,
+        1.5,
+        1.25
+      ],
+      "position": [
+        1,
+        1.47,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#727D6B",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "Fist_R",
+      "shape": "Block",
+      "size": [
+        1.55,
+        1.75,
+        1.7
+      ],
+      "position": [
+        3.1,
+        3.05,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#727D6B",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "Shoulder_R",
+      "shape": "Block",
+      "size": [
+        1.4,
+        1.15,
+        1.65
+      ],
+      "position": [
+        3.0,
+        4.7,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#727D6B",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "ShoulderTrim_R",
+      "shape": "Block",
+      "size": [
+        1.2,
+        0.2,
+        1.7
+      ],
+      "position": [
+        3.0,
+        5.25,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#E9E2CD",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "ShinGlow_R",
+      "shape": "Block",
+      "size": [
+        0.13,
+        1.1,
+        0.06
+      ],
+      "position": [
+        1,
+        1.45,
+        -0.655
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#E4AB52",
+      "material": "Neon"
+    },
+    {
+      "name": "Eye_L",
+      "shape": "Block",
+      "size": [
+        0.22,
+        0.16,
+        0.05
+      ],
+      "position": [
+        -0.36,
+        6.3,
+        -0.925
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#28343D",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "Eye_R",
+      "shape": "Block",
+      "size": [
+        0.22,
+        0.16,
+        0.05
+      ],
+      "position": [
+        0.36,
+        6.3,
+        -0.925
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#28343D",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "ChestCrack",
+      "shape": "Block",
+      "size": [
+        0.15,
+        2,
+        0.06
+      ],
+      "position": [
+        0.1,
+        3.95,
+        -0.985
+      ],
+      "orientation": [
+        0,
+        0,
+        -18
+      ],
+      "color": "#E4AB52",
+      "material": "Neon"
+    },
+    {
+      "name": "ChestCrackBranch",
+      "shape": "Block",
+      "size": [
+        1.2,
+        0.13,
+        0.06
+      ],
+      "position": [
+        -0.45,
+        4.35,
+        -0.99
+      ],
+      "orientation": [
+        0,
+        0,
+        24
+      ],
+      "color": "#E4AB52",
+      "material": "Neon"
+    },
+    {
+      "name": "ChestCrest",
+      "shape": "Block",
+      "size": [
+        0.65,
+        0.5,
+        0.08
+      ],
+      "position": [
+        0.85,
+        4.65,
+        -1
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#E9E2CD",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "FloatingShard",
+      "shape": "Block",
+      "size": [
+        0.55,
+        0.55,
+        0.55
+      ],
+      "position": [
+        2.85,
+        6.35,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        45
+      ],
+      "color": "#E4AB52",
+      "material": "Neon"
+    }
+  ]
+}

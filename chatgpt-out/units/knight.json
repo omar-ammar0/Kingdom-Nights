@@ -1,0 +1,180 @@
+{
+  "format": "kn-asset/1",
+  "kind": "unit",
+  "name": "knight",
+  "version": 1,
+  "author": "ChatGPT",
+  "notes": "8 parts including hidden root; 3 colours; height 5. Broader steel-blue body, ivory round helm, circular steel shield and short sword. Shield cylinder uses its native X length axis rotated 90 degrees around Y to face -Z. No face at this budget. Base at local Y=0; front -Z. Exactly one invisible HumanoidRootPart at the base. Importer: anchored root, all visible children unanchored and WeldConstraint-welded to root; all parts non-colliding/non-query/non-touch; no Humanoid or scripts. Requires Claude pooling/movement integration and in-game readability verification.",
+  "parts": [
+    {
+      "name": "HumanoidRootPart",
+      "shape": "Block",
+      "size": [
+        1,
+        0.2,
+        1
+      ],
+      "position": [
+        0,
+        0.1,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#496F91",
+      "material": "SmoothPlastic",
+      "root": true,
+      "transparency": 1
+    },
+    {
+      "name": "Torso",
+      "shape": "Block",
+      "size": [
+        2.1,
+        2.1,
+        1.5
+      ],
+      "position": [
+        0,
+        2.25,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#496F91",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "RoundedHelm",
+      "shape": "Ball",
+      "size": [
+        1.7,
+        1.7,
+        1.6
+      ],
+      "position": [
+        0,
+        4.15,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#E8E2CC",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "LegLeft",
+      "shape": "Block",
+      "size": [
+        0.75,
+        1.2,
+        0.9
+      ],
+      "position": [
+        -0.55,
+        0.6,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#ABBCC8",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "LegRight",
+      "shape": "Block",
+      "size": [
+        0.75,
+        1.2,
+        0.9
+      ],
+      "position": [
+        0.55,
+        0.6,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#ABBCC8",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "RoundShield",
+      "shape": "Cylinder",
+      "size": [
+        0.45,
+        2.05,
+        2.05
+      ],
+      "position": [
+        -1.5,
+        2.45,
+        -0.7
+      ],
+      "orientation": [
+        0,
+        90,
+        0
+      ],
+      "color": "#ABBCC8",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "ShortSword",
+      "shape": "Block",
+      "size": [
+        0.48,
+        1.6,
+        0.3
+      ],
+      "position": [
+        1.7,
+        2.35,
+        -0.4
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#ABBCC8",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "WeaponArm",
+      "shape": "Block",
+      "size": [
+        0.6,
+        1.3,
+        0.75
+      ],
+      "position": [
+        1.25,
+        2.5,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#496F91",
+      "material": "SmoothPlastic"
+    }
+  ]
+}

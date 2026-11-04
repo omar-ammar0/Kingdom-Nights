@@ -1,0 +1,955 @@
+{
+  "format": "kn-asset/1",
+  "kind": "building",
+  "name": "Castle/L1",
+  "version": 2,
+  "author": "ChatGPT",
+  "notes": "Four blue-roof corner turrets frame a taller open central keep. L2 adds dressed coping and slit windows; L3 adds outer battlements and royal band. Top centre is an unobstructed firing floor. Base centre [0,0,0]; front -Z. No root or physics fields. Palette shared across B1. v2: main stone #A39B83 (about 25% darker RGB value); cream reserved for trim. Four blue keep-corner caps add 1.2 studs to total height; original firing deck and every existing part geometry unchanged. Height-minus-1.5 firing origin is now 1.2 studs above that deck, with clear centre.",
+  "parts": [
+    {
+      "name": "CastlePlinth",
+      "shape": "Block",
+      "size": [
+        16,
+        1,
+        16
+      ],
+      "position": [
+        0,
+        0.5,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#A39B83",
+      "material": "Cobblestone"
+    },
+    {
+      "name": "CentralKeep",
+      "shape": "Block",
+      "size": [
+        8,
+        12.9,
+        8
+      ],
+      "position": [
+        0,
+        7.45,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#A39B83",
+      "material": "Brick"
+    },
+    {
+      "name": "RoyalFiringDeck",
+      "shape": "Block",
+      "size": [
+        9,
+        0.6,
+        9
+      ],
+      "position": [
+        0,
+        14.2,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#A39B83",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "RoyalFiringX-1Rim",
+      "shape": "Block",
+      "size": [
+        0.6,
+        0.8,
+        6.6
+      ],
+      "position": [
+        -4.2,
+        14.9,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#A39B83",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "RoyalFiringX1Rim",
+      "shape": "Block",
+      "size": [
+        0.6,
+        0.8,
+        6.6
+      ],
+      "position": [
+        4.2,
+        14.9,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#A39B83",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "RoyalFiringZ-1Rim",
+      "shape": "Block",
+      "size": [
+        6.6,
+        0.8,
+        0.6
+      ],
+      "position": [
+        0,
+        14.9,
+        -4.2
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#A39B83",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "RoyalFiringZ1Rim",
+      "shape": "Block",
+      "size": [
+        6.6,
+        0.8,
+        0.6
+      ],
+      "position": [
+        0,
+        14.9,
+        4.2
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#A39B83",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "RoyalFiringMerlon-1_-1",
+      "shape": "Block",
+      "size": [
+        1.2,
+        1.5,
+        1.2
+      ],
+      "position": [
+        -3.9,
+        15.25,
+        -3.9
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#F1E4C5",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "RoyalFiringMerlon-1_1",
+      "shape": "Block",
+      "size": [
+        1.2,
+        1.5,
+        1.2
+      ],
+      "position": [
+        -3.9,
+        15.25,
+        3.9
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#F1E4C5",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "RoyalFiringMerlon1_-1",
+      "shape": "Block",
+      "size": [
+        1.2,
+        1.5,
+        1.2
+      ],
+      "position": [
+        3.9,
+        15.25,
+        -3.9
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#F1E4C5",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "RoyalFiringMerlon1_1",
+      "shape": "Block",
+      "size": [
+        1.2,
+        1.5,
+        1.2
+      ],
+      "position": [
+        3.9,
+        15.25,
+        3.9
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#F1E4C5",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "Turret-6_-6Shaft",
+      "shape": "Block",
+      "size": [
+        3,
+        7.800000000000001,
+        3
+      ],
+      "position": [
+        -6,
+        4.9,
+        -6
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#A39B83",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "Turret-6_-6Belt",
+      "shape": "Block",
+      "size": [
+        3.2,
+        0.55,
+        3.2
+      ],
+      "position": [
+        -6,
+        8.4,
+        -6
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#D5AC55",
+      "material": "Metal"
+    },
+    {
+      "name": "Turret-6_-6RoofFront",
+      "shape": "Wedge",
+      "size": [
+        3.2,
+        2,
+        1.6
+      ],
+      "position": [
+        -6,
+        9.8,
+        -6.8
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#426C8C",
+      "material": "Slate"
+    },
+    {
+      "name": "Turret-6_-6RoofRear",
+      "shape": "Wedge",
+      "size": [
+        3.2,
+        2,
+        1.6
+      ],
+      "position": [
+        -6,
+        9.8,
+        -5.2
+      ],
+      "orientation": [
+        0,
+        180,
+        0
+      ],
+      "color": "#426C8C",
+      "material": "Slate"
+    },
+    {
+      "name": "Turret-6_6Shaft",
+      "shape": "Block",
+      "size": [
+        3,
+        7.800000000000001,
+        3
+      ],
+      "position": [
+        -6,
+        4.9,
+        6
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#A39B83",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "Turret-6_6Belt",
+      "shape": "Block",
+      "size": [
+        3.2,
+        0.55,
+        3.2
+      ],
+      "position": [
+        -6,
+        8.4,
+        6
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#D5AC55",
+      "material": "Metal"
+    },
+    {
+      "name": "Turret-6_6RoofFront",
+      "shape": "Wedge",
+      "size": [
+        3.2,
+        2,
+        1.6
+      ],
+      "position": [
+        -6,
+        9.8,
+        5.2
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#426C8C",
+      "material": "Slate"
+    },
+    {
+      "name": "Turret-6_6RoofRear",
+      "shape": "Wedge",
+      "size": [
+        3.2,
+        2,
+        1.6
+      ],
+      "position": [
+        -6,
+        9.8,
+        6.8
+      ],
+      "orientation": [
+        0,
+        180,
+        0
+      ],
+      "color": "#426C8C",
+      "material": "Slate"
+    },
+    {
+      "name": "Turret6_-6Shaft",
+      "shape": "Block",
+      "size": [
+        3,
+        7.800000000000001,
+        3
+      ],
+      "position": [
+        6,
+        4.9,
+        -6
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#A39B83",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "Turret6_-6Belt",
+      "shape": "Block",
+      "size": [
+        3.2,
+        0.55,
+        3.2
+      ],
+      "position": [
+        6,
+        8.4,
+        -6
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#D5AC55",
+      "material": "Metal"
+    },
+    {
+      "name": "Turret6_-6RoofFront",
+      "shape": "Wedge",
+      "size": [
+        3.2,
+        2,
+        1.6
+      ],
+      "position": [
+        6,
+        9.8,
+        -6.8
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#426C8C",
+      "material": "Slate"
+    },
+    {
+      "name": "Turret6_-6RoofRear",
+      "shape": "Wedge",
+      "size": [
+        3.2,
+        2,
+        1.6
+      ],
+      "position": [
+        6,
+        9.8,
+        -5.2
+      ],
+      "orientation": [
+        0,
+        180,
+        0
+      ],
+      "color": "#426C8C",
+      "material": "Slate"
+    },
+    {
+      "name": "Turret6_6Shaft",
+      "shape": "Block",
+      "size": [
+        3,
+        7.800000000000001,
+        3
+      ],
+      "position": [
+        6,
+        4.9,
+        6
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#A39B83",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "Turret6_6Belt",
+      "shape": "Block",
+      "size": [
+        3.2,
+        0.55,
+        3.2
+      ],
+      "position": [
+        6,
+        8.4,
+        6
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#D5AC55",
+      "material": "Metal"
+    },
+    {
+      "name": "Turret6_6RoofFront",
+      "shape": "Wedge",
+      "size": [
+        3.2,
+        2,
+        1.6
+      ],
+      "position": [
+        6,
+        9.8,
+        5.2
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#426C8C",
+      "material": "Slate"
+    },
+    {
+      "name": "Turret6_6RoofRear",
+      "shape": "Wedge",
+      "size": [
+        3.2,
+        2,
+        1.6
+      ],
+      "position": [
+        6,
+        9.8,
+        6.8
+      ],
+      "orientation": [
+        0,
+        180,
+        0
+      ],
+      "color": "#426C8C",
+      "material": "Slate"
+    },
+    {
+      "name": "CurtainZ-6",
+      "shape": "Block",
+      "size": [
+        12,
+        5,
+        1
+      ],
+      "position": [
+        0,
+        3.5,
+        -6
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#A39B83",
+      "material": "Brick"
+    },
+    {
+      "name": "CurtainZ6",
+      "shape": "Block",
+      "size": [
+        12,
+        5,
+        1
+      ],
+      "position": [
+        0,
+        3.5,
+        6
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#A39B83",
+      "material": "Brick"
+    },
+    {
+      "name": "CurtainX-6",
+      "shape": "Block",
+      "size": [
+        1,
+        5,
+        12
+      ],
+      "position": [
+        -6,
+        3.5,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#A39B83",
+      "material": "Brick"
+    },
+    {
+      "name": "CurtainX6",
+      "shape": "Block",
+      "size": [
+        1,
+        5,
+        12
+      ],
+      "position": [
+        6,
+        3.5,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#A39B83",
+      "material": "Brick"
+    },
+    {
+      "name": "FrontGate",
+      "shape": "Block",
+      "size": [
+        2.6,
+        4,
+        0.2
+      ],
+      "position": [
+        0,
+        3,
+        -6.6
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#765743",
+      "material": "WoodPlanks"
+    },
+    {
+      "name": "GatePier-1.7",
+      "shape": "Block",
+      "size": [
+        0.7,
+        4.8,
+        0.7
+      ],
+      "position": [
+        -1.7,
+        3.4,
+        -6.5
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#F1E4C5",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "GatePier1.7",
+      "shape": "Block",
+      "size": [
+        0.7,
+        4.8,
+        0.7
+      ],
+      "position": [
+        1.7,
+        3.4,
+        -6.5
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#F1E4C5",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "GateLintel",
+      "shape": "Block",
+      "size": [
+        4.1,
+        0.7,
+        0.7
+      ],
+      "position": [
+        0,
+        5.45,
+        -6.5
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#F1E4C5",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "RoyalBanner",
+      "shape": "Block",
+      "size": [
+        2.2,
+        3.8,
+        0.2
+      ],
+      "position": [
+        0,
+        11.5,
+        -4.1
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#426C8C",
+      "material": "Fabric"
+    },
+    {
+      "name": "RoyalEmblem",
+      "shape": "Block",
+      "size": [
+        1,
+        0.9,
+        0.2
+      ],
+      "position": [
+        0,
+        11.6,
+        -4.25
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#D5AC55",
+      "material": "Metal"
+    },
+    {
+      "name": "KeepBlueCap_-1_-1_-1",
+      "shape": "Wedge",
+      "size": [
+        3.2,
+        1.2,
+        1.6
+      ],
+      "position": [
+        -3.9,
+        16.6,
+        -4.7
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#426C8C",
+      "material": "Slate"
+    },
+    {
+      "name": "KeepBlueCap_-1_-1_1",
+      "shape": "Wedge",
+      "size": [
+        3.2,
+        1.2,
+        1.6
+      ],
+      "position": [
+        -3.9,
+        16.6,
+        -3.0999999999999996
+      ],
+      "orientation": [
+        0,
+        180,
+        0
+      ],
+      "color": "#426C8C",
+      "material": "Slate"
+    },
+    {
+      "name": "KeepBlueCap_-1_1_-1",
+      "shape": "Wedge",
+      "size": [
+        3.2,
+        1.2,
+        1.6
+      ],
+      "position": [
+        -3.9,
+        16.6,
+        3.0999999999999996
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#426C8C",
+      "material": "Slate"
+    },
+    {
+      "name": "KeepBlueCap_-1_1_1",
+      "shape": "Wedge",
+      "size": [
+        3.2,
+        1.2,
+        1.6
+      ],
+      "position": [
+        -3.9,
+        16.6,
+        4.7
+      ],
+      "orientation": [
+        0,
+        180,
+        0
+      ],
+      "color": "#426C8C",
+      "material": "Slate"
+    },
+    {
+      "name": "KeepBlueCap_1_-1_-1",
+      "shape": "Wedge",
+      "size": [
+        3.2,
+        1.2,
+        1.6
+      ],
+      "position": [
+        3.9,
+        16.6,
+        -4.7
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#426C8C",
+      "material": "Slate"
+    },
+    {
+      "name": "KeepBlueCap_1_-1_1",
+      "shape": "Wedge",
+      "size": [
+        3.2,
+        1.2,
+        1.6
+      ],
+      "position": [
+        3.9,
+        16.6,
+        -3.0999999999999996
+      ],
+      "orientation": [
+        0,
+        180,
+        0
+      ],
+      "color": "#426C8C",
+      "material": "Slate"
+    },
+    {
+      "name": "KeepBlueCap_1_1_-1",
+      "shape": "Wedge",
+      "size": [
+        3.2,
+        1.2,
+        1.6
+      ],
+      "position": [
+        3.9,
+        16.6,
+        3.0999999999999996
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#426C8C",
+      "material": "Slate"
+    },
+    {
+      "name": "KeepBlueCap_1_1_1",
+      "shape": "Wedge",
+      "size": [
+        3.2,
+        1.2,
+        1.6
+      ],
+      "position": [
+        3.9,
+        16.6,
+        4.7
+      ],
+      "orientation": [
+        0,
+        180,
+        0
+      ],
+      "color": "#426C8C",
+      "material": "Slate"
+    }
+  ]
+}

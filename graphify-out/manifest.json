@@ -1,0 +1,494 @@
+{
+  "Config_v2.luau": {
+    "mtime": 1787665749.3114002,
+    "seen": 1793710654.944663,
+    "ast_hash": "3b28182163d038527006813cad69dcd0",
+    "semantic_hash": "3b28182163d038527006813cad69dcd0"
+  },
+  "chatgpt-out/buildings/ArcheryRange_L1.json": {
+    "mtime": 1791967084.144927,
+    "seen": 1793710654.944663,
+    "ast_hash": "c3515a563e826616635717d5dcfdbb45",
+    "semantic_hash": "c3515a563e826616635717d5dcfdbb45"
+  },
+  "chatgpt-out/buildings/ArcheryRange_L2.json": {
+    "mtime": 1791967084.144927,
+    "seen": 1793710654.944663,
+    "ast_hash": "530cde28ec6bfc25d77f56fab94e9bdb",
+    "semantic_hash": "530cde28ec6bfc25d77f56fab94e9bdb"
+  },
+  "chatgpt-out/buildings/ArcheryRange_L3.json": {
+    "mtime": 1791967084.144927,
+    "seen": 1793710654.944663,
+    "ast_hash": "1ea8033d06cb89d75ae6f7791f98efbe",
+    "semantic_hash": "1ea8033d06cb89d75ae6f7791f98efbe"
+  },
+  "chatgpt-out/buildings/Barracks_L1.json": {
+    "mtime": 1791967084.138249,
+    "seen": 1793710654.944663,
+    "ast_hash": "ead4e8da409db7355d0b43b4d3467fbd",
+    "semantic_hash": "ead4e8da409db7355d0b43b4d3467fbd"
+  },
+  "chatgpt-out/buildings/Barracks_L2.json": {
+    "mtime": 1791967084.138249,
+    "seen": 1793710654.944663,
+    "ast_hash": "b253f457e16ea41fd5efb8b8b34456cf",
+    "semantic_hash": "b253f457e16ea41fd5efb8b8b34456cf"
+  },
+  "chatgpt-out/buildings/Barracks_L3.json": {
+    "mtime": 1791967150.530987,
+    "seen": 1793710654.944663,
+    "ast_hash": "4b0626dcb26c6bdbe595fa818865594f",
+    "semantic_hash": "4b0626dcb26c6bdbe595fa818865594f"
+  },
+  "chatgpt-out/buildings/Castle_L1.json": {
+    "mtime": 1791966986.1876512,
+    "seen": 1793710654.944663,
+    "ast_hash": "12ffff395689e4d22afe0deb056d19e6",
+    "semantic_hash": "12ffff395689e4d22afe0deb056d19e6"
+  },
+  "chatgpt-out/buildings/Castle_L2.json": {
+    "mtime": 1791966986.1876512,
+    "seen": 1793710654.944663,
+    "ast_hash": "bae871bc26f0fbae74d6b4855972fcb7",
+    "semantic_hash": "bae871bc26f0fbae74d6b4855972fcb7"
+  },
+  "chatgpt-out/buildings/Castle_L3.json": {
+    "mtime": 1791966986.1876512,
+    "seen": 1793710654.944663,
+    "ast_hash": "6a3fdb8ff6721623ca2dc0e0fae8f82f",
+    "semantic_hash": "6a3fdb8ff6721623ca2dc0e0fae8f82f"
+  },
+  "chatgpt-out/buildings/GoldMine_L1.json": {
+    "mtime": 1791972815.4506073,
+    "seen": 1793710654.945662,
+    "ast_hash": "713a91627162f4ba9e1d77e96aafc193",
+    "semantic_hash": "713a91627162f4ba9e1d77e96aafc193"
+  },
+  "chatgpt-out/buildings/House_L1.json": {
+    "mtime": 1791966986.194837,
+    "seen": 1793710654.945662,
+    "ast_hash": "45c32f94abd38df093d35a573c176431",
+    "semantic_hash": "45c32f94abd38df093d35a573c176431"
+  },
+  "chatgpt-out/buildings/House_L2.json": {
+    "mtime": 1791966986.194837,
+    "seen": 1793710654.945662,
+    "ast_hash": "1a325504a7ebad3fc7eb198f5509c38e",
+    "semantic_hash": "1a325504a7ebad3fc7eb198f5509c38e"
+  },
+  "chatgpt-out/buildings/Mill_L1.json": {
+    "mtime": 1791967084.144927,
+    "seen": 1793710654.945662,
+    "ast_hash": "890ff5c0fc7a622a4acfce7a73ca84e6",
+    "semantic_hash": "890ff5c0fc7a622a4acfce7a73ca84e6"
+  },
+  "chatgpt-out/buildings/Mill_L2.json": {
+    "mtime": 1791967084.144927,
+    "seen": 1793710654.945662,
+    "ast_hash": "9c31d78ba45a5159d5cdcf806b84b1fc",
+    "semantic_hash": "9c31d78ba45a5159d5cdcf806b84b1fc"
+  },
+  "chatgpt-out/buildings/Mill_L3.json": {
+    "mtime": 1791967084.144927,
+    "seen": 1793710654.945662,
+    "ast_hash": "0809f3ca9d4029b10db620babe2d8fcf",
+    "semantic_hash": "0809f3ca9d4029b10db620babe2d8fcf"
+  },
+  "chatgpt-out/buildings/Tower_L1.json": {
+    "mtime": 1791966986.194837,
+    "seen": 1793710654.945662,
+    "ast_hash": "6094c071ca65cf9fa7654bcc139b410d",
+    "semantic_hash": "6094c071ca65cf9fa7654bcc139b410d"
+  },
+  "chatgpt-out/buildings/Tower_L2.json": {
+    "mtime": 1791966986.194837,
+    "seen": 1793710654.945662,
+    "ast_hash": "ded6d0b060c8e4cf6faa6ec875663b6a",
+    "semantic_hash": "ded6d0b060c8e4cf6faa6ec875663b6a"
+  },
+  "chatgpt-out/buildings/Tower_L3.json": {
+    "mtime": 1791966986.194837,
+    "seen": 1793710654.945662,
+    "ast_hash": "ab158d2318265da65feed3e08a1301d7",
+    "semantic_hash": "ab158d2318265da65feed3e08a1301d7"
+  },
+  "chatgpt-out/buildings/Wall_L1.json": {
+    "mtime": 1791966986.194837,
+    "seen": 1793710654.945662,
+    "ast_hash": "5648145c613ef4b7d818cd765e1b78b0",
+    "semantic_hash": "5648145c613ef4b7d818cd765e1b78b0"
+  },
+  "chatgpt-out/buildings/Wall_L2.json": {
+    "mtime": 1791967150.530987,
+    "seen": 1793710654.945662,
+    "ast_hash": "c748bbd6cb5cf0e17929557f26945800",
+    "semantic_hash": "c748bbd6cb5cf0e17929557f26945800"
+  },
+  "chatgpt-out/buildings/Wall_L3.json": {
+    "mtime": 1791967150.530987,
+    "seen": 1793710654.945662,
+    "ast_hash": "3b03e8a2ffabcda04fd94777b61411f8",
+    "semantic_hash": "3b03e8a2ffabcda04fd94777b61411f8"
+  },
+  "chatgpt-out/characters/bloodwing.json": {
+    "mtime": 1792351292.9849198,
+    "seen": 1793710654.945662,
+    "ast_hash": "c036114c9f53362f30f2b299040c66cc",
+    "semantic_hash": "c036114c9f53362f30f2b299040c66cc"
+  },
+  "chatgpt-out/characters/darkwarrior.json": {
+    "mtime": 1792351386.3154914,
+    "seen": 1793710654.945662,
+    "ast_hash": "67c9a630e3c3728e0d0686de15c48a93",
+    "semantic_hash": "67c9a630e3c3728e0d0686de15c48a93"
+  },
+  "chatgpt-out/characters/exploder.json": {
+    "mtime": 1792351292.9888754,
+    "seen": 1793710654.945662,
+    "ast_hash": "9af0f140a48bbd8c9124f4ed3651a044",
+    "semantic_hash": "9af0f140a48bbd8c9124f4ed3651a044"
+  },
+  "chatgpt-out/characters/fenwraith.json": {
+    "mtime": 1792351386.3154914,
+    "seen": 1793710654.945662,
+    "ast_hash": "52029170441d701205a4146c87323eb3",
+    "semantic_hash": "52029170441d701205a4146c87323eb3"
+  },
+  "chatgpt-out/characters/spiderling.json": {
+    "mtime": 1792351386.3154914,
+    "seen": 1793710654.945662,
+    "ast_hash": "2c4978759baf7d14bdf13a5996b5ea6e",
+    "semantic_hash": "2c4978759baf7d14bdf13a5996b5ea6e"
+  },
+  "chatgpt-out/enemies/archer_e.json": {
+    "mtime": 1791915396.7284937,
+    "seen": 1793710654.945662,
+    "ast_hash": "e00cecd79dde0713e2ee5c69a0262cf1",
+    "semantic_hash": "e00cecd79dde0713e2ee5c69a0262cf1"
+  },
+  "chatgpt-out/enemies/catapult.json": {
+    "mtime": 1792066086.0893402,
+    "seen": 1793710654.945662,
+    "ast_hash": "6ec6c630932edee378fe8a1d47dbfd36",
+    "semantic_hash": "6ec6c630932edee378fe8a1d47dbfd36"
+  },
+  "chatgpt-out/enemies/ogre.json": {
+    "mtime": 1791915396.7638426,
+    "seen": 1793710654.945662,
+    "ast_hash": "df9c050539cb6f47341fc09cbca824b6",
+    "semantic_hash": "df9c050539cb6f47341fc09cbca824b6"
+  },
+  "chatgpt-out/enemies/pikeman.json": {
+    "mtime": 1791915561.6290476,
+    "seen": 1793710654.945662,
+    "ast_hash": "6775fd2d897329d0094497a8d91b2a3d",
+    "semantic_hash": "6775fd2d897329d0094497a8d91b2a3d"
+  },
+  "chatgpt-out/enemies/racer.json": {
+    "mtime": 1791915396.7284937,
+    "seen": 1793710654.945662,
+    "ast_hash": "775dcbf2b8f511299a98d4f601698309",
+    "semantic_hash": "775dcbf2b8f511299a98d4f601698309"
+  },
+  "chatgpt-out/enemies/ram.json": {
+    "mtime": 1791915396.7638426,
+    "seen": 1793710654.945662,
+    "ast_hash": "99a47cd355808e9a09ea9f632760ce3f",
+    "semantic_hash": "99a47cd355808e9a09ea9f632760ce3f"
+  },
+  "chatgpt-out/enemies/slime.json": {
+    "mtime": 1791915396.7284937,
+    "seen": 1793710654.945662,
+    "ast_hash": "d928d4b6f2a05c4a153b7efa5c271346",
+    "semantic_hash": "d928d4b6f2a05c4a153b7efa5c271346"
+  },
+  "chatgpt-out/enemies/swordsman.json": {
+    "mtime": 1791904447.8839066,
+    "seen": 1793710654.945662,
+    "ast_hash": "0f6700459e4023c268d3e1d1595ff852",
+    "semantic_hash": "0f6700459e4023c268d3e1d1595ff852"
+  },
+  "chatgpt-out/enemies/wasp.json": {
+    "mtime": 1791915396.7566636,
+    "seen": 1793710654.945662,
+    "ast_hash": "6e97b3dda0c6983acfc703d381d0a713",
+    "semantic_hash": "6e97b3dda0c6983acfc703d381d0a713"
+  },
+  "chatgpt-out/enemies/weakling.json": {
+    "mtime": 1791904447.8767264,
+    "seen": 1793710654.945662,
+    "ast_hash": "62057c9b23d6fd6c4d0c56ac134cedc3",
+    "semantic_hash": "62057c9b23d6fd6c4d0c56ac134cedc3"
+  },
+  "chatgpt-out/heroes/ashenqueen.json": {
+    "mtime": 1792349921.262602,
+    "seen": 1793710654.945662,
+    "ast_hash": "05db362325890b3ceab5b21eaeb4908c",
+    "semantic_hash": "05db362325890b3ceab5b21eaeb4908c"
+  },
+  "chatgpt-out/heroes/bowcaptain.json": {
+    "mtime": 1792071937.31945,
+    "seen": 1793710654.945662,
+    "ast_hash": "c9e8938fd50dc767dea4eb563b18fb6a",
+    "semantic_hash": "c9e8938fd50dc767dea4eb563b18fb6a"
+  },
+  "chatgpt-out/heroes/fieldmedic.json": {
+    "mtime": 1792071937.3260984,
+    "seen": 1793710654.945662,
+    "ast_hash": "abcc15a9e743b9b6780aa53e39d513b0",
+    "semantic_hash": "abcc15a9e743b9b6780aa53e39d513b0"
+  },
+  "chatgpt-out/heroes/firewing.json": {
+    "mtime": 1792349859.6976104,
+    "seen": 1793710654.945662,
+    "ast_hash": "f9b632269a1c94944b5fb3b37c35c4f6",
+    "semantic_hash": "f9b632269a1c94944b5fb3b37c35c4f6"
+  },
+  "chatgpt-out/heroes/frostwarden.json": {
+    "mtime": 1792349859.6976104,
+    "seen": 1793710654.945662,
+    "ast_hash": "0da3fbe05ba2086a9ca6a115fa5fd41b",
+    "semantic_hash": "0da3fbe05ba2086a9ca6a115fa5fd41b"
+  },
+  "chatgpt-out/heroes/golem.json": {
+    "mtime": 1792349921.255947,
+    "seen": 1793710654.945662,
+    "ast_hash": "4ddfa0796af400d2d0280faf96d2653d",
+    "semantic_hash": "4ddfa0796af400d2d0280faf96d2653d"
+  },
+  "chatgpt-out/heroes/houndhandler.json": {
+    "mtime": 1792071937.31945,
+    "seen": 1793710654.945662,
+    "ast_hash": "9f89ab04f63ec5fbed2b80efe3911490",
+    "semantic_hash": "9f89ab04f63ec5fbed2b80efe3911490"
+  },
+  "chatgpt-out/heroes/lizardrider.json": {
+    "mtime": 1792349921.255947,
+    "seen": 1793710654.945662,
+    "ast_hash": "dfe0f5aa145aa2aab76dadfea0f5b78e",
+    "semantic_hash": "dfe0f5aa145aa2aab76dadfea0f5b78e"
+  },
+  "chatgpt-out/heroes/siegebreaker.json": {
+    "mtime": 1792071937.3260984,
+    "seen": 1793710654.945662,
+    "ast_hash": "7a4e4223198ce3f651daea9d39ad060d",
+    "semantic_hash": "7a4e4223198ce3f651daea9d39ad060d"
+  },
+  "chatgpt-out/heroes/skylancer.json": {
+    "mtime": 1792071937.31945,
+    "seen": 1793710654.945662,
+    "ast_hash": "88417198350176d80a2e446a5446d553",
+    "semantic_hash": "88417198350176d80a2e446a5446d553"
+  },
+  "chatgpt-out/heroes/stoneguard.json": {
+    "mtime": 1792072050.6527634,
+    "seen": 1793710654.945662,
+    "ast_hash": "0851e1000ef920533f2cc2fc439bb79f",
+    "semantic_hash": "0851e1000ef920533f2cc2fc439bb79f"
+  },
+  "chatgpt-out/heroes/torchbearer.json": {
+    "mtime": 1792072050.6461062,
+    "seen": 1793710654.945662,
+    "ast_hash": "4ccaff7e52d053510d5671c65b5c3cf8",
+    "semantic_hash": "4ccaff7e52d053510d5671c65b5c3cf8"
+  },
+  "chatgpt-out/maps/Map_Ashridge.json": {
+    "mtime": 1791914055.3683932,
+    "seen": 1793710654.945662,
+    "ast_hash": "0a3674a6135aed945beee07db6e754d1",
+    "semantic_hash": "0a3674a6135aed945beee07db6e754d1"
+  },
+  "chatgpt-out/maps/Map_Blackfen.json": {
+    "mtime": 1791993537.6464055,
+    "seen": 1793710654.945662,
+    "ast_hash": "c148f6015a2340f7165c7d2373d78e07",
+    "semantic_hash": "c148f6015a2340f7165c7d2373d78e07"
+  },
+  "chatgpt-out/maps/Map_Frostmere.json": {
+    "mtime": 1791968136.6757674,
+    "seen": 1793710654.945662,
+    "ast_hash": "2c9e0b65c072e871ae7a9f88d4dabe76",
+    "semantic_hash": "2c9e0b65c072e871ae7a9f88d4dabe76"
+  },
+  "chatgpt-out/maps/Map_Greenhollow.json": {
+    "mtime": 1791913949.4666839,
+    "seen": 1793710654.945662,
+    "ast_hash": "9c89c2003ef6bde517ae882c48752a2d",
+    "semantic_hash": "9c89c2003ef6bde517ae882c48752a2d"
+  },
+  "chatgpt-out/mounts/bay_horse.json": {
+    "mtime": 1793641289.8960898,
+    "seen": 1793710654.945662,
+    "ast_hash": "a296a957fdd6196c08a4e448980d581c",
+    "semantic_hash": "a296a957fdd6196c08a4e448980d581c"
+  },
+  "chatgpt-out/mounts/dire_wolf.json": {
+    "mtime": 1793641289.898097,
+    "seen": 1793710654.945662,
+    "ast_hash": "56fd4e7cbce0515130247a3249bca736",
+    "semantic_hash": "56fd4e7cbce0515130247a3249bca736"
+  },
+  "chatgpt-out/mounts/sand_lizard.json": {
+    "mtime": 1793641289.899094,
+    "seen": 1793710654.945662,
+    "ast_hash": "c13f7dbf4d8cd33f6adbe6fae0d27730",
+    "semantic_hash": "c13f7dbf4d8cd33f6adbe6fae0d27730"
+  },
+  "chatgpt-out/mounts/skeletal_steed.json": {
+    "mtime": 1793641289.900094,
+    "seen": 1793710654.945662,
+    "ast_hash": "75440225fe1fe7bb02a96bfbc65bae3f",
+    "semantic_hash": "75440225fe1fe7bb02a96bfbc65bae3f"
+  },
+  "chatgpt-out/mounts/sun_stag.json": {
+    "mtime": 1793641289.9005978,
+    "seen": 1793710654.945662,
+    "ast_hash": "000d54b3126f9814819965b76fb4f1a2",
+    "semantic_hash": "000d54b3126f9814819965b76fb4f1a2"
+  },
+  "chatgpt-out/mounts/warhorse.json": {
+    "mtime": 1793641289.8970964,
+    "seen": 1793710654.945662,
+    "ast_hash": "749d646e364661aee87c49ef0a6de95f",
+    "semantic_hash": "749d646e364661aee87c49ef0a6de95f"
+  },
+  "chatgpt-out/reference/mount_example_contract_only.json": {
+    "mtime": 1793641623.7751994,
+    "seen": 1793710654.945662,
+    "ast_hash": "6153ec28b141de7f43a93717ca79acf7",
+    "semantic_hash": "6153ec28b141de7f43a93717ca79acf7"
+  },
+  "chatgpt-out/units/archer.json": {
+    "mtime": 1791915561.6218886,
+    "seen": 1793710654.945662,
+    "ast_hash": "e8f2c335ab17474c4133a27365e0c19e",
+    "semantic_hash": "e8f2c335ab17474c4133a27365e0c19e"
+  },
+  "chatgpt-out/units/knight.json": {
+    "mtime": 1791904447.8839066,
+    "seen": 1793710654.945662,
+    "ast_hash": "5c46a2f58760d53a772c35b548b45d26",
+    "semantic_hash": "5c46a2f58760d53a772c35b548b45d26"
+  },
+  "chatgpt-out/waves/W1-comparison-data.json": {
+    "mtime": 1792352842.2998579,
+    "seen": 1793710654.945662,
+    "ast_hash": "ac40e37bc6cfec267ed05fc0654ece41",
+    "semantic_hash": "ac40e37bc6cfec267ed05fc0654ece41"
+  },
+  "chatgpt-out/waves/ashridge.lua": {
+    "mtime": 1792352842.3279874,
+    "seen": 1793710654.945662,
+    "ast_hash": "571df42348aa00dbb87faab1c8bb9f11",
+    "semantic_hash": "571df42348aa00dbb87faab1c8bb9f11"
+  },
+  "chatgpt-out/waves/blackfen.lua": {
+    "mtime": 1792352842.3417716,
+    "seen": 1793710654.945662,
+    "ast_hash": "32edff9e612fd6277ac61b37c8576a48",
+    "semantic_hash": "32edff9e612fd6277ac61b37c8576a48"
+  },
+  "chatgpt-out/waves/frostmere.lua": {
+    "mtime": 1792352842.3417716,
+    "seen": 1793710654.945662,
+    "ast_hash": "41f8253ddd9b7db04db7d1d33bbb8fa1",
+    "semantic_hash": "41f8253ddd9b7db04db7d1d33bbb8fa1"
+  },
+  "claude-tools/kn_import_building.py": {
+    "mtime": 1791966832.1624415,
+    "seen": 1793710654.945662,
+    "ast_hash": "96ff1ef7020175648191c0a8cac82dab",
+    "semantic_hash": "96ff1ef7020175648191c0a8cac82dab"
+  },
+  "claude-tools/kn_import_character.py": {
+    "mtime": 1792352444.8427818,
+    "seen": 1793710654.945662,
+    "ast_hash": "a136f366f90fc1ec9741074a1dfc6a24",
+    "semantic_hash": "a136f366f90fc1ec9741074a1dfc6a24"
+  },
+  "claude-tools/kn_import_map.py": {
+    "mtime": 1791900097.7982547,
+    "seen": 1793710654.945662,
+    "ast_hash": "93ec77afd584a4cf579e1665054e08b5",
+    "semantic_hash": "93ec77afd584a4cf579e1665054e08b5"
+  },
+  "claude-tools/kn_import_mount.luau": {
+    "mtime": 1793640065.9575515,
+    "seen": 1793710654.945662,
+    "ast_hash": "694ff9e2976045361963f01a22ee3ead",
+    "semantic_hash": "694ff9e2976045361963f01a22ee3ead"
+  },
+  "claude-tools/kn_import_mount.ps1": {
+    "mtime": 1793640066.0638483,
+    "seen": 1793710654.945662,
+    "ast_hash": "cef4f759168cfecc53c976f093b8d319",
+    "semantic_hash": "cef4f759168cfecc53c976f093b8d319"
+  },
+  "claude-tools/kn_patch_map.py": {
+    "mtime": 1791915028.6137257,
+    "seen": 1793710654.945662,
+    "ast_hash": "0ede470d89d36676b10c37c331f5b5ee",
+    "semantic_hash": "0ede470d89d36676b10c37c331f5b5ee"
+  },
+  "claude-tools/kn_validate.py": {
+    "mtime": 1793640037.283569,
+    "seen": 1793710654.945662,
+    "ast_hash": "9f65976d74987660746341bde4a5b3d0",
+    "semantic_hash": "9f65976d74987660746341bde4a5b3d0"
+  },
+  "character-roster-and-design-brief.md": {
+    "mtime": 1787668997.0507739,
+    "seen": 1793710654.945662,
+    "ast_hash": "d19c09afd507cc38546fa5a11ea7434b",
+    "semantic_hash": "d19c09afd507cc38546fa5a11ea7434b"
+  },
+  "chatgpt-out/README.md": {
+    "mtime": 1791898472.5080712,
+    "seen": 1793710654.945662,
+    "ast_hash": "63b524ffa019a1cd5b62e73300a04a1f",
+    "semantic_hash": "63b524ffa019a1cd5b62e73300a04a1f"
+  },
+  "chatgpt-out/waves/W1-design-review.md": {
+    "mtime": 1792352842.3417716,
+    "seen": 1793710654.945662,
+    "ast_hash": "ffde1c02a4bff2a44169b871bde6066b",
+    "semantic_hash": "ffde1c02a4bff2a44169b871bde6066b"
+  },
+  "claude-out/AUDIT-2026-11-02-pre-launch.md": {
+    "mtime": 1793638263.5483918,
+    "seen": 1793710654.945662,
+    "ast_hash": "1ad0b69b1e8c4577bb3aa0ef7e9428bb",
+    "semantic_hash": "1ad0b69b1e8c4577bb3aa0ef7e9428bb"
+  },
+  "claude-tools/README.md": {
+    "mtime": 1793640313.9239006,
+    "seen": 1793710654.945662,
+    "ast_hash": "9d949bad2f83a5d4c42af675978ecbe1",
+    "semantic_hash": "9d949bad2f83a5d4c42af675978ecbe1"
+  },
+  "kingdom-nights-build-spec-v2.md": {
+    "mtime": 1787665719.7492678,
+    "seen": 1793710654.945662,
+    "ast_hash": "36fb9a02587549dfa73f90decaa12e52",
+    "semantic_hash": "36fb9a02587549dfa73f90decaa12e52"
+  },
+  "kingdom-nights-build-spec.md": {
+    "mtime": 1787617413.5811534,
+    "seen": 1793710654.945662,
+    "ast_hash": "39ec009c7c409dea0d3c1b39d96e93a3",
+    "semantic_hash": "39ec009c7c409dea0d3c1b39d96e93a3"
+  },
+  "map-and-asset-brief-for-chatgpt.md": {
+    "mtime": 1791900973.7420275,
+    "seen": 1793710654.945662,
+    "ast_hash": "0bcc4bb25a3abe3556ef873a161c039e",
+    "semantic_hash": "0bcc4bb25a3abe3556ef873a161c039e"
+  },
+  "thronefall-research-and-roblox-plan.md": {
+    "mtime": 1787615761.2960646,
+    "seen": 1793710654.945662,
+    "ast_hash": "2ba6a6df727f58063a43d72410598df4",
+    "semantic_hash": "2ba6a6df727f58063a43d72410598df4"
+  }
+}

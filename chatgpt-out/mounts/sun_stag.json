@@ -1,0 +1,642 @@
+{
+  "format": "kn-asset/1",
+  "kind": "mount",
+  "name": "sun_stag",
+  "version": 1,
+  "author": "ChatGPT",
+  "notes": "White hart with a short flag tail, golden saddle, branching honey-gold antlers and a warm forehead mark.",
+  "parts": [
+    {
+      "name": "Root",
+      "shape": "Block",
+      "size": [
+        1,
+        0.2,
+        1
+      ],
+      "position": [
+        0,
+        0.1,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#504331",
+      "material": "SmoothPlastic",
+      "root": true,
+      "transparency": 1
+    },
+    {
+      "name": "Body",
+      "shape": "Block",
+      "size": [
+        1.36,
+        0.92,
+        2.94
+      ],
+      "position": [
+        0,
+        1.36,
+        0.02
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#F0E8D1",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "Saddle",
+      "shape": "Block",
+      "size": [
+        1.55,
+        0.2,
+        1.22
+      ],
+      "position": [
+        0,
+        1.9,
+        0.35
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#B88B43",
+      "material": "Fabric"
+    },
+    {
+      "name": "ForeLegL",
+      "shape": "Block",
+      "size": [
+        0.25,
+        1.22589,
+        0.3
+      ],
+      "position": [
+        -0.49,
+        0.83,
+        -1.16
+      ],
+      "orientation": [
+        5.61758,
+        0,
+        -0.0
+      ],
+      "color": "#F0E8D1",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "ForeHoofL",
+      "shape": "Block",
+      "size": [
+        0.34,
+        0.32,
+        0.49
+      ],
+      "position": [
+        -0.49,
+        0.16,
+        -1.265
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#504331",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "HindLegL",
+      "shape": "Block",
+      "size": [
+        0.25,
+        1.22589,
+        0.3
+      ],
+      "position": [
+        -0.49,
+        0.83,
+        1.16
+      ],
+      "orientation": [
+        -5.61758,
+        0,
+        -0.0
+      ],
+      "color": "#F0E8D1",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "HindHoofL",
+      "shape": "Block",
+      "size": [
+        0.34,
+        0.32,
+        0.49
+      ],
+      "position": [
+        -0.49,
+        0.16,
+        1.175
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#504331",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "ForeLegR",
+      "shape": "Block",
+      "size": [
+        0.25,
+        1.22589,
+        0.3
+      ],
+      "position": [
+        0.49,
+        0.83,
+        -1.34
+      ],
+      "orientation": [
+        5.61758,
+        0,
+        -0.0
+      ],
+      "color": "#F0E8D1",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "ForeHoofR",
+      "shape": "Block",
+      "size": [
+        0.34,
+        0.32,
+        0.49
+      ],
+      "position": [
+        0.49,
+        0.16,
+        -1.445
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#504331",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "HindLegR",
+      "shape": "Block",
+      "size": [
+        0.25,
+        1.22589,
+        0.3
+      ],
+      "position": [
+        0.49,
+        0.83,
+        1.34
+      ],
+      "orientation": [
+        -5.61758,
+        0,
+        -0.0
+      ],
+      "color": "#F0E8D1",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "HindHoofR",
+      "shape": "Block",
+      "size": [
+        0.34,
+        0.32,
+        0.49
+      ],
+      "position": [
+        0.49,
+        0.16,
+        1.355
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#504331",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "Neck",
+      "shape": "Block",
+      "size": [
+        0.61,
+        1.52611,
+        0.55
+      ],
+      "position": [
+        0.0,
+        2.195,
+        -1.785
+      ],
+      "orientation": [
+        -12.48809,
+        0,
+        -0.0
+      ],
+      "color": "#F0E8D1",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "Head",
+      "shape": "Block",
+      "size": [
+        0.78,
+        0.65,
+        0.94
+      ],
+      "position": [
+        0,
+        2.98,
+        -2.17
+      ],
+      "orientation": [
+        -9,
+        0,
+        0
+      ],
+      "color": "#F0E8D1",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "Muzzle",
+      "shape": "Block",
+      "size": [
+        0.54,
+        0.39,
+        0.55
+      ],
+      "position": [
+        0,
+        2.82,
+        -2.76
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#B88B43",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "Tail",
+      "shape": "Wedge",
+      "size": [
+        0.48,
+        0.43,
+        0.55
+      ],
+      "position": [
+        0,
+        1.63,
+        1.61
+      ],
+      "orientation": [
+        -18,
+        0,
+        0
+      ],
+      "color": "#F0E8D1",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "EarL",
+      "shape": "Block",
+      "size": [
+        0.62,
+        0.19,
+        0.44
+      ],
+      "position": [
+        -0.48,
+        3.18,
+        -1.92
+      ],
+      "orientation": [
+        0,
+        0,
+        -23
+      ],
+      "color": "#F0E8D1",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "AntlerBurrL",
+      "shape": "Block",
+      "size": [
+        0.16,
+        0.60959,
+        0.17
+      ],
+      "position": [
+        -0.42,
+        3.41,
+        -2.07
+      ],
+      "orientation": [
+        18.43495,
+        0,
+        33.90047
+      ],
+      "color": "#B88B43",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "AntlerBeamL",
+      "shape": "Block",
+      "size": [
+        0.14,
+        0.88657,
+        0.16
+      ],
+      "position": [
+        -0.9,
+        3.86,
+        -1.92
+      ],
+      "orientation": [
+        17.10273,
+        0,
+        52.14469
+      ],
+      "color": "#B88B43",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "AntlerTipL",
+      "shape": "Block",
+      "size": [
+        0.105,
+        0.42438,
+        0.12
+      ],
+      "position": [
+        -1.29,
+        4.26,
+        -1.745
+      ],
+      "orientation": [
+        27.8241,
+        0,
+        16.42525
+      ],
+      "color": "#F6CF76",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "BrowTineL",
+      "shape": "Block",
+      "size": [
+        0.13,
+        0.71176,
+        0.14
+      ],
+      "position": [
+        -0.61,
+        3.805,
+        -2.265
+      ],
+      "orientation": [
+        -47.33731,
+        0,
+        12.99085
+      ],
+      "color": "#B88B43",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "CrownTineL",
+      "shape": "Block",
+      "size": [
+        0.115,
+        0.5015,
+        0.13
+      ],
+      "position": [
+        -0.945,
+        4.085,
+        -2.015
+      ],
+      "orientation": [
+        -25.01689,
+        0,
+        8.02365
+      ],
+      "color": "#F6CF76",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "EarR",
+      "shape": "Block",
+      "size": [
+        0.62,
+        0.19,
+        0.44
+      ],
+      "position": [
+        0.48,
+        3.18,
+        -1.92
+      ],
+      "orientation": [
+        0,
+        0,
+        23
+      ],
+      "color": "#F0E8D1",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "AntlerBurrR",
+      "shape": "Block",
+      "size": [
+        0.16,
+        0.60959,
+        0.17
+      ],
+      "position": [
+        0.42,
+        3.41,
+        -2.07
+      ],
+      "orientation": [
+        18.43495,
+        0,
+        -33.90047
+      ],
+      "color": "#B88B43",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "AntlerBeamR",
+      "shape": "Block",
+      "size": [
+        0.14,
+        0.88657,
+        0.16
+      ],
+      "position": [
+        0.9,
+        3.86,
+        -1.92
+      ],
+      "orientation": [
+        17.10273,
+        0,
+        -52.14469
+      ],
+      "color": "#B88B43",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "AntlerTipR",
+      "shape": "Block",
+      "size": [
+        0.105,
+        0.42438,
+        0.12
+      ],
+      "position": [
+        1.29,
+        4.26,
+        -1.745
+      ],
+      "orientation": [
+        27.8241,
+        0,
+        -16.42525
+      ],
+      "color": "#F6CF76",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "BrowTineR",
+      "shape": "Block",
+      "size": [
+        0.13,
+        0.71176,
+        0.14
+      ],
+      "position": [
+        0.61,
+        3.805,
+        -2.265
+      ],
+      "orientation": [
+        -47.33731,
+        0,
+        -12.99085
+      ],
+      "color": "#B88B43",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "CrownTineR",
+      "shape": "Block",
+      "size": [
+        0.115,
+        0.5015,
+        0.13
+      ],
+      "position": [
+        0.945,
+        4.085,
+        -2.015
+      ],
+      "orientation": [
+        -25.01689,
+        0,
+        -8.02365
+      ],
+      "color": "#F6CF76",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "EyeL",
+      "shape": "Block",
+      "size": [
+        0.06,
+        0.13,
+        0.18
+      ],
+      "position": [
+        -0.395,
+        3.05,
+        -2.34
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#504331",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "EyeR",
+      "shape": "Block",
+      "size": [
+        0.06,
+        0.13,
+        0.18
+      ],
+      "position": [
+        0.395,
+        3.05,
+        -2.34
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#504331",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "SunMark",
+      "shape": "Block",
+      "size": [
+        0.2,
+        0.26,
+        0.07
+      ],
+      "position": [
+        0,
+        3.04,
+        -2.65
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#F6CF76",
+      "material": "Neon"
+    }
+  ]
+}

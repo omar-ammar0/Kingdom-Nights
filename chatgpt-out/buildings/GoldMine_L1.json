@@ -1,0 +1,619 @@
+{
+  "format": "kn-asset/1",
+  "kind": "building",
+  "name": "GoldMine/L1",
+  "version": 1,
+  "author": "ChatGPT",
+  "notes": "Low timber-supported mine portal with visible recessed dark entrance, rails, loaded blue ore cart and attached gold-vein glint. Income silhouette, no tower or firing deck. Front -Z, base-centred origin, bottom Y=0. B1 v2 stone/timber/blue/gold palette; tiny Neon glint only. Cart and ore are static model geometry. No root or physics fields.",
+  "parts": [
+    {
+      "name": "RockFooting",
+      "shape": "Block",
+      "size": [
+        8.8,
+        0.4,
+        8.8
+      ],
+      "position": [
+        0,
+        0.2,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#A39B83",
+      "material": "Rock"
+    },
+    {
+      "name": "RockShoulderLeft",
+      "shape": "Block",
+      "size": [
+        2.6,
+        3.8,
+        4.8
+      ],
+      "position": [
+        -2.65,
+        2.3,
+        1.5
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#A39B83",
+      "material": "Rock"
+    },
+    {
+      "name": "RockShoulderRight",
+      "shape": "Block",
+      "size": [
+        2.6,
+        3.8,
+        4.8
+      ],
+      "position": [
+        2.65,
+        2.3,
+        1.5
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#A39B83",
+      "material": "Rock"
+    },
+    {
+      "name": "TunnelBack",
+      "shape": "Block",
+      "size": [
+        2.8,
+        3.6,
+        0.5
+      ],
+      "position": [
+        0,
+        2.2,
+        3.65
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#303D49",
+      "material": "Slate"
+    },
+    {
+      "name": "RockCrown-1",
+      "shape": "Wedge",
+      "size": [
+        7.9,
+        1.6,
+        2.4
+      ],
+      "position": [
+        0,
+        5,
+        0.30000000000000004
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#A39B83",
+      "material": "Rock"
+    },
+    {
+      "name": "RockCrown1",
+      "shape": "Wedge",
+      "size": [
+        7.9,
+        1.6,
+        2.4
+      ],
+      "position": [
+        0,
+        5,
+        2.7
+      ],
+      "orientation": [
+        0,
+        180,
+        0
+      ],
+      "color": "#A39B83",
+      "material": "Rock"
+    },
+    {
+      "name": "PortalPost-1.5",
+      "shape": "Block",
+      "size": [
+        0.65,
+        3.6,
+        0.7
+      ],
+      "position": [
+        -1.5,
+        2.2,
+        -1
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#765743",
+      "material": "Wood"
+    },
+    {
+      "name": "PortalPost1.5",
+      "shape": "Block",
+      "size": [
+        0.65,
+        3.6,
+        0.7
+      ],
+      "position": [
+        1.5,
+        2.2,
+        -1
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#765743",
+      "material": "Wood"
+    },
+    {
+      "name": "PortalLintel",
+      "shape": "Block",
+      "size": [
+        3.8,
+        0.65,
+        0.9
+      ],
+      "position": [
+        0,
+        4.125,
+        -1
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#765743",
+      "material": "Wood"
+    },
+    {
+      "name": "RailLeft",
+      "shape": "Block",
+      "size": [
+        0.16,
+        0.15,
+        6.4
+      ],
+      "position": [
+        -0.35,
+        0.55,
+        -0.9
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#303D49",
+      "material": "Metal"
+    },
+    {
+      "name": "RailRight",
+      "shape": "Block",
+      "size": [
+        0.16,
+        0.15,
+        6.4
+      ],
+      "position": [
+        2.05,
+        0.55,
+        -0.9
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#303D49",
+      "material": "Metal"
+    },
+    {
+      "name": "Sleeper-3.7",
+      "shape": "Block",
+      "size": [
+        2.3,
+        0.12,
+        0.35
+      ],
+      "position": [
+        0.85,
+        0.46,
+        -3.7
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#765743",
+      "material": "Wood"
+    },
+    {
+      "name": "Sleeper-2.3",
+      "shape": "Block",
+      "size": [
+        2.3,
+        0.12,
+        0.35
+      ],
+      "position": [
+        0.85,
+        0.46,
+        -2.3
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#765743",
+      "material": "Wood"
+    },
+    {
+      "name": "CartBed",
+      "shape": "Block",
+      "size": [
+        2.25,
+        0.25,
+        2.3
+      ],
+      "position": [
+        0.85,
+        1.15,
+        -2.6
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#765743",
+      "material": "WoodPlanks"
+    },
+    {
+      "name": "CartSide-1",
+      "shape": "Block",
+      "size": [
+        0.2,
+        1,
+        2.3
+      ],
+      "position": [
+        -0.17499999999999993,
+        1.775,
+        -2.6
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#426C8C",
+      "material": "Metal"
+    },
+    {
+      "name": "CartEnd-1",
+      "shape": "Block",
+      "size": [
+        1.85,
+        1,
+        0.2
+      ],
+      "position": [
+        0.85,
+        1.775,
+        -3.6500000000000004
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#426C8C",
+      "material": "Metal"
+    },
+    {
+      "name": "CartWheel-1_-3.35",
+      "shape": "Cylinder",
+      "size": [
+        0.25,
+        0.85,
+        0.85
+      ],
+      "position": [
+        -0.35,
+        0.975,
+        -3.35
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#303D49",
+      "material": "Metal"
+    },
+    {
+      "name": "CartWheel-1_-1.85",
+      "shape": "Cylinder",
+      "size": [
+        0.25,
+        0.85,
+        0.85
+      ],
+      "position": [
+        -0.35,
+        0.975,
+        -1.85
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#303D49",
+      "material": "Metal"
+    },
+    {
+      "name": "CartSide1",
+      "shape": "Block",
+      "size": [
+        0.2,
+        1,
+        2.3
+      ],
+      "position": [
+        1.875,
+        1.775,
+        -2.6
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#426C8C",
+      "material": "Metal"
+    },
+    {
+      "name": "CartEnd1",
+      "shape": "Block",
+      "size": [
+        1.85,
+        1,
+        0.2
+      ],
+      "position": [
+        0.85,
+        1.775,
+        -1.55
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#426C8C",
+      "material": "Metal"
+    },
+    {
+      "name": "CartWheel1_-3.35",
+      "shape": "Cylinder",
+      "size": [
+        0.25,
+        0.85,
+        0.85
+      ],
+      "position": [
+        2.05,
+        0.975,
+        -3.35
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#303D49",
+      "material": "Metal"
+    },
+    {
+      "name": "CartWheel1_-1.85",
+      "shape": "Cylinder",
+      "size": [
+        0.25,
+        0.85,
+        0.85
+      ],
+      "position": [
+        2.05,
+        0.975,
+        -1.85
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#303D49",
+      "material": "Metal"
+    },
+    {
+      "name": "OreLoadLeft",
+      "shape": "Wedge",
+      "size": [
+        0.9,
+        0.85,
+        1.5
+      ],
+      "position": [
+        0.38,
+        1.7,
+        -2.6
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#D5AC55",
+      "material": "Metal"
+    },
+    {
+      "name": "OreLoadRight",
+      "shape": "Wedge",
+      "size": [
+        0.9,
+        1,
+        1.5
+      ],
+      "position": [
+        1.3,
+        1.775,
+        -2.6
+      ],
+      "orientation": [
+        0,
+        180,
+        0
+      ],
+      "color": "#D5AC55",
+      "material": "Metal"
+    },
+    {
+      "name": "OreNugget",
+      "shape": "Block",
+      "size": [
+        0.8,
+        0.7,
+        0.8
+      ],
+      "position": [
+        0.85,
+        2.15,
+        -2.6
+      ],
+      "orientation": [
+        0,
+        25,
+        0
+      ],
+      "color": "#D5AC55",
+      "material": "Metal"
+    },
+    {
+      "name": "ExposedGoldVein",
+      "shape": "Block",
+      "size": [
+        1.35,
+        1.5,
+        0.16
+      ],
+      "position": [
+        2.8,
+        2.65,
+        -0.98
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#D5AC55",
+      "material": "Metal"
+    },
+    {
+      "name": "GoldGlintVertical",
+      "shape": "Block",
+      "size": [
+        0.16,
+        0.9,
+        0.08
+      ],
+      "position": [
+        2.8,
+        2.8,
+        -1.1
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#D5AC55",
+      "material": "Neon"
+    },
+    {
+      "name": "GoldGlintHorizontal",
+      "shape": "Block",
+      "size": [
+        0.7,
+        0.16,
+        0.08
+      ],
+      "position": [
+        2.8,
+        2.8,
+        -1.1
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#D5AC55",
+      "material": "Neon"
+    },
+    {
+      "name": "TunnelShadowFloor",
+      "shape": "Block",
+      "size": [
+        2.7,
+        0.04,
+        4.3
+      ],
+      "position": [
+        0,
+        0.42,
+        1.25
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#303D49",
+      "material": "Slate"
+    }
+  ]
+}

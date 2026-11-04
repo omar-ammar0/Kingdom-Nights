@@ -1,0 +1,222 @@
+{
+  "format": "kn-asset/1",
+  "kind": "enemy",
+  "name": "racer",
+  "version": 1,
+  "author": "ChatGPT",
+  "notes": "Low quadruped, long torso, forward wedge snout, trailing tail and paired bone brow horns. Ten parts, three colours; about 2.55 studs tall with a deliberately long silhouette. Root included in the roster budget. One invisible HumanoidRootPart at the local base, front -Z; importer anchors only root and welds unanchored visible children, all non-colliding/non-query/non-touch. No Humanoid, scripts, animation or behaviour in this data. Claude imports and tests pooling/gameplay readability.",
+  "parts": [
+    {
+      "name": "HumanoidRootPart",
+      "shape": "Block",
+      "size": [
+        1,
+        0.2,
+        1
+      ],
+      "position": [
+        0,
+        0.1,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#735295",
+      "material": "SmoothPlastic",
+      "root": true,
+      "transparency": 1
+    },
+    {
+      "name": "LongBody",
+      "shape": "Block",
+      "size": [
+        1.6,
+        1.3,
+        4.8
+      ],
+      "position": [
+        0,
+        1.6,
+        0.25
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#99B947",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "ForwardSnout",
+      "shape": "Wedge",
+      "size": [
+        1.25,
+        1.15,
+        2
+      ],
+      "position": [
+        0,
+        1.5,
+        -2.45
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#99B947",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "Tail",
+      "shape": "Block",
+      "size": [
+        0.65,
+        0.65,
+        2
+      ],
+      "position": [
+        0,
+        1.55,
+        3.25
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#735295",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "ForeLegLeft",
+      "shape": "Block",
+      "size": [
+        0.75,
+        1,
+        0.8
+      ],
+      "position": [
+        -0.95,
+        0.5,
+        -1.35
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#735295",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "HindLegLeft",
+      "shape": "Block",
+      "size": [
+        0.75,
+        1,
+        0.8
+      ],
+      "position": [
+        -0.95,
+        0.5,
+        1.65
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#735295",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "BrowHornLeft",
+      "shape": "Wedge",
+      "size": [
+        0.35,
+        0.55,
+        0.9
+      ],
+      "position": [
+        -0.4,
+        2.275,
+        -2.55
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#D8D1A9",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "ForeLegRight",
+      "shape": "Block",
+      "size": [
+        0.75,
+        1,
+        0.8
+      ],
+      "position": [
+        0.95,
+        0.5,
+        -1.35
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#735295",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "HindLegRight",
+      "shape": "Block",
+      "size": [
+        0.75,
+        1,
+        0.8
+      ],
+      "position": [
+        0.95,
+        0.5,
+        1.65
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#735295",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "BrowHornRight",
+      "shape": "Wedge",
+      "size": [
+        0.35,
+        0.55,
+        0.9
+      ],
+      "position": [
+        0.4,
+        2.275,
+        -2.55
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#D8D1A9",
+      "material": "SmoothPlastic"
+    }
+  ]
+}

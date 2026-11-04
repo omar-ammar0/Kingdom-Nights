@@ -1,0 +1,388 @@
+{
+  "format": "kn-asset/1",
+  "kind": "building",
+  "name": "Mill/L1",
+  "version": 1,
+  "author": "ChatGPT",
+  "notes": "Static diagonal four-sail windmill with grain bin. Larger sail span and taller mill each level; L2 loading awning and L3 rear annex. Sails are authored static geometry, not animation. Base-centred origin; front -Z; no root or physics fields. Dark stone matches B1 v2.",
+  "parts": [
+    {
+      "name": "MillFoundation",
+      "shape": "Block",
+      "size": [
+        6.8,
+        0.6,
+        6.8
+      ],
+      "position": [
+        0,
+        0.3,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#A39B83",
+      "material": "Cobblestone"
+    },
+    {
+      "name": "MillBody",
+      "shape": "Block",
+      "size": [
+        4.8,
+        4.9,
+        4.8
+      ],
+      "position": [
+        0,
+        3.05,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#A39B83",
+      "material": "Brick"
+    },
+    {
+      "name": "MillRoofFront",
+      "shape": "Wedge",
+      "size": [
+        5.8,
+        2.5,
+        2.9
+      ],
+      "position": [
+        0,
+        6.75,
+        -1.45
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#426C8C",
+      "material": "Slate"
+    },
+    {
+      "name": "MillRoofRear",
+      "shape": "Wedge",
+      "size": [
+        5.8,
+        2.5,
+        2.9
+      ],
+      "position": [
+        0,
+        6.75,
+        1.45
+      ],
+      "orientation": [
+        0,
+        180,
+        0
+      ],
+      "color": "#426C8C",
+      "material": "Slate"
+    },
+    {
+      "name": "FrontTimber-2.1999999999999997",
+      "shape": "Block",
+      "size": [
+        0.5,
+        4.9,
+        0.45
+      ],
+      "position": [
+        -2.1999999999999997,
+        3.05,
+        -2.4
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#765743",
+      "material": "Wood"
+    },
+    {
+      "name": "FrontTimber2.1999999999999997",
+      "shape": "Block",
+      "size": [
+        0.5,
+        4.9,
+        0.45
+      ],
+      "position": [
+        2.1999999999999997,
+        3.05,
+        -2.4
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#765743",
+      "material": "Wood"
+    },
+    {
+      "name": "MillDoor",
+      "shape": "Block",
+      "size": [
+        1.5,
+        2.4,
+        0.2
+      ],
+      "position": [
+        0,
+        1.8,
+        -2.5
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#765743",
+      "material": "WoodPlanks"
+    },
+    {
+      "name": "DoorLintel",
+      "shape": "Block",
+      "size": [
+        2,
+        0.35,
+        0.4
+      ],
+      "position": [
+        0,
+        3.1,
+        -2.5
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#F1E4C5",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "RotorAxle",
+      "shape": "Cylinder",
+      "size": [
+        1.6,
+        0.45,
+        0.45
+      ],
+      "position": [
+        0,
+        4.3,
+        -2.85
+      ],
+      "orientation": [
+        0,
+        90,
+        0
+      ],
+      "color": "#765743",
+      "material": "Wood"
+    },
+    {
+      "name": "RotorSpar45",
+      "shape": "Block",
+      "size": [
+        7.6,
+        0.28,
+        0.28
+      ],
+      "position": [
+        0,
+        4.3,
+        -3.15
+      ],
+      "orientation": [
+        0,
+        0,
+        45
+      ],
+      "color": "#426C8C",
+      "material": "Wood"
+    },
+    {
+      "name": "RotorSpar-45",
+      "shape": "Block",
+      "size": [
+        7.6,
+        0.28,
+        0.28
+      ],
+      "position": [
+        0,
+        4.3,
+        -3.15
+      ],
+      "orientation": [
+        0,
+        0,
+        -45
+      ],
+      "color": "#426C8C",
+      "material": "Wood"
+    },
+    {
+      "name": "Sail45",
+      "shape": "Block",
+      "size": [
+        2.356,
+        0.75,
+        0.15
+      ],
+      "position": [
+        1.8540339802711276,
+        6.1540339802711275,
+        -3.36
+      ],
+      "orientation": [
+        0,
+        0,
+        45
+      ],
+      "color": "#F1E4C5",
+      "material": "Fabric"
+    },
+    {
+      "name": "Sail135",
+      "shape": "Block",
+      "size": [
+        2.356,
+        0.75,
+        0.15
+      ],
+      "position": [
+        -1.8540339802711274,
+        6.1540339802711275,
+        -3.36
+      ],
+      "orientation": [
+        0,
+        0,
+        135
+      ],
+      "color": "#F1E4C5",
+      "material": "Fabric"
+    },
+    {
+      "name": "Sail225",
+      "shape": "Block",
+      "size": [
+        2.356,
+        0.75,
+        0.15
+      ],
+      "position": [
+        -1.8540339802711279,
+        2.445966019728872,
+        -3.36
+      ],
+      "orientation": [
+        0,
+        0,
+        225
+      ],
+      "color": "#F1E4C5",
+      "material": "Fabric"
+    },
+    {
+      "name": "Sail315",
+      "shape": "Block",
+      "size": [
+        2.356,
+        0.75,
+        0.15
+      ],
+      "position": [
+        1.854033980271127,
+        2.445966019728872,
+        -3.36
+      ],
+      "orientation": [
+        0,
+        0,
+        315
+      ],
+      "color": "#F1E4C5",
+      "material": "Fabric"
+    },
+    {
+      "name": "RotorHub",
+      "shape": "Cylinder",
+      "size": [
+        0.65,
+        1.05,
+        1.05
+      ],
+      "position": [
+        0,
+        4.3,
+        -3.3899999999999997
+      ],
+      "orientation": [
+        0,
+        90,
+        0
+      ],
+      "color": "#D5AC55",
+      "material": "Metal"
+    },
+    {
+      "name": "GrainBin",
+      "shape": "Block",
+      "size": [
+        1.4,
+        1.2,
+        1.4
+      ],
+      "position": [
+        2.6,
+        0.9,
+        1.3
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#765743",
+      "material": "WoodPlanks"
+    },
+    {
+      "name": "GrainTop",
+      "shape": "Block",
+      "size": [
+        1.2,
+        0.18,
+        1.2
+      ],
+      "position": [
+        2.6,
+        1.55,
+        1.3
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#D5AC55",
+      "material": "Sand"
+    }
+  ]
+}

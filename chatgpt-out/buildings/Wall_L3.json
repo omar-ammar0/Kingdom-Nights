@@ -1,0 +1,493 @@
+{
+  "format": "kn-asset/1",
+  "kind": "building",
+  "name": "Wall/L3",
+  "version": 2,
+  "author": "ChatGPT",
+  "notes": "Two-sided lane barrier, long axis X. Timber palisade becomes a stone parapet, then taller royal reinforced wall. Both combat faces are symmetric. Base centre [0,0,0]; front -Z. No root or physics fields. Palette shared across B1. v2: main stone #A39B83 (about 25% darker RGB value); cream reserved for trim.",
+  "parts": [
+    {
+      "name": "WallFooting",
+      "shape": "Block",
+      "size": [
+        14,
+        0.6,
+        4
+      ],
+      "position": [
+        0,
+        0.3,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#A39B83",
+      "material": "Cobblestone"
+    },
+    {
+      "name": "MasonryCore",
+      "shape": "Block",
+      "size": [
+        14,
+        12,
+        2.6
+      ],
+      "position": [
+        0,
+        6.0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#A39B83",
+      "material": "Brick"
+    },
+    {
+      "name": "Walkway",
+      "shape": "Block",
+      "size": [
+        14,
+        0.6,
+        3.5
+      ],
+      "position": [
+        0,
+        11.9,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#A39B83",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "Parapet-1.55",
+      "shape": "Block",
+      "size": [
+        14,
+        0.9,
+        0.5
+      ],
+      "position": [
+        0,
+        12.55,
+        -1.55
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#A39B83",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "Merlon-6_-1.55",
+      "shape": "Block",
+      "size": [
+        2,
+        1.4,
+        0.8
+      ],
+      "position": [
+        -6,
+        13.3,
+        -1.55
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#F1E4C5",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "Merlon-3_-1.55",
+      "shape": "Block",
+      "size": [
+        2,
+        1.4,
+        0.8
+      ],
+      "position": [
+        -3,
+        13.3,
+        -1.55
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#F1E4C5",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "Merlon0_-1.55",
+      "shape": "Block",
+      "size": [
+        2,
+        1.4,
+        0.8
+      ],
+      "position": [
+        0,
+        13.3,
+        -1.55
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#F1E4C5",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "Merlon3_-1.55",
+      "shape": "Block",
+      "size": [
+        2,
+        1.4,
+        0.8
+      ],
+      "position": [
+        3,
+        13.3,
+        -1.55
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#F1E4C5",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "Merlon6_-1.55",
+      "shape": "Block",
+      "size": [
+        2,
+        1.4,
+        0.8
+      ],
+      "position": [
+        6,
+        13.3,
+        -1.55
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#F1E4C5",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "Parapet1.55",
+      "shape": "Block",
+      "size": [
+        14,
+        0.9,
+        0.5
+      ],
+      "position": [
+        0,
+        12.55,
+        1.55
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#A39B83",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "Merlon-6_1.55",
+      "shape": "Block",
+      "size": [
+        2,
+        1.4,
+        0.8
+      ],
+      "position": [
+        -6,
+        13.3,
+        1.55
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#F1E4C5",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "Merlon-3_1.55",
+      "shape": "Block",
+      "size": [
+        2,
+        1.4,
+        0.8
+      ],
+      "position": [
+        -3,
+        13.3,
+        1.55
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#F1E4C5",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "Merlon0_1.55",
+      "shape": "Block",
+      "size": [
+        2,
+        1.4,
+        0.8
+      ],
+      "position": [
+        0,
+        13.3,
+        1.55
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#F1E4C5",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "Merlon3_1.55",
+      "shape": "Block",
+      "size": [
+        2,
+        1.4,
+        0.8
+      ],
+      "position": [
+        3,
+        13.3,
+        1.55
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#F1E4C5",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "Merlon6_1.55",
+      "shape": "Block",
+      "size": [
+        2,
+        1.4,
+        0.8
+      ],
+      "position": [
+        6,
+        13.3,
+        1.55
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#F1E4C5",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "Buttress-6",
+      "shape": "Block",
+      "size": [
+        1.5,
+        11.4,
+        4
+      ],
+      "position": [
+        -6,
+        6.3,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#F1E4C5",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "Buttress6",
+      "shape": "Block",
+      "size": [
+        1.5,
+        11.4,
+        4
+      ],
+      "position": [
+        6,
+        6.3,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#F1E4C5",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "Reinforcement-1.4",
+      "shape": "Block",
+      "size": [
+        14,
+        0.7,
+        0.25
+      ],
+      "position": [
+        0,
+        3,
+        -1.4
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#426C8C",
+      "material": "Slate"
+    },
+    {
+      "name": "Shield-1.4",
+      "shape": "Block",
+      "size": [
+        1.6,
+        2.3,
+        0.2
+      ],
+      "position": [
+        0,
+        7,
+        -1.4
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#426C8C",
+      "material": "Metal"
+    },
+    {
+      "name": "ShieldBoss-1.4",
+      "shape": "Block",
+      "size": [
+        0.7,
+        0.7,
+        0.2
+      ],
+      "position": [
+        0,
+        7,
+        -1.512
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#D5AC55",
+      "material": "Metal"
+    },
+    {
+      "name": "Reinforcement1.4",
+      "shape": "Block",
+      "size": [
+        14,
+        0.7,
+        0.25
+      ],
+      "position": [
+        0,
+        3,
+        1.4
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#426C8C",
+      "material": "Slate"
+    },
+    {
+      "name": "Shield1.4",
+      "shape": "Block",
+      "size": [
+        1.6,
+        2.3,
+        0.2
+      ],
+      "position": [
+        0,
+        7,
+        1.4
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#426C8C",
+      "material": "Metal"
+    },
+    {
+      "name": "ShieldBoss1.4",
+      "shape": "Block",
+      "size": [
+        0.7,
+        0.7,
+        0.2
+      ],
+      "position": [
+        0,
+        7,
+        1.512
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#D5AC55",
+      "material": "Metal"
+    }
+  ]
+}

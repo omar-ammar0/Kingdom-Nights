@@ -1,0 +1,285 @@
+{
+  "format": "kn-asset/1",
+  "kind": "enemy",
+  "name": "catapult",
+  "version": 1,
+  "author": "ChatGPT",
+  "notes": "Blackfen siege: compact wheeled carriage, exposed diagonal throwing arm, rear raised cup/stone and low front counterweight. Front -Z. Smaller footprint than ram; arm deliberately taller for silhouette distinction. 13 parts including the single invisible base HumanoidRootPart, three colours. Static model; importer anchors root only and welds unanchored children; no Humanoid, physics fields, scripts or animation. Roster ceiling14; validator budget registration pending if absent.",
+  "parts": [
+    {
+      "name": "HumanoidRootPart",
+      "shape": "Block",
+      "size": [
+        1,
+        0.2,
+        1
+      ],
+      "position": [
+        0,
+        0.1,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#384343",
+      "material": "SmoothPlastic",
+      "root": true,
+      "transparency": 1
+    },
+    {
+      "name": "Carriage",
+      "shape": "Block",
+      "size": [
+        4.8,
+        0.55,
+        4.6
+      ],
+      "position": [
+        0,
+        1.025,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#706047",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "WheelFrontLeft",
+      "shape": "Cylinder",
+      "size": [
+        0.5,
+        1.6,
+        1.6
+      ],
+      "position": [
+        -2.5,
+        0.8,
+        -1.5
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#384343",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "WheelRearLeft",
+      "shape": "Cylinder",
+      "size": [
+        0.5,
+        1.6,
+        1.6
+      ],
+      "position": [
+        -2.5,
+        0.8,
+        1.5
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#384343",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "WheelFrontRight",
+      "shape": "Cylinder",
+      "size": [
+        0.5,
+        1.6,
+        1.6
+      ],
+      "position": [
+        2.5,
+        0.8,
+        -1.5
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#384343",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "WheelRearRight",
+      "shape": "Cylinder",
+      "size": [
+        0.5,
+        1.6,
+        1.6
+      ],
+      "position": [
+        2.5,
+        0.8,
+        1.5
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#384343",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "PivotSupportLeft",
+      "shape": "Block",
+      "size": [
+        0.6,
+        1.8,
+        1.25
+      ],
+      "position": [
+        -1.35,
+        1.95,
+        -0.5
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#706047",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "PivotSupportRight",
+      "shape": "Block",
+      "size": [
+        0.6,
+        1.8,
+        1.25
+      ],
+      "position": [
+        1.35,
+        1.95,
+        -0.5
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#706047",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "TorsionAxle",
+      "shape": "Cylinder",
+      "size": [
+        3.5,
+        0.65,
+        0.65
+      ],
+      "position": [
+        0,
+        2.2,
+        -0.5
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#384343",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "ThrowingArm",
+      "shape": "Block",
+      "size": [
+        0.6,
+        0.6,
+        4.6
+      ],
+      "position": [
+        0,
+        2.8,
+        0.25
+      ],
+      "orientation": [
+        -40,
+        0,
+        0
+      ],
+      "color": "#706047",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "Counterweight",
+      "shape": "Block",
+      "size": [
+        1.2,
+        0.9,
+        1
+      ],
+      "position": [
+        0,
+        1.45,
+        -1.35
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#384343",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "StoneCup",
+      "shape": "Block",
+      "size": [
+        1.6,
+        0.4,
+        1.5
+      ],
+      "position": [
+        0,
+        4.25,
+        2
+      ],
+      "orientation": [
+        -40,
+        0,
+        0
+      ],
+      "color": "#384343",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "LoadedStone",
+      "shape": "Ball",
+      "size": [
+        1.1,
+        1.1,
+        1.1
+      ],
+      "position": [
+        0,
+        4.8,
+        2
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#969A83",
+      "material": "SmoothPlastic"
+    }
+  ]
+}

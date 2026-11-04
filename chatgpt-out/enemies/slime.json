@@ -1,0 +1,75 @@
+{
+  "format": "kn-asset/1",
+  "kind": "enemy",
+  "name": "slime",
+  "version": 1,
+  "author": "ChatGPT",
+  "notes": "Low headless, limbless blob: squared gel base plus a true spherical dome. Three total parts; one visible acid-green colour. Visible base 0, height 3. Root included in the roster budget. One invisible HumanoidRootPart at the local base, front -Z; importer anchors only root and welds unanchored visible children, all non-colliding/non-query/non-touch. No Humanoid, scripts, animation or behaviour in this data. Claude imports and tests pooling/gameplay readability.",
+  "parts": [
+    {
+      "name": "HumanoidRootPart",
+      "shape": "Block",
+      "size": [
+        1,
+        0.2,
+        1
+      ],
+      "position": [
+        0,
+        0.1,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#99B947",
+      "material": "SmoothPlastic",
+      "root": true,
+      "transparency": 1
+    },
+    {
+      "name": "SquaredGelBase",
+      "shape": "Block",
+      "size": [
+        2.6,
+        2,
+        2.6
+      ],
+      "position": [
+        0,
+        1,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#99B947",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "GelDome",
+      "shape": "Ball",
+      "size": [
+        3,
+        3,
+        3
+      ],
+      "position": [
+        0,
+        1.5,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#99B947",
+      "material": "SmoothPlastic"
+    }
+  ]
+}

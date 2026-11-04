@@ -1,0 +1,621 @@
+{
+  "format": "kn-asset/1",
+  "kind": "hero",
+  "name": "lizardrider",
+  "version": 1,
+  "author": "ChatGPT",
+  "notes": "Legendary: jade quadruped with gold saddle, sand-clad rider and tall plume. Long tail and muzzle form longest H2 footprint; two floating gold sigils. Gold thin disc with jade rune; feet rest on its top. Height 7.6. One invisible base root; front -Z; no built-in flight offset or particles.",
+  "parts": [
+    {
+      "name": "HumanoidRootPart",
+      "shape": "Block",
+      "size": [
+        1,
+        0.2,
+        1
+      ],
+      "position": [
+        0,
+        0.1,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#28343D",
+      "material": "SmoothPlastic",
+      "root": true,
+      "transparency": 1
+    },
+    {
+      "name": "BaseDisc",
+      "shape": "Cylinder",
+      "size": [
+        0.12,
+        3.8,
+        3.8
+      ],
+      "position": [
+        0,
+        0.06,
+        0.6
+      ],
+      "orientation": [
+        0,
+        0,
+        90
+      ],
+      "color": "#D8B65B",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "MountBody",
+      "shape": "Block",
+      "size": [
+        2,
+        1.5,
+        3.4
+      ],
+      "position": [
+        0,
+        1.95,
+        0.5
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#5A9983",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "MountNeck",
+      "shape": "Block",
+      "size": [
+        1.1,
+        1.3,
+        1.3
+      ],
+      "position": [
+        0,
+        2.45,
+        -1.35
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#5A9983",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "MountHead",
+      "shape": "Block",
+      "size": [
+        1.35,
+        0.95,
+        1.8
+      ],
+      "position": [
+        0,
+        3.15,
+        -2
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#5A9983",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "MountMuzzle",
+      "shape": "Block",
+      "size": [
+        1.4,
+        0.5,
+        1.15
+      ],
+      "position": [
+        0,
+        2.88,
+        -2.85
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#BDA782",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "MountTail",
+      "shape": "Wedge",
+      "size": [
+        0.65,
+        0.65,
+        2.8
+      ],
+      "position": [
+        0,
+        1.75,
+        3.2
+      ],
+      "orientation": [
+        -10,
+        0,
+        0
+      ],
+      "color": "#5A9983",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "Saddle",
+      "shape": "Block",
+      "size": [
+        1.9,
+        0.35,
+        1.9
+      ],
+      "position": [
+        0,
+        2.86,
+        0.4
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#D8B65B",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "MountLeg_LFront",
+      "shape": "Block",
+      "size": [
+        0.65,
+        1.25,
+        0.75
+      ],
+      "position": [
+        -0.85,
+        0.745,
+        -0.65
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#5A9983",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "MountLeg_LBack",
+      "shape": "Block",
+      "size": [
+        0.65,
+        1.25,
+        0.75
+      ],
+      "position": [
+        -0.85,
+        0.745,
+        1.7
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#5A9983",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "MountEye_L",
+      "shape": "Block",
+      "size": [
+        0.2,
+        0.17,
+        0.08
+      ],
+      "position": [
+        -0.43,
+        3.3,
+        -2.93
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#28343D",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "RiderLeg_L",
+      "shape": "Block",
+      "size": [
+        0.6,
+        1.4,
+        0.7
+      ],
+      "position": [
+        -1.02,
+        2.8,
+        0.15
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#BDA782",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "RiderArm_L",
+      "shape": "Block",
+      "size": [
+        0.55,
+        1.5,
+        0.7
+      ],
+      "position": [
+        -1.05,
+        4.3,
+        0.2
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#BDA782",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "FloatingSigil_L",
+      "shape": "Block",
+      "size": [
+        0.4,
+        0.4,
+        0.4
+      ],
+      "position": [
+        -1.95,
+        3.2,
+        0.3
+      ],
+      "orientation": [
+        0,
+        0,
+        45
+      ],
+      "color": "#D8B65B",
+      "material": "Neon"
+    },
+    {
+      "name": "MountLeg_RFront",
+      "shape": "Block",
+      "size": [
+        0.65,
+        1.25,
+        0.75
+      ],
+      "position": [
+        0.85,
+        0.745,
+        -0.65
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#5A9983",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "MountLeg_RBack",
+      "shape": "Block",
+      "size": [
+        0.65,
+        1.25,
+        0.75
+      ],
+      "position": [
+        0.85,
+        0.745,
+        1.7
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#5A9983",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "MountEye_R",
+      "shape": "Block",
+      "size": [
+        0.2,
+        0.17,
+        0.08
+      ],
+      "position": [
+        0.43,
+        3.3,
+        -2.93
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#28343D",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "RiderLeg_R",
+      "shape": "Block",
+      "size": [
+        0.6,
+        1.4,
+        0.7
+      ],
+      "position": [
+        1.02,
+        2.8,
+        0.15
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#BDA782",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "RiderArm_R",
+      "shape": "Block",
+      "size": [
+        0.55,
+        1.5,
+        0.7
+      ],
+      "position": [
+        1.05,
+        4.3,
+        0.2
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#BDA782",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "FloatingSigil_R",
+      "shape": "Block",
+      "size": [
+        0.4,
+        0.4,
+        0.4
+      ],
+      "position": [
+        1.95,
+        3.2,
+        0.3
+      ],
+      "orientation": [
+        0,
+        0,
+        45
+      ],
+      "color": "#D8B65B",
+      "material": "Neon"
+    },
+    {
+      "name": "RiderTorso",
+      "shape": "Block",
+      "size": [
+        1.6,
+        1.75,
+        1
+      ],
+      "position": [
+        0,
+        4,
+        0.25
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#BDA782",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "RiderHead",
+      "shape": "Block",
+      "size": [
+        1.55,
+        1.55,
+        1.4
+      ],
+      "position": [
+        0,
+        5.65,
+        0.15
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#BDA782",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "RiderHelm",
+      "shape": "Block",
+      "size": [
+        1.68,
+        0.3,
+        1.5
+      ],
+      "position": [
+        0,
+        6.38,
+        0.15
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#D8B65B",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "HelmPlume",
+      "shape": "Block",
+      "size": [
+        0.4,
+        1.2,
+        0.55
+      ],
+      "position": [
+        0,
+        7,
+        0.25
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#5A9983",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "RiderEye_L",
+      "shape": "Block",
+      "size": [
+        0.2,
+        0.16,
+        0.05
+      ],
+      "position": [
+        -0.33,
+        5.74,
+        -0.575
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#28343D",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "RiderEye_R",
+      "shape": "Block",
+      "size": [
+        0.2,
+        0.16,
+        0.05
+      ],
+      "position": [
+        0.33,
+        5.74,
+        -0.575
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#28343D",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "MountGlow",
+      "shape": "Block",
+      "size": [
+        0.13,
+        0.6,
+        1.5
+      ],
+      "position": [
+        0,
+        3.2,
+        -2
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#D8B65B",
+      "material": "Neon"
+    },
+    {
+      "name": "Bridle",
+      "shape": "Block",
+      "size": [
+        1.46,
+        0.17,
+        0.17
+      ],
+      "position": [
+        0,
+        3,
+        -3.4
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#D8B65B",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "BaseRune",
+      "shape": "Block",
+      "size": [
+        0.3,
+        0.025,
+        1.2
+      ],
+      "position": [
+        0,
+        0.132,
+        -1.4
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#5A9983",
+      "material": "Neon"
+    }
+  ]
+}

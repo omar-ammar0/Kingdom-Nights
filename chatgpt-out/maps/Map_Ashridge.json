@@ -1,0 +1,11604 @@
+{
+  "format": "kn-asset/1",
+  "kind": "map",
+  "name": "Map_Ashridge",
+  "version": 3,
+  "author": "ChatGPT",
+  "notes": "Three-front highland orchard crossroads; 480x440 floor at Y=0.5; castle (0,70). Northwest and northeast bent lanes flank a shorter north causeway. Exactly 45 plots: Castle 1, Tower 12, Wall 14, House 11, Mill 3, Barracks 2, ArcheryRange 2. Eight houses (hou_01..08) and mil_03 deliberately have centres 27-29 studs from a lane, with full pads outside the 18-stud horde corridor. Remaining three houses and two mills form the safer southern settlement. Threat-band towers support exposed clusters; fourteen transverse wall pads create staged fallback positions across all three fronts. Road strips are 0.04 thick, top Y=0.52, non-colliding. Gate remnants frame each spawn without an overhead obstruction. Four continuous invisible Bounds walls match visible low stone edges. Import with Persistent streaming and role physics; wave proposal in waves/ashridge.lua version 2 requires Omar approval. Capacity estimates are not timed playtest results; verify lane detours, economic risk, siege/flying attacks, and four-player duration in Studio. Final corridor audit: removed the projecting plot-corner stones twr_04_Corner_4, twr_08_Corner_3. Gameplay geometry is otherwise unchanged from the preceding delivery. North coping depth trimmed to match its boundary wall and preserve exactly 18 studs at Spawn 2.",
+  "parts": [
+    {
+      "name": "Ground",
+      "shape": "Block",
+      "size": [
+        480,
+        1,
+        440
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#737F62",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "cas_01",
+      "shape": "Block",
+      "size": [
+        18,
+        0.4,
+        18
+      ],
+      "position": [
+        0,
+        0.7,
+        70
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Slots",
+      "transparency": 0.3,
+      "tags": [
+        "BuildSlot"
+      ],
+      "attributes": {
+        "SlotId": "cas_01",
+        "SlotType": "Castle",
+        "MaxLevel": 3,
+        "StartLevel": 1
+      }
+    },
+    {
+      "name": "Spawn_1",
+      "shape": "Block",
+      "size": [
+        2,
+        1,
+        2
+      ],
+      "position": [
+        -202,
+        0.5,
+        -164
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Spawns",
+      "transparency": 1,
+      "tags": [
+        "EnemySpawn"
+      ],
+      "attributes": {
+        "SpawnIndex": 1
+      }
+    },
+    {
+      "name": "Lane_1_01",
+      "shape": "Block",
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "position": [
+        -196,
+        0.5,
+        -160
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Lanes",
+      "transparency": 1,
+      "tags": [
+        "LaneNode"
+      ],
+      "attributes": {
+        "SpawnIndex": 1,
+        "Order": 1
+      }
+    },
+    {
+      "name": "Lane_1_02",
+      "shape": "Block",
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "position": [
+        -172,
+        0.5,
+        -144
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Lanes",
+      "transparency": 1,
+      "tags": [
+        "LaneNode"
+      ],
+      "attributes": {
+        "SpawnIndex": 1,
+        "Order": 2
+      }
+    },
+    {
+      "name": "Lane_1_03",
+      "shape": "Block",
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "position": [
+        -148,
+        0.5,
+        -128
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Lanes",
+      "transparency": 1,
+      "tags": [
+        "LaneNode"
+      ],
+      "attributes": {
+        "SpawnIndex": 1,
+        "Order": 3
+      }
+    },
+    {
+      "name": "Lane_1_04",
+      "shape": "Block",
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "position": [
+        -124,
+        0.5,
+        -112
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Lanes",
+      "transparency": 1,
+      "tags": [
+        "LaneNode"
+      ],
+      "attributes": {
+        "SpawnIndex": 1,
+        "Order": 4
+      }
+    },
+    {
+      "name": "Lane_1_05",
+      "shape": "Block",
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "position": [
+        -100,
+        0.5,
+        -96
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Lanes",
+      "transparency": 1,
+      "tags": [
+        "LaneNode"
+      ],
+      "attributes": {
+        "SpawnIndex": 1,
+        "Order": 5
+      }
+    },
+    {
+      "name": "Lane_1_06",
+      "shape": "Block",
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "position": [
+        -100,
+        0.5,
+        -72
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Lanes",
+      "transparency": 1,
+      "tags": [
+        "LaneNode"
+      ],
+      "attributes": {
+        "SpawnIndex": 1,
+        "Order": 6
+      }
+    },
+    {
+      "name": "Lane_1_07",
+      "shape": "Block",
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "position": [
+        -100,
+        0.5,
+        -48
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Lanes",
+      "transparency": 1,
+      "tags": [
+        "LaneNode"
+      ],
+      "attributes": {
+        "SpawnIndex": 1,
+        "Order": 7
+      }
+    },
+    {
+      "name": "Lane_1_08",
+      "shape": "Block",
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "position": [
+        -100,
+        0.5,
+        -24
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Lanes",
+      "transparency": 1,
+      "tags": [
+        "LaneNode"
+      ],
+      "attributes": {
+        "SpawnIndex": 1,
+        "Order": 8
+      }
+    },
+    {
+      "name": "Lane_1_09",
+      "shape": "Block",
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "position": [
+        -100,
+        0.5,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Lanes",
+      "transparency": 1,
+      "tags": [
+        "LaneNode"
+      ],
+      "attributes": {
+        "SpawnIndex": 1,
+        "Order": 9
+      }
+    },
+    {
+      "name": "Lane_1_10",
+      "shape": "Block",
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "position": [
+        -80,
+        0.5,
+        16
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Lanes",
+      "transparency": 1,
+      "tags": [
+        "LaneNode"
+      ],
+      "attributes": {
+        "SpawnIndex": 1,
+        "Order": 10
+      }
+    },
+    {
+      "name": "Lane_1_11",
+      "shape": "Block",
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "position": [
+        -60,
+        0.5,
+        32
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Lanes",
+      "transparency": 1,
+      "tags": [
+        "LaneNode"
+      ],
+      "attributes": {
+        "SpawnIndex": 1,
+        "Order": 11
+      }
+    },
+    {
+      "name": "Lane_1_12",
+      "shape": "Block",
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "position": [
+        -40,
+        0.5,
+        48
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Lanes",
+      "transparency": 1,
+      "tags": [
+        "LaneNode"
+      ],
+      "attributes": {
+        "SpawnIndex": 1,
+        "Order": 12
+      }
+    },
+    {
+      "name": "Lane_1_13",
+      "shape": "Block",
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "position": [
+        -20,
+        0.5,
+        60
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Lanes",
+      "transparency": 1,
+      "tags": [
+        "LaneNode"
+      ],
+      "attributes": {
+        "SpawnIndex": 1,
+        "Order": 13
+      }
+    },
+    {
+      "name": "Spawn_2",
+      "shape": "Block",
+      "size": [
+        2,
+        1,
+        2
+      ],
+      "position": [
+        0,
+        0.5,
+        -198
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Spawns",
+      "transparency": 1,
+      "tags": [
+        "EnemySpawn"
+      ],
+      "attributes": {
+        "SpawnIndex": 2
+      }
+    },
+    {
+      "name": "Lane_2_01",
+      "shape": "Block",
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "position": [
+        0,
+        0.5,
+        -190
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Lanes",
+      "transparency": 1,
+      "tags": [
+        "LaneNode"
+      ],
+      "attributes": {
+        "SpawnIndex": 2,
+        "Order": 1
+      }
+    },
+    {
+      "name": "Lane_2_02",
+      "shape": "Block",
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "position": [
+        0,
+        0.5,
+        -166
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Lanes",
+      "transparency": 1,
+      "tags": [
+        "LaneNode"
+      ],
+      "attributes": {
+        "SpawnIndex": 2,
+        "Order": 2
+      }
+    },
+    {
+      "name": "Lane_2_03",
+      "shape": "Block",
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "position": [
+        0,
+        0.5,
+        -142
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Lanes",
+      "transparency": 1,
+      "tags": [
+        "LaneNode"
+      ],
+      "attributes": {
+        "SpawnIndex": 2,
+        "Order": 3
+      }
+    },
+    {
+      "name": "Lane_2_04",
+      "shape": "Block",
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "position": [
+        0,
+        0.5,
+        -118
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Lanes",
+      "transparency": 1,
+      "tags": [
+        "LaneNode"
+      ],
+      "attributes": {
+        "SpawnIndex": 2,
+        "Order": 4
+      }
+    },
+    {
+      "name": "Lane_2_05",
+      "shape": "Block",
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "position": [
+        0,
+        0.5,
+        -94
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Lanes",
+      "transparency": 1,
+      "tags": [
+        "LaneNode"
+      ],
+      "attributes": {
+        "SpawnIndex": 2,
+        "Order": 5
+      }
+    },
+    {
+      "name": "Lane_2_06",
+      "shape": "Block",
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "position": [
+        0,
+        0.5,
+        -70
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Lanes",
+      "transparency": 1,
+      "tags": [
+        "LaneNode"
+      ],
+      "attributes": {
+        "SpawnIndex": 2,
+        "Order": 6
+      }
+    },
+    {
+      "name": "Lane_2_07",
+      "shape": "Block",
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "position": [
+        0,
+        0.5,
+        -46
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Lanes",
+      "transparency": 1,
+      "tags": [
+        "LaneNode"
+      ],
+      "attributes": {
+        "SpawnIndex": 2,
+        "Order": 7
+      }
+    },
+    {
+      "name": "Lane_2_08",
+      "shape": "Block",
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "position": [
+        0,
+        0.5,
+        -22
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Lanes",
+      "transparency": 1,
+      "tags": [
+        "LaneNode"
+      ],
+      "attributes": {
+        "SpawnIndex": 2,
+        "Order": 8
+      }
+    },
+    {
+      "name": "Lane_2_09",
+      "shape": "Block",
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "position": [
+        0,
+        0.5,
+        2
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Lanes",
+      "transparency": 1,
+      "tags": [
+        "LaneNode"
+      ],
+      "attributes": {
+        "SpawnIndex": 2,
+        "Order": 9
+      }
+    },
+    {
+      "name": "Lane_2_10",
+      "shape": "Block",
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "position": [
+        0,
+        0.5,
+        26
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Lanes",
+      "transparency": 1,
+      "tags": [
+        "LaneNode"
+      ],
+      "attributes": {
+        "SpawnIndex": 2,
+        "Order": 10
+      }
+    },
+    {
+      "name": "Lane_2_11",
+      "shape": "Block",
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "position": [
+        0,
+        0.5,
+        50
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Lanes",
+      "transparency": 1,
+      "tags": [
+        "LaneNode"
+      ],
+      "attributes": {
+        "SpawnIndex": 2,
+        "Order": 11
+      }
+    },
+    {
+      "name": "Spawn_3",
+      "shape": "Block",
+      "size": [
+        2,
+        1,
+        2
+      ],
+      "position": [
+        202,
+        0.5,
+        -164
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Spawns",
+      "transparency": 1,
+      "tags": [
+        "EnemySpawn"
+      ],
+      "attributes": {
+        "SpawnIndex": 3
+      }
+    },
+    {
+      "name": "Lane_3_01",
+      "shape": "Block",
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "position": [
+        196,
+        0.5,
+        -160
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Lanes",
+      "transparency": 1,
+      "tags": [
+        "LaneNode"
+      ],
+      "attributes": {
+        "SpawnIndex": 3,
+        "Order": 1
+      }
+    },
+    {
+      "name": "Lane_3_02",
+      "shape": "Block",
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "position": [
+        172,
+        0.5,
+        -144
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Lanes",
+      "transparency": 1,
+      "tags": [
+        "LaneNode"
+      ],
+      "attributes": {
+        "SpawnIndex": 3,
+        "Order": 2
+      }
+    },
+    {
+      "name": "Lane_3_03",
+      "shape": "Block",
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "position": [
+        148,
+        0.5,
+        -128
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Lanes",
+      "transparency": 1,
+      "tags": [
+        "LaneNode"
+      ],
+      "attributes": {
+        "SpawnIndex": 3,
+        "Order": 3
+      }
+    },
+    {
+      "name": "Lane_3_04",
+      "shape": "Block",
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "position": [
+        124,
+        0.5,
+        -112
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Lanes",
+      "transparency": 1,
+      "tags": [
+        "LaneNode"
+      ],
+      "attributes": {
+        "SpawnIndex": 3,
+        "Order": 4
+      }
+    },
+    {
+      "name": "Lane_3_05",
+      "shape": "Block",
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "position": [
+        100,
+        0.5,
+        -96
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Lanes",
+      "transparency": 1,
+      "tags": [
+        "LaneNode"
+      ],
+      "attributes": {
+        "SpawnIndex": 3,
+        "Order": 5
+      }
+    },
+    {
+      "name": "Lane_3_06",
+      "shape": "Block",
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "position": [
+        100,
+        0.5,
+        -72
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Lanes",
+      "transparency": 1,
+      "tags": [
+        "LaneNode"
+      ],
+      "attributes": {
+        "SpawnIndex": 3,
+        "Order": 6
+      }
+    },
+    {
+      "name": "Lane_3_07",
+      "shape": "Block",
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "position": [
+        100,
+        0.5,
+        -48
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Lanes",
+      "transparency": 1,
+      "tags": [
+        "LaneNode"
+      ],
+      "attributes": {
+        "SpawnIndex": 3,
+        "Order": 7
+      }
+    },
+    {
+      "name": "Lane_3_08",
+      "shape": "Block",
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "position": [
+        100,
+        0.5,
+        -24
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Lanes",
+      "transparency": 1,
+      "tags": [
+        "LaneNode"
+      ],
+      "attributes": {
+        "SpawnIndex": 3,
+        "Order": 8
+      }
+    },
+    {
+      "name": "Lane_3_09",
+      "shape": "Block",
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "position": [
+        100,
+        0.5,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Lanes",
+      "transparency": 1,
+      "tags": [
+        "LaneNode"
+      ],
+      "attributes": {
+        "SpawnIndex": 3,
+        "Order": 9
+      }
+    },
+    {
+      "name": "Lane_3_10",
+      "shape": "Block",
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "position": [
+        80,
+        0.5,
+        16
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Lanes",
+      "transparency": 1,
+      "tags": [
+        "LaneNode"
+      ],
+      "attributes": {
+        "SpawnIndex": 3,
+        "Order": 10
+      }
+    },
+    {
+      "name": "Lane_3_11",
+      "shape": "Block",
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "position": [
+        60,
+        0.5,
+        32
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Lanes",
+      "transparency": 1,
+      "tags": [
+        "LaneNode"
+      ],
+      "attributes": {
+        "SpawnIndex": 3,
+        "Order": 11
+      }
+    },
+    {
+      "name": "Lane_3_12",
+      "shape": "Block",
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "position": [
+        40,
+        0.5,
+        48
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Lanes",
+      "transparency": 1,
+      "tags": [
+        "LaneNode"
+      ],
+      "attributes": {
+        "SpawnIndex": 3,
+        "Order": 12
+      }
+    },
+    {
+      "name": "Lane_3_13",
+      "shape": "Block",
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "position": [
+        20,
+        0.5,
+        60
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Lanes",
+      "transparency": 1,
+      "tags": [
+        "LaneNode"
+      ],
+      "attributes": {
+        "SpawnIndex": 3,
+        "Order": 13
+      }
+    },
+    {
+      "name": "twr_01",
+      "shape": "Block",
+      "size": [
+        10,
+        0.4,
+        10
+      ],
+      "position": [
+        -128,
+        0.7,
+        -48
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Slots",
+      "transparency": 0.3,
+      "tags": [
+        "BuildSlot"
+      ],
+      "attributes": {
+        "SlotId": "twr_01",
+        "SlotType": "Tower",
+        "MaxLevel": 3,
+        "StartLevel": 0
+      }
+    },
+    {
+      "name": "twr_02",
+      "shape": "Block",
+      "size": [
+        10,
+        0.4,
+        10
+      ],
+      "position": [
+        -72,
+        0.7,
+        -76
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Slots",
+      "transparency": 0.3,
+      "tags": [
+        "BuildSlot"
+      ],
+      "attributes": {
+        "SlotId": "twr_02",
+        "SlotType": "Tower",
+        "MaxLevel": 3,
+        "StartLevel": 0
+      }
+    },
+    {
+      "name": "twr_03",
+      "shape": "Block",
+      "size": [
+        10,
+        0.4,
+        10
+      ],
+      "position": [
+        -142,
+        0.7,
+        14
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Slots",
+      "transparency": 0.3,
+      "tags": [
+        "BuildSlot"
+      ],
+      "attributes": {
+        "SlotId": "twr_03",
+        "SlotType": "Tower",
+        "MaxLevel": 3,
+        "StartLevel": 0
+      }
+    },
+    {
+      "name": "twr_04",
+      "shape": "Block",
+      "size": [
+        10,
+        0.4,
+        10
+      ],
+      "position": [
+        -58,
+        0.7,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Slots",
+      "transparency": 0.3,
+      "tags": [
+        "BuildSlot"
+      ],
+      "attributes": {
+        "SlotId": "twr_04",
+        "SlotType": "Tower",
+        "MaxLevel": 3,
+        "StartLevel": 0
+      }
+    },
+    {
+      "name": "twr_05",
+      "shape": "Block",
+      "size": [
+        10,
+        0.4,
+        10
+      ],
+      "position": [
+        128,
+        0.7,
+        -48
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Slots",
+      "transparency": 0.3,
+      "tags": [
+        "BuildSlot"
+      ],
+      "attributes": {
+        "SlotId": "twr_05",
+        "SlotType": "Tower",
+        "MaxLevel": 3,
+        "StartLevel": 0
+      }
+    },
+    {
+      "name": "twr_06",
+      "shape": "Block",
+      "size": [
+        10,
+        0.4,
+        10
+      ],
+      "position": [
+        72,
+        0.7,
+        -76
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Slots",
+      "transparency": 0.3,
+      "tags": [
+        "BuildSlot"
+      ],
+      "attributes": {
+        "SlotId": "twr_06",
+        "SlotType": "Tower",
+        "MaxLevel": 3,
+        "StartLevel": 0
+      }
+    },
+    {
+      "name": "twr_07",
+      "shape": "Block",
+      "size": [
+        10,
+        0.4,
+        10
+      ],
+      "position": [
+        142,
+        0.7,
+        14
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Slots",
+      "transparency": 0.3,
+      "tags": [
+        "BuildSlot"
+      ],
+      "attributes": {
+        "SlotId": "twr_07",
+        "SlotType": "Tower",
+        "MaxLevel": 3,
+        "StartLevel": 0
+      }
+    },
+    {
+      "name": "twr_08",
+      "shape": "Block",
+      "size": [
+        10,
+        0.4,
+        10
+      ],
+      "position": [
+        58,
+        0.7,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Slots",
+      "transparency": 0.3,
+      "tags": [
+        "BuildSlot"
+      ],
+      "attributes": {
+        "SlotId": "twr_08",
+        "SlotType": "Tower",
+        "MaxLevel": 3,
+        "StartLevel": 0
+      }
+    },
+    {
+      "name": "twr_09",
+      "shape": "Block",
+      "size": [
+        10,
+        0.4,
+        10
+      ],
+      "position": [
+        -27,
+        0.7,
+        -170
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Slots",
+      "transparency": 0.3,
+      "tags": [
+        "BuildSlot"
+      ],
+      "attributes": {
+        "SlotId": "twr_09",
+        "SlotType": "Tower",
+        "MaxLevel": 3,
+        "StartLevel": 0
+      }
+    },
+    {
+      "name": "twr_10",
+      "shape": "Block",
+      "size": [
+        10,
+        0.4,
+        10
+      ],
+      "position": [
+        27,
+        0.7,
+        -170
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Slots",
+      "transparency": 0.3,
+      "tags": [
+        "BuildSlot"
+      ],
+      "attributes": {
+        "SlotId": "twr_10",
+        "SlotType": "Tower",
+        "MaxLevel": 3,
+        "StartLevel": 0
+      }
+    },
+    {
+      "name": "twr_11",
+      "shape": "Block",
+      "size": [
+        10,
+        0.4,
+        10
+      ],
+      "position": [
+        -27,
+        0.7,
+        14
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Slots",
+      "transparency": 0.3,
+      "tags": [
+        "BuildSlot"
+      ],
+      "attributes": {
+        "SlotId": "twr_11",
+        "SlotType": "Tower",
+        "MaxLevel": 3,
+        "StartLevel": 0
+      }
+    },
+    {
+      "name": "twr_12",
+      "shape": "Block",
+      "size": [
+        10,
+        0.4,
+        10
+      ],
+      "position": [
+        27,
+        0.7,
+        14
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Slots",
+      "transparency": 0.3,
+      "tags": [
+        "BuildSlot"
+      ],
+      "attributes": {
+        "SlotId": "twr_12",
+        "SlotType": "Tower",
+        "MaxLevel": 3,
+        "StartLevel": 0
+      }
+    },
+    {
+      "name": "wal_01",
+      "shape": "Block",
+      "size": [
+        16,
+        0.4,
+        12
+      ],
+      "position": [
+        -172,
+        0.7,
+        -144
+      ],
+      "orientation": [
+        0,
+        56.3099,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Slots",
+      "transparency": 0.3,
+      "tags": [
+        "BuildSlot"
+      ],
+      "attributes": {
+        "SlotId": "wal_01",
+        "SlotType": "Wall",
+        "MaxLevel": 3,
+        "StartLevel": 0
+      }
+    },
+    {
+      "name": "wal_02",
+      "shape": "Block",
+      "size": [
+        16,
+        0.4,
+        12
+      ],
+      "position": [
+        -124,
+        0.7,
+        -112
+      ],
+      "orientation": [
+        0,
+        56.3099,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Slots",
+      "transparency": 0.3,
+      "tags": [
+        "BuildSlot"
+      ],
+      "attributes": {
+        "SlotId": "wal_02",
+        "SlotType": "Wall",
+        "MaxLevel": 3,
+        "StartLevel": 0
+      }
+    },
+    {
+      "name": "wal_03",
+      "shape": "Block",
+      "size": [
+        16,
+        0.4,
+        12
+      ],
+      "position": [
+        -100,
+        0.7,
+        -72
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Slots",
+      "transparency": 0.3,
+      "tags": [
+        "BuildSlot"
+      ],
+      "attributes": {
+        "SlotId": "wal_03",
+        "SlotType": "Wall",
+        "MaxLevel": 3,
+        "StartLevel": 0
+      }
+    },
+    {
+      "name": "wal_04",
+      "shape": "Block",
+      "size": [
+        16,
+        0.4,
+        12
+      ],
+      "position": [
+        -100,
+        0.7,
+        -24
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Slots",
+      "transparency": 0.3,
+      "tags": [
+        "BuildSlot"
+      ],
+      "attributes": {
+        "SlotId": "wal_04",
+        "SlotType": "Wall",
+        "MaxLevel": 3,
+        "StartLevel": 0
+      }
+    },
+    {
+      "name": "wal_05",
+      "shape": "Block",
+      "size": [
+        16,
+        0.4,
+        12
+      ],
+      "position": [
+        -60,
+        0.7,
+        32
+      ],
+      "orientation": [
+        0,
+        51.3402,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Slots",
+      "transparency": 0.3,
+      "tags": [
+        "BuildSlot"
+      ],
+      "attributes": {
+        "SlotId": "wal_05",
+        "SlotType": "Wall",
+        "MaxLevel": 3,
+        "StartLevel": 0
+      }
+    },
+    {
+      "name": "wal_06",
+      "shape": "Block",
+      "size": [
+        16,
+        0.4,
+        12
+      ],
+      "position": [
+        172,
+        0.7,
+        -144
+      ],
+      "orientation": [
+        0,
+        -56.3099,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Slots",
+      "transparency": 0.3,
+      "tags": [
+        "BuildSlot"
+      ],
+      "attributes": {
+        "SlotId": "wal_06",
+        "SlotType": "Wall",
+        "MaxLevel": 3,
+        "StartLevel": 0
+      }
+    },
+    {
+      "name": "wal_07",
+      "shape": "Block",
+      "size": [
+        16,
+        0.4,
+        12
+      ],
+      "position": [
+        124,
+        0.7,
+        -112
+      ],
+      "orientation": [
+        0,
+        -56.3099,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Slots",
+      "transparency": 0.3,
+      "tags": [
+        "BuildSlot"
+      ],
+      "attributes": {
+        "SlotId": "wal_07",
+        "SlotType": "Wall",
+        "MaxLevel": 3,
+        "StartLevel": 0
+      }
+    },
+    {
+      "name": "wal_08",
+      "shape": "Block",
+      "size": [
+        16,
+        0.4,
+        12
+      ],
+      "position": [
+        100,
+        0.7,
+        -72
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Slots",
+      "transparency": 0.3,
+      "tags": [
+        "BuildSlot"
+      ],
+      "attributes": {
+        "SlotId": "wal_08",
+        "SlotType": "Wall",
+        "MaxLevel": 3,
+        "StartLevel": 0
+      }
+    },
+    {
+      "name": "wal_09",
+      "shape": "Block",
+      "size": [
+        16,
+        0.4,
+        12
+      ],
+      "position": [
+        100,
+        0.7,
+        -24
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Slots",
+      "transparency": 0.3,
+      "tags": [
+        "BuildSlot"
+      ],
+      "attributes": {
+        "SlotId": "wal_09",
+        "SlotType": "Wall",
+        "MaxLevel": 3,
+        "StartLevel": 0
+      }
+    },
+    {
+      "name": "wal_10",
+      "shape": "Block",
+      "size": [
+        16,
+        0.4,
+        12
+      ],
+      "position": [
+        60,
+        0.7,
+        32
+      ],
+      "orientation": [
+        0,
+        -51.3402,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Slots",
+      "transparency": 0.3,
+      "tags": [
+        "BuildSlot"
+      ],
+      "attributes": {
+        "SlotId": "wal_10",
+        "SlotType": "Wall",
+        "MaxLevel": 3,
+        "StartLevel": 0
+      }
+    },
+    {
+      "name": "wal_11",
+      "shape": "Block",
+      "size": [
+        16,
+        0.4,
+        12
+      ],
+      "position": [
+        0,
+        0.7,
+        -144
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Slots",
+      "transparency": 0.3,
+      "tags": [
+        "BuildSlot"
+      ],
+      "attributes": {
+        "SlotId": "wal_11",
+        "SlotType": "Wall",
+        "MaxLevel": 3,
+        "StartLevel": 0
+      }
+    },
+    {
+      "name": "wal_12",
+      "shape": "Block",
+      "size": [
+        16,
+        0.4,
+        12
+      ],
+      "position": [
+        0,
+        0.7,
+        -96
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Slots",
+      "transparency": 0.3,
+      "tags": [
+        "BuildSlot"
+      ],
+      "attributes": {
+        "SlotId": "wal_12",
+        "SlotType": "Wall",
+        "MaxLevel": 3,
+        "StartLevel": 0
+      }
+    },
+    {
+      "name": "wal_13",
+      "shape": "Block",
+      "size": [
+        16,
+        0.4,
+        12
+      ],
+      "position": [
+        0,
+        0.7,
+        -48
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Slots",
+      "transparency": 0.3,
+      "tags": [
+        "BuildSlot"
+      ],
+      "attributes": {
+        "SlotId": "wal_13",
+        "SlotType": "Wall",
+        "MaxLevel": 3,
+        "StartLevel": 0
+      }
+    },
+    {
+      "name": "wal_14",
+      "shape": "Block",
+      "size": [
+        16,
+        0.4,
+        12
+      ],
+      "position": [
+        0,
+        0.7,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Slots",
+      "transparency": 0.3,
+      "tags": [
+        "BuildSlot"
+      ],
+      "attributes": {
+        "SlotId": "wal_14",
+        "SlotType": "Wall",
+        "MaxLevel": 3,
+        "StartLevel": 0
+      }
+    },
+    {
+      "name": "hou_01",
+      "shape": "Block",
+      "size": [
+        10,
+        0.4,
+        10
+      ],
+      "position": [
+        -128,
+        0.7,
+        -78
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Slots",
+      "transparency": 0.3,
+      "tags": [
+        "BuildSlot"
+      ],
+      "attributes": {
+        "SlotId": "hou_01",
+        "SlotType": "House",
+        "MaxLevel": 2,
+        "StartLevel": 0
+      }
+    },
+    {
+      "name": "hou_02",
+      "shape": "Block",
+      "size": [
+        10,
+        0.4,
+        10
+      ],
+      "position": [
+        -128,
+        0.7,
+        -18
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Slots",
+      "transparency": 0.3,
+      "tags": [
+        "BuildSlot"
+      ],
+      "attributes": {
+        "SlotId": "hou_02",
+        "SlotType": "House",
+        "MaxLevel": 2,
+        "StartLevel": 0
+      }
+    },
+    {
+      "name": "hou_03",
+      "shape": "Block",
+      "size": [
+        10,
+        0.4,
+        10
+      ],
+      "position": [
+        128,
+        0.7,
+        -78
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Slots",
+      "transparency": 0.3,
+      "tags": [
+        "BuildSlot"
+      ],
+      "attributes": {
+        "SlotId": "hou_03",
+        "SlotType": "House",
+        "MaxLevel": 2,
+        "StartLevel": 0
+      }
+    },
+    {
+      "name": "hou_04",
+      "shape": "Block",
+      "size": [
+        10,
+        0.4,
+        10
+      ],
+      "position": [
+        128,
+        0.7,
+        -18
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Slots",
+      "transparency": 0.3,
+      "tags": [
+        "BuildSlot"
+      ],
+      "attributes": {
+        "SlotId": "hou_04",
+        "SlotType": "House",
+        "MaxLevel": 2,
+        "StartLevel": 0
+      }
+    },
+    {
+      "name": "hou_05",
+      "shape": "Block",
+      "size": [
+        10,
+        0.4,
+        10
+      ],
+      "position": [
+        -27,
+        0.7,
+        -132
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Slots",
+      "transparency": 0.3,
+      "tags": [
+        "BuildSlot"
+      ],
+      "attributes": {
+        "SlotId": "hou_05",
+        "SlotType": "House",
+        "MaxLevel": 2,
+        "StartLevel": 0
+      }
+    },
+    {
+      "name": "hou_06",
+      "shape": "Block",
+      "size": [
+        10,
+        0.4,
+        10
+      ],
+      "position": [
+        27,
+        0.7,
+        -132
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Slots",
+      "transparency": 0.3,
+      "tags": [
+        "BuildSlot"
+      ],
+      "attributes": {
+        "SlotId": "hou_06",
+        "SlotType": "House",
+        "MaxLevel": 2,
+        "StartLevel": 0
+      }
+    },
+    {
+      "name": "hou_07",
+      "shape": "Block",
+      "size": [
+        10,
+        0.4,
+        10
+      ],
+      "position": [
+        -27,
+        0.7,
+        -84
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Slots",
+      "transparency": 0.3,
+      "tags": [
+        "BuildSlot"
+      ],
+      "attributes": {
+        "SlotId": "hou_07",
+        "SlotType": "House",
+        "MaxLevel": 2,
+        "StartLevel": 0
+      }
+    },
+    {
+      "name": "hou_08",
+      "shape": "Block",
+      "size": [
+        10,
+        0.4,
+        10
+      ],
+      "position": [
+        27,
+        0.7,
+        -84
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Slots",
+      "transparency": 0.3,
+      "tags": [
+        "BuildSlot"
+      ],
+      "attributes": {
+        "SlotId": "hou_08",
+        "SlotType": "House",
+        "MaxLevel": 2,
+        "StartLevel": 0
+      }
+    },
+    {
+      "name": "hou_09",
+      "shape": "Block",
+      "size": [
+        10,
+        0.4,
+        10
+      ],
+      "position": [
+        -48,
+        0.7,
+        114
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Slots",
+      "transparency": 0.3,
+      "tags": [
+        "BuildSlot"
+      ],
+      "attributes": {
+        "SlotId": "hou_09",
+        "SlotType": "House",
+        "MaxLevel": 2,
+        "StartLevel": 0
+      }
+    },
+    {
+      "name": "hou_10",
+      "shape": "Block",
+      "size": [
+        10,
+        0.4,
+        10
+      ],
+      "position": [
+        0,
+        0.7,
+        146
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Slots",
+      "transparency": 0.3,
+      "tags": [
+        "BuildSlot"
+      ],
+      "attributes": {
+        "SlotId": "hou_10",
+        "SlotType": "House",
+        "MaxLevel": 2,
+        "StartLevel": 0
+      }
+    },
+    {
+      "name": "hou_11",
+      "shape": "Block",
+      "size": [
+        10,
+        0.4,
+        10
+      ],
+      "position": [
+        48,
+        0.7,
+        114
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Slots",
+      "transparency": 0.3,
+      "tags": [
+        "BuildSlot"
+      ],
+      "attributes": {
+        "SlotId": "hou_11",
+        "SlotType": "House",
+        "MaxLevel": 2,
+        "StartLevel": 0
+      }
+    },
+    {
+      "name": "mil_01",
+      "shape": "Block",
+      "size": [
+        18,
+        0.4,
+        18
+      ],
+      "position": [
+        -153,
+        0.7,
+        60
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Slots",
+      "transparency": 0.3,
+      "tags": [
+        "BuildSlot"
+      ],
+      "attributes": {
+        "SlotId": "mil_01",
+        "SlotType": "Mill",
+        "MaxLevel": 3,
+        "StartLevel": 0
+      }
+    },
+    {
+      "name": "mil_02",
+      "shape": "Block",
+      "size": [
+        18,
+        0.4,
+        18
+      ],
+      "position": [
+        153,
+        0.7,
+        60
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Slots",
+      "transparency": 0.3,
+      "tags": [
+        "BuildSlot"
+      ],
+      "attributes": {
+        "SlotId": "mil_02",
+        "SlotType": "Mill",
+        "MaxLevel": 3,
+        "StartLevel": 0
+      }
+    },
+    {
+      "name": "mil_03",
+      "shape": "Block",
+      "size": [
+        18,
+        0.4,
+        18
+      ],
+      "position": [
+        -29,
+        0.7,
+        -28
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Slots",
+      "transparency": 0.3,
+      "tags": [
+        "BuildSlot"
+      ],
+      "attributes": {
+        "SlotId": "mil_03",
+        "SlotType": "Mill",
+        "MaxLevel": 3,
+        "StartLevel": 0
+      }
+    },
+    {
+      "name": "bar_01",
+      "shape": "Block",
+      "size": [
+        12,
+        0.4,
+        12
+      ],
+      "position": [
+        -62,
+        0.7,
+        78
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Slots",
+      "transparency": 0.3,
+      "tags": [
+        "BuildSlot"
+      ],
+      "attributes": {
+        "SlotId": "bar_01",
+        "SlotType": "Barracks",
+        "MaxLevel": 3,
+        "StartLevel": 0
+      }
+    },
+    {
+      "name": "bar_02",
+      "shape": "Block",
+      "size": [
+        12,
+        0.4,
+        12
+      ],
+      "position": [
+        62,
+        0.7,
+        78
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Slots",
+      "transparency": 0.3,
+      "tags": [
+        "BuildSlot"
+      ],
+      "attributes": {
+        "SlotId": "bar_02",
+        "SlotType": "Barracks",
+        "MaxLevel": 3,
+        "StartLevel": 0
+      }
+    },
+    {
+      "name": "arc_01",
+      "shape": "Block",
+      "size": [
+        12,
+        0.4,
+        12
+      ],
+      "position": [
+        -64,
+        0.7,
+        -32
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Slots",
+      "transparency": 0.3,
+      "tags": [
+        "BuildSlot"
+      ],
+      "attributes": {
+        "SlotId": "arc_01",
+        "SlotType": "ArcheryRange",
+        "MaxLevel": 3,
+        "StartLevel": 0
+      }
+    },
+    {
+      "name": "arc_02",
+      "shape": "Block",
+      "size": [
+        12,
+        0.4,
+        12
+      ],
+      "position": [
+        64,
+        0.7,
+        -32
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Slots",
+      "transparency": 0.3,
+      "tags": [
+        "BuildSlot"
+      ],
+      "attributes": {
+        "SlotId": "arc_02",
+        "SlotType": "ArcheryRange",
+        "MaxLevel": 3,
+        "StartLevel": 0
+      }
+    },
+    {
+      "name": "Road_001",
+      "shape": "Block",
+      "size": [
+        36,
+        0.04,
+        7.211102550927978
+      ],
+      "position": [
+        -199.0,
+        0.5,
+        -162.0
+      ],
+      "orientation": [
+        0,
+        56.309932474020215,
+        0
+      ],
+      "color": "#B9A485",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "Road_002",
+      "shape": "Block",
+      "size": [
+        36,
+        0.04,
+        28.844410203711913
+      ],
+      "position": [
+        -184.0,
+        0.5,
+        -152.0
+      ],
+      "orientation": [
+        0,
+        56.309932474020215,
+        0
+      ],
+      "color": "#B9A485",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "Road_003",
+      "shape": "Block",
+      "size": [
+        36,
+        0.04,
+        28.844410203711913
+      ],
+      "position": [
+        -160.0,
+        0.5,
+        -136.0
+      ],
+      "orientation": [
+        0,
+        56.309932474020215,
+        0
+      ],
+      "color": "#B9A485",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "Road_004",
+      "shape": "Block",
+      "size": [
+        36,
+        0.04,
+        28.844410203711913
+      ],
+      "position": [
+        -136.0,
+        0.5,
+        -120.0
+      ],
+      "orientation": [
+        0,
+        56.309932474020215,
+        0
+      ],
+      "color": "#B9A485",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "Road_005",
+      "shape": "Block",
+      "size": [
+        36,
+        0.04,
+        28.844410203711913
+      ],
+      "position": [
+        -112.0,
+        0.5,
+        -104.0
+      ],
+      "orientation": [
+        0,
+        56.309932474020215,
+        0
+      ],
+      "color": "#B9A485",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "Road_006",
+      "shape": "Block",
+      "size": [
+        36,
+        0.04,
+        24.0
+      ],
+      "position": [
+        -100.0,
+        0.5,
+        -84.0
+      ],
+      "orientation": [
+        0,
+        0.0,
+        0
+      ],
+      "color": "#B9A485",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "Road_007",
+      "shape": "Block",
+      "size": [
+        36,
+        0.04,
+        24.0
+      ],
+      "position": [
+        -100.0,
+        0.5,
+        -60.0
+      ],
+      "orientation": [
+        0,
+        0.0,
+        0
+      ],
+      "color": "#B9A485",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "Road_008",
+      "shape": "Block",
+      "size": [
+        36,
+        0.04,
+        24.0
+      ],
+      "position": [
+        -100.0,
+        0.5,
+        -36.0
+      ],
+      "orientation": [
+        0,
+        0.0,
+        0
+      ],
+      "color": "#B9A485",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "Road_009",
+      "shape": "Block",
+      "size": [
+        36,
+        0.04,
+        24.0
+      ],
+      "position": [
+        -100.0,
+        0.5,
+        -12.0
+      ],
+      "orientation": [
+        0,
+        0.0,
+        0
+      ],
+      "color": "#B9A485",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "Road_010",
+      "shape": "Block",
+      "size": [
+        36,
+        0.04,
+        25.612496949731394
+      ],
+      "position": [
+        -90.0,
+        0.5,
+        8.0
+      ],
+      "orientation": [
+        0,
+        51.34019174590991,
+        0
+      ],
+      "color": "#B9A485",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "Road_011",
+      "shape": "Block",
+      "size": [
+        36,
+        0.04,
+        25.612496949731394
+      ],
+      "position": [
+        -70.0,
+        0.5,
+        24.0
+      ],
+      "orientation": [
+        0,
+        51.34019174590991,
+        0
+      ],
+      "color": "#B9A485",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "Road_012",
+      "shape": "Block",
+      "size": [
+        36,
+        0.04,
+        25.612496949731394
+      ],
+      "position": [
+        -50.0,
+        0.5,
+        40.0
+      ],
+      "orientation": [
+        0,
+        51.34019174590991,
+        0
+      ],
+      "color": "#B9A485",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "Road_013",
+      "shape": "Block",
+      "size": [
+        36,
+        0.04,
+        23.323807579381203
+      ],
+      "position": [
+        -30.0,
+        0.5,
+        54.0
+      ],
+      "orientation": [
+        0,
+        59.03624346792648,
+        0
+      ],
+      "color": "#B9A485",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "Road_014",
+      "shape": "Block",
+      "size": [
+        36,
+        0.04,
+        22.360679774997898
+      ],
+      "position": [
+        -10.0,
+        0.5,
+        65.0
+      ],
+      "orientation": [
+        0,
+        63.43494882292201,
+        0
+      ],
+      "color": "#B9A485",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "Road_015",
+      "shape": "Block",
+      "size": [
+        36,
+        0.04,
+        8.0
+      ],
+      "position": [
+        0.0,
+        0.5,
+        -194.0
+      ],
+      "orientation": [
+        0,
+        0.0,
+        0
+      ],
+      "color": "#B9A485",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "Road_016",
+      "shape": "Block",
+      "size": [
+        36,
+        0.04,
+        24.0
+      ],
+      "position": [
+        0.0,
+        0.5,
+        -178.0
+      ],
+      "orientation": [
+        0,
+        0.0,
+        0
+      ],
+      "color": "#B9A485",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "Road_017",
+      "shape": "Block",
+      "size": [
+        36,
+        0.04,
+        24.0
+      ],
+      "position": [
+        0.0,
+        0.5,
+        -154.0
+      ],
+      "orientation": [
+        0,
+        0.0,
+        0
+      ],
+      "color": "#B9A485",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "Road_018",
+      "shape": "Block",
+      "size": [
+        36,
+        0.04,
+        24.0
+      ],
+      "position": [
+        0.0,
+        0.5,
+        -130.0
+      ],
+      "orientation": [
+        0,
+        0.0,
+        0
+      ],
+      "color": "#B9A485",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "Road_019",
+      "shape": "Block",
+      "size": [
+        36,
+        0.04,
+        24.0
+      ],
+      "position": [
+        0.0,
+        0.5,
+        -106.0
+      ],
+      "orientation": [
+        0,
+        0.0,
+        0
+      ],
+      "color": "#B9A485",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "Road_020",
+      "shape": "Block",
+      "size": [
+        36,
+        0.04,
+        24.0
+      ],
+      "position": [
+        0.0,
+        0.5,
+        -82.0
+      ],
+      "orientation": [
+        0,
+        0.0,
+        0
+      ],
+      "color": "#B9A485",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "Road_021",
+      "shape": "Block",
+      "size": [
+        36,
+        0.04,
+        24.0
+      ],
+      "position": [
+        0.0,
+        0.5,
+        -58.0
+      ],
+      "orientation": [
+        0,
+        0.0,
+        0
+      ],
+      "color": "#B9A485",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "Road_022",
+      "shape": "Block",
+      "size": [
+        36,
+        0.04,
+        24.0
+      ],
+      "position": [
+        0.0,
+        0.5,
+        -34.0
+      ],
+      "orientation": [
+        0,
+        0.0,
+        0
+      ],
+      "color": "#B9A485",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "Road_023",
+      "shape": "Block",
+      "size": [
+        36,
+        0.04,
+        24.0
+      ],
+      "position": [
+        0.0,
+        0.5,
+        -10.0
+      ],
+      "orientation": [
+        0,
+        0.0,
+        0
+      ],
+      "color": "#B9A485",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "Road_024",
+      "shape": "Block",
+      "size": [
+        36,
+        0.04,
+        24.0
+      ],
+      "position": [
+        0.0,
+        0.5,
+        14.0
+      ],
+      "orientation": [
+        0,
+        0.0,
+        0
+      ],
+      "color": "#B9A485",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "Road_025",
+      "shape": "Block",
+      "size": [
+        36,
+        0.04,
+        24.0
+      ],
+      "position": [
+        0.0,
+        0.5,
+        38.0
+      ],
+      "orientation": [
+        0,
+        0.0,
+        0
+      ],
+      "color": "#B9A485",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "Road_026",
+      "shape": "Block",
+      "size": [
+        36,
+        0.04,
+        20.0
+      ],
+      "position": [
+        0.0,
+        0.5,
+        60.0
+      ],
+      "orientation": [
+        0,
+        0.0,
+        0
+      ],
+      "color": "#B9A485",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "Road_027",
+      "shape": "Block",
+      "size": [
+        36,
+        0.04,
+        7.211102550927978
+      ],
+      "position": [
+        199.0,
+        0.5,
+        -162.0
+      ],
+      "orientation": [
+        0,
+        -56.309932474020215,
+        0
+      ],
+      "color": "#B9A485",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "Road_028",
+      "shape": "Block",
+      "size": [
+        36,
+        0.04,
+        28.844410203711913
+      ],
+      "position": [
+        184.0,
+        0.5,
+        -152.0
+      ],
+      "orientation": [
+        0,
+        -56.309932474020215,
+        0
+      ],
+      "color": "#B9A485",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "Road_029",
+      "shape": "Block",
+      "size": [
+        36,
+        0.04,
+        28.844410203711913
+      ],
+      "position": [
+        160.0,
+        0.5,
+        -136.0
+      ],
+      "orientation": [
+        0,
+        -56.309932474020215,
+        0
+      ],
+      "color": "#B9A485",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "Road_030",
+      "shape": "Block",
+      "size": [
+        36,
+        0.04,
+        28.844410203711913
+      ],
+      "position": [
+        136.0,
+        0.5,
+        -120.0
+      ],
+      "orientation": [
+        0,
+        -56.309932474020215,
+        0
+      ],
+      "color": "#B9A485",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "Road_031",
+      "shape": "Block",
+      "size": [
+        36,
+        0.04,
+        28.844410203711913
+      ],
+      "position": [
+        112.0,
+        0.5,
+        -104.0
+      ],
+      "orientation": [
+        0,
+        -56.309932474020215,
+        0
+      ],
+      "color": "#B9A485",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "Road_032",
+      "shape": "Block",
+      "size": [
+        36,
+        0.04,
+        24.0
+      ],
+      "position": [
+        100.0,
+        0.5,
+        -84.0
+      ],
+      "orientation": [
+        0,
+        0.0,
+        0
+      ],
+      "color": "#B9A485",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "Road_033",
+      "shape": "Block",
+      "size": [
+        36,
+        0.04,
+        24.0
+      ],
+      "position": [
+        100.0,
+        0.5,
+        -60.0
+      ],
+      "orientation": [
+        0,
+        0.0,
+        0
+      ],
+      "color": "#B9A485",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "Road_034",
+      "shape": "Block",
+      "size": [
+        36,
+        0.04,
+        24.0
+      ],
+      "position": [
+        100.0,
+        0.5,
+        -36.0
+      ],
+      "orientation": [
+        0,
+        0.0,
+        0
+      ],
+      "color": "#B9A485",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "Road_035",
+      "shape": "Block",
+      "size": [
+        36,
+        0.04,
+        24.0
+      ],
+      "position": [
+        100.0,
+        0.5,
+        -12.0
+      ],
+      "orientation": [
+        0,
+        0.0,
+        0
+      ],
+      "color": "#B9A485",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "Road_036",
+      "shape": "Block",
+      "size": [
+        36,
+        0.04,
+        25.612496949731394
+      ],
+      "position": [
+        90.0,
+        0.5,
+        8.0
+      ],
+      "orientation": [
+        0,
+        -51.34019174590991,
+        0
+      ],
+      "color": "#B9A485",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "Road_037",
+      "shape": "Block",
+      "size": [
+        36,
+        0.04,
+        25.612496949731394
+      ],
+      "position": [
+        70.0,
+        0.5,
+        24.0
+      ],
+      "orientation": [
+        0,
+        -51.34019174590991,
+        0
+      ],
+      "color": "#B9A485",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "Road_038",
+      "shape": "Block",
+      "size": [
+        36,
+        0.04,
+        25.612496949731394
+      ],
+      "position": [
+        50.0,
+        0.5,
+        40.0
+      ],
+      "orientation": [
+        0,
+        -51.34019174590991,
+        0
+      ],
+      "color": "#B9A485",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "Road_039",
+      "shape": "Block",
+      "size": [
+        36,
+        0.04,
+        23.323807579381203
+      ],
+      "position": [
+        30.0,
+        0.5,
+        54.0
+      ],
+      "orientation": [
+        0,
+        -59.03624346792648,
+        0
+      ],
+      "color": "#B9A485",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "Road_040",
+      "shape": "Block",
+      "size": [
+        36,
+        0.04,
+        22.360679774997898
+      ],
+      "position": [
+        10.0,
+        0.5,
+        65.0
+      ],
+      "orientation": [
+        0,
+        -63.43494882292201,
+        0
+      ],
+      "color": "#B9A485",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "RoadJoin_001",
+      "shape": "Cylinder",
+      "size": [
+        0.04,
+        36,
+        36
+      ],
+      "position": [
+        -196,
+        0.5,
+        -160
+      ],
+      "orientation": [
+        0,
+        0,
+        90
+      ],
+      "color": "#B9A485",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "RoadJoin_002",
+      "shape": "Cylinder",
+      "size": [
+        0.04,
+        36,
+        36
+      ],
+      "position": [
+        -172,
+        0.5,
+        -144
+      ],
+      "orientation": [
+        0,
+        0,
+        90
+      ],
+      "color": "#B9A485",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "RoadJoin_003",
+      "shape": "Cylinder",
+      "size": [
+        0.04,
+        36,
+        36
+      ],
+      "position": [
+        -148,
+        0.5,
+        -128
+      ],
+      "orientation": [
+        0,
+        0,
+        90
+      ],
+      "color": "#B9A485",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "RoadJoin_004",
+      "shape": "Cylinder",
+      "size": [
+        0.04,
+        36,
+        36
+      ],
+      "position": [
+        -124,
+        0.5,
+        -112
+      ],
+      "orientation": [
+        0,
+        0,
+        90
+      ],
+      "color": "#B9A485",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "RoadJoin_005",
+      "shape": "Cylinder",
+      "size": [
+        0.04,
+        36,
+        36
+      ],
+      "position": [
+        -100,
+        0.5,
+        -96
+      ],
+      "orientation": [
+        0,
+        0,
+        90
+      ],
+      "color": "#B9A485",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "RoadJoin_006",
+      "shape": "Cylinder",
+      "size": [
+        0.04,
+        36,
+        36
+      ],
+      "position": [
+        -100,
+        0.5,
+        -72
+      ],
+      "orientation": [
+        0,
+        0,
+        90
+      ],
+      "color": "#B9A485",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "RoadJoin_007",
+      "shape": "Cylinder",
+      "size": [
+        0.04,
+        36,
+        36
+      ],
+      "position": [
+        -100,
+        0.5,
+        -48
+      ],
+      "orientation": [
+        0,
+        0,
+        90
+      ],
+      "color": "#B9A485",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "RoadJoin_008",
+      "shape": "Cylinder",
+      "size": [
+        0.04,
+        36,
+        36
+      ],
+      "position": [
+        -100,
+        0.5,
+        -24
+      ],
+      "orientation": [
+        0,
+        0,
+        90
+      ],
+      "color": "#B9A485",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "RoadJoin_009",
+      "shape": "Cylinder",
+      "size": [
+        0.04,
+        36,
+        36
+      ],
+      "position": [
+        -100,
+        0.5,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        90
+      ],
+      "color": "#B9A485",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "RoadJoin_010",
+      "shape": "Cylinder",
+      "size": [
+        0.04,
+        36,
+        36
+      ],
+      "position": [
+        -80,
+        0.5,
+        16
+      ],
+      "orientation": [
+        0,
+        0,
+        90
+      ],
+      "color": "#B9A485",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "RoadJoin_011",
+      "shape": "Cylinder",
+      "size": [
+        0.04,
+        36,
+        36
+      ],
+      "position": [
+        -60,
+        0.5,
+        32
+      ],
+      "orientation": [
+        0,
+        0,
+        90
+      ],
+      "color": "#B9A485",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "RoadJoin_012",
+      "shape": "Cylinder",
+      "size": [
+        0.04,
+        36,
+        36
+      ],
+      "position": [
+        -40,
+        0.5,
+        48
+      ],
+      "orientation": [
+        0,
+        0,
+        90
+      ],
+      "color": "#B9A485",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "RoadJoin_013",
+      "shape": "Cylinder",
+      "size": [
+        0.04,
+        36,
+        36
+      ],
+      "position": [
+        -20,
+        0.5,
+        60
+      ],
+      "orientation": [
+        0,
+        0,
+        90
+      ],
+      "color": "#B9A485",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "RoadJoin_014",
+      "shape": "Cylinder",
+      "size": [
+        0.04,
+        36,
+        36
+      ],
+      "position": [
+        0,
+        0.5,
+        -190
+      ],
+      "orientation": [
+        0,
+        0,
+        90
+      ],
+      "color": "#B9A485",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "RoadJoin_015",
+      "shape": "Cylinder",
+      "size": [
+        0.04,
+        36,
+        36
+      ],
+      "position": [
+        0,
+        0.5,
+        -166
+      ],
+      "orientation": [
+        0,
+        0,
+        90
+      ],
+      "color": "#B9A485",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "RoadJoin_016",
+      "shape": "Cylinder",
+      "size": [
+        0.04,
+        36,
+        36
+      ],
+      "position": [
+        0,
+        0.5,
+        -142
+      ],
+      "orientation": [
+        0,
+        0,
+        90
+      ],
+      "color": "#B9A485",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "RoadJoin_017",
+      "shape": "Cylinder",
+      "size": [
+        0.04,
+        36,
+        36
+      ],
+      "position": [
+        0,
+        0.5,
+        -118
+      ],
+      "orientation": [
+        0,
+        0,
+        90
+      ],
+      "color": "#B9A485",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "RoadJoin_018",
+      "shape": "Cylinder",
+      "size": [
+        0.04,
+        36,
+        36
+      ],
+      "position": [
+        0,
+        0.5,
+        -94
+      ],
+      "orientation": [
+        0,
+        0,
+        90
+      ],
+      "color": "#B9A485",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "RoadJoin_019",
+      "shape": "Cylinder",
+      "size": [
+        0.04,
+        36,
+        36
+      ],
+      "position": [
+        0,
+        0.5,
+        -70
+      ],
+      "orientation": [
+        0,
+        0,
+        90
+      ],
+      "color": "#B9A485",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "RoadJoin_020",
+      "shape": "Cylinder",
+      "size": [
+        0.04,
+        36,
+        36
+      ],
+      "position": [
+        0,
+        0.5,
+        -46
+      ],
+      "orientation": [
+        0,
+        0,
+        90
+      ],
+      "color": "#B9A485",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "RoadJoin_021",
+      "shape": "Cylinder",
+      "size": [
+        0.04,
+        36,
+        36
+      ],
+      "position": [
+        0,
+        0.5,
+        -22
+      ],
+      "orientation": [
+        0,
+        0,
+        90
+      ],
+      "color": "#B9A485",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "RoadJoin_022",
+      "shape": "Cylinder",
+      "size": [
+        0.04,
+        36,
+        36
+      ],
+      "position": [
+        0,
+        0.5,
+        2
+      ],
+      "orientation": [
+        0,
+        0,
+        90
+      ],
+      "color": "#B9A485",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "RoadJoin_023",
+      "shape": "Cylinder",
+      "size": [
+        0.04,
+        36,
+        36
+      ],
+      "position": [
+        0,
+        0.5,
+        26
+      ],
+      "orientation": [
+        0,
+        0,
+        90
+      ],
+      "color": "#B9A485",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "RoadJoin_024",
+      "shape": "Cylinder",
+      "size": [
+        0.04,
+        36,
+        36
+      ],
+      "position": [
+        0,
+        0.5,
+        50
+      ],
+      "orientation": [
+        0,
+        0,
+        90
+      ],
+      "color": "#B9A485",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "RoadJoin_025",
+      "shape": "Cylinder",
+      "size": [
+        0.04,
+        36,
+        36
+      ],
+      "position": [
+        196,
+        0.5,
+        -160
+      ],
+      "orientation": [
+        0,
+        0,
+        90
+      ],
+      "color": "#B9A485",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "RoadJoin_026",
+      "shape": "Cylinder",
+      "size": [
+        0.04,
+        36,
+        36
+      ],
+      "position": [
+        172,
+        0.5,
+        -144
+      ],
+      "orientation": [
+        0,
+        0,
+        90
+      ],
+      "color": "#B9A485",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "RoadJoin_027",
+      "shape": "Cylinder",
+      "size": [
+        0.04,
+        36,
+        36
+      ],
+      "position": [
+        148,
+        0.5,
+        -128
+      ],
+      "orientation": [
+        0,
+        0,
+        90
+      ],
+      "color": "#B9A485",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "RoadJoin_028",
+      "shape": "Cylinder",
+      "size": [
+        0.04,
+        36,
+        36
+      ],
+      "position": [
+        124,
+        0.5,
+        -112
+      ],
+      "orientation": [
+        0,
+        0,
+        90
+      ],
+      "color": "#B9A485",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "RoadJoin_029",
+      "shape": "Cylinder",
+      "size": [
+        0.04,
+        36,
+        36
+      ],
+      "position": [
+        100,
+        0.5,
+        -96
+      ],
+      "orientation": [
+        0,
+        0,
+        90
+      ],
+      "color": "#B9A485",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "RoadJoin_030",
+      "shape": "Cylinder",
+      "size": [
+        0.04,
+        36,
+        36
+      ],
+      "position": [
+        100,
+        0.5,
+        -72
+      ],
+      "orientation": [
+        0,
+        0,
+        90
+      ],
+      "color": "#B9A485",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "RoadJoin_031",
+      "shape": "Cylinder",
+      "size": [
+        0.04,
+        36,
+        36
+      ],
+      "position": [
+        100,
+        0.5,
+        -48
+      ],
+      "orientation": [
+        0,
+        0,
+        90
+      ],
+      "color": "#B9A485",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "RoadJoin_032",
+      "shape": "Cylinder",
+      "size": [
+        0.04,
+        36,
+        36
+      ],
+      "position": [
+        100,
+        0.5,
+        -24
+      ],
+      "orientation": [
+        0,
+        0,
+        90
+      ],
+      "color": "#B9A485",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "RoadJoin_033",
+      "shape": "Cylinder",
+      "size": [
+        0.04,
+        36,
+        36
+      ],
+      "position": [
+        100,
+        0.5,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        90
+      ],
+      "color": "#B9A485",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "RoadJoin_034",
+      "shape": "Cylinder",
+      "size": [
+        0.04,
+        36,
+        36
+      ],
+      "position": [
+        80,
+        0.5,
+        16
+      ],
+      "orientation": [
+        0,
+        0,
+        90
+      ],
+      "color": "#B9A485",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "RoadJoin_035",
+      "shape": "Cylinder",
+      "size": [
+        0.04,
+        36,
+        36
+      ],
+      "position": [
+        60,
+        0.5,
+        32
+      ],
+      "orientation": [
+        0,
+        0,
+        90
+      ],
+      "color": "#B9A485",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "RoadJoin_036",
+      "shape": "Cylinder",
+      "size": [
+        0.04,
+        36,
+        36
+      ],
+      "position": [
+        40,
+        0.5,
+        48
+      ],
+      "orientation": [
+        0,
+        0,
+        90
+      ],
+      "color": "#B9A485",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "RoadJoin_037",
+      "shape": "Cylinder",
+      "size": [
+        0.04,
+        36,
+        36
+      ],
+      "position": [
+        20,
+        0.5,
+        60
+      ],
+      "orientation": [
+        0,
+        0,
+        90
+      ],
+      "color": "#B9A485",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "cas_01_Corner_1",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        -9.8,
+        0.75,
+        60.2
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "cas_01_Corner_2",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        9.8,
+        0.75,
+        60.2
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "cas_01_Corner_3",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        9.8,
+        0.75,
+        79.8
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "cas_01_Corner_4",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        -9.8,
+        0.75,
+        79.8
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "twr_01_Corner_1",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        -133.8,
+        0.75,
+        -53.8
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "twr_01_Corner_2",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        -122.2,
+        0.75,
+        -53.8
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "twr_01_Corner_3",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        -122.2,
+        0.75,
+        -42.2
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "twr_01_Corner_4",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        -133.8,
+        0.75,
+        -42.2
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "twr_02_Corner_1",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        -77.8,
+        0.75,
+        -81.8
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "twr_02_Corner_2",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        -66.2,
+        0.75,
+        -81.8
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "twr_02_Corner_3",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        -66.2,
+        0.75,
+        -70.2
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "twr_02_Corner_4",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        -77.8,
+        0.75,
+        -70.2
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "twr_03_Corner_1",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        -147.8,
+        0.75,
+        8.2
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "twr_03_Corner_2",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        -136.2,
+        0.75,
+        8.2
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "twr_03_Corner_3",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        -136.2,
+        0.75,
+        19.8
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "twr_03_Corner_4",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        -147.8,
+        0.75,
+        19.8
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "twr_04_Corner_1",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        -63.8,
+        0.75,
+        -5.8
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "twr_04_Corner_2",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        -52.2,
+        0.75,
+        -5.8
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "twr_04_Corner_3",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        -52.2,
+        0.75,
+        5.8
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "twr_05_Corner_1",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        122.2,
+        0.75,
+        -53.8
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "twr_05_Corner_2",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        133.8,
+        0.75,
+        -53.8
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "twr_05_Corner_3",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        133.8,
+        0.75,
+        -42.2
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "twr_05_Corner_4",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        122.2,
+        0.75,
+        -42.2
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "twr_06_Corner_1",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        66.2,
+        0.75,
+        -81.8
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "twr_06_Corner_2",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        77.8,
+        0.75,
+        -81.8
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "twr_06_Corner_3",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        77.8,
+        0.75,
+        -70.2
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "twr_06_Corner_4",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        66.2,
+        0.75,
+        -70.2
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "twr_07_Corner_1",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        136.2,
+        0.75,
+        8.2
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "twr_07_Corner_2",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        147.8,
+        0.75,
+        8.2
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "twr_07_Corner_3",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        147.8,
+        0.75,
+        19.8
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "twr_07_Corner_4",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        136.2,
+        0.75,
+        19.8
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "twr_08_Corner_1",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        52.2,
+        0.75,
+        -5.8
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "twr_08_Corner_2",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        63.8,
+        0.75,
+        -5.8
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "twr_08_Corner_4",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        52.2,
+        0.75,
+        5.8
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "twr_09_Corner_1",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        -32.8,
+        0.75,
+        -175.8
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "twr_09_Corner_2",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        -21.2,
+        0.75,
+        -175.8
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "twr_09_Corner_3",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        -21.2,
+        0.75,
+        -164.2
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "twr_09_Corner_4",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        -32.8,
+        0.75,
+        -164.2
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "twr_10_Corner_1",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        21.2,
+        0.75,
+        -175.8
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "twr_10_Corner_2",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        32.8,
+        0.75,
+        -175.8
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "twr_10_Corner_3",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        32.8,
+        0.75,
+        -164.2
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "twr_10_Corner_4",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        21.2,
+        0.75,
+        -164.2
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "twr_11_Corner_1",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        -32.8,
+        0.75,
+        8.2
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "twr_11_Corner_2",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        -21.2,
+        0.75,
+        8.2
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "twr_11_Corner_3",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        -21.2,
+        0.75,
+        19.8
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "twr_11_Corner_4",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        -32.8,
+        0.75,
+        19.8
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "twr_12_Corner_1",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        21.2,
+        0.75,
+        8.2
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "twr_12_Corner_2",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        32.8,
+        0.75,
+        8.2
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "twr_12_Corner_3",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        32.8,
+        0.75,
+        19.8
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "twr_12_Corner_4",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        21.2,
+        0.75,
+        19.8
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "wal_01_Corner_1",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        -182.5393,
+        0.75,
+        -140.4499
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "wal_01_Corner_2",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        -172.7766,
+        0.75,
+        -155.094
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "wal_01_Corner_3",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        -161.4607,
+        0.75,
+        -147.5501
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "wal_01_Corner_4",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        -171.2234,
+        0.75,
+        -132.906
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "wal_02_Corner_1",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        -134.5393,
+        0.75,
+        -108.4499
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "wal_02_Corner_2",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        -124.7766,
+        0.75,
+        -123.094
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "wal_02_Corner_3",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        -113.4607,
+        0.75,
+        -115.5501
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "wal_02_Corner_4",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        -123.2234,
+        0.75,
+        -100.906
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "wal_03_Corner_1",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        -108.8,
+        0.75,
+        -78.8
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "wal_03_Corner_2",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        -91.2,
+        0.75,
+        -78.8
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "wal_03_Corner_3",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        -91.2,
+        0.75,
+        -65.2
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "wal_03_Corner_4",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        -108.8,
+        0.75,
+        -65.2
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "wal_04_Corner_1",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        -108.8,
+        0.75,
+        -30.8
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "wal_04_Corner_2",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        -91.2,
+        0.75,
+        -30.8
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "wal_04_Corner_3",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        -91.2,
+        0.75,
+        -17.2
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "wal_04_Corner_4",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        -108.8,
+        0.75,
+        -17.2
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "wal_05_Corner_1",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        -70.8072,
+        0.75,
+        34.6237
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "wal_05_Corner_2",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        -59.8126,
+        0.75,
+        20.8804
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "wal_05_Corner_3",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        -49.1928,
+        0.75,
+        29.3763
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "wal_05_Corner_4",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        -60.1874,
+        0.75,
+        43.1196
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "wal_06_Corner_1",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        172.7766,
+        0.75,
+        -155.094
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "wal_06_Corner_2",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        182.5393,
+        0.75,
+        -140.4499
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "wal_06_Corner_3",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        171.2234,
+        0.75,
+        -132.906
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "wal_06_Corner_4",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        161.4607,
+        0.75,
+        -147.5501
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "wal_07_Corner_1",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        124.7766,
+        0.75,
+        -123.094
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "wal_07_Corner_2",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        134.5393,
+        0.75,
+        -108.4499
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "wal_07_Corner_3",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        123.2234,
+        0.75,
+        -100.906
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "wal_07_Corner_4",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        113.4607,
+        0.75,
+        -115.5501
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "wal_08_Corner_1",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        91.2,
+        0.75,
+        -78.8
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "wal_08_Corner_2",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        108.8,
+        0.75,
+        -78.8
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "wal_08_Corner_3",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        108.8,
+        0.75,
+        -65.2
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "wal_08_Corner_4",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        91.2,
+        0.75,
+        -65.2
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "wal_09_Corner_1",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        91.2,
+        0.75,
+        -30.8
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "wal_09_Corner_2",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        108.8,
+        0.75,
+        -30.8
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "wal_09_Corner_3",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        108.8,
+        0.75,
+        -17.2
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "wal_09_Corner_4",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        91.2,
+        0.75,
+        -17.2
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "wal_10_Corner_1",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        59.8126,
+        0.75,
+        20.8804
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "wal_10_Corner_2",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        70.8072,
+        0.75,
+        34.6237
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "wal_10_Corner_3",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        60.1874,
+        0.75,
+        43.1196
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "wal_10_Corner_4",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        49.1928,
+        0.75,
+        29.3763
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "wal_11_Corner_1",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        -8.8,
+        0.75,
+        -150.8
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "wal_11_Corner_2",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        8.8,
+        0.75,
+        -150.8
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "wal_11_Corner_3",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        8.8,
+        0.75,
+        -137.2
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "wal_11_Corner_4",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        -8.8,
+        0.75,
+        -137.2
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "wal_12_Corner_1",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        -8.8,
+        0.75,
+        -102.8
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "wal_12_Corner_2",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        8.8,
+        0.75,
+        -102.8
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "wal_12_Corner_3",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        8.8,
+        0.75,
+        -89.2
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "wal_12_Corner_4",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        -8.8,
+        0.75,
+        -89.2
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "wal_13_Corner_1",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        -8.8,
+        0.75,
+        -54.8
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "wal_13_Corner_2",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        8.8,
+        0.75,
+        -54.8
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "wal_13_Corner_3",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        8.8,
+        0.75,
+        -41.2
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "wal_13_Corner_4",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        -8.8,
+        0.75,
+        -41.2
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "wal_14_Corner_1",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        -8.8,
+        0.75,
+        -6.8
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "wal_14_Corner_2",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        8.8,
+        0.75,
+        -6.8
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "wal_14_Corner_3",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        8.8,
+        0.75,
+        6.8
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "wal_14_Corner_4",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        -8.8,
+        0.75,
+        6.8
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "hou_01_Corner_1",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        -133.8,
+        0.75,
+        -83.8
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "hou_01_Corner_2",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        -122.2,
+        0.75,
+        -83.8
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "hou_01_Corner_3",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        -122.2,
+        0.75,
+        -72.2
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "hou_01_Corner_4",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        -133.8,
+        0.75,
+        -72.2
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "hou_02_Corner_1",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        -133.8,
+        0.75,
+        -23.8
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "hou_02_Corner_2",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        -122.2,
+        0.75,
+        -23.8
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "hou_02_Corner_3",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        -122.2,
+        0.75,
+        -12.2
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "hou_02_Corner_4",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        -133.8,
+        0.75,
+        -12.2
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "hou_03_Corner_1",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        122.2,
+        0.75,
+        -83.8
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "hou_03_Corner_2",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        133.8,
+        0.75,
+        -83.8
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "hou_03_Corner_3",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        133.8,
+        0.75,
+        -72.2
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "hou_03_Corner_4",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        122.2,
+        0.75,
+        -72.2
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "hou_04_Corner_1",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        122.2,
+        0.75,
+        -23.8
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "hou_04_Corner_2",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        133.8,
+        0.75,
+        -23.8
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "hou_04_Corner_3",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        133.8,
+        0.75,
+        -12.2
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "hou_04_Corner_4",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        122.2,
+        0.75,
+        -12.2
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "hou_05_Corner_1",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        -32.8,
+        0.75,
+        -137.8
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "hou_05_Corner_2",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        -21.2,
+        0.75,
+        -137.8
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "hou_05_Corner_3",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        -21.2,
+        0.75,
+        -126.2
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "hou_05_Corner_4",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        -32.8,
+        0.75,
+        -126.2
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "hou_06_Corner_1",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        21.2,
+        0.75,
+        -137.8
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "hou_06_Corner_2",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        32.8,
+        0.75,
+        -137.8
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "hou_06_Corner_3",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        32.8,
+        0.75,
+        -126.2
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "hou_06_Corner_4",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        21.2,
+        0.75,
+        -126.2
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "hou_07_Corner_1",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        -32.8,
+        0.75,
+        -89.8
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "hou_07_Corner_2",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        -21.2,
+        0.75,
+        -89.8
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "hou_07_Corner_3",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        -21.2,
+        0.75,
+        -78.2
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "hou_07_Corner_4",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        -32.8,
+        0.75,
+        -78.2
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "hou_08_Corner_1",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        21.2,
+        0.75,
+        -89.8
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "hou_08_Corner_2",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        32.8,
+        0.75,
+        -89.8
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "hou_08_Corner_3",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        32.8,
+        0.75,
+        -78.2
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "hou_08_Corner_4",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        21.2,
+        0.75,
+        -78.2
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "hou_09_Corner_1",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        -53.8,
+        0.75,
+        108.2
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "hou_09_Corner_2",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        -42.2,
+        0.75,
+        108.2
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "hou_09_Corner_3",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        -42.2,
+        0.75,
+        119.8
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "hou_09_Corner_4",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        -53.8,
+        0.75,
+        119.8
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "hou_10_Corner_1",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        -5.8,
+        0.75,
+        140.2
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "hou_10_Corner_2",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        5.8,
+        0.75,
+        140.2
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "hou_10_Corner_3",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        5.8,
+        0.75,
+        151.8
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "hou_10_Corner_4",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        -5.8,
+        0.75,
+        151.8
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "hou_11_Corner_1",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        42.2,
+        0.75,
+        108.2
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "hou_11_Corner_2",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        53.8,
+        0.75,
+        108.2
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "hou_11_Corner_3",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        53.8,
+        0.75,
+        119.8
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "hou_11_Corner_4",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        42.2,
+        0.75,
+        119.8
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "mil_01_Corner_1",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        -162.8,
+        0.75,
+        50.2
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "mil_01_Corner_2",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        -143.2,
+        0.75,
+        50.2
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "mil_01_Corner_3",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        -143.2,
+        0.75,
+        69.8
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "mil_01_Corner_4",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        -162.8,
+        0.75,
+        69.8
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "mil_02_Corner_1",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        143.2,
+        0.75,
+        50.2
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "mil_02_Corner_2",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        162.8,
+        0.75,
+        50.2
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "mil_02_Corner_3",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        162.8,
+        0.75,
+        69.8
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "mil_02_Corner_4",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        143.2,
+        0.75,
+        69.8
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "mil_03_Corner_1",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        -38.8,
+        0.75,
+        -37.8
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "mil_03_Corner_2",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        -19.2,
+        0.75,
+        -37.8
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "mil_03_Corner_3",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        -19.2,
+        0.75,
+        -18.2
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "mil_03_Corner_4",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        -38.8,
+        0.75,
+        -18.2
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "bar_01_Corner_1",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        -68.8,
+        0.75,
+        71.2
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "bar_01_Corner_2",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        -55.2,
+        0.75,
+        71.2
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "bar_01_Corner_3",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        -55.2,
+        0.75,
+        84.8
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "bar_01_Corner_4",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        -68.8,
+        0.75,
+        84.8
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "bar_02_Corner_1",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        55.2,
+        0.75,
+        71.2
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "bar_02_Corner_2",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        68.8,
+        0.75,
+        71.2
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "bar_02_Corner_3",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        68.8,
+        0.75,
+        84.8
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "bar_02_Corner_4",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        55.2,
+        0.75,
+        84.8
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "arc_01_Corner_1",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        -70.8,
+        0.75,
+        -38.8
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "arc_01_Corner_2",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        -57.2,
+        0.75,
+        -38.8
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "arc_01_Corner_3",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        -57.2,
+        0.75,
+        -25.2
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "arc_01_Corner_4",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        -70.8,
+        0.75,
+        -25.2
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "arc_02_Corner_1",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        57.2,
+        0.75,
+        -38.8
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "arc_02_Corner_2",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        70.8,
+        0.75,
+        -38.8
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "arc_02_Corner_3",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        70.8,
+        0.75,
+        -25.2
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "arc_02_Corner_4",
+      "shape": "Block",
+      "size": [
+        1,
+        0.5,
+        1
+      ],
+      "position": [
+        57.2,
+        0.75,
+        -25.2
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "Bound_North",
+      "shape": "Block",
+      "size": [
+        480,
+        20,
+        4
+      ],
+      "position": [
+        0,
+        10.5,
+        -218.0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Bounds",
+      "transparency": 1
+    },
+    {
+      "name": "Edge_North",
+      "shape": "Block",
+      "size": [
+        480,
+        3.5,
+        4
+      ],
+      "position": [
+        0,
+        2.25,
+        -218.0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#777260",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "Edge_North_Coping",
+      "shape": "Block",
+      "size": [
+        480.3,
+        0.5,
+        4
+      ],
+      "position": [
+        0,
+        4.25,
+        -218.0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#B2AA91",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "Bound_South",
+      "shape": "Block",
+      "size": [
+        480,
+        20,
+        4
+      ],
+      "position": [
+        0,
+        10.5,
+        218.0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Bounds",
+      "transparency": 1
+    },
+    {
+      "name": "Edge_South",
+      "shape": "Block",
+      "size": [
+        480,
+        3.5,
+        4
+      ],
+      "position": [
+        0,
+        2.25,
+        218.0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#777260",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "Edge_South_Coping",
+      "shape": "Block",
+      "size": [
+        480.3,
+        0.5,
+        4.3
+      ],
+      "position": [
+        0,
+        4.25,
+        218.0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#B2AA91",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "Bound_West",
+      "shape": "Block",
+      "size": [
+        4,
+        20,
+        440
+      ],
+      "position": [
+        -238.0,
+        10.5,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Bounds",
+      "transparency": 1
+    },
+    {
+      "name": "Edge_West",
+      "shape": "Block",
+      "size": [
+        4,
+        3.5,
+        440
+      ],
+      "position": [
+        -238.0,
+        2.25,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#777260",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "Edge_West_Coping",
+      "shape": "Block",
+      "size": [
+        4.3,
+        0.5,
+        440.3
+      ],
+      "position": [
+        -238.0,
+        4.25,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#B2AA91",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "Bound_East",
+      "shape": "Block",
+      "size": [
+        4,
+        20,
+        440
+      ],
+      "position": [
+        238.0,
+        10.5,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C8B990",
+      "material": "SmoothPlastic",
+      "folder": "Bounds",
+      "transparency": 1
+    },
+    {
+      "name": "Edge_East",
+      "shape": "Block",
+      "size": [
+        4,
+        3.5,
+        440
+      ],
+      "position": [
+        238.0,
+        2.25,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#777260",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "Edge_East_Coping",
+      "shape": "Block",
+      "size": [
+        4.3,
+        0.5,
+        440.3
+      ],
+      "position": [
+        238.0,
+        4.25,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#B2AA91",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "Entry_1_Pier_-1",
+      "shape": "Block",
+      "size": [
+        7,
+        12,
+        7
+      ],
+      "position": [
+        -188.13249509436926,
+        6.5,
+        -184.8012573584461
+      ],
+      "orientation": [
+        0,
+        56.309932474020215,
+        0
+      ],
+      "color": "#777260",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "Entry_1_Cap_-1",
+      "shape": "Block",
+      "size": [
+        9,
+        2,
+        9
+      ],
+      "position": [
+        -188.13249509436926,
+        13.5,
+        -184.8012573584461
+      ],
+      "orientation": [
+        0,
+        56.309932474020215,
+        0
+      ],
+      "color": "#B2AA91",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "Entry_1_Crest_-1",
+      "shape": "Block",
+      "size": [
+        3,
+        3,
+        1
+      ],
+      "position": [
+        -188.13249509436926,
+        10,
+        -184.8012573584461
+      ],
+      "orientation": [
+        0,
+        56.309932474020215,
+        0
+      ],
+      "color": "#C9B995",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "Entry_1_Pier_1",
+      "shape": "Block",
+      "size": [
+        7,
+        12,
+        7
+      ],
+      "position": [
+        -215.86750490563074,
+        6.5,
+        -143.1987426415539
+      ],
+      "orientation": [
+        0,
+        56.309932474020215,
+        0
+      ],
+      "color": "#777260",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "Entry_1_Cap_1",
+      "shape": "Block",
+      "size": [
+        9,
+        2,
+        9
+      ],
+      "position": [
+        -215.86750490563074,
+        13.5,
+        -143.1987426415539
+      ],
+      "orientation": [
+        0,
+        56.309932474020215,
+        0
+      ],
+      "color": "#B2AA91",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "Entry_1_Crest_1",
+      "shape": "Block",
+      "size": [
+        3,
+        3,
+        1
+      ],
+      "position": [
+        -215.86750490563074,
+        10,
+        -143.1987426415539
+      ],
+      "orientation": [
+        0,
+        56.309932474020215,
+        0
+      ],
+      "color": "#C9B995",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "Entry_2_Pier_-1",
+      "shape": "Block",
+      "size": [
+        7,
+        12,
+        7
+      ],
+      "position": [
+        25.0,
+        6.5,
+        -198.0
+      ],
+      "orientation": [
+        0,
+        0.0,
+        0
+      ],
+      "color": "#777260",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "Entry_2_Cap_-1",
+      "shape": "Block",
+      "size": [
+        9,
+        2,
+        9
+      ],
+      "position": [
+        25.0,
+        13.5,
+        -198.0
+      ],
+      "orientation": [
+        0,
+        0.0,
+        0
+      ],
+      "color": "#B2AA91",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "Entry_2_Crest_-1",
+      "shape": "Block",
+      "size": [
+        3,
+        3,
+        1
+      ],
+      "position": [
+        25.0,
+        10,
+        -198.0
+      ],
+      "orientation": [
+        0,
+        0.0,
+        0
+      ],
+      "color": "#C9B995",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "Entry_2_Pier_1",
+      "shape": "Block",
+      "size": [
+        7,
+        12,
+        7
+      ],
+      "position": [
+        -25.0,
+        6.5,
+        -198.0
+      ],
+      "orientation": [
+        0,
+        0.0,
+        0
+      ],
+      "color": "#777260",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "Entry_2_Cap_1",
+      "shape": "Block",
+      "size": [
+        9,
+        2,
+        9
+      ],
+      "position": [
+        -25.0,
+        13.5,
+        -198.0
+      ],
+      "orientation": [
+        0,
+        0.0,
+        0
+      ],
+      "color": "#B2AA91",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "Entry_2_Crest_1",
+      "shape": "Block",
+      "size": [
+        3,
+        3,
+        1
+      ],
+      "position": [
+        -25.0,
+        10,
+        -198.0
+      ],
+      "orientation": [
+        0,
+        0.0,
+        0
+      ],
+      "color": "#C9B995",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "Entry_3_Pier_-1",
+      "shape": "Block",
+      "size": [
+        7,
+        12,
+        7
+      ],
+      "position": [
+        215.86750490563074,
+        6.5,
+        -143.1987426415539
+      ],
+      "orientation": [
+        0,
+        -56.309932474020215,
+        0
+      ],
+      "color": "#777260",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "Entry_3_Cap_-1",
+      "shape": "Block",
+      "size": [
+        9,
+        2,
+        9
+      ],
+      "position": [
+        215.86750490563074,
+        13.5,
+        -143.1987426415539
+      ],
+      "orientation": [
+        0,
+        -56.309932474020215,
+        0
+      ],
+      "color": "#B2AA91",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "Entry_3_Crest_-1",
+      "shape": "Block",
+      "size": [
+        3,
+        3,
+        1
+      ],
+      "position": [
+        215.86750490563074,
+        10,
+        -143.1987426415539
+      ],
+      "orientation": [
+        0,
+        -56.309932474020215,
+        0
+      ],
+      "color": "#C9B995",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "Entry_3_Pier_1",
+      "shape": "Block",
+      "size": [
+        7,
+        12,
+        7
+      ],
+      "position": [
+        188.13249509436926,
+        6.5,
+        -184.8012573584461
+      ],
+      "orientation": [
+        0,
+        -56.309932474020215,
+        0
+      ],
+      "color": "#777260",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "Entry_3_Cap_1",
+      "shape": "Block",
+      "size": [
+        9,
+        2,
+        9
+      ],
+      "position": [
+        188.13249509436926,
+        13.5,
+        -184.8012573584461
+      ],
+      "orientation": [
+        0,
+        -56.309932474020215,
+        0
+      ],
+      "color": "#B2AA91",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "Entry_3_Crest_1",
+      "shape": "Block",
+      "size": [
+        3,
+        3,
+        1
+      ],
+      "position": [
+        188.13249509436926,
+        10,
+        -184.8012573584461
+      ],
+      "orientation": [
+        0,
+        -56.309932474020215,
+        0
+      ],
+      "color": "#C9B995",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "AshTree_1_Trunk",
+      "shape": "Block",
+      "size": [
+        3,
+        5,
+        3
+      ],
+      "position": [
+        -195,
+        3,
+        -43
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#665645",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "AshTree_1_Low",
+      "shape": "Block",
+      "size": [
+        13,
+        6,
+        12
+      ],
+      "position": [
+        -195,
+        9,
+        -43
+      ],
+      "orientation": [
+        0,
+        15,
+        0
+      ],
+      "color": "#526452",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "AshTree_1_Top",
+      "shape": "Block",
+      "size": [
+        9,
+        4,
+        8
+      ],
+      "position": [
+        -196,
+        14,
+        -43
+      ],
+      "orientation": [
+        0,
+        15,
+        0
+      ],
+      "color": "#88936A",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "AshTree_2_Trunk",
+      "shape": "Block",
+      "size": [
+        3,
+        5,
+        3
+      ],
+      "position": [
+        -175,
+        3,
+        -38
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#665645",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "AshTree_2_Low",
+      "shape": "Block",
+      "size": [
+        13,
+        6,
+        12
+      ],
+      "position": [
+        -175,
+        9,
+        -38
+      ],
+      "orientation": [
+        0,
+        30,
+        0
+      ],
+      "color": "#526452",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "AshTree_2_Top",
+      "shape": "Block",
+      "size": [
+        9,
+        4,
+        8
+      ],
+      "position": [
+        -176,
+        14,
+        -38
+      ],
+      "orientation": [
+        0,
+        30,
+        0
+      ],
+      "color": "#88936A",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "AshTree_3_Trunk",
+      "shape": "Block",
+      "size": [
+        3,
+        5,
+        3
+      ],
+      "position": [
+        -185,
+        3,
+        -21
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#665645",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "AshTree_3_Low",
+      "shape": "Block",
+      "size": [
+        13,
+        6,
+        12
+      ],
+      "position": [
+        -185,
+        9,
+        -21
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#526452",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "AshTree_3_Top",
+      "shape": "Block",
+      "size": [
+        9,
+        4,
+        8
+      ],
+      "position": [
+        -186,
+        14,
+        -21
+      ],
+      "orientation": [
+        0,
+        45,
+        0
+      ],
+      "color": "#88936A",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "AshTree_4_Trunk",
+      "shape": "Block",
+      "size": [
+        3,
+        5,
+        3
+      ],
+      "position": [
+        175,
+        3,
+        -43
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#665645",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "AshTree_4_Low",
+      "shape": "Block",
+      "size": [
+        13,
+        6,
+        12
+      ],
+      "position": [
+        175,
+        9,
+        -43
+      ],
+      "orientation": [
+        0,
+        15,
+        0
+      ],
+      "color": "#526452",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "AshTree_4_Top",
+      "shape": "Block",
+      "size": [
+        9,
+        4,
+        8
+      ],
+      "position": [
+        174,
+        14,
+        -43
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#88936A",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "AshTree_5_Trunk",
+      "shape": "Block",
+      "size": [
+        3,
+        5,
+        3
+      ],
+      "position": [
+        195,
+        3,
+        -38
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#665645",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "AshTree_5_Low",
+      "shape": "Block",
+      "size": [
+        13,
+        6,
+        12
+      ],
+      "position": [
+        195,
+        9,
+        -38
+      ],
+      "orientation": [
+        0,
+        30,
+        0
+      ],
+      "color": "#526452",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "AshTree_5_Top",
+      "shape": "Block",
+      "size": [
+        9,
+        4,
+        8
+      ],
+      "position": [
+        194,
+        14,
+        -38
+      ],
+      "orientation": [
+        0,
+        15,
+        0
+      ],
+      "color": "#88936A",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "AshTree_6_Trunk",
+      "shape": "Block",
+      "size": [
+        3,
+        5,
+        3
+      ],
+      "position": [
+        185,
+        3,
+        -21
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#665645",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "AshTree_6_Low",
+      "shape": "Block",
+      "size": [
+        13,
+        6,
+        12
+      ],
+      "position": [
+        185,
+        9,
+        -21
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#526452",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "AshTree_6_Top",
+      "shape": "Block",
+      "size": [
+        9,
+        4,
+        8
+      ],
+      "position": [
+        184,
+        14,
+        -21
+      ],
+      "orientation": [
+        0,
+        30,
+        0
+      ],
+      "color": "#88936A",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "AshTree_7_Trunk",
+      "shape": "Block",
+      "size": [
+        3,
+        5,
+        3
+      ],
+      "position": [
+        -202,
+        3,
+        116
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#665645",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "AshTree_7_Low",
+      "shape": "Block",
+      "size": [
+        13,
+        6,
+        12
+      ],
+      "position": [
+        -202,
+        9,
+        116
+      ],
+      "orientation": [
+        0,
+        15,
+        0
+      ],
+      "color": "#526452",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "AshTree_7_Top",
+      "shape": "Block",
+      "size": [
+        9,
+        4,
+        8
+      ],
+      "position": [
+        -203,
+        14,
+        116
+      ],
+      "orientation": [
+        0,
+        45,
+        0
+      ],
+      "color": "#88936A",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "AshTree_8_Trunk",
+      "shape": "Block",
+      "size": [
+        3,
+        5,
+        3
+      ],
+      "position": [
+        -182,
+        3,
+        121
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#665645",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "AshTree_8_Low",
+      "shape": "Block",
+      "size": [
+        13,
+        6,
+        12
+      ],
+      "position": [
+        -182,
+        9,
+        121
+      ],
+      "orientation": [
+        0,
+        30,
+        0
+      ],
+      "color": "#526452",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "AshTree_8_Top",
+      "shape": "Block",
+      "size": [
+        9,
+        4,
+        8
+      ],
+      "position": [
+        -183,
+        14,
+        121
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#88936A",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "AshTree_9_Trunk",
+      "shape": "Block",
+      "size": [
+        3,
+        5,
+        3
+      ],
+      "position": [
+        -192,
+        3,
+        138
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#665645",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "AshTree_9_Low",
+      "shape": "Block",
+      "size": [
+        13,
+        6,
+        12
+      ],
+      "position": [
+        -192,
+        9,
+        138
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#526452",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "AshTree_9_Top",
+      "shape": "Block",
+      "size": [
+        9,
+        4,
+        8
+      ],
+      "position": [
+        -193,
+        14,
+        138
+      ],
+      "orientation": [
+        0,
+        15,
+        0
+      ],
+      "color": "#88936A",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "AshTree_10_Trunk",
+      "shape": "Block",
+      "size": [
+        3,
+        5,
+        3
+      ],
+      "position": [
+        182,
+        3,
+        116
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#665645",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "AshTree_10_Low",
+      "shape": "Block",
+      "size": [
+        13,
+        6,
+        12
+      ],
+      "position": [
+        182,
+        9,
+        116
+      ],
+      "orientation": [
+        0,
+        15,
+        0
+      ],
+      "color": "#526452",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "AshTree_10_Top",
+      "shape": "Block",
+      "size": [
+        9,
+        4,
+        8
+      ],
+      "position": [
+        181,
+        14,
+        116
+      ],
+      "orientation": [
+        0,
+        30,
+        0
+      ],
+      "color": "#88936A",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "AshTree_11_Trunk",
+      "shape": "Block",
+      "size": [
+        3,
+        5,
+        3
+      ],
+      "position": [
+        202,
+        3,
+        121
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#665645",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "AshTree_11_Low",
+      "shape": "Block",
+      "size": [
+        13,
+        6,
+        12
+      ],
+      "position": [
+        202,
+        9,
+        121
+      ],
+      "orientation": [
+        0,
+        30,
+        0
+      ],
+      "color": "#526452",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "AshTree_11_Top",
+      "shape": "Block",
+      "size": [
+        9,
+        4,
+        8
+      ],
+      "position": [
+        201,
+        14,
+        121
+      ],
+      "orientation": [
+        0,
+        45,
+        0
+      ],
+      "color": "#88936A",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "AshTree_12_Trunk",
+      "shape": "Block",
+      "size": [
+        3,
+        5,
+        3
+      ],
+      "position": [
+        192,
+        3,
+        138
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#665645",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "AshTree_12_Low",
+      "shape": "Block",
+      "size": [
+        13,
+        6,
+        12
+      ],
+      "position": [
+        192,
+        9,
+        138
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#526452",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "AshTree_12_Top",
+      "shape": "Block",
+      "size": [
+        9,
+        4,
+        8
+      ],
+      "position": [
+        191,
+        14,
+        138
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#88936A",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "AshTree_13_Trunk",
+      "shape": "Block",
+      "size": [
+        3,
+        5,
+        3
+      ],
+      "position": [
+        -113,
+        3,
+        155
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#665645",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "AshTree_13_Low",
+      "shape": "Block",
+      "size": [
+        13,
+        6,
+        12
+      ],
+      "position": [
+        -113,
+        9,
+        155
+      ],
+      "orientation": [
+        0,
+        15,
+        0
+      ],
+      "color": "#526452",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "AshTree_13_Top",
+      "shape": "Block",
+      "size": [
+        9,
+        4,
+        8
+      ],
+      "position": [
+        -114,
+        14,
+        155
+      ],
+      "orientation": [
+        0,
+        15,
+        0
+      ],
+      "color": "#88936A",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "AshTree_14_Trunk",
+      "shape": "Block",
+      "size": [
+        3,
+        5,
+        3
+      ],
+      "position": [
+        -93,
+        3,
+        160
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#665645",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "AshTree_14_Low",
+      "shape": "Block",
+      "size": [
+        13,
+        6,
+        12
+      ],
+      "position": [
+        -93,
+        9,
+        160
+      ],
+      "orientation": [
+        0,
+        30,
+        0
+      ],
+      "color": "#526452",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "AshTree_14_Top",
+      "shape": "Block",
+      "size": [
+        9,
+        4,
+        8
+      ],
+      "position": [
+        -94,
+        14,
+        160
+      ],
+      "orientation": [
+        0,
+        30,
+        0
+      ],
+      "color": "#88936A",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "AshTree_15_Trunk",
+      "shape": "Block",
+      "size": [
+        3,
+        5,
+        3
+      ],
+      "position": [
+        -103,
+        3,
+        177
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#665645",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "AshTree_15_Low",
+      "shape": "Block",
+      "size": [
+        13,
+        6,
+        12
+      ],
+      "position": [
+        -103,
+        9,
+        177
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#526452",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "AshTree_15_Top",
+      "shape": "Block",
+      "size": [
+        9,
+        4,
+        8
+      ],
+      "position": [
+        -104,
+        14,
+        177
+      ],
+      "orientation": [
+        0,
+        45,
+        0
+      ],
+      "color": "#88936A",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "AshTree_16_Trunk",
+      "shape": "Block",
+      "size": [
+        3,
+        5,
+        3
+      ],
+      "position": [
+        93,
+        3,
+        155
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#665645",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "AshTree_16_Low",
+      "shape": "Block",
+      "size": [
+        13,
+        6,
+        12
+      ],
+      "position": [
+        93,
+        9,
+        155
+      ],
+      "orientation": [
+        0,
+        15,
+        0
+      ],
+      "color": "#526452",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "AshTree_16_Top",
+      "shape": "Block",
+      "size": [
+        9,
+        4,
+        8
+      ],
+      "position": [
+        92,
+        14,
+        155
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#88936A",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "AshTree_17_Trunk",
+      "shape": "Block",
+      "size": [
+        3,
+        5,
+        3
+      ],
+      "position": [
+        113,
+        3,
+        160
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#665645",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "AshTree_17_Low",
+      "shape": "Block",
+      "size": [
+        13,
+        6,
+        12
+      ],
+      "position": [
+        113,
+        9,
+        160
+      ],
+      "orientation": [
+        0,
+        30,
+        0
+      ],
+      "color": "#526452",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "AshTree_17_Top",
+      "shape": "Block",
+      "size": [
+        9,
+        4,
+        8
+      ],
+      "position": [
+        112,
+        14,
+        160
+      ],
+      "orientation": [
+        0,
+        15,
+        0
+      ],
+      "color": "#88936A",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "AshTree_18_Trunk",
+      "shape": "Block",
+      "size": [
+        3,
+        5,
+        3
+      ],
+      "position": [
+        103,
+        3,
+        177
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#665645",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "AshTree_18_Low",
+      "shape": "Block",
+      "size": [
+        13,
+        6,
+        12
+      ],
+      "position": [
+        103,
+        9,
+        177
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#526452",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "AshTree_18_Top",
+      "shape": "Block",
+      "size": [
+        9,
+        4,
+        8
+      ],
+      "position": [
+        102,
+        14,
+        177
+      ],
+      "orientation": [
+        0,
+        30,
+        0
+      ],
+      "color": "#88936A",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "AshTree_19_Trunk",
+      "shape": "Block",
+      "size": [
+        3,
+        5,
+        3
+      ],
+      "position": [
+        -126,
+        3,
+        -190
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#665645",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "AshTree_19_Low",
+      "shape": "Block",
+      "size": [
+        13,
+        6,
+        12
+      ],
+      "position": [
+        -126,
+        9,
+        -190
+      ],
+      "orientation": [
+        0,
+        15,
+        0
+      ],
+      "color": "#526452",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "AshTree_19_Top",
+      "shape": "Block",
+      "size": [
+        9,
+        4,
+        8
+      ],
+      "position": [
+        -127,
+        14,
+        -190
+      ],
+      "orientation": [
+        0,
+        45,
+        0
+      ],
+      "color": "#88936A",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "AshTree_20_Trunk",
+      "shape": "Block",
+      "size": [
+        3,
+        5,
+        3
+      ],
+      "position": [
+        -106,
+        3,
+        -185
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#665645",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "AshTree_20_Low",
+      "shape": "Block",
+      "size": [
+        13,
+        6,
+        12
+      ],
+      "position": [
+        -106,
+        9,
+        -185
+      ],
+      "orientation": [
+        0,
+        30,
+        0
+      ],
+      "color": "#526452",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "AshTree_20_Top",
+      "shape": "Block",
+      "size": [
+        9,
+        4,
+        8
+      ],
+      "position": [
+        -107,
+        14,
+        -185
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#88936A",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "AshTree_21_Trunk",
+      "shape": "Block",
+      "size": [
+        3,
+        5,
+        3
+      ],
+      "position": [
+        -116,
+        3,
+        -168
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#665645",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "AshTree_21_Low",
+      "shape": "Block",
+      "size": [
+        13,
+        6,
+        12
+      ],
+      "position": [
+        -116,
+        9,
+        -168
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#526452",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "AshTree_21_Top",
+      "shape": "Block",
+      "size": [
+        9,
+        4,
+        8
+      ],
+      "position": [
+        -117,
+        14,
+        -168
+      ],
+      "orientation": [
+        0,
+        15,
+        0
+      ],
+      "color": "#88936A",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "AshTree_22_Trunk",
+      "shape": "Block",
+      "size": [
+        3,
+        5,
+        3
+      ],
+      "position": [
+        106,
+        3,
+        -190
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#665645",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "AshTree_22_Low",
+      "shape": "Block",
+      "size": [
+        13,
+        6,
+        12
+      ],
+      "position": [
+        106,
+        9,
+        -190
+      ],
+      "orientation": [
+        0,
+        15,
+        0
+      ],
+      "color": "#526452",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "AshTree_22_Top",
+      "shape": "Block",
+      "size": [
+        9,
+        4,
+        8
+      ],
+      "position": [
+        105,
+        14,
+        -190
+      ],
+      "orientation": [
+        0,
+        30,
+        0
+      ],
+      "color": "#88936A",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "AshTree_23_Trunk",
+      "shape": "Block",
+      "size": [
+        3,
+        5,
+        3
+      ],
+      "position": [
+        126,
+        3,
+        -185
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#665645",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "AshTree_23_Low",
+      "shape": "Block",
+      "size": [
+        13,
+        6,
+        12
+      ],
+      "position": [
+        126,
+        9,
+        -185
+      ],
+      "orientation": [
+        0,
+        30,
+        0
+      ],
+      "color": "#526452",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "AshTree_23_Top",
+      "shape": "Block",
+      "size": [
+        9,
+        4,
+        8
+      ],
+      "position": [
+        125,
+        14,
+        -185
+      ],
+      "orientation": [
+        0,
+        45,
+        0
+      ],
+      "color": "#88936A",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "AshTree_24_Trunk",
+      "shape": "Block",
+      "size": [
+        3,
+        5,
+        3
+      ],
+      "position": [
+        116,
+        3,
+        -168
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#665645",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "AshTree_24_Low",
+      "shape": "Block",
+      "size": [
+        13,
+        6,
+        12
+      ],
+      "position": [
+        116,
+        9,
+        -168
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#526452",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "AshTree_24_Top",
+      "shape": "Block",
+      "size": [
+        9,
+        4,
+        8
+      ],
+      "position": [
+        115,
+        14,
+        -168
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#88936A",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "AshTree_25_Trunk",
+      "shape": "Block",
+      "size": [
+        3,
+        5,
+        3
+      ],
+      "position": [
+        -58,
+        3,
+        180
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#665645",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "AshTree_25_Low",
+      "shape": "Block",
+      "size": [
+        13,
+        6,
+        12
+      ],
+      "position": [
+        -58,
+        9,
+        180
+      ],
+      "orientation": [
+        0,
+        15,
+        0
+      ],
+      "color": "#526452",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "AshTree_25_Top",
+      "shape": "Block",
+      "size": [
+        9,
+        4,
+        8
+      ],
+      "position": [
+        -59,
+        14,
+        180
+      ],
+      "orientation": [
+        0,
+        15,
+        0
+      ],
+      "color": "#88936A",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "AshTree_26_Trunk",
+      "shape": "Block",
+      "size": [
+        3,
+        5,
+        3
+      ],
+      "position": [
+        -38,
+        3,
+        185
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#665645",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "AshTree_26_Low",
+      "shape": "Block",
+      "size": [
+        13,
+        6,
+        12
+      ],
+      "position": [
+        -38,
+        9,
+        185
+      ],
+      "orientation": [
+        0,
+        30,
+        0
+      ],
+      "color": "#526452",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "AshTree_26_Top",
+      "shape": "Block",
+      "size": [
+        9,
+        4,
+        8
+      ],
+      "position": [
+        -39,
+        14,
+        185
+      ],
+      "orientation": [
+        0,
+        30,
+        0
+      ],
+      "color": "#88936A",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "AshTree_27_Trunk",
+      "shape": "Block",
+      "size": [
+        3,
+        5,
+        3
+      ],
+      "position": [
+        -48,
+        3,
+        202
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#665645",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "AshTree_27_Low",
+      "shape": "Block",
+      "size": [
+        13,
+        6,
+        12
+      ],
+      "position": [
+        -48,
+        9,
+        202
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#526452",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "AshTree_27_Top",
+      "shape": "Block",
+      "size": [
+        9,
+        4,
+        8
+      ],
+      "position": [
+        -49,
+        14,
+        202
+      ],
+      "orientation": [
+        0,
+        45,
+        0
+      ],
+      "color": "#88936A",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "AshTree_28_Trunk",
+      "shape": "Block",
+      "size": [
+        3,
+        5,
+        3
+      ],
+      "position": [
+        38,
+        3,
+        180
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#665645",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "AshTree_28_Low",
+      "shape": "Block",
+      "size": [
+        13,
+        6,
+        12
+      ],
+      "position": [
+        38,
+        9,
+        180
+      ],
+      "orientation": [
+        0,
+        15,
+        0
+      ],
+      "color": "#526452",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "AshTree_28_Top",
+      "shape": "Block",
+      "size": [
+        9,
+        4,
+        8
+      ],
+      "position": [
+        37,
+        14,
+        180
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#88936A",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "AshTree_29_Trunk",
+      "shape": "Block",
+      "size": [
+        3,
+        5,
+        3
+      ],
+      "position": [
+        58,
+        3,
+        185
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#665645",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "AshTree_29_Low",
+      "shape": "Block",
+      "size": [
+        13,
+        6,
+        12
+      ],
+      "position": [
+        58,
+        9,
+        185
+      ],
+      "orientation": [
+        0,
+        30,
+        0
+      ],
+      "color": "#526452",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "AshTree_29_Top",
+      "shape": "Block",
+      "size": [
+        9,
+        4,
+        8
+      ],
+      "position": [
+        57,
+        14,
+        185
+      ],
+      "orientation": [
+        0,
+        15,
+        0
+      ],
+      "color": "#88936A",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "AshTree_30_Trunk",
+      "shape": "Block",
+      "size": [
+        3,
+        5,
+        3
+      ],
+      "position": [
+        48,
+        3,
+        202
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#665645",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "AshTree_30_Low",
+      "shape": "Block",
+      "size": [
+        13,
+        6,
+        12
+      ],
+      "position": [
+        48,
+        9,
+        202
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#526452",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "AshTree_30_Top",
+      "shape": "Block",
+      "size": [
+        9,
+        4,
+        8
+      ],
+      "position": [
+        47,
+        14,
+        202
+      ],
+      "orientation": [
+        0,
+        30,
+        0
+      ],
+      "color": "#88936A",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "mil_01_Crop_-1_0",
+      "shape": "Block",
+      "size": [
+        2,
+        0.8,
+        15
+      ],
+      "position": [
+        -182,
+        0.9,
+        77
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#BDA86B",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "mil_01_Crop_-1_1",
+      "shape": "Block",
+      "size": [
+        2,
+        0.8,
+        15
+      ],
+      "position": [
+        -178,
+        0.9,
+        77
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#BDA86B",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "mil_01_Crop_-1_2",
+      "shape": "Block",
+      "size": [
+        2,
+        0.8,
+        15
+      ],
+      "position": [
+        -174,
+        0.9,
+        77
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#BDA86B",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "mil_01_Crop_-1_3",
+      "shape": "Block",
+      "size": [
+        2,
+        0.8,
+        15
+      ],
+      "position": [
+        -170,
+        0.9,
+        77
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#BDA86B",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "mil_01_Fence_-1",
+      "shape": "Block",
+      "size": [
+        19,
+        1.6,
+        0.8
+      ],
+      "position": [
+        -176,
+        1.7,
+        87
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#776044",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "mil_01_Crop_1_0",
+      "shape": "Block",
+      "size": [
+        2,
+        0.8,
+        15
+      ],
+      "position": [
+        -136,
+        0.9,
+        77
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#BDA86B",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "mil_01_Crop_1_1",
+      "shape": "Block",
+      "size": [
+        2,
+        0.8,
+        15
+      ],
+      "position": [
+        -132,
+        0.9,
+        77
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#BDA86B",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "mil_01_Crop_1_2",
+      "shape": "Block",
+      "size": [
+        2,
+        0.8,
+        15
+      ],
+      "position": [
+        -128,
+        0.9,
+        77
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#BDA86B",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "mil_01_Crop_1_3",
+      "shape": "Block",
+      "size": [
+        2,
+        0.8,
+        15
+      ],
+      "position": [
+        -124,
+        0.9,
+        77
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#BDA86B",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "mil_01_Fence_1",
+      "shape": "Block",
+      "size": [
+        19,
+        1.6,
+        0.8
+      ],
+      "position": [
+        -130,
+        1.7,
+        87
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#776044",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "mil_02_Crop_-1_0",
+      "shape": "Block",
+      "size": [
+        2,
+        0.8,
+        15
+      ],
+      "position": [
+        124,
+        0.9,
+        77
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#BDA86B",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "mil_02_Crop_-1_1",
+      "shape": "Block",
+      "size": [
+        2,
+        0.8,
+        15
+      ],
+      "position": [
+        128,
+        0.9,
+        77
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#BDA86B",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "mil_02_Crop_-1_2",
+      "shape": "Block",
+      "size": [
+        2,
+        0.8,
+        15
+      ],
+      "position": [
+        132,
+        0.9,
+        77
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#BDA86B",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "mil_02_Crop_-1_3",
+      "shape": "Block",
+      "size": [
+        2,
+        0.8,
+        15
+      ],
+      "position": [
+        136,
+        0.9,
+        77
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#BDA86B",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "mil_02_Fence_-1",
+      "shape": "Block",
+      "size": [
+        19,
+        1.6,
+        0.8
+      ],
+      "position": [
+        130,
+        1.7,
+        87
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#776044",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "mil_02_Crop_1_0",
+      "shape": "Block",
+      "size": [
+        2,
+        0.8,
+        15
+      ],
+      "position": [
+        170,
+        0.9,
+        77
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#BDA86B",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "mil_02_Crop_1_1",
+      "shape": "Block",
+      "size": [
+        2,
+        0.8,
+        15
+      ],
+      "position": [
+        174,
+        0.9,
+        77
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#BDA86B",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "mil_02_Crop_1_2",
+      "shape": "Block",
+      "size": [
+        2,
+        0.8,
+        15
+      ],
+      "position": [
+        178,
+        0.9,
+        77
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#BDA86B",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "mil_02_Crop_1_3",
+      "shape": "Block",
+      "size": [
+        2,
+        0.8,
+        15
+      ],
+      "position": [
+        182,
+        0.9,
+        77
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#BDA86B",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "mil_02_Fence_1",
+      "shape": "Block",
+      "size": [
+        19,
+        1.6,
+        0.8
+      ],
+      "position": [
+        176,
+        1.7,
+        87
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#776044",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "VillageWell_0",
+      "shape": "Block",
+      "size": [
+        8,
+        2,
+        1.2
+      ],
+      "position": [
+        0,
+        1.5,
+        106.6
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#AFA78E",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "VillageWell_1",
+      "shape": "Block",
+      "size": [
+        8,
+        2,
+        1.2
+      ],
+      "position": [
+        0,
+        1.5,
+        113.4
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#AFA78E",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "VillageWell_2",
+      "shape": "Block",
+      "size": [
+        1.2,
+        2,
+        5.6
+      ],
+      "position": [
+        -3.4,
+        1.5,
+        110
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#AFA78E",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "VillageWell_3",
+      "shape": "Block",
+      "size": [
+        1.2,
+        2,
+        5.6
+      ],
+      "position": [
+        3.4,
+        1.5,
+        110
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#AFA78E",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "VillageWell_4",
+      "shape": "Block",
+      "size": [
+        5.6,
+        0.2,
+        5.6
+      ],
+      "position": [
+        0,
+        1,
+        110
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#688A95",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "VillageFootpath_1",
+      "shape": "Block",
+      "size": [
+        6,
+        0.04,
+        24.73863375370596
+      ],
+      "position": [
+        -36.0,
+        0.5,
+        107.0
+      ],
+      "orientation": [
+        0,
+        75.96375653207353,
+        0
+      ],
+      "color": "#A99D7E",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "VillageFootpath_2",
+      "shape": "Block",
+      "size": [
+        6,
+        0.04,
+        48.0
+      ],
+      "position": [
+        0.0,
+        0.5,
+        110.0
+      ],
+      "orientation": [
+        0,
+        90.0,
+        0
+      ],
+      "color": "#A99D7E",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "VillageFootpath_3",
+      "shape": "Block",
+      "size": [
+        6,
+        0.04,
+        24.73863375370596
+      ],
+      "position": [
+        36.0,
+        0.5,
+        107.0
+      ],
+      "orientation": [
+        0,
+        104.03624346792648,
+        0
+      ],
+      "color": "#A99D7E",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "VillageFootpath_4",
+      "shape": "Block",
+      "size": [
+        6,
+        0.04,
+        23.0
+      ],
+      "position": [
+        0.0,
+        0.5,
+        127.5
+      ],
+      "orientation": [
+        0,
+        0.0,
+        0
+      ],
+      "color": "#A99D7E",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "VillageFootpath_5",
+      "shape": "Block",
+      "size": [
+        6,
+        0.04,
+        89.55445270895244
+      ],
+      "position": [
+        -99.0,
+        0.5,
+        92.0
+      ],
+      "orientation": [
+        0,
+        -119.42745640318975,
+        0
+      ],
+      "color": "#A99D7E",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    },
+    {
+      "name": "VillageFootpath_6",
+      "shape": "Block",
+      "size": [
+        6,
+        0.04,
+        89.55445270895244
+      ],
+      "position": [
+        99.0,
+        0.5,
+        92.0
+      ],
+      "orientation": [
+        0,
+        119.42745640318975,
+        0
+      ],
+      "color": "#A99D7E",
+      "material": "SmoothPlastic",
+      "folder": "Decor"
+    }
+  ]
+}

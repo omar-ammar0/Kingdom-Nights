@@ -1,0 +1,6328 @@
+{
+  "format": "kn-asset/1",
+  "kind": "map",
+  "name": "Map_Frostmere",
+  "version": 1,
+  "author": "ChatGPT",
+  "notes": "460x400 flat frozen-shore battlefield. Ground top Y=0.5; lake is flat cosmetic Ice, not a terrain height or hazard. Castle (0,50). Three bent lanes: western snowfield, northern ice pass, eastern lake shore. Tower pairs create broad crossfire fields; only four transverse wall pads. Six exposed houses and one exposed GoldMine deliberately compete with safer rear income. Full non-wall pads clear the 18-stud corridor. RoadJoin parts are X-axis Cylinders rotated [0,0,90]. Import as Persistent with role-owned physics. Paired frostmere.lua is an eight-night proposal requiring Omar approval; duration and alive peaks require Studio playtest.",
+  "parts": [
+    {
+      "name": "Ground",
+      "shape": "Block",
+      "size": [
+        460,
+        1,
+        400
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#CAD7DB",
+      "material": "Concrete"
+    },
+    {
+      "name": "FrozenLakeShelf",
+      "shape": "Block",
+      "size": [
+        160,
+        0.02,
+        95
+      ],
+      "position": [
+        140,
+        0.5,
+        137.5
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8EBAC9",
+      "material": "Ice",
+      "folder": "Decor"
+    },
+    {
+      "name": "FrozenLakeInnerShelf",
+      "shape": "Block",
+      "size": [
+        65,
+        0.02,
+        30
+      ],
+      "position": [
+        107.5,
+        0.5,
+        75
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#A1C6D2",
+      "material": "Ice",
+      "folder": "Decor"
+    },
+    {
+      "name": "LakeCrack_0",
+      "shape": "Block",
+      "size": [
+        0.6,
+        0.04,
+        42.42640687119285
+      ],
+      "position": [
+        105.0,
+        0.495,
+        145.0
+      ],
+      "orientation": [
+        0,
+        135.0,
+        0
+      ],
+      "color": "#739CA9",
+      "material": "Slate",
+      "folder": "Decor"
+    },
+    {
+      "name": "LakeCrack_1",
+      "shape": "Block",
+      "size": [
+        0.6,
+        0.04,
+        31.622776601683793
+      ],
+      "position": [
+        135.0,
+        0.495,
+        135.0
+      ],
+      "orientation": [
+        0,
+        71.56505117707799,
+        0
+      ],
+      "color": "#739CA9",
+      "material": "Slate",
+      "folder": "Decor"
+    },
+    {
+      "name": "LakeCrack_2",
+      "shape": "Block",
+      "size": [
+        0.6,
+        0.04,
+        42.42640687119285
+      ],
+      "position": [
+        165.0,
+        0.495,
+        125.0
+      ],
+      "orientation": [
+        0,
+        135.0,
+        0
+      ],
+      "color": "#739CA9",
+      "material": "Slate",
+      "folder": "Decor"
+    },
+    {
+      "name": "LakeCrack_3",
+      "shape": "Block",
+      "size": [
+        0.6,
+        0.04,
+        26.248809496813376
+      ],
+      "position": [
+        116.0,
+        0.495,
+        117.5
+      ],
+      "orientation": [
+        0,
+        -162.25532837494308,
+        0
+      ],
+      "color": "#739CA9",
+      "material": "Slate",
+      "folder": "Decor"
+    },
+    {
+      "name": "LakeCrack_4",
+      "shape": "Block",
+      "size": [
+        0.6,
+        0.04,
+        28.653097563788805
+      ],
+      "position": [
+        192.5,
+        0.495,
+        117.0
+      ],
+      "orientation": [
+        0,
+        60.751173663453024,
+        0
+      ],
+      "color": "#739CA9",
+      "material": "Slate",
+      "folder": "Decor"
+    },
+    {
+      "name": "LakeCrack_5",
+      "shape": "Block",
+      "size": [
+        0.6,
+        0.04,
+        21.540659228538015
+      ],
+      "position": [
+        90.0,
+        0.495,
+        96.0
+      ],
+      "orientation": [
+        0,
+        111.80140948635182,
+        0
+      ],
+      "color": "#739CA9",
+      "material": "Slate",
+      "folder": "Decor"
+    },
+    {
+      "name": "Spawn_1",
+      "shape": "Block",
+      "size": [
+        2,
+        1,
+        2
+      ],
+      "position": [
+        -195,
+        0.5,
+        -70
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#CAD7DB",
+      "material": "Concrete",
+      "folder": "Spawns",
+      "transparency": 1,
+      "tags": [
+        "EnemySpawn"
+      ],
+      "attributes": {
+        "SpawnIndex": 1
+      }
+    },
+    {
+      "name": "Lane_1_01",
+      "shape": "Block",
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "position": [
+        -170.0,
+        0.5,
+        -70.0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#CAD7DB",
+      "material": "Concrete",
+      "folder": "Lanes",
+      "transparency": 1,
+      "tags": [
+        "LaneNode"
+      ],
+      "attributes": {
+        "SpawnIndex": 1,
+        "Order": 1
+      }
+    },
+    {
+      "name": "Lane_1_02",
+      "shape": "Block",
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "position": [
+        -145.0,
+        0.5,
+        -70.0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#CAD7DB",
+      "material": "Concrete",
+      "folder": "Lanes",
+      "transparency": 1,
+      "tags": [
+        "LaneNode"
+      ],
+      "attributes": {
+        "SpawnIndex": 1,
+        "Order": 2
+      }
+    },
+    {
+      "name": "Lane_1_03",
+      "shape": "Block",
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "position": [
+        -130.0,
+        0.5,
+        -52.5
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#CAD7DB",
+      "material": "Concrete",
+      "folder": "Lanes",
+      "transparency": 1,
+      "tags": [
+        "LaneNode"
+      ],
+      "attributes": {
+        "SpawnIndex": 1,
+        "Order": 3
+      }
+    },
+    {
+      "name": "Lane_1_04",
+      "shape": "Block",
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "position": [
+        -115.0,
+        0.5,
+        -35.0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#CAD7DB",
+      "material": "Concrete",
+      "folder": "Lanes",
+      "transparency": 1,
+      "tags": [
+        "LaneNode"
+      ],
+      "attributes": {
+        "SpawnIndex": 1,
+        "Order": 4
+      }
+    },
+    {
+      "name": "Lane_1_05",
+      "shape": "Block",
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "position": [
+        -90.0,
+        0.5,
+        -35.0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#CAD7DB",
+      "material": "Concrete",
+      "folder": "Lanes",
+      "transparency": 1,
+      "tags": [
+        "LaneNode"
+      ],
+      "attributes": {
+        "SpawnIndex": 1,
+        "Order": 5
+      }
+    },
+    {
+      "name": "Lane_1_06",
+      "shape": "Block",
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "position": [
+        -65.0,
+        0.5,
+        -35.0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#CAD7DB",
+      "material": "Concrete",
+      "folder": "Lanes",
+      "transparency": 1,
+      "tags": [
+        "LaneNode"
+      ],
+      "attributes": {
+        "SpawnIndex": 1,
+        "Order": 6
+      }
+    },
+    {
+      "name": "Lane_1_07",
+      "shape": "Block",
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "position": [
+        -56.66667,
+        0.5,
+        -20.0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#CAD7DB",
+      "material": "Concrete",
+      "folder": "Lanes",
+      "transparency": 1,
+      "tags": [
+        "LaneNode"
+      ],
+      "attributes": {
+        "SpawnIndex": 1,
+        "Order": 7
+      }
+    },
+    {
+      "name": "Lane_1_08",
+      "shape": "Block",
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "position": [
+        -48.33333,
+        0.5,
+        -5.0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#CAD7DB",
+      "material": "Concrete",
+      "folder": "Lanes",
+      "transparency": 1,
+      "tags": [
+        "LaneNode"
+      ],
+      "attributes": {
+        "SpawnIndex": 1,
+        "Order": 8
+      }
+    },
+    {
+      "name": "Lane_1_09",
+      "shape": "Block",
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "position": [
+        -40.0,
+        0.5,
+        10.0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#CAD7DB",
+      "material": "Concrete",
+      "folder": "Lanes",
+      "transparency": 1,
+      "tags": [
+        "LaneNode"
+      ],
+      "attributes": {
+        "SpawnIndex": 1,
+        "Order": 9
+      }
+    },
+    {
+      "name": "Lane_1_10",
+      "shape": "Block",
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "position": [
+        -26.66667,
+        0.5,
+        23.33333
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#CAD7DB",
+      "material": "Concrete",
+      "folder": "Lanes",
+      "transparency": 1,
+      "tags": [
+        "LaneNode"
+      ],
+      "attributes": {
+        "SpawnIndex": 1,
+        "Order": 10
+      }
+    },
+    {
+      "name": "Lane_1_11",
+      "shape": "Block",
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "position": [
+        -13.33333,
+        0.5,
+        36.66667
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#CAD7DB",
+      "material": "Concrete",
+      "folder": "Lanes",
+      "transparency": 1,
+      "tags": [
+        "LaneNode"
+      ],
+      "attributes": {
+        "SpawnIndex": 1,
+        "Order": 11
+      }
+    },
+    {
+      "name": "Road_1_1",
+      "shape": "Block",
+      "size": [
+        36,
+        0.04,
+        50.0
+      ],
+      "position": [
+        -170.0,
+        0.5,
+        -70.0
+      ],
+      "orientation": [
+        0,
+        90.0,
+        0
+      ],
+      "color": "#799EAF",
+      "material": "Slate",
+      "folder": "Decor"
+    },
+    {
+      "name": "Road_1_2",
+      "shape": "Block",
+      "size": [
+        36,
+        0.04,
+        46.09772228646444
+      ],
+      "position": [
+        -130.0,
+        0.5,
+        -52.5
+      ],
+      "orientation": [
+        0,
+        40.60129464500447,
+        0
+      ],
+      "color": "#799EAF",
+      "material": "Slate",
+      "folder": "Decor"
+    },
+    {
+      "name": "Road_1_3",
+      "shape": "Block",
+      "size": [
+        36,
+        0.04,
+        50.0
+      ],
+      "position": [
+        -90.0,
+        0.5,
+        -35.0
+      ],
+      "orientation": [
+        0,
+        90.0,
+        0
+      ],
+      "color": "#799EAF",
+      "material": "Slate",
+      "folder": "Decor"
+    },
+    {
+      "name": "Road_1_4",
+      "shape": "Block",
+      "size": [
+        36,
+        0.04,
+        51.478150704935004
+      ],
+      "position": [
+        -52.5,
+        0.5,
+        -12.5
+      ],
+      "orientation": [
+        0,
+        29.054604099077146,
+        0
+      ],
+      "color": "#799EAF",
+      "material": "Slate",
+      "folder": "Decor"
+    },
+    {
+      "name": "Road_1_5",
+      "shape": "Block",
+      "size": [
+        36,
+        0.04,
+        56.568542494923804
+      ],
+      "position": [
+        -20.0,
+        0.5,
+        30.0
+      ],
+      "orientation": [
+        0,
+        45.0,
+        0
+      ],
+      "color": "#799EAF",
+      "material": "Slate",
+      "folder": "Decor"
+    },
+    {
+      "name": "RoadJoin_1_1",
+      "shape": "Cylinder",
+      "size": [
+        0.04,
+        36,
+        36
+      ],
+      "position": [
+        -145,
+        0.5,
+        -70
+      ],
+      "orientation": [
+        0,
+        0,
+        90
+      ],
+      "color": "#799EAF",
+      "material": "Slate",
+      "folder": "Decor"
+    },
+    {
+      "name": "RoadJoin_1_2",
+      "shape": "Cylinder",
+      "size": [
+        0.04,
+        36,
+        36
+      ],
+      "position": [
+        -115,
+        0.5,
+        -35
+      ],
+      "orientation": [
+        0,
+        0,
+        90
+      ],
+      "color": "#799EAF",
+      "material": "Slate",
+      "folder": "Decor"
+    },
+    {
+      "name": "RoadJoin_1_3",
+      "shape": "Cylinder",
+      "size": [
+        0.04,
+        36,
+        36
+      ],
+      "position": [
+        -65,
+        0.5,
+        -35
+      ],
+      "orientation": [
+        0,
+        0,
+        90
+      ],
+      "color": "#799EAF",
+      "material": "Slate",
+      "folder": "Decor"
+    },
+    {
+      "name": "RoadJoin_1_4",
+      "shape": "Cylinder",
+      "size": [
+        0.04,
+        36,
+        36
+      ],
+      "position": [
+        -40,
+        0.5,
+        10
+      ],
+      "orientation": [
+        0,
+        0,
+        90
+      ],
+      "color": "#799EAF",
+      "material": "Slate",
+      "folder": "Decor"
+    },
+    {
+      "name": "Spawn_2",
+      "shape": "Block",
+      "size": [
+        2,
+        1,
+        2
+      ],
+      "position": [
+        20,
+        0.5,
+        -175
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#CAD7DB",
+      "material": "Concrete",
+      "folder": "Spawns",
+      "transparency": 1,
+      "tags": [
+        "EnemySpawn"
+      ],
+      "attributes": {
+        "SpawnIndex": 2
+      }
+    },
+    {
+      "name": "Lane_2_01",
+      "shape": "Block",
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "position": [
+        20.0,
+        0.5,
+        -150.0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#CAD7DB",
+      "material": "Concrete",
+      "folder": "Lanes",
+      "transparency": 1,
+      "tags": [
+        "LaneNode"
+      ],
+      "attributes": {
+        "SpawnIndex": 2,
+        "Order": 1
+      }
+    },
+    {
+      "name": "Lane_2_02",
+      "shape": "Block",
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "position": [
+        20.0,
+        0.5,
+        -125.0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#CAD7DB",
+      "material": "Concrete",
+      "folder": "Lanes",
+      "transparency": 1,
+      "tags": [
+        "LaneNode"
+      ],
+      "attributes": {
+        "SpawnIndex": 2,
+        "Order": 2
+      }
+    },
+    {
+      "name": "Lane_2_03",
+      "shape": "Block",
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "position": [
+        5.0,
+        0.5,
+        -110.0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#CAD7DB",
+      "material": "Concrete",
+      "folder": "Lanes",
+      "transparency": 1,
+      "tags": [
+        "LaneNode"
+      ],
+      "attributes": {
+        "SpawnIndex": 2,
+        "Order": 3
+      }
+    },
+    {
+      "name": "Lane_2_04",
+      "shape": "Block",
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "position": [
+        -10.0,
+        0.5,
+        -95.0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#CAD7DB",
+      "material": "Concrete",
+      "folder": "Lanes",
+      "transparency": 1,
+      "tags": [
+        "LaneNode"
+      ],
+      "attributes": {
+        "SpawnIndex": 2,
+        "Order": 4
+      }
+    },
+    {
+      "name": "Lane_2_05",
+      "shape": "Block",
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "position": [
+        -10.0,
+        0.5,
+        -75.0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#CAD7DB",
+      "material": "Concrete",
+      "folder": "Lanes",
+      "transparency": 1,
+      "tags": [
+        "LaneNode"
+      ],
+      "attributes": {
+        "SpawnIndex": 2,
+        "Order": 5
+      }
+    },
+    {
+      "name": "Lane_2_06",
+      "shape": "Block",
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "position": [
+        -10.0,
+        0.5,
+        -55.0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#CAD7DB",
+      "material": "Concrete",
+      "folder": "Lanes",
+      "transparency": 1,
+      "tags": [
+        "LaneNode"
+      ],
+      "attributes": {
+        "SpawnIndex": 2,
+        "Order": 6
+      }
+    },
+    {
+      "name": "Lane_2_07",
+      "shape": "Block",
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "position": [
+        -10.0,
+        0.5,
+        -35.0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#CAD7DB",
+      "material": "Concrete",
+      "folder": "Lanes",
+      "transparency": 1,
+      "tags": [
+        "LaneNode"
+      ],
+      "attributes": {
+        "SpawnIndex": 2,
+        "Order": 7
+      }
+    },
+    {
+      "name": "Lane_2_08",
+      "shape": "Block",
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "position": [
+        -5.0,
+        0.5,
+        -12.5
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#CAD7DB",
+      "material": "Concrete",
+      "folder": "Lanes",
+      "transparency": 1,
+      "tags": [
+        "LaneNode"
+      ],
+      "attributes": {
+        "SpawnIndex": 2,
+        "Order": 8
+      }
+    },
+    {
+      "name": "Lane_2_09",
+      "shape": "Block",
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "position": [
+        0.0,
+        0.5,
+        10.0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#CAD7DB",
+      "material": "Concrete",
+      "folder": "Lanes",
+      "transparency": 1,
+      "tags": [
+        "LaneNode"
+      ],
+      "attributes": {
+        "SpawnIndex": 2,
+        "Order": 9
+      }
+    },
+    {
+      "name": "Lane_2_10",
+      "shape": "Block",
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "position": [
+        0.0,
+        0.5,
+        30.0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#CAD7DB",
+      "material": "Concrete",
+      "folder": "Lanes",
+      "transparency": 1,
+      "tags": [
+        "LaneNode"
+      ],
+      "attributes": {
+        "SpawnIndex": 2,
+        "Order": 10
+      }
+    },
+    {
+      "name": "Road_2_1",
+      "shape": "Block",
+      "size": [
+        36,
+        0.04,
+        50.0
+      ],
+      "position": [
+        20.0,
+        0.5,
+        -150.0
+      ],
+      "orientation": [
+        0,
+        0.0,
+        0
+      ],
+      "color": "#799EAF",
+      "material": "Slate",
+      "folder": "Decor"
+    },
+    {
+      "name": "Road_2_2",
+      "shape": "Block",
+      "size": [
+        36,
+        0.04,
+        42.42640687119285
+      ],
+      "position": [
+        5.0,
+        0.5,
+        -110.0
+      ],
+      "orientation": [
+        0,
+        -45.0,
+        0
+      ],
+      "color": "#799EAF",
+      "material": "Slate",
+      "folder": "Decor"
+    },
+    {
+      "name": "Road_2_3",
+      "shape": "Block",
+      "size": [
+        36,
+        0.04,
+        60.0
+      ],
+      "position": [
+        -10.0,
+        0.5,
+        -65.0
+      ],
+      "orientation": [
+        0,
+        0.0,
+        0
+      ],
+      "color": "#799EAF",
+      "material": "Slate",
+      "folder": "Decor"
+    },
+    {
+      "name": "Road_2_4",
+      "shape": "Block",
+      "size": [
+        36,
+        0.04,
+        46.09772228646444
+      ],
+      "position": [
+        -5.0,
+        0.5,
+        -12.5
+      ],
+      "orientation": [
+        0,
+        12.528807709151511,
+        0
+      ],
+      "color": "#799EAF",
+      "material": "Slate",
+      "folder": "Decor"
+    },
+    {
+      "name": "Road_2_5",
+      "shape": "Block",
+      "size": [
+        36,
+        0.04,
+        40.0
+      ],
+      "position": [
+        0.0,
+        0.5,
+        30.0
+      ],
+      "orientation": [
+        0,
+        0.0,
+        0
+      ],
+      "color": "#799EAF",
+      "material": "Slate",
+      "folder": "Decor"
+    },
+    {
+      "name": "RoadJoin_2_1",
+      "shape": "Cylinder",
+      "size": [
+        0.04,
+        36,
+        36
+      ],
+      "position": [
+        20,
+        0.5,
+        -125
+      ],
+      "orientation": [
+        0,
+        0,
+        90
+      ],
+      "color": "#799EAF",
+      "material": "Slate",
+      "folder": "Decor"
+    },
+    {
+      "name": "RoadJoin_2_2",
+      "shape": "Cylinder",
+      "size": [
+        0.04,
+        36,
+        36
+      ],
+      "position": [
+        -10,
+        0.5,
+        -95
+      ],
+      "orientation": [
+        0,
+        0,
+        90
+      ],
+      "color": "#799EAF",
+      "material": "Slate",
+      "folder": "Decor"
+    },
+    {
+      "name": "RoadJoin_2_3",
+      "shape": "Cylinder",
+      "size": [
+        0.04,
+        36,
+        36
+      ],
+      "position": [
+        -10,
+        0.5,
+        -35
+      ],
+      "orientation": [
+        0,
+        0,
+        90
+      ],
+      "color": "#799EAF",
+      "material": "Slate",
+      "folder": "Decor"
+    },
+    {
+      "name": "RoadJoin_2_4",
+      "shape": "Cylinder",
+      "size": [
+        0.04,
+        36,
+        36
+      ],
+      "position": [
+        0,
+        0.5,
+        10
+      ],
+      "orientation": [
+        0,
+        0,
+        90
+      ],
+      "color": "#799EAF",
+      "material": "Slate",
+      "folder": "Decor"
+    },
+    {
+      "name": "Spawn_3",
+      "shape": "Block",
+      "size": [
+        2,
+        1,
+        2
+      ],
+      "position": [
+        195,
+        0.5,
+        -45
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#CAD7DB",
+      "material": "Concrete",
+      "folder": "Spawns",
+      "transparency": 1,
+      "tags": [
+        "EnemySpawn"
+      ],
+      "attributes": {
+        "SpawnIndex": 3
+      }
+    },
+    {
+      "name": "Lane_3_01",
+      "shape": "Block",
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "position": [
+        170.0,
+        0.5,
+        -45.0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#CAD7DB",
+      "material": "Concrete",
+      "folder": "Lanes",
+      "transparency": 1,
+      "tags": [
+        "LaneNode"
+      ],
+      "attributes": {
+        "SpawnIndex": 3,
+        "Order": 1
+      }
+    },
+    {
+      "name": "Lane_3_02",
+      "shape": "Block",
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "position": [
+        145.0,
+        0.5,
+        -45.0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#CAD7DB",
+      "material": "Concrete",
+      "folder": "Lanes",
+      "transparency": 1,
+      "tags": [
+        "LaneNode"
+      ],
+      "attributes": {
+        "SpawnIndex": 3,
+        "Order": 2
+      }
+    },
+    {
+      "name": "Lane_3_03",
+      "shape": "Block",
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "position": [
+        130.0,
+        0.5,
+        -25.0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#CAD7DB",
+      "material": "Concrete",
+      "folder": "Lanes",
+      "transparency": 1,
+      "tags": [
+        "LaneNode"
+      ],
+      "attributes": {
+        "SpawnIndex": 3,
+        "Order": 3
+      }
+    },
+    {
+      "name": "Lane_3_04",
+      "shape": "Block",
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "position": [
+        115.0,
+        0.5,
+        -5.0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#CAD7DB",
+      "material": "Concrete",
+      "folder": "Lanes",
+      "transparency": 1,
+      "tags": [
+        "LaneNode"
+      ],
+      "attributes": {
+        "SpawnIndex": 3,
+        "Order": 4
+      }
+    },
+    {
+      "name": "Lane_3_05",
+      "shape": "Block",
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "position": [
+        95.0,
+        0.5,
+        -5.0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#CAD7DB",
+      "material": "Concrete",
+      "folder": "Lanes",
+      "transparency": 1,
+      "tags": [
+        "LaneNode"
+      ],
+      "attributes": {
+        "SpawnIndex": 3,
+        "Order": 5
+      }
+    },
+    {
+      "name": "Lane_3_06",
+      "shape": "Block",
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "position": [
+        75.0,
+        0.5,
+        -5.0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#CAD7DB",
+      "material": "Concrete",
+      "folder": "Lanes",
+      "transparency": 1,
+      "tags": [
+        "LaneNode"
+      ],
+      "attributes": {
+        "SpawnIndex": 3,
+        "Order": 6
+      }
+    },
+    {
+      "name": "Lane_3_07",
+      "shape": "Block",
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "position": [
+        60.0,
+        0.5,
+        10.0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#CAD7DB",
+      "material": "Concrete",
+      "folder": "Lanes",
+      "transparency": 1,
+      "tags": [
+        "LaneNode"
+      ],
+      "attributes": {
+        "SpawnIndex": 3,
+        "Order": 7
+      }
+    },
+    {
+      "name": "Lane_3_08",
+      "shape": "Block",
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "position": [
+        45.0,
+        0.5,
+        25.0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#CAD7DB",
+      "material": "Concrete",
+      "folder": "Lanes",
+      "transparency": 1,
+      "tags": [
+        "LaneNode"
+      ],
+      "attributes": {
+        "SpawnIndex": 3,
+        "Order": 8
+      }
+    },
+    {
+      "name": "Lane_3_09",
+      "shape": "Block",
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "position": [
+        30.0,
+        0.5,
+        33.33333
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#CAD7DB",
+      "material": "Concrete",
+      "folder": "Lanes",
+      "transparency": 1,
+      "tags": [
+        "LaneNode"
+      ],
+      "attributes": {
+        "SpawnIndex": 3,
+        "Order": 9
+      }
+    },
+    {
+      "name": "Lane_3_10",
+      "shape": "Block",
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "position": [
+        15.0,
+        0.5,
+        41.66667
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#CAD7DB",
+      "material": "Concrete",
+      "folder": "Lanes",
+      "transparency": 1,
+      "tags": [
+        "LaneNode"
+      ],
+      "attributes": {
+        "SpawnIndex": 3,
+        "Order": 10
+      }
+    },
+    {
+      "name": "Road_3_1",
+      "shape": "Block",
+      "size": [
+        36,
+        0.04,
+        50.0
+      ],
+      "position": [
+        170.0,
+        0.5,
+        -45.0
+      ],
+      "orientation": [
+        0,
+        -90.0,
+        0
+      ],
+      "color": "#799EAF",
+      "material": "Slate",
+      "folder": "Decor"
+    },
+    {
+      "name": "Road_3_2",
+      "shape": "Block",
+      "size": [
+        36,
+        0.04,
+        50.0
+      ],
+      "position": [
+        130.0,
+        0.5,
+        -25.0
+      ],
+      "orientation": [
+        0,
+        -36.86989764584402,
+        0
+      ],
+      "color": "#799EAF",
+      "material": "Slate",
+      "folder": "Decor"
+    },
+    {
+      "name": "Road_3_3",
+      "shape": "Block",
+      "size": [
+        36,
+        0.04,
+        40.0
+      ],
+      "position": [
+        95.0,
+        0.5,
+        -5.0
+      ],
+      "orientation": [
+        0,
+        -90.0,
+        0
+      ],
+      "color": "#799EAF",
+      "material": "Slate",
+      "folder": "Decor"
+    },
+    {
+      "name": "Road_3_4",
+      "shape": "Block",
+      "size": [
+        36,
+        0.04,
+        42.42640687119285
+      ],
+      "position": [
+        60.0,
+        0.5,
+        10.0
+      ],
+      "orientation": [
+        0,
+        -45.0,
+        0
+      ],
+      "color": "#799EAF",
+      "material": "Slate",
+      "folder": "Decor"
+    },
+    {
+      "name": "Road_3_5",
+      "shape": "Block",
+      "size": [
+        36,
+        0.04,
+        51.478150704935004
+      ],
+      "position": [
+        22.5,
+        0.5,
+        37.5
+      ],
+      "orientation": [
+        0,
+        -60.94539590092286,
+        0
+      ],
+      "color": "#799EAF",
+      "material": "Slate",
+      "folder": "Decor"
+    },
+    {
+      "name": "RoadJoin_3_1",
+      "shape": "Cylinder",
+      "size": [
+        0.04,
+        36,
+        36
+      ],
+      "position": [
+        145,
+        0.5,
+        -45
+      ],
+      "orientation": [
+        0,
+        0,
+        90
+      ],
+      "color": "#799EAF",
+      "material": "Slate",
+      "folder": "Decor"
+    },
+    {
+      "name": "RoadJoin_3_2",
+      "shape": "Cylinder",
+      "size": [
+        0.04,
+        36,
+        36
+      ],
+      "position": [
+        115,
+        0.5,
+        -5
+      ],
+      "orientation": [
+        0,
+        0,
+        90
+      ],
+      "color": "#799EAF",
+      "material": "Slate",
+      "folder": "Decor"
+    },
+    {
+      "name": "RoadJoin_3_3",
+      "shape": "Cylinder",
+      "size": [
+        0.04,
+        36,
+        36
+      ],
+      "position": [
+        75,
+        0.5,
+        -5
+      ],
+      "orientation": [
+        0,
+        0,
+        90
+      ],
+      "color": "#799EAF",
+      "material": "Slate",
+      "folder": "Decor"
+    },
+    {
+      "name": "RoadJoin_3_4",
+      "shape": "Cylinder",
+      "size": [
+        0.04,
+        36,
+        36
+      ],
+      "position": [
+        45,
+        0.5,
+        25
+      ],
+      "orientation": [
+        0,
+        0,
+        90
+      ],
+      "color": "#799EAF",
+      "material": "Slate",
+      "folder": "Decor"
+    },
+    {
+      "name": "cas_01",
+      "shape": "Block",
+      "size": [
+        18,
+        0.4,
+        18
+      ],
+      "position": [
+        0,
+        0.7,
+        50
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#D6B96D",
+      "material": "Slate",
+      "folder": "Slots",
+      "transparency": 0.25,
+      "tags": [
+        "BuildSlot"
+      ],
+      "attributes": {
+        "SlotId": "cas_01",
+        "SlotType": "Castle",
+        "MaxLevel": 3,
+        "StartLevel": 1
+      }
+    },
+    {
+      "name": "cas_01_Foundation",
+      "shape": "Block",
+      "size": [
+        19,
+        0.04,
+        19
+      ],
+      "position": [
+        0,
+        0.5,
+        50
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#536C7C",
+      "material": "Slate",
+      "folder": "Decor"
+    },
+    {
+      "name": "wal_01",
+      "shape": "Block",
+      "size": [
+        14,
+        0.4,
+        4
+      ],
+      "position": [
+        -90,
+        0.7,
+        -35
+      ],
+      "orientation": [
+        0,
+        90,
+        0
+      ],
+      "color": "#9CA9AF",
+      "material": "Slate",
+      "folder": "Slots",
+      "transparency": 0.25,
+      "tags": [
+        "BuildSlot"
+      ],
+      "attributes": {
+        "SlotId": "wal_01",
+        "SlotType": "Wall",
+        "MaxLevel": 3,
+        "StartLevel": 0
+      }
+    },
+    {
+      "name": "wal_01_Foundation",
+      "shape": "Block",
+      "size": [
+        15,
+        0.04,
+        5
+      ],
+      "position": [
+        -90,
+        0.5,
+        -35
+      ],
+      "orientation": [
+        0,
+        90,
+        0
+      ],
+      "color": "#536C7C",
+      "material": "Slate",
+      "folder": "Decor"
+    },
+    {
+      "name": "wal_02",
+      "shape": "Block",
+      "size": [
+        14,
+        0.4,
+        4
+      ],
+      "position": [
+        -10,
+        0.7,
+        -65
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#9CA9AF",
+      "material": "Slate",
+      "folder": "Slots",
+      "transparency": 0.25,
+      "tags": [
+        "BuildSlot"
+      ],
+      "attributes": {
+        "SlotId": "wal_02",
+        "SlotType": "Wall",
+        "MaxLevel": 3,
+        "StartLevel": 0
+      }
+    },
+    {
+      "name": "wal_02_Foundation",
+      "shape": "Block",
+      "size": [
+        15,
+        0.04,
+        5
+      ],
+      "position": [
+        -10,
+        0.5,
+        -65
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#536C7C",
+      "material": "Slate",
+      "folder": "Decor"
+    },
+    {
+      "name": "wal_03",
+      "shape": "Block",
+      "size": [
+        14,
+        0.4,
+        4
+      ],
+      "position": [
+        115,
+        0.7,
+        -5
+      ],
+      "orientation": [
+        0,
+        90,
+        0
+      ],
+      "color": "#9CA9AF",
+      "material": "Slate",
+      "folder": "Slots",
+      "transparency": 0.25,
+      "tags": [
+        "BuildSlot"
+      ],
+      "attributes": {
+        "SlotId": "wal_03",
+        "SlotType": "Wall",
+        "MaxLevel": 3,
+        "StartLevel": 0
+      }
+    },
+    {
+      "name": "wal_03_Foundation",
+      "shape": "Block",
+      "size": [
+        15,
+        0.04,
+        5
+      ],
+      "position": [
+        115,
+        0.5,
+        -5
+      ],
+      "orientation": [
+        0,
+        90,
+        0
+      ],
+      "color": "#536C7C",
+      "material": "Slate",
+      "folder": "Decor"
+    },
+    {
+      "name": "wal_04",
+      "shape": "Block",
+      "size": [
+        14,
+        0.4,
+        4
+      ],
+      "position": [
+        0,
+        0.7,
+        10
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#9CA9AF",
+      "material": "Slate",
+      "folder": "Slots",
+      "transparency": 0.25,
+      "tags": [
+        "BuildSlot"
+      ],
+      "attributes": {
+        "SlotId": "wal_04",
+        "SlotType": "Wall",
+        "MaxLevel": 3,
+        "StartLevel": 0
+      }
+    },
+    {
+      "name": "wal_04_Foundation",
+      "shape": "Block",
+      "size": [
+        15,
+        0.04,
+        5
+      ],
+      "position": [
+        0,
+        0.5,
+        10
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#536C7C",
+      "material": "Slate",
+      "folder": "Decor"
+    },
+    {
+      "name": "gol_01",
+      "shape": "Block",
+      "size": [
+        10,
+        0.4,
+        10
+      ],
+      "position": [
+        143,
+        0.7,
+        1
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C6A34C",
+      "material": "Slate",
+      "folder": "Slots",
+      "transparency": 0.25,
+      "tags": [
+        "BuildSlot"
+      ],
+      "attributes": {
+        "SlotId": "gol_01",
+        "SlotType": "GoldMine",
+        "MaxLevel": 1,
+        "StartLevel": 0
+      }
+    },
+    {
+      "name": "gol_01_Foundation",
+      "shape": "Block",
+      "size": [
+        11,
+        0.04,
+        11
+      ],
+      "position": [
+        143,
+        0.5,
+        1
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#536C7C",
+      "material": "Slate",
+      "folder": "Decor"
+    },
+    {
+      "name": "twr_01",
+      "shape": "Block",
+      "size": [
+        10,
+        0.4,
+        10
+      ],
+      "position": [
+        -115,
+        0.7,
+        -78
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#65859D",
+      "material": "Slate",
+      "folder": "Slots",
+      "transparency": 0.25,
+      "tags": [
+        "BuildSlot"
+      ],
+      "attributes": {
+        "SlotId": "twr_01",
+        "SlotType": "Tower",
+        "MaxLevel": 3,
+        "StartLevel": 0
+      }
+    },
+    {
+      "name": "twr_01_Foundation",
+      "shape": "Block",
+      "size": [
+        11,
+        0.04,
+        11
+      ],
+      "position": [
+        -115,
+        0.5,
+        -78
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#536C7C",
+      "material": "Slate",
+      "folder": "Decor"
+    },
+    {
+      "name": "twr_02",
+      "shape": "Block",
+      "size": [
+        10,
+        0.4,
+        10
+      ],
+      "position": [
+        -157,
+        0.7,
+        -41
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#65859D",
+      "material": "Slate",
+      "folder": "Slots",
+      "transparency": 0.25,
+      "tags": [
+        "BuildSlot"
+      ],
+      "attributes": {
+        "SlotId": "twr_02",
+        "SlotType": "Tower",
+        "MaxLevel": 3,
+        "StartLevel": 0
+      }
+    },
+    {
+      "name": "twr_02_Foundation",
+      "shape": "Block",
+      "size": [
+        11,
+        0.04,
+        11
+      ],
+      "position": [
+        -157,
+        0.5,
+        -41
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#536C7C",
+      "material": "Slate",
+      "folder": "Decor"
+    },
+    {
+      "name": "twr_03",
+      "shape": "Block",
+      "size": [
+        10,
+        0.4,
+        10
+      ],
+      "position": [
+        -96,
+        0.7,
+        -74
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#65859D",
+      "material": "Slate",
+      "folder": "Slots",
+      "transparency": 0.25,
+      "tags": [
+        "BuildSlot"
+      ],
+      "attributes": {
+        "SlotId": "twr_03",
+        "SlotType": "Tower",
+        "MaxLevel": 3,
+        "StartLevel": 0
+      }
+    },
+    {
+      "name": "twr_03_Foundation",
+      "shape": "Block",
+      "size": [
+        11,
+        0.04,
+        11
+      ],
+      "position": [
+        -96,
+        0.5,
+        -74
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#536C7C",
+      "material": "Slate",
+      "folder": "Decor"
+    },
+    {
+      "name": "twr_04",
+      "shape": "Block",
+      "size": [
+        10,
+        0.4,
+        10
+      ],
+      "position": [
+        -112,
+        0.7,
+        2
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#65859D",
+      "material": "Slate",
+      "folder": "Slots",
+      "transparency": 0.25,
+      "tags": [
+        "BuildSlot"
+      ],
+      "attributes": {
+        "SlotId": "twr_04",
+        "SlotType": "Tower",
+        "MaxLevel": 3,
+        "StartLevel": 0
+      }
+    },
+    {
+      "name": "twr_04_Foundation",
+      "shape": "Block",
+      "size": [
+        11,
+        0.04,
+        11
+      ],
+      "position": [
+        -112,
+        0.5,
+        2
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#536C7C",
+      "material": "Slate",
+      "folder": "Decor"
+    },
+    {
+      "name": "twr_05",
+      "shape": "Block",
+      "size": [
+        10,
+        0.4,
+        10
+      ],
+      "position": [
+        -72,
+        0.7,
+        -64
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#65859D",
+      "material": "Slate",
+      "folder": "Slots",
+      "transparency": 0.25,
+      "tags": [
+        "BuildSlot"
+      ],
+      "attributes": {
+        "SlotId": "twr_05",
+        "SlotType": "Tower",
+        "MaxLevel": 3,
+        "StartLevel": 0
+      }
+    },
+    {
+      "name": "twr_05_Foundation",
+      "shape": "Block",
+      "size": [
+        11,
+        0.04,
+        11
+      ],
+      "position": [
+        -72,
+        0.5,
+        -64
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#536C7C",
+      "material": "Slate",
+      "folder": "Decor"
+    },
+    {
+      "name": "twr_06",
+      "shape": "Block",
+      "size": [
+        10,
+        0.4,
+        10
+      ],
+      "position": [
+        -78,
+        0.7,
+        -4
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#65859D",
+      "material": "Slate",
+      "folder": "Slots",
+      "transparency": 0.25,
+      "tags": [
+        "BuildSlot"
+      ],
+      "attributes": {
+        "SlotId": "twr_06",
+        "SlotType": "Tower",
+        "MaxLevel": 3,
+        "StartLevel": 0
+      }
+    },
+    {
+      "name": "twr_06_Foundation",
+      "shape": "Block",
+      "size": [
+        11,
+        0.04,
+        11
+      ],
+      "position": [
+        -78,
+        0.5,
+        -4
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#536C7C",
+      "material": "Slate",
+      "folder": "Decor"
+    },
+    {
+      "name": "twr_07",
+      "shape": "Block",
+      "size": [
+        10,
+        0.4,
+        10
+      ],
+      "position": [
+        26,
+        0.7,
+        -31
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#65859D",
+      "material": "Slate",
+      "folder": "Slots",
+      "transparency": 0.25,
+      "tags": [
+        "BuildSlot"
+      ],
+      "attributes": {
+        "SlotId": "twr_07",
+        "SlotType": "Tower",
+        "MaxLevel": 3,
+        "StartLevel": 0
+      }
+    },
+    {
+      "name": "twr_07_Foundation",
+      "shape": "Block",
+      "size": [
+        11,
+        0.04,
+        11
+      ],
+      "position": [
+        26,
+        0.5,
+        -31
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#536C7C",
+      "material": "Slate",
+      "folder": "Decor"
+    },
+    {
+      "name": "twr_08",
+      "shape": "Block",
+      "size": [
+        10,
+        0.4,
+        10
+      ],
+      "position": [
+        -85,
+        0.7,
+        14
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#65859D",
+      "material": "Slate",
+      "folder": "Slots",
+      "transparency": 0.25,
+      "tags": [
+        "BuildSlot"
+      ],
+      "attributes": {
+        "SlotId": "twr_08",
+        "SlotType": "Tower",
+        "MaxLevel": 3,
+        "StartLevel": 0
+      }
+    },
+    {
+      "name": "twr_08_Foundation",
+      "shape": "Block",
+      "size": [
+        11,
+        0.04,
+        11
+      ],
+      "position": [
+        -85,
+        0.5,
+        14
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#536C7C",
+      "material": "Slate",
+      "folder": "Decor"
+    },
+    {
+      "name": "twr_09",
+      "shape": "Block",
+      "size": [
+        10,
+        0.4,
+        10
+      ],
+      "position": [
+        28,
+        0.7,
+        -96
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#65859D",
+      "material": "Slate",
+      "folder": "Slots",
+      "transparency": 0.25,
+      "tags": [
+        "BuildSlot"
+      ],
+      "attributes": {
+        "SlotId": "twr_09",
+        "SlotType": "Tower",
+        "MaxLevel": 3,
+        "StartLevel": 0
+      }
+    },
+    {
+      "name": "twr_09_Foundation",
+      "shape": "Block",
+      "size": [
+        11,
+        0.04,
+        11
+      ],
+      "position": [
+        28,
+        0.5,
+        -96
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#536C7C",
+      "material": "Slate",
+      "folder": "Decor"
+    },
+    {
+      "name": "twr_10",
+      "shape": "Block",
+      "size": [
+        10,
+        0.4,
+        10
+      ],
+      "position": [
+        -11,
+        0.7,
+        -135
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#65859D",
+      "material": "Slate",
+      "folder": "Slots",
+      "transparency": 0.25,
+      "tags": [
+        "BuildSlot"
+      ],
+      "attributes": {
+        "SlotId": "twr_10",
+        "SlotType": "Tower",
+        "MaxLevel": 3,
+        "StartLevel": 0
+      }
+    },
+    {
+      "name": "twr_10_Foundation",
+      "shape": "Block",
+      "size": [
+        11,
+        0.04,
+        11
+      ],
+      "position": [
+        -11,
+        0.5,
+        -135
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#536C7C",
+      "material": "Slate",
+      "folder": "Decor"
+    },
+    {
+      "name": "twr_11",
+      "shape": "Block",
+      "size": [
+        10,
+        0.4,
+        10
+      ],
+      "position": [
+        17,
+        0.7,
+        -79
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#65859D",
+      "material": "Slate",
+      "folder": "Slots",
+      "transparency": 0.25,
+      "tags": [
+        "BuildSlot"
+      ],
+      "attributes": {
+        "SlotId": "twr_11",
+        "SlotType": "Tower",
+        "MaxLevel": 3,
+        "StartLevel": 0
+      }
+    },
+    {
+      "name": "twr_11_Foundation",
+      "shape": "Block",
+      "size": [
+        11,
+        0.04,
+        11
+      ],
+      "position": [
+        17,
+        0.5,
+        -79
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#536C7C",
+      "material": "Slate",
+      "folder": "Decor"
+    },
+    {
+      "name": "twr_12",
+      "shape": "Block",
+      "size": [
+        10,
+        0.4,
+        10
+      ],
+      "position": [
+        -39,
+        0.7,
+        -83
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#65859D",
+      "material": "Slate",
+      "folder": "Slots",
+      "transparency": 0.25,
+      "tags": [
+        "BuildSlot"
+      ],
+      "attributes": {
+        "SlotId": "twr_12",
+        "SlotType": "Tower",
+        "MaxLevel": 3,
+        "StartLevel": 0
+      }
+    },
+    {
+      "name": "twr_12_Foundation",
+      "shape": "Block",
+      "size": [
+        11,
+        0.04,
+        11
+      ],
+      "position": [
+        -39,
+        0.5,
+        -83
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#536C7C",
+      "material": "Slate",
+      "folder": "Decor"
+    },
+    {
+      "name": "twr_13",
+      "shape": "Block",
+      "size": [
+        10,
+        0.4,
+        10
+      ],
+      "position": [
+        17,
+        0.7,
+        -49
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#65859D",
+      "material": "Slate",
+      "folder": "Slots",
+      "transparency": 0.25,
+      "tags": [
+        "BuildSlot"
+      ],
+      "attributes": {
+        "SlotId": "twr_13",
+        "SlotType": "Tower",
+        "MaxLevel": 3,
+        "StartLevel": 0
+      }
+    },
+    {
+      "name": "twr_13_Foundation",
+      "shape": "Block",
+      "size": [
+        11,
+        0.04,
+        11
+      ],
+      "position": [
+        17,
+        0.5,
+        -49
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#536C7C",
+      "material": "Slate",
+      "folder": "Decor"
+    },
+    {
+      "name": "twr_14",
+      "shape": "Block",
+      "size": [
+        10,
+        0.4,
+        10
+      ],
+      "position": [
+        -39,
+        0.7,
+        -43
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#65859D",
+      "material": "Slate",
+      "folder": "Slots",
+      "transparency": 0.25,
+      "tags": [
+        "BuildSlot"
+      ],
+      "attributes": {
+        "SlotId": "twr_14",
+        "SlotType": "Tower",
+        "MaxLevel": 3,
+        "StartLevel": 0
+      }
+    },
+    {
+      "name": "twr_14_Foundation",
+      "shape": "Block",
+      "size": [
+        11,
+        0.04,
+        11
+      ],
+      "position": [
+        -39,
+        0.5,
+        -43
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#536C7C",
+      "material": "Slate",
+      "folder": "Decor"
+    },
+    {
+      "name": "twr_15",
+      "shape": "Block",
+      "size": [
+        10,
+        0.4,
+        10
+      ],
+      "position": [
+        157,
+        0.7,
+        -17
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#65859D",
+      "material": "Slate",
+      "folder": "Slots",
+      "transparency": 0.25,
+      "tags": [
+        "BuildSlot"
+      ],
+      "attributes": {
+        "SlotId": "twr_15",
+        "SlotType": "Tower",
+        "MaxLevel": 3,
+        "StartLevel": 0
+      }
+    },
+    {
+      "name": "twr_15_Foundation",
+      "shape": "Block",
+      "size": [
+        11,
+        0.04,
+        11
+      ],
+      "position": [
+        157,
+        0.5,
+        -17
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#536C7C",
+      "material": "Slate",
+      "folder": "Decor"
+    },
+    {
+      "name": "twr_16",
+      "shape": "Block",
+      "size": [
+        10,
+        0.4,
+        10
+      ],
+      "position": [
+        113,
+        0.7,
+        -51
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#65859D",
+      "material": "Slate",
+      "folder": "Slots",
+      "transparency": 0.25,
+      "tags": [
+        "BuildSlot"
+      ],
+      "attributes": {
+        "SlotId": "twr_16",
+        "SlotType": "Tower",
+        "MaxLevel": 3,
+        "StartLevel": 0
+      }
+    },
+    {
+      "name": "twr_16_Foundation",
+      "shape": "Block",
+      "size": [
+        11,
+        0.04,
+        11
+      ],
+      "position": [
+        113,
+        0.5,
+        -51
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#536C7C",
+      "material": "Slate",
+      "folder": "Decor"
+    },
+    {
+      "name": "twr_17",
+      "shape": "Block",
+      "size": [
+        10,
+        0.4,
+        10
+      ],
+      "position": [
+        144,
+        0.7,
+        21
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#65859D",
+      "material": "Slate",
+      "folder": "Slots",
+      "transparency": 0.25,
+      "tags": [
+        "BuildSlot"
+      ],
+      "attributes": {
+        "SlotId": "twr_17",
+        "SlotType": "Tower",
+        "MaxLevel": 3,
+        "StartLevel": 0
+      }
+    },
+    {
+      "name": "twr_17_Foundation",
+      "shape": "Block",
+      "size": [
+        11,
+        0.04,
+        11
+      ],
+      "position": [
+        144,
+        0.5,
+        21
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#536C7C",
+      "material": "Slate",
+      "folder": "Decor"
+    },
+    {
+      "name": "twr_18",
+      "shape": "Block",
+      "size": [
+        10,
+        0.4,
+        10
+      ],
+      "position": [
+        84,
+        0.7,
+        -39
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#65859D",
+      "material": "Slate",
+      "folder": "Slots",
+      "transparency": 0.25,
+      "tags": [
+        "BuildSlot"
+      ],
+      "attributes": {
+        "SlotId": "twr_18",
+        "SlotType": "Tower",
+        "MaxLevel": 3,
+        "StartLevel": 0
+      }
+    },
+    {
+      "name": "twr_18_Foundation",
+      "shape": "Block",
+      "size": [
+        11,
+        0.04,
+        11
+      ],
+      "position": [
+        84,
+        0.5,
+        -39
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#536C7C",
+      "material": "Slate",
+      "folder": "Decor"
+    },
+    {
+      "name": "twr_19",
+      "shape": "Block",
+      "size": [
+        10,
+        0.4,
+        10
+      ],
+      "position": [
+        80,
+        0.7,
+        28
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#65859D",
+      "material": "Slate",
+      "folder": "Slots",
+      "transparency": 0.25,
+      "tags": [
+        "BuildSlot"
+      ],
+      "attributes": {
+        "SlotId": "twr_19",
+        "SlotType": "Tower",
+        "MaxLevel": 3,
+        "StartLevel": 0
+      }
+    },
+    {
+      "name": "twr_19_Foundation",
+      "shape": "Block",
+      "size": [
+        11,
+        0.04,
+        11
+      ],
+      "position": [
+        80,
+        0.5,
+        28
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#536C7C",
+      "material": "Slate",
+      "folder": "Decor"
+    },
+    {
+      "name": "twr_20",
+      "shape": "Block",
+      "size": [
+        10,
+        0.4,
+        10
+      ],
+      "position": [
+        66,
+        0.7,
+        -32
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#65859D",
+      "material": "Slate",
+      "folder": "Slots",
+      "transparency": 0.25,
+      "tags": [
+        "BuildSlot"
+      ],
+      "attributes": {
+        "SlotId": "twr_20",
+        "SlotType": "Tower",
+        "MaxLevel": 3,
+        "StartLevel": 0
+      }
+    },
+    {
+      "name": "twr_20_Foundation",
+      "shape": "Block",
+      "size": [
+        11,
+        0.04,
+        11
+      ],
+      "position": [
+        66,
+        0.5,
+        -32
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#536C7C",
+      "material": "Slate",
+      "folder": "Decor"
+    },
+    {
+      "name": "twr_21",
+      "shape": "Block",
+      "size": [
+        10,
+        0.4,
+        10
+      ],
+      "position": [
+        73,
+        0.7,
+        49
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#65859D",
+      "material": "Slate",
+      "folder": "Slots",
+      "transparency": 0.25,
+      "tags": [
+        "BuildSlot"
+      ],
+      "attributes": {
+        "SlotId": "twr_21",
+        "SlotType": "Tower",
+        "MaxLevel": 3,
+        "StartLevel": 0
+      }
+    },
+    {
+      "name": "twr_21_Foundation",
+      "shape": "Block",
+      "size": [
+        11,
+        0.04,
+        11
+      ],
+      "position": [
+        73,
+        0.5,
+        49
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#536C7C",
+      "material": "Slate",
+      "folder": "Decor"
+    },
+    {
+      "name": "twr_22",
+      "shape": "Block",
+      "size": [
+        10,
+        0.4,
+        10
+      ],
+      "position": [
+        31,
+        0.7,
+        -11
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#65859D",
+      "material": "Slate",
+      "folder": "Slots",
+      "transparency": 0.25,
+      "tags": [
+        "BuildSlot"
+      ],
+      "attributes": {
+        "SlotId": "twr_22",
+        "SlotType": "Tower",
+        "MaxLevel": 3,
+        "StartLevel": 0
+      }
+    },
+    {
+      "name": "twr_22_Foundation",
+      "shape": "Block",
+      "size": [
+        11,
+        0.04,
+        11
+      ],
+      "position": [
+        31,
+        0.5,
+        -11
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#536C7C",
+      "material": "Slate",
+      "folder": "Decor"
+    },
+    {
+      "name": "hou_01",
+      "shape": "Block",
+      "size": [
+        9,
+        0.4,
+        9
+      ],
+      "position": [
+        -143,
+        0.7,
+        -28
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C0ADA0",
+      "material": "Slate",
+      "folder": "Slots",
+      "transparency": 0.25,
+      "tags": [
+        "BuildSlot"
+      ],
+      "attributes": {
+        "SlotId": "hou_01",
+        "SlotType": "House",
+        "MaxLevel": 2,
+        "StartLevel": 0
+      }
+    },
+    {
+      "name": "hou_01_Foundation",
+      "shape": "Block",
+      "size": [
+        10,
+        0.04,
+        10
+      ],
+      "position": [
+        -143,
+        0.5,
+        -28
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#536C7C",
+      "material": "Slate",
+      "folder": "Decor"
+    },
+    {
+      "name": "hou_02",
+      "shape": "Block",
+      "size": [
+        9,
+        0.4,
+        9
+      ],
+      "position": [
+        -130,
+        0.7,
+        -95
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C0ADA0",
+      "material": "Slate",
+      "folder": "Slots",
+      "transparency": 0.25,
+      "tags": [
+        "BuildSlot"
+      ],
+      "attributes": {
+        "SlotId": "hou_02",
+        "SlotType": "House",
+        "MaxLevel": 2,
+        "StartLevel": 0
+      }
+    },
+    {
+      "name": "hou_02_Foundation",
+      "shape": "Block",
+      "size": [
+        10,
+        0.04,
+        10
+      ],
+      "position": [
+        -130,
+        0.5,
+        -95
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#536C7C",
+      "material": "Slate",
+      "folder": "Decor"
+    },
+    {
+      "name": "hou_03",
+      "shape": "Block",
+      "size": [
+        9,
+        0.4,
+        9
+      ],
+      "position": [
+        176,
+        0.7,
+        -16
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C0ADA0",
+      "material": "Slate",
+      "folder": "Slots",
+      "transparency": 0.25,
+      "tags": [
+        "BuildSlot"
+      ],
+      "attributes": {
+        "SlotId": "hou_03",
+        "SlotType": "House",
+        "MaxLevel": 2,
+        "StartLevel": 0
+      }
+    },
+    {
+      "name": "hou_03_Foundation",
+      "shape": "Block",
+      "size": [
+        10,
+        0.04,
+        10
+      ],
+      "position": [
+        176,
+        0.5,
+        -16
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#536C7C",
+      "material": "Slate",
+      "folder": "Decor"
+    },
+    {
+      "name": "hou_04",
+      "shape": "Block",
+      "size": [
+        9,
+        0.4,
+        9
+      ],
+      "position": [
+        125,
+        0.7,
+        23
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C0ADA0",
+      "material": "Slate",
+      "folder": "Slots",
+      "transparency": 0.25,
+      "tags": [
+        "BuildSlot"
+      ],
+      "attributes": {
+        "SlotId": "hou_04",
+        "SlotType": "House",
+        "MaxLevel": 2,
+        "StartLevel": 0
+      }
+    },
+    {
+      "name": "hou_04_Foundation",
+      "shape": "Block",
+      "size": [
+        10,
+        0.04,
+        10
+      ],
+      "position": [
+        125,
+        0.5,
+        23
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#536C7C",
+      "material": "Slate",
+      "folder": "Decor"
+    },
+    {
+      "name": "hou_05",
+      "shape": "Block",
+      "size": [
+        9,
+        0.4,
+        9
+      ],
+      "position": [
+        46,
+        0.7,
+        -126
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C0ADA0",
+      "material": "Slate",
+      "folder": "Slots",
+      "transparency": 0.25,
+      "tags": [
+        "BuildSlot"
+      ],
+      "attributes": {
+        "SlotId": "hou_05",
+        "SlotType": "House",
+        "MaxLevel": 2,
+        "StartLevel": 0
+      }
+    },
+    {
+      "name": "hou_05_Foundation",
+      "shape": "Block",
+      "size": [
+        10,
+        0.04,
+        10
+      ],
+      "position": [
+        46,
+        0.5,
+        -126
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#536C7C",
+      "material": "Slate",
+      "folder": "Decor"
+    },
+    {
+      "name": "hou_06",
+      "shape": "Block",
+      "size": [
+        9,
+        0.4,
+        9
+      ],
+      "position": [
+        -25,
+        0.7,
+        -122
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C0ADA0",
+      "material": "Slate",
+      "folder": "Slots",
+      "transparency": 0.25,
+      "tags": [
+        "BuildSlot"
+      ],
+      "attributes": {
+        "SlotId": "hou_06",
+        "SlotType": "House",
+        "MaxLevel": 2,
+        "StartLevel": 0
+      }
+    },
+    {
+      "name": "hou_06_Foundation",
+      "shape": "Block",
+      "size": [
+        10,
+        0.04,
+        10
+      ],
+      "position": [
+        -25,
+        0.5,
+        -122
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#536C7C",
+      "material": "Slate",
+      "folder": "Decor"
+    },
+    {
+      "name": "hou_07",
+      "shape": "Block",
+      "size": [
+        9,
+        0.4,
+        9
+      ],
+      "position": [
+        -106,
+        0.7,
+        94
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C0ADA0",
+      "material": "Slate",
+      "folder": "Slots",
+      "transparency": 0.25,
+      "tags": [
+        "BuildSlot"
+      ],
+      "attributes": {
+        "SlotId": "hou_07",
+        "SlotType": "House",
+        "MaxLevel": 2,
+        "StartLevel": 0
+      }
+    },
+    {
+      "name": "hou_07_Foundation",
+      "shape": "Block",
+      "size": [
+        10,
+        0.04,
+        10
+      ],
+      "position": [
+        -106,
+        0.5,
+        94
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#536C7C",
+      "material": "Slate",
+      "folder": "Decor"
+    },
+    {
+      "name": "hou_08",
+      "shape": "Block",
+      "size": [
+        9,
+        0.4,
+        9
+      ],
+      "position": [
+        -79,
+        0.7,
+        99
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C0ADA0",
+      "material": "Slate",
+      "folder": "Slots",
+      "transparency": 0.25,
+      "tags": [
+        "BuildSlot"
+      ],
+      "attributes": {
+        "SlotId": "hou_08",
+        "SlotType": "House",
+        "MaxLevel": 2,
+        "StartLevel": 0
+      }
+    },
+    {
+      "name": "hou_08_Foundation",
+      "shape": "Block",
+      "size": [
+        10,
+        0.04,
+        10
+      ],
+      "position": [
+        -79,
+        0.5,
+        99
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#536C7C",
+      "material": "Slate",
+      "folder": "Decor"
+    },
+    {
+      "name": "hou_09",
+      "shape": "Block",
+      "size": [
+        9,
+        0.4,
+        9
+      ],
+      "position": [
+        -49,
+        0.7,
+        109
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C0ADA0",
+      "material": "Slate",
+      "folder": "Slots",
+      "transparency": 0.25,
+      "tags": [
+        "BuildSlot"
+      ],
+      "attributes": {
+        "SlotId": "hou_09",
+        "SlotType": "House",
+        "MaxLevel": 2,
+        "StartLevel": 0
+      }
+    },
+    {
+      "name": "hou_09_Foundation",
+      "shape": "Block",
+      "size": [
+        10,
+        0.04,
+        10
+      ],
+      "position": [
+        -49,
+        0.5,
+        109
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#536C7C",
+      "material": "Slate",
+      "folder": "Decor"
+    },
+    {
+      "name": "hou_10",
+      "shape": "Block",
+      "size": [
+        9,
+        0.4,
+        9
+      ],
+      "position": [
+        -19,
+        0.7,
+        109
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C0ADA0",
+      "material": "Slate",
+      "folder": "Slots",
+      "transparency": 0.25,
+      "tags": [
+        "BuildSlot"
+      ],
+      "attributes": {
+        "SlotId": "hou_10",
+        "SlotType": "House",
+        "MaxLevel": 2,
+        "StartLevel": 0
+      }
+    },
+    {
+      "name": "hou_10_Foundation",
+      "shape": "Block",
+      "size": [
+        10,
+        0.04,
+        10
+      ],
+      "position": [
+        -19,
+        0.5,
+        109
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#536C7C",
+      "material": "Slate",
+      "folder": "Decor"
+    },
+    {
+      "name": "hou_11",
+      "shape": "Block",
+      "size": [
+        9,
+        0.4,
+        9
+      ],
+      "position": [
+        17,
+        0.7,
+        109
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C0ADA0",
+      "material": "Slate",
+      "folder": "Slots",
+      "transparency": 0.25,
+      "tags": [
+        "BuildSlot"
+      ],
+      "attributes": {
+        "SlotId": "hou_11",
+        "SlotType": "House",
+        "MaxLevel": 2,
+        "StartLevel": 0
+      }
+    },
+    {
+      "name": "hou_11_Foundation",
+      "shape": "Block",
+      "size": [
+        10,
+        0.04,
+        10
+      ],
+      "position": [
+        17,
+        0.5,
+        109
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#536C7C",
+      "material": "Slate",
+      "folder": "Decor"
+    },
+    {
+      "name": "hou_12",
+      "shape": "Block",
+      "size": [
+        9,
+        0.4,
+        9
+      ],
+      "position": [
+        47,
+        0.7,
+        109
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C0ADA0",
+      "material": "Slate",
+      "folder": "Slots",
+      "transparency": 0.25,
+      "tags": [
+        "BuildSlot"
+      ],
+      "attributes": {
+        "SlotId": "hou_12",
+        "SlotType": "House",
+        "MaxLevel": 2,
+        "StartLevel": 0
+      }
+    },
+    {
+      "name": "hou_12_Foundation",
+      "shape": "Block",
+      "size": [
+        10,
+        0.04,
+        10
+      ],
+      "position": [
+        47,
+        0.5,
+        109
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#536C7C",
+      "material": "Slate",
+      "folder": "Decor"
+    },
+    {
+      "name": "hou_13",
+      "shape": "Block",
+      "size": [
+        9,
+        0.4,
+        9
+      ],
+      "position": [
+        79,
+        0.7,
+        94
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C0ADA0",
+      "material": "Slate",
+      "folder": "Slots",
+      "transparency": 0.25,
+      "tags": [
+        "BuildSlot"
+      ],
+      "attributes": {
+        "SlotId": "hou_13",
+        "SlotType": "House",
+        "MaxLevel": 2,
+        "StartLevel": 0
+      }
+    },
+    {
+      "name": "hou_13_Foundation",
+      "shape": "Block",
+      "size": [
+        10,
+        0.04,
+        10
+      ],
+      "position": [
+        79,
+        0.5,
+        94
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#536C7C",
+      "material": "Slate",
+      "folder": "Decor"
+    },
+    {
+      "name": "hou_14",
+      "shape": "Block",
+      "size": [
+        9,
+        0.4,
+        9
+      ],
+      "position": [
+        -66,
+        0.7,
+        139
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C0ADA0",
+      "material": "Slate",
+      "folder": "Slots",
+      "transparency": 0.25,
+      "tags": [
+        "BuildSlot"
+      ],
+      "attributes": {
+        "SlotId": "hou_14",
+        "SlotType": "House",
+        "MaxLevel": 2,
+        "StartLevel": 0
+      }
+    },
+    {
+      "name": "hou_14_Foundation",
+      "shape": "Block",
+      "size": [
+        10,
+        0.04,
+        10
+      ],
+      "position": [
+        -66,
+        0.5,
+        139
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#536C7C",
+      "material": "Slate",
+      "folder": "Decor"
+    },
+    {
+      "name": "hou_15",
+      "shape": "Block",
+      "size": [
+        9,
+        0.4,
+        9
+      ],
+      "position": [
+        -31,
+        0.7,
+        144
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C0ADA0",
+      "material": "Slate",
+      "folder": "Slots",
+      "transparency": 0.25,
+      "tags": [
+        "BuildSlot"
+      ],
+      "attributes": {
+        "SlotId": "hou_15",
+        "SlotType": "House",
+        "MaxLevel": 2,
+        "StartLevel": 0
+      }
+    },
+    {
+      "name": "hou_15_Foundation",
+      "shape": "Block",
+      "size": [
+        10,
+        0.04,
+        10
+      ],
+      "position": [
+        -31,
+        0.5,
+        144
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#536C7C",
+      "material": "Slate",
+      "folder": "Decor"
+    },
+    {
+      "name": "hou_16",
+      "shape": "Block",
+      "size": [
+        9,
+        0.4,
+        9
+      ],
+      "position": [
+        4,
+        0.7,
+        144
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C0ADA0",
+      "material": "Slate",
+      "folder": "Slots",
+      "transparency": 0.25,
+      "tags": [
+        "BuildSlot"
+      ],
+      "attributes": {
+        "SlotId": "hou_16",
+        "SlotType": "House",
+        "MaxLevel": 2,
+        "StartLevel": 0
+      }
+    },
+    {
+      "name": "hou_16_Foundation",
+      "shape": "Block",
+      "size": [
+        10,
+        0.04,
+        10
+      ],
+      "position": [
+        4,
+        0.5,
+        144
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#536C7C",
+      "material": "Slate",
+      "folder": "Decor"
+    },
+    {
+      "name": "bar_01",
+      "shape": "Block",
+      "size": [
+        11,
+        0.4,
+        11
+      ],
+      "position": [
+        -71,
+        0.7,
+        29
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#7D8DAD",
+      "material": "Slate",
+      "folder": "Slots",
+      "transparency": 0.25,
+      "tags": [
+        "BuildSlot"
+      ],
+      "attributes": {
+        "SlotId": "bar_01",
+        "SlotType": "Barracks",
+        "MaxLevel": 3,
+        "StartLevel": 0
+      }
+    },
+    {
+      "name": "bar_01_Foundation",
+      "shape": "Block",
+      "size": [
+        12,
+        0.04,
+        12
+      ],
+      "position": [
+        -71,
+        0.5,
+        29
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#536C7C",
+      "material": "Slate",
+      "folder": "Decor"
+    },
+    {
+      "name": "bar_02",
+      "shape": "Block",
+      "size": [
+        11,
+        0.4,
+        11
+      ],
+      "position": [
+        97,
+        0.7,
+        40
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#7D8DAD",
+      "material": "Slate",
+      "folder": "Slots",
+      "transparency": 0.25,
+      "tags": [
+        "BuildSlot"
+      ],
+      "attributes": {
+        "SlotId": "bar_02",
+        "SlotType": "Barracks",
+        "MaxLevel": 3,
+        "StartLevel": 0
+      }
+    },
+    {
+      "name": "bar_02_Foundation",
+      "shape": "Block",
+      "size": [
+        12,
+        0.04,
+        12
+      ],
+      "position": [
+        97,
+        0.5,
+        40
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#536C7C",
+      "material": "Slate",
+      "folder": "Decor"
+    },
+    {
+      "name": "arc_01",
+      "shape": "Block",
+      "size": [
+        11,
+        0.4,
+        11
+      ],
+      "position": [
+        -36,
+        0.7,
+        77
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#6B9A9E",
+      "material": "Slate",
+      "folder": "Slots",
+      "transparency": 0.25,
+      "tags": [
+        "BuildSlot"
+      ],
+      "attributes": {
+        "SlotId": "arc_01",
+        "SlotType": "ArcheryRange",
+        "MaxLevel": 3,
+        "StartLevel": 0
+      }
+    },
+    {
+      "name": "arc_01_Foundation",
+      "shape": "Block",
+      "size": [
+        12,
+        0.04,
+        12
+      ],
+      "position": [
+        -36,
+        0.5,
+        77
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#536C7C",
+      "material": "Slate",
+      "folder": "Decor"
+    },
+    {
+      "name": "arc_02",
+      "shape": "Block",
+      "size": [
+        11,
+        0.4,
+        11
+      ],
+      "position": [
+        34,
+        0.7,
+        77
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#6B9A9E",
+      "material": "Slate",
+      "folder": "Slots",
+      "transparency": 0.25,
+      "tags": [
+        "BuildSlot"
+      ],
+      "attributes": {
+        "SlotId": "arc_02",
+        "SlotType": "ArcheryRange",
+        "MaxLevel": 3,
+        "StartLevel": 0
+      }
+    },
+    {
+      "name": "arc_02_Foundation",
+      "shape": "Block",
+      "size": [
+        12,
+        0.04,
+        12
+      ],
+      "position": [
+        34,
+        0.5,
+        77
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#536C7C",
+      "material": "Slate",
+      "folder": "Decor"
+    },
+    {
+      "name": "VillagePath_6",
+      "shape": "Block",
+      "size": [
+        3,
+        0.04,
+        106.38138934982942
+      ],
+      "position": [
+        -53.0,
+        0.495,
+        89.5
+      ],
+      "orientation": [
+        0,
+        94.85309638699236,
+        0
+      ],
+      "color": "#B3C4CD",
+      "material": "Slate",
+      "folder": "Decor"
+    },
+    {
+      "name": "VillagePath_7",
+      "shape": "Block",
+      "size": [
+        3,
+        0.04,
+        80.23091673413684
+      ],
+      "position": [
+        -39.5,
+        0.495,
+        92.0
+      ],
+      "orientation": [
+        0,
+        100.04934858812489,
+        0
+      ],
+      "color": "#B3C4CD",
+      "material": "Slate",
+      "folder": "Decor"
+    },
+    {
+      "name": "VillagePath_8",
+      "shape": "Block",
+      "size": [
+        3,
+        0.04,
+        54.56189146281496
+      ],
+      "position": [
+        -24.5,
+        0.495,
+        97.0
+      ],
+      "orientation": [
+        0,
+        116.09542415738835,
+        0
+      ],
+      "color": "#B3C4CD",
+      "material": "Slate",
+      "folder": "Decor"
+    },
+    {
+      "name": "VillagePath_9",
+      "shape": "Block",
+      "size": [
+        3,
+        0.04,
+        30.610455730027933
+      ],
+      "position": [
+        -9.5,
+        0.495,
+        97.0
+      ],
+      "orientation": [
+        0,
+        141.63251461513846,
+        0
+      ],
+      "color": "#B3C4CD",
+      "material": "Slate",
+      "folder": "Decor"
+    },
+    {
+      "name": "VillagePath_10",
+      "shape": "Block",
+      "size": [
+        3,
+        0.04,
+        29.410882339705484
+      ],
+      "position": [
+        8.5,
+        0.495,
+        97.0
+      ],
+      "orientation": [
+        0,
+        -144.6887865603668,
+        0
+      ],
+      "color": "#B3C4CD",
+      "material": "Slate",
+      "folder": "Decor"
+    },
+    {
+      "name": "VillagePath_11",
+      "shape": "Block",
+      "size": [
+        3,
+        0.04,
+        52.773099207835045
+      ],
+      "position": [
+        23.5,
+        0.495,
+        97.0
+      ],
+      "orientation": [
+        0,
+        -117.05059700708614,
+        0
+      ],
+      "color": "#B3C4CD",
+      "material": "Slate",
+      "folder": "Decor"
+    },
+    {
+      "name": "VillagePath_12",
+      "shape": "Block",
+      "size": [
+        3,
+        0.04,
+        79.51100552753688
+      ],
+      "position": [
+        39.5,
+        0.495,
+        89.5
+      ],
+      "orientation": [
+        0,
+        -96.49934627965457,
+        0
+      ],
+      "color": "#B3C4CD",
+      "material": "Slate",
+      "folder": "Decor"
+    },
+    {
+      "name": "VillagePath_13",
+      "shape": "Block",
+      "size": [
+        3,
+        0.04,
+        85.27602242131137
+      ],
+      "position": [
+        -33.0,
+        0.495,
+        112.0
+      ],
+      "orientation": [
+        0,
+        129.28940686250036,
+        0
+      ],
+      "color": "#B3C4CD",
+      "material": "Slate",
+      "folder": "Decor"
+    },
+    {
+      "name": "VillagePath_14",
+      "shape": "Block",
+      "size": [
+        3,
+        0.04,
+        66.64833081180653
+      ],
+      "position": [
+        -15.5,
+        0.495,
+        114.5
+      ],
+      "orientation": [
+        0,
+        152.28149837181664,
+        0
+      ],
+      "color": "#B3C4CD",
+      "material": "Slate",
+      "folder": "Decor"
+    },
+    {
+      "name": "VillagePath_15",
+      "shape": "Block",
+      "size": [
+        3,
+        0.04,
+        59.135437767890075
+      ],
+      "position": [
+        2.0,
+        0.495,
+        114.5
+      ],
+      "orientation": [
+        0,
+        -176.1214754971523,
+        0
+      ],
+      "color": "#B3C4CD",
+      "material": "Slate",
+      "folder": "Decor"
+    },
+    {
+      "name": "VillagePath_18",
+      "shape": "Block",
+      "size": [
+        3,
+        0.04,
+        36.87817782917155
+      ],
+      "position": [
+        -18.0,
+        0.495,
+        81.0
+      ],
+      "orientation": [
+        0,
+        77.47119229084849,
+        0
+      ],
+      "color": "#B3C4CD",
+      "material": "Slate",
+      "folder": "Decor"
+    },
+    {
+      "name": "VillagePath_19",
+      "shape": "Block",
+      "size": [
+        3,
+        0.04,
+        34.92849839314596
+      ],
+      "position": [
+        17.0,
+        0.495,
+        81.0
+      ],
+      "orientation": [
+        0,
+        -76.7594800848128,
+        0
+      ],
+      "color": "#B3C4CD",
+      "material": "Slate",
+      "folder": "Decor"
+    },
+    {
+      "name": "Bound_North",
+      "shape": "Block",
+      "size": [
+        460,
+        20,
+        4
+      ],
+      "position": [
+        0,
+        10.5,
+        -198
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#CAD7DB",
+      "material": "Concrete",
+      "folder": "Bounds",
+      "transparency": 1
+    },
+    {
+      "name": "Snowbank_North",
+      "shape": "Block",
+      "size": [
+        460,
+        2,
+        4
+      ],
+      "position": [
+        0,
+        1.5,
+        -198
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#E1E9EC",
+      "material": "Concrete",
+      "folder": "Decor"
+    },
+    {
+      "name": "Bound_South",
+      "shape": "Block",
+      "size": [
+        460,
+        20,
+        4
+      ],
+      "position": [
+        0,
+        10.5,
+        198
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#CAD7DB",
+      "material": "Concrete",
+      "folder": "Bounds",
+      "transparency": 1
+    },
+    {
+      "name": "Snowbank_South",
+      "shape": "Block",
+      "size": [
+        460,
+        2,
+        4
+      ],
+      "position": [
+        0,
+        1.5,
+        198
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#E1E9EC",
+      "material": "Concrete",
+      "folder": "Decor"
+    },
+    {
+      "name": "Bound_West",
+      "shape": "Block",
+      "size": [
+        4,
+        20,
+        400
+      ],
+      "position": [
+        -228,
+        10.5,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#CAD7DB",
+      "material": "Concrete",
+      "folder": "Bounds",
+      "transparency": 1
+    },
+    {
+      "name": "Snowbank_West",
+      "shape": "Block",
+      "size": [
+        4,
+        2,
+        400
+      ],
+      "position": [
+        -228,
+        1.5,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#E1E9EC",
+      "material": "Concrete",
+      "folder": "Decor"
+    },
+    {
+      "name": "Bound_East",
+      "shape": "Block",
+      "size": [
+        4,
+        20,
+        400
+      ],
+      "position": [
+        228,
+        10.5,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#CAD7DB",
+      "material": "Concrete",
+      "folder": "Bounds",
+      "transparency": 1
+    },
+    {
+      "name": "Snowbank_East",
+      "shape": "Block",
+      "size": [
+        4,
+        2,
+        400
+      ],
+      "position": [
+        228,
+        1.5,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#E1E9EC",
+      "material": "Concrete",
+      "folder": "Decor"
+    },
+    {
+      "name": "Entry_1_Stone_-1",
+      "shape": "Block",
+      "size": [
+        5,
+        8,
+        5
+      ],
+      "position": [
+        -195.0,
+        4.5,
+        -98.0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#617B8C",
+      "material": "Rock",
+      "folder": "Decor"
+    },
+    {
+      "name": "Entry_1_Snow_-1",
+      "shape": "Block",
+      "size": [
+        5.8,
+        1,
+        5.8
+      ],
+      "position": [
+        -195.0,
+        9,
+        -98.0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#DCE8ED",
+      "material": "Concrete",
+      "folder": "Decor"
+    },
+    {
+      "name": "Entry_1_Stone_1",
+      "shape": "Block",
+      "size": [
+        5,
+        8,
+        5
+      ],
+      "position": [
+        -195.0,
+        4.5,
+        -42.0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#617B8C",
+      "material": "Rock",
+      "folder": "Decor"
+    },
+    {
+      "name": "Entry_1_Snow_1",
+      "shape": "Block",
+      "size": [
+        5.8,
+        1,
+        5.8
+      ],
+      "position": [
+        -195.0,
+        9,
+        -42.0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#DCE8ED",
+      "material": "Concrete",
+      "folder": "Decor"
+    },
+    {
+      "name": "Entry_2_Stone_-1",
+      "shape": "Block",
+      "size": [
+        5,
+        9,
+        5
+      ],
+      "position": [
+        48.0,
+        5.0,
+        -175.0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#617B8C",
+      "material": "Rock",
+      "folder": "Decor"
+    },
+    {
+      "name": "Entry_2_Snow_-1",
+      "shape": "Block",
+      "size": [
+        5.8,
+        1,
+        5.8
+      ],
+      "position": [
+        48.0,
+        10,
+        -175.0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#DCE8ED",
+      "material": "Concrete",
+      "folder": "Decor"
+    },
+    {
+      "name": "Entry_2_Ice_-1",
+      "shape": "Block",
+      "size": [
+        2,
+        4,
+        2
+      ],
+      "position": [
+        48.0,
+        11.5,
+        -175.0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8BBECD",
+      "material": "Ice",
+      "folder": "Decor"
+    },
+    {
+      "name": "Entry_2_Stone_1",
+      "shape": "Block",
+      "size": [
+        5,
+        9,
+        5
+      ],
+      "position": [
+        -8.0,
+        5.0,
+        -175.0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#617B8C",
+      "material": "Rock",
+      "folder": "Decor"
+    },
+    {
+      "name": "Entry_2_Snow_1",
+      "shape": "Block",
+      "size": [
+        5.8,
+        1,
+        5.8
+      ],
+      "position": [
+        -8.0,
+        10,
+        -175.0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#DCE8ED",
+      "material": "Concrete",
+      "folder": "Decor"
+    },
+    {
+      "name": "Entry_2_Ice_1",
+      "shape": "Block",
+      "size": [
+        2,
+        4,
+        2
+      ],
+      "position": [
+        -8.0,
+        11.5,
+        -175.0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8BBECD",
+      "material": "Ice",
+      "folder": "Decor"
+    },
+    {
+      "name": "Entry_3_Stone_-1",
+      "shape": "Block",
+      "size": [
+        5,
+        10,
+        5
+      ],
+      "position": [
+        195.0,
+        5.5,
+        -17.0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#617B8C",
+      "material": "Rock",
+      "folder": "Decor"
+    },
+    {
+      "name": "Entry_3_Snow_-1",
+      "shape": "Block",
+      "size": [
+        5.8,
+        1,
+        5.8
+      ],
+      "position": [
+        195.0,
+        11,
+        -17.0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#DCE8ED",
+      "material": "Concrete",
+      "folder": "Decor"
+    },
+    {
+      "name": "Entry_3_Mooring_-1",
+      "shape": "Block",
+      "size": [
+        7,
+        1.2,
+        1.5
+      ],
+      "position": [
+        195.0,
+        4,
+        -17.0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#536E7D",
+      "material": "Slate",
+      "folder": "Decor"
+    },
+    {
+      "name": "Entry_3_Stone_1",
+      "shape": "Block",
+      "size": [
+        5,
+        10,
+        5
+      ],
+      "position": [
+        195.0,
+        5.5,
+        -73.0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#617B8C",
+      "material": "Rock",
+      "folder": "Decor"
+    },
+    {
+      "name": "Entry_3_Snow_1",
+      "shape": "Block",
+      "size": [
+        5.8,
+        1,
+        5.8
+      ],
+      "position": [
+        195.0,
+        11,
+        -73.0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#DCE8ED",
+      "material": "Concrete",
+      "folder": "Decor"
+    },
+    {
+      "name": "Entry_3_Mooring_1",
+      "shape": "Block",
+      "size": [
+        7,
+        1.2,
+        1.5
+      ],
+      "position": [
+        195.0,
+        4,
+        -73.0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#536E7D",
+      "material": "Slate",
+      "folder": "Decor"
+    },
+    {
+      "name": "ShoreRock_0",
+      "shape": "Block",
+      "size": [
+        12,
+        4,
+        9
+      ],
+      "position": [
+        -210,
+        2.5,
+        -145
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#6A8190",
+      "material": "Rock",
+      "folder": "Decor"
+    },
+    {
+      "name": "ShoreSnow_0",
+      "shape": "Block",
+      "size": [
+        10,
+        0.6,
+        7
+      ],
+      "position": [
+        -210,
+        4.8,
+        -145
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#E1E9EC",
+      "material": "Concrete",
+      "folder": "Decor"
+    },
+    {
+      "name": "ShoreIce_0",
+      "shape": "Block",
+      "size": [
+        3,
+        8,
+        3
+      ],
+      "position": [
+        -208,
+        4.5,
+        -146
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#A5D2DD",
+      "material": "Ice",
+      "folder": "Decor"
+    },
+    {
+      "name": "ShoreRock_1",
+      "shape": "Block",
+      "size": [
+        12,
+        4,
+        9
+      ],
+      "position": [
+        -180,
+        2.5,
+        -145
+      ],
+      "orientation": [
+        0,
+        15,
+        0
+      ],
+      "color": "#6A8190",
+      "material": "Rock",
+      "folder": "Decor"
+    },
+    {
+      "name": "ShoreSnow_1",
+      "shape": "Block",
+      "size": [
+        10,
+        0.6,
+        7
+      ],
+      "position": [
+        -180,
+        4.8,
+        -145
+      ],
+      "orientation": [
+        0,
+        15,
+        0
+      ],
+      "color": "#E1E9EC",
+      "material": "Concrete",
+      "folder": "Decor"
+    },
+    {
+      "name": "ShoreRock_2",
+      "shape": "Block",
+      "size": [
+        12,
+        4,
+        9
+      ],
+      "position": [
+        -130,
+        2.5,
+        -155
+      ],
+      "orientation": [
+        0,
+        30,
+        0
+      ],
+      "color": "#6A8190",
+      "material": "Rock",
+      "folder": "Decor"
+    },
+    {
+      "name": "ShoreSnow_2",
+      "shape": "Block",
+      "size": [
+        10,
+        0.6,
+        7
+      ],
+      "position": [
+        -130,
+        4.8,
+        -155
+      ],
+      "orientation": [
+        0,
+        30,
+        0
+      ],
+      "color": "#E1E9EC",
+      "material": "Concrete",
+      "folder": "Decor"
+    },
+    {
+      "name": "ShoreRock_3",
+      "shape": "Block",
+      "size": [
+        12,
+        4,
+        9
+      ],
+      "position": [
+        -85,
+        2.5,
+        -160
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#6A8190",
+      "material": "Rock",
+      "folder": "Decor"
+    },
+    {
+      "name": "ShoreSnow_3",
+      "shape": "Block",
+      "size": [
+        10,
+        0.6,
+        7
+      ],
+      "position": [
+        -85,
+        4.8,
+        -160
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#E1E9EC",
+      "material": "Concrete",
+      "folder": "Decor"
+    },
+    {
+      "name": "ShoreIce_3",
+      "shape": "Block",
+      "size": [
+        3,
+        8,
+        3
+      ],
+      "position": [
+        -83,
+        4.5,
+        -161
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#A5D2DD",
+      "material": "Ice",
+      "folder": "Decor"
+    },
+    {
+      "name": "ShoreRock_4",
+      "shape": "Block",
+      "size": [
+        12,
+        4,
+        9
+      ],
+      "position": [
+        75,
+        2.5,
+        -165
+      ],
+      "orientation": [
+        0,
+        15,
+        0
+      ],
+      "color": "#6A8190",
+      "material": "Rock",
+      "folder": "Decor"
+    },
+    {
+      "name": "ShoreSnow_4",
+      "shape": "Block",
+      "size": [
+        10,
+        0.6,
+        7
+      ],
+      "position": [
+        75,
+        4.8,
+        -165
+      ],
+      "orientation": [
+        0,
+        15,
+        0
+      ],
+      "color": "#E1E9EC",
+      "material": "Concrete",
+      "folder": "Decor"
+    },
+    {
+      "name": "ShoreRock_5",
+      "shape": "Block",
+      "size": [
+        12,
+        4,
+        9
+      ],
+      "position": [
+        120,
+        2.5,
+        -150
+      ],
+      "orientation": [
+        0,
+        30,
+        0
+      ],
+      "color": "#6A8190",
+      "material": "Rock",
+      "folder": "Decor"
+    },
+    {
+      "name": "ShoreSnow_5",
+      "shape": "Block",
+      "size": [
+        10,
+        0.6,
+        7
+      ],
+      "position": [
+        120,
+        4.8,
+        -150
+      ],
+      "orientation": [
+        0,
+        30,
+        0
+      ],
+      "color": "#E1E9EC",
+      "material": "Concrete",
+      "folder": "Decor"
+    },
+    {
+      "name": "ShoreRock_6",
+      "shape": "Block",
+      "size": [
+        12,
+        4,
+        9
+      ],
+      "position": [
+        175,
+        2.5,
+        -135
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#6A8190",
+      "material": "Rock",
+      "folder": "Decor"
+    },
+    {
+      "name": "ShoreSnow_6",
+      "shape": "Block",
+      "size": [
+        10,
+        0.6,
+        7
+      ],
+      "position": [
+        175,
+        4.8,
+        -135
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#E1E9EC",
+      "material": "Concrete",
+      "folder": "Decor"
+    },
+    {
+      "name": "ShoreIce_6",
+      "shape": "Block",
+      "size": [
+        3,
+        8,
+        3
+      ],
+      "position": [
+        177,
+        4.5,
+        -136
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#A5D2DD",
+      "material": "Ice",
+      "folder": "Decor"
+    },
+    {
+      "name": "ShoreRock_7",
+      "shape": "Block",
+      "size": [
+        12,
+        4,
+        9
+      ],
+      "position": [
+        210,
+        2.5,
+        -105
+      ],
+      "orientation": [
+        0,
+        15,
+        0
+      ],
+      "color": "#6A8190",
+      "material": "Rock",
+      "folder": "Decor"
+    },
+    {
+      "name": "ShoreSnow_7",
+      "shape": "Block",
+      "size": [
+        10,
+        0.6,
+        7
+      ],
+      "position": [
+        210,
+        4.8,
+        -105
+      ],
+      "orientation": [
+        0,
+        15,
+        0
+      ],
+      "color": "#E1E9EC",
+      "material": "Concrete",
+      "folder": "Decor"
+    },
+    {
+      "name": "ShoreRock_8",
+      "shape": "Block",
+      "size": [
+        12,
+        4,
+        9
+      ],
+      "position": [
+        -205,
+        2.5,
+        5
+      ],
+      "orientation": [
+        0,
+        30,
+        0
+      ],
+      "color": "#6A8190",
+      "material": "Rock",
+      "folder": "Decor"
+    },
+    {
+      "name": "ShoreSnow_8",
+      "shape": "Block",
+      "size": [
+        10,
+        0.6,
+        7
+      ],
+      "position": [
+        -205,
+        4.8,
+        5
+      ],
+      "orientation": [
+        0,
+        30,
+        0
+      ],
+      "color": "#E1E9EC",
+      "material": "Concrete",
+      "folder": "Decor"
+    },
+    {
+      "name": "ShoreRock_9",
+      "shape": "Block",
+      "size": [
+        12,
+        4,
+        9
+      ],
+      "position": [
+        -175,
+        2.5,
+        45
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#6A8190",
+      "material": "Rock",
+      "folder": "Decor"
+    },
+    {
+      "name": "ShoreSnow_9",
+      "shape": "Block",
+      "size": [
+        10,
+        0.6,
+        7
+      ],
+      "position": [
+        -175,
+        4.8,
+        45
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#E1E9EC",
+      "material": "Concrete",
+      "folder": "Decor"
+    },
+    {
+      "name": "ShoreIce_9",
+      "shape": "Block",
+      "size": [
+        3,
+        8,
+        3
+      ],
+      "position": [
+        -173,
+        4.5,
+        44
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#A5D2DD",
+      "material": "Ice",
+      "folder": "Decor"
+    },
+    {
+      "name": "ShoreRock_10",
+      "shape": "Block",
+      "size": [
+        12,
+        4,
+        9
+      ],
+      "position": [
+        -150,
+        2.5,
+        100
+      ],
+      "orientation": [
+        0,
+        15,
+        0
+      ],
+      "color": "#6A8190",
+      "material": "Rock",
+      "folder": "Decor"
+    },
+    {
+      "name": "ShoreSnow_10",
+      "shape": "Block",
+      "size": [
+        10,
+        0.6,
+        7
+      ],
+      "position": [
+        -150,
+        4.8,
+        100
+      ],
+      "orientation": [
+        0,
+        15,
+        0
+      ],
+      "color": "#E1E9EC",
+      "material": "Concrete",
+      "folder": "Decor"
+    },
+    {
+      "name": "ShoreRock_11",
+      "shape": "Block",
+      "size": [
+        12,
+        4,
+        9
+      ],
+      "position": [
+        -185,
+        2.5,
+        150
+      ],
+      "orientation": [
+        0,
+        30,
+        0
+      ],
+      "color": "#6A8190",
+      "material": "Rock",
+      "folder": "Decor"
+    },
+    {
+      "name": "ShoreSnow_11",
+      "shape": "Block",
+      "size": [
+        10,
+        0.6,
+        7
+      ],
+      "position": [
+        -185,
+        4.8,
+        150
+      ],
+      "orientation": [
+        0,
+        30,
+        0
+      ],
+      "color": "#E1E9EC",
+      "material": "Concrete",
+      "folder": "Decor"
+    },
+    {
+      "name": "ShoreRock_12",
+      "shape": "Block",
+      "size": [
+        12,
+        4,
+        9
+      ],
+      "position": [
+        -120,
+        2.5,
+        170
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#6A8190",
+      "material": "Rock",
+      "folder": "Decor"
+    },
+    {
+      "name": "ShoreSnow_12",
+      "shape": "Block",
+      "size": [
+        10,
+        0.6,
+        7
+      ],
+      "position": [
+        -120,
+        4.8,
+        170
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#E1E9EC",
+      "material": "Concrete",
+      "folder": "Decor"
+    },
+    {
+      "name": "ShoreIce_12",
+      "shape": "Block",
+      "size": [
+        3,
+        8,
+        3
+      ],
+      "position": [
+        -118,
+        4.5,
+        169
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#A5D2DD",
+      "material": "Ice",
+      "folder": "Decor"
+    },
+    {
+      "name": "ShoreRock_13",
+      "shape": "Block",
+      "size": [
+        12,
+        4,
+        9
+      ],
+      "position": [
+        45,
+        2.5,
+        170
+      ],
+      "orientation": [
+        0,
+        15,
+        0
+      ],
+      "color": "#6A8190",
+      "material": "Rock",
+      "folder": "Decor"
+    },
+    {
+      "name": "ShoreSnow_13",
+      "shape": "Block",
+      "size": [
+        10,
+        0.6,
+        7
+      ],
+      "position": [
+        45,
+        4.8,
+        170
+      ],
+      "orientation": [
+        0,
+        15,
+        0
+      ],
+      "color": "#E1E9EC",
+      "material": "Concrete",
+      "folder": "Decor"
+    },
+    {
+      "name": "ShoreRock_14",
+      "shape": "Block",
+      "size": [
+        12,
+        4,
+        9
+      ],
+      "position": [
+        115,
+        2.5,
+        175
+      ],
+      "orientation": [
+        0,
+        30,
+        0
+      ],
+      "color": "#6A8190",
+      "material": "Rock",
+      "folder": "Decor"
+    },
+    {
+      "name": "ShoreSnow_14",
+      "shape": "Block",
+      "size": [
+        10,
+        0.6,
+        7
+      ],
+      "position": [
+        115,
+        4.8,
+        175
+      ],
+      "orientation": [
+        0,
+        30,
+        0
+      ],
+      "color": "#E1E9EC",
+      "material": "Concrete",
+      "folder": "Decor"
+    },
+    {
+      "name": "ShoreRock_15",
+      "shape": "Block",
+      "size": [
+        12,
+        4,
+        9
+      ],
+      "position": [
+        185,
+        2.5,
+        170
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#6A8190",
+      "material": "Rock",
+      "folder": "Decor"
+    },
+    {
+      "name": "ShoreSnow_15",
+      "shape": "Block",
+      "size": [
+        10,
+        0.6,
+        7
+      ],
+      "position": [
+        185,
+        4.8,
+        170
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#E1E9EC",
+      "material": "Concrete",
+      "folder": "Decor"
+    },
+    {
+      "name": "ShoreIce_15",
+      "shape": "Block",
+      "size": [
+        3,
+        8,
+        3
+      ],
+      "position": [
+        187,
+        4.5,
+        169
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#A5D2DD",
+      "material": "Ice",
+      "folder": "Decor"
+    },
+    {
+      "name": "ShoreRock_16",
+      "shape": "Block",
+      "size": [
+        12,
+        4,
+        9
+      ],
+      "position": [
+        210,
+        2.5,
+        80
+      ],
+      "orientation": [
+        0,
+        15,
+        0
+      ],
+      "color": "#6A8190",
+      "material": "Rock",
+      "folder": "Decor"
+    },
+    {
+      "name": "ShoreSnow_16",
+      "shape": "Block",
+      "size": [
+        10,
+        0.6,
+        7
+      ],
+      "position": [
+        210,
+        4.8,
+        80
+      ],
+      "orientation": [
+        0,
+        15,
+        0
+      ],
+      "color": "#E1E9EC",
+      "material": "Concrete",
+      "folder": "Decor"
+    },
+    {
+      "name": "ShoreRock_17",
+      "shape": "Block",
+      "size": [
+        12,
+        4,
+        9
+      ],
+      "position": [
+        195,
+        2.5,
+        25
+      ],
+      "orientation": [
+        0,
+        30,
+        0
+      ],
+      "color": "#6A8190",
+      "material": "Rock",
+      "folder": "Decor"
+    },
+    {
+      "name": "ShoreSnow_17",
+      "shape": "Block",
+      "size": [
+        10,
+        0.6,
+        7
+      ],
+      "position": [
+        195,
+        4.8,
+        25
+      ],
+      "orientation": [
+        0,
+        30,
+        0
+      ],
+      "color": "#E1E9EC",
+      "material": "Concrete",
+      "folder": "Decor"
+    },
+    {
+      "name": "ShoreRock_19",
+      "shape": "Block",
+      "size": [
+        12,
+        4,
+        9
+      ],
+      "position": [
+        60,
+        2.5,
+        -75
+      ],
+      "orientation": [
+        0,
+        15,
+        0
+      ],
+      "color": "#6A8190",
+      "material": "Rock",
+      "folder": "Decor"
+    },
+    {
+      "name": "ShoreSnow_19",
+      "shape": "Block",
+      "size": [
+        10,
+        0.6,
+        7
+      ],
+      "position": [
+        60,
+        4.8,
+        -75
+      ],
+      "orientation": [
+        0,
+        15,
+        0
+      ],
+      "color": "#E1E9EC",
+      "material": "Concrete",
+      "folder": "Decor"
+    },
+    {
+      "name": "OreOutcrop",
+      "shape": "Block",
+      "size": [
+        10,
+        5,
+        8
+      ],
+      "position": [
+        160,
+        3,
+        6
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#617B8C",
+      "material": "Rock",
+      "folder": "Decor"
+    },
+    {
+      "name": "OreSnow",
+      "shape": "Block",
+      "size": [
+        10,
+        0.7,
+        8
+      ],
+      "position": [
+        160,
+        5.85,
+        6
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#DCE8ED",
+      "material": "Concrete",
+      "folder": "Decor"
+    },
+    {
+      "name": "OreVein",
+      "shape": "Block",
+      "size": [
+        3,
+        2,
+        0.3
+      ],
+      "position": [
+        160,
+        3.5,
+        1.9000000000000004
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C6A34C",
+      "material": "Metal",
+      "folder": "Decor"
+    },
+    {
+      "name": "FrozenPier_0",
+      "shape": "Block",
+      "size": [
+        4,
+        0.08,
+        12
+      ],
+      "position": [
+        168,
+        0.52,
+        145
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#708894",
+      "material": "Slate",
+      "folder": "Decor"
+    },
+    {
+      "name": "FrozenPier_1",
+      "shape": "Block",
+      "size": [
+        4,
+        0.08,
+        12
+      ],
+      "position": [
+        174,
+        0.52,
+        145
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#708894",
+      "material": "Slate",
+      "folder": "Decor"
+    },
+    {
+      "name": "FrozenPier_2",
+      "shape": "Block",
+      "size": [
+        4,
+        0.08,
+        12
+      ],
+      "position": [
+        180,
+        0.52,
+        145
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#708894",
+      "material": "Slate",
+      "folder": "Decor"
+    },
+    {
+      "name": "FrozenPier_3",
+      "shape": "Block",
+      "size": [
+        4,
+        0.08,
+        12
+      ],
+      "position": [
+        186,
+        0.52,
+        145
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#708894",
+      "material": "Slate",
+      "folder": "Decor"
+    }
+  ]
+}

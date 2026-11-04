@@ -1,0 +1,558 @@
+{
+  "format": "kn-asset/1",
+  "kind": "mount",
+  "name": "sand_lizard",
+  "version": 1,
+  "author": "ChatGPT",
+  "notes": "Flat buff jaw, splayed elbows, turquoise dorsal fins and tapering tail. A padded bolster brings the low reptile up to the common seat.",
+  "parts": [
+    {
+      "name": "Root",
+      "shape": "Block",
+      "size": [
+        1,
+        0.2,
+        1
+      ],
+      "position": [
+        0,
+        0.1,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#594637",
+      "material": "SmoothPlastic",
+      "root": true,
+      "transparency": 1
+    },
+    {
+      "name": "Body",
+      "shape": "Block",
+      "size": [
+        1.79,
+        0.81,
+        2.85
+      ],
+      "position": [
+        0,
+        1.04,
+        0.04
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C39A61",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "SaddleBolster",
+      "shape": "Block",
+      "size": [
+        1.59,
+        0.42,
+        1.61
+      ],
+      "position": [
+        0,
+        1.61,
+        0.35
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#594637",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "Saddle",
+      "shape": "Block",
+      "size": [
+        1.66,
+        0.2,
+        1.22
+      ],
+      "position": [
+        0,
+        1.9,
+        0.35
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#398F8E",
+      "material": "Fabric"
+    },
+    {
+      "name": "ForeThighL",
+      "shape": "Block",
+      "size": [
+        0.31,
+        0.71631,
+        0.41
+      ],
+      "position": [
+        -0.975,
+        0.775,
+        -1.005
+      ],
+      "orientation": [
+        -154.02561,
+        0,
+        52.72567
+      ],
+      "color": "#C39A61",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "ForeShinL",
+      "shape": "Block",
+      "size": [
+        0.23,
+        0.54378,
+        0.25
+      ],
+      "position": [
+        -1.205,
+        0.36,
+        -1.25
+      ],
+      "orientation": [
+        -145.71312,
+        0,
+        -11.6707
+      ],
+      "color": "#C39A61",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "ForeFootL",
+      "shape": "Block",
+      "size": [
+        0.46,
+        0.2,
+        0.59
+      ],
+      "position": [
+        -1.15,
+        0.1,
+        -1.44
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#594637",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "HindThighL",
+      "shape": "Block",
+      "size": [
+        0.31,
+        0.71631,
+        0.41
+      ],
+      "position": [
+        -0.975,
+        0.775,
+        1.005
+      ],
+      "orientation": [
+        154.02561,
+        0,
+        52.72567
+      ],
+      "color": "#C39A61",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "HindShinL",
+      "shape": "Block",
+      "size": [
+        0.23,
+        0.54378,
+        0.25
+      ],
+      "position": [
+        -1.205,
+        0.36,
+        1.25
+      ],
+      "orientation": [
+        145.71312,
+        0,
+        -11.6707
+      ],
+      "color": "#C39A61",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "HindFootL",
+      "shape": "Block",
+      "size": [
+        0.46,
+        0.2,
+        0.59
+      ],
+      "position": [
+        -1.15,
+        0.1,
+        1.44
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#594637",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "BrowL",
+      "shape": "Wedge",
+      "size": [
+        0.45,
+        0.26,
+        0.64
+      ],
+      "position": [
+        -0.78,
+        1.64,
+        -2.13
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#EDD3A1",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "EyeL",
+      "shape": "Block",
+      "size": [
+        0.09,
+        0.16,
+        0.21
+      ],
+      "position": [
+        -0.97,
+        1.49,
+        -2.28
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#594637",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "ForeThighR",
+      "shape": "Block",
+      "size": [
+        0.31,
+        0.71631,
+        0.41
+      ],
+      "position": [
+        0.975,
+        0.775,
+        -1.005
+      ],
+      "orientation": [
+        -154.02561,
+        0,
+        -52.72567
+      ],
+      "color": "#C39A61",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "ForeShinR",
+      "shape": "Block",
+      "size": [
+        0.23,
+        0.54378,
+        0.25
+      ],
+      "position": [
+        1.205,
+        0.36,
+        -1.25
+      ],
+      "orientation": [
+        -145.71312,
+        0,
+        11.6707
+      ],
+      "color": "#C39A61",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "ForeFootR",
+      "shape": "Block",
+      "size": [
+        0.46,
+        0.2,
+        0.59
+      ],
+      "position": [
+        1.15,
+        0.1,
+        -1.44
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#594637",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "HindThighR",
+      "shape": "Block",
+      "size": [
+        0.31,
+        0.71631,
+        0.41
+      ],
+      "position": [
+        0.975,
+        0.775,
+        1.005
+      ],
+      "orientation": [
+        154.02561,
+        0,
+        -52.72567
+      ],
+      "color": "#C39A61",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "HindShinR",
+      "shape": "Block",
+      "size": [
+        0.23,
+        0.54378,
+        0.25
+      ],
+      "position": [
+        1.205,
+        0.36,
+        1.25
+      ],
+      "orientation": [
+        145.71312,
+        0,
+        11.6707
+      ],
+      "color": "#C39A61",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "HindFootR",
+      "shape": "Block",
+      "size": [
+        0.46,
+        0.2,
+        0.59
+      ],
+      "position": [
+        1.15,
+        0.1,
+        1.44
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#594637",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "BrowR",
+      "shape": "Wedge",
+      "size": [
+        0.45,
+        0.26,
+        0.64
+      ],
+      "position": [
+        0.78,
+        1.64,
+        -2.13
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#EDD3A1",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "EyeR",
+      "shape": "Block",
+      "size": [
+        0.09,
+        0.16,
+        0.21
+      ],
+      "position": [
+        0.97,
+        1.49,
+        -2.28
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#594637",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "Head",
+      "shape": "Block",
+      "size": [
+        1.92,
+        0.57,
+        1.37
+      ],
+      "position": [
+        0,
+        1.32,
+        -1.99
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C39A61",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "Jaw",
+      "shape": "Block",
+      "size": [
+        1.59,
+        0.24,
+        1.45
+      ],
+      "position": [
+        0,
+        1.05,
+        -2.16
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#EDD3A1",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "TailBase",
+      "shape": "Block",
+      "size": [
+        1.04,
+        0.69,
+        1.32
+      ],
+      "position": [
+        0,
+        0.9,
+        1.66
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C39A61",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "TailTip",
+      "shape": "Wedge",
+      "size": [
+        0.52,
+        0.46,
+        1.45
+      ],
+      "position": [
+        0,
+        0.69,
+        2.7
+      ],
+      "orientation": [
+        0,
+        180,
+        0
+      ],
+      "color": "#C39A61",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "NeckFrill",
+      "shape": "Wedge",
+      "size": [
+        0.21,
+        0.56,
+        0.83
+      ],
+      "position": [
+        0,
+        1.68,
+        -1.5
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#398F8E",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "TailFrill",
+      "shape": "Wedge",
+      "size": [
+        0.16,
+        0.4,
+        1.06
+      ],
+      "position": [
+        0,
+        1.31,
+        1.7
+      ],
+      "orientation": [
+        0,
+        180,
+        0
+      ],
+      "color": "#398F8E",
+      "material": "SmoothPlastic"
+    }
+  ]
+}

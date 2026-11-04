@@ -1,0 +1,579 @@
+{
+  "format": "kn-asset/1",
+  "kind": "mount",
+  "name": "warhorse",
+  "version": 1,
+  "author": "ChatGPT",
+  "notes": "Broad blue caparison, side plates and gold hems under the seat; dark heavy legs, steel face guard and swept blue plume.",
+  "parts": [
+    {
+      "name": "Root",
+      "shape": "Block",
+      "size": [
+        1,
+        0.2,
+        1
+      ],
+      "position": [
+        0,
+        0.1,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#303238",
+      "material": "SmoothPlastic",
+      "root": true,
+      "transparency": 1
+    },
+    {
+      "name": "Body",
+      "shape": "Block",
+      "size": [
+        1.93,
+        1.16,
+        3.18
+      ],
+      "position": [
+        0,
+        1.21,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#303238",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "Saddle",
+      "shape": "Block",
+      "size": [
+        1.84,
+        0.2,
+        1.22
+      ],
+      "position": [
+        0,
+        1.9,
+        0.35
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#3C526F",
+      "material": "Fabric"
+    },
+    {
+      "name": "ForeLegL",
+      "shape": "Block",
+      "size": [
+        0.48,
+        1.22589,
+        0.53
+      ],
+      "position": [
+        -0.72,
+        0.83,
+        -1.21
+      ],
+      "orientation": [
+        5.61758,
+        0,
+        -0.0
+      ],
+      "color": "#303238",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "ForeHoofL",
+      "shape": "Block",
+      "size": [
+        0.57,
+        0.32,
+        0.72
+      ],
+      "position": [
+        -0.72,
+        0.16,
+        -1.315
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#525964",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "HindLegL",
+      "shape": "Block",
+      "size": [
+        0.48,
+        1.22589,
+        0.53
+      ],
+      "position": [
+        -0.72,
+        0.83,
+        1.21
+      ],
+      "orientation": [
+        -5.61758,
+        0,
+        -0.0
+      ],
+      "color": "#303238",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "HindHoofL",
+      "shape": "Block",
+      "size": [
+        0.57,
+        0.32,
+        0.72
+      ],
+      "position": [
+        -0.72,
+        0.16,
+        1.225
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#525964",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "ForeLegR",
+      "shape": "Block",
+      "size": [
+        0.48,
+        1.22589,
+        0.53
+      ],
+      "position": [
+        0.72,
+        0.83,
+        -1.39
+      ],
+      "orientation": [
+        5.61758,
+        0,
+        -0.0
+      ],
+      "color": "#303238",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "ForeHoofR",
+      "shape": "Block",
+      "size": [
+        0.57,
+        0.32,
+        0.72
+      ],
+      "position": [
+        0.72,
+        0.16,
+        -1.495
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#525964",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "HindLegR",
+      "shape": "Block",
+      "size": [
+        0.48,
+        1.22589,
+        0.53
+      ],
+      "position": [
+        0.72,
+        0.83,
+        1.39
+      ],
+      "orientation": [
+        -5.61758,
+        0,
+        -0.0
+      ],
+      "color": "#303238",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "HindHoofR",
+      "shape": "Block",
+      "size": [
+        0.57,
+        0.32,
+        0.72
+      ],
+      "position": [
+        0.72,
+        0.16,
+        1.405
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#525964",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "ArmouredNeck",
+      "shape": "Block",
+      "size": [
+        1,
+        1.59765,
+        0.75
+      ],
+      "position": [
+        0.0,
+        2.085,
+        -1.86
+      ],
+      "orientation": [
+        -16.73359,
+        0,
+        -0.0
+      ],
+      "color": "#525964",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "Head",
+      "shape": "Block",
+      "size": [
+        1.03,
+        0.79,
+        1.06
+      ],
+      "position": [
+        0,
+        2.85,
+        -2.29
+      ],
+      "orientation": [
+        -9,
+        0,
+        0
+      ],
+      "color": "#525964",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "NasalGuard",
+      "shape": "Block",
+      "size": [
+        0.65,
+        0.49,
+        0.81
+      ],
+      "position": [
+        0,
+        2.61,
+        -2.87
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#303238",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "ChanfronStripe",
+      "shape": "Block",
+      "size": [
+        0.16,
+        0.12,
+        0.77
+      ],
+      "position": [
+        0,
+        3.22,
+        -2.34
+      ],
+      "orientation": [
+        -9,
+        0,
+        0
+      ],
+      "color": "#C9A35F",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "PlumeSocket",
+      "shape": "Block",
+      "size": [
+        0.42,
+        0.18,
+        0.43
+      ],
+      "position": [
+        0,
+        3.28,
+        -2.05
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C9A35F",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "Plume",
+      "shape": "Wedge",
+      "size": [
+        0.39,
+        0.72,
+        0.76
+      ],
+      "position": [
+        0,
+        3.64,
+        -2.02
+      ],
+      "orientation": [
+        -13,
+        0,
+        0
+      ],
+      "color": "#3C526F",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "CaparisonL",
+      "shape": "Block",
+      "size": [
+        0.16,
+        0.85,
+        2.15
+      ],
+      "position": [
+        -0.98,
+        1.26,
+        0.3
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#3C526F",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "BardingL",
+      "shape": "Wedge",
+      "size": [
+        0.22,
+        0.69,
+        1.21
+      ],
+      "position": [
+        -1,
+        1.51,
+        -0.98
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#525964",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "HemL",
+      "shape": "Block",
+      "size": [
+        0.17,
+        0.12,
+        2.16
+      ],
+      "position": [
+        -0.99,
+        0.88,
+        0.3
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C9A35F",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "CaparisonR",
+      "shape": "Block",
+      "size": [
+        0.16,
+        0.85,
+        2.15
+      ],
+      "position": [
+        0.98,
+        1.26,
+        0.3
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#3C526F",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "BardingR",
+      "shape": "Wedge",
+      "size": [
+        0.22,
+        0.69,
+        1.21
+      ],
+      "position": [
+        1,
+        1.51,
+        -0.98
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#525964",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "HemR",
+      "shape": "Block",
+      "size": [
+        0.17,
+        0.12,
+        2.16
+      ],
+      "position": [
+        0.99,
+        0.88,
+        0.3
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#C9A35F",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "EyeL",
+      "shape": "Block",
+      "size": [
+        0.06,
+        0.13,
+        0.18
+      ],
+      "position": [
+        -0.525,
+        2.94,
+        -2.46
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#303238",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "EyeR",
+      "shape": "Block",
+      "size": [
+        0.06,
+        0.13,
+        0.18
+      ],
+      "position": [
+        0.525,
+        2.94,
+        -2.46
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#303238",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "Dock",
+      "shape": "Block",
+      "size": [
+        0.56,
+        0.72691,
+        0.43
+      ],
+      "position": [
+        0.0,
+        1.59,
+        1.79
+      ],
+      "orientation": [
+        97.90716,
+        0,
+        -0.0
+      ],
+      "color": "#303238",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "Tail",
+      "shape": "Block",
+      "size": [
+        0.47,
+        1.27781,
+        0.51
+      ],
+      "position": [
+        0.0,
+        1.05,
+        2.24
+      ],
+      "orientation": [
+        -17.30053,
+        0,
+        -0.0
+      ],
+      "color": "#303238",
+      "material": "SmoothPlastic"
+    }
+  ]
+}

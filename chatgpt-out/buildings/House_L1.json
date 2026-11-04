@@ -1,0 +1,262 @@
+{
+  "format": "kn-asset/1",
+  "kind": "building",
+  "name": "House/L1",
+  "version": 2,
+  "author": "ChatGPT",
+  "notes": "Cottage upgrades to a two-storey townhouse with porch. Blue pitched roof; chimney remains inside pad. Base centre [0,0,0]; front -Z. No root or physics fields. Palette shared across B1. v2: main stone #A39B83 (about 25% darker RGB value); cream reserved for trim.",
+  "parts": [
+    {
+      "name": "StoneFooting",
+      "shape": "Block",
+      "size": [
+        7.3999999999999995,
+        0.6,
+        7.2
+      ],
+      "position": [
+        0,
+        0.3,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#A39B83",
+      "material": "Cobblestone"
+    },
+    {
+      "name": "PlasterBody",
+      "shape": "Block",
+      "size": [
+        6.6,
+        2.9,
+        6.4
+      ],
+      "position": [
+        0,
+        2.05,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#A39B83",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "RoofFront",
+      "shape": "Wedge",
+      "size": [
+        8,
+        2,
+        4.0
+      ],
+      "position": [
+        0,
+        4.5,
+        -2.0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#426C8C",
+      "material": "Slate"
+    },
+    {
+      "name": "RoofRear",
+      "shape": "Wedge",
+      "size": [
+        8,
+        2,
+        4.0
+      ],
+      "position": [
+        0,
+        4.5,
+        2.0
+      ],
+      "orientation": [
+        0,
+        180,
+        0
+      ],
+      "color": "#426C8C",
+      "material": "Slate"
+    },
+    {
+      "name": "RidgeCap",
+      "shape": "Block",
+      "size": [
+        8,
+        0.25,
+        0.5
+      ],
+      "position": [
+        0,
+        5.375,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#426C8C",
+      "material": "Slate"
+    },
+    {
+      "name": "TimberPost-3.15",
+      "shape": "Block",
+      "size": [
+        0.4,
+        2.9,
+        6.48
+      ],
+      "position": [
+        -3.15,
+        2.05,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#765743",
+      "material": "Wood"
+    },
+    {
+      "name": "TimberPost3.15",
+      "shape": "Block",
+      "size": [
+        0.4,
+        2.9,
+        6.48
+      ],
+      "position": [
+        3.15,
+        2.05,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#765743",
+      "material": "Wood"
+    },
+    {
+      "name": "Door",
+      "shape": "Block",
+      "size": [
+        1.4,
+        2.3,
+        0.18
+      ],
+      "position": [
+        0,
+        1.75,
+        -3.29
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#765743",
+      "material": "WoodPlanks"
+    },
+    {
+      "name": "DoorLintel",
+      "shape": "Block",
+      "size": [
+        1.9,
+        0.35,
+        0.35
+      ],
+      "position": [
+        0,
+        3,
+        -3.3000000000000003
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#765743",
+      "material": "Wood"
+    },
+    {
+      "name": "LowerWindow-2.1",
+      "shape": "Block",
+      "size": [
+        1.1,
+        1.05,
+        0.14
+      ],
+      "position": [
+        -2.1,
+        2.15,
+        -3.27
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#303D49",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "LowerWindow2.1",
+      "shape": "Block",
+      "size": [
+        1.1,
+        1.05,
+        0.14
+      ],
+      "position": [
+        2.1,
+        2.15,
+        -3.27
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#303D49",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "Chimney",
+      "shape": "Block",
+      "size": [
+        0.85,
+        1.8,
+        1
+      ],
+      "position": [
+        2,
+        5.1,
+        1.4
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#A39B83",
+      "material": "Brick"
+    }
+  ]
+}

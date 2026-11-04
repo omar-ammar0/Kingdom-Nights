@@ -1,0 +1,222 @@
+{
+  "format": "kn-asset/1",
+  "kind": "character",
+  "name": "bloodwing",
+  "version": 1,
+  "author": "ChatGPT",
+  "notes": "10 parts including root. Huge hooked bat membranes, pointed ears and low round body; crimson/charcoal. Body bottom Y=0; game provides flight height. Front -Z; single invisible base root. No hover offset, physics fields or particles. Importer anchors root only and welds unanchored children.",
+  "parts": [
+    {
+      "name": "HumanoidRootPart",
+      "shape": "Block",
+      "size": [
+        1,
+        0.2,
+        1
+      ],
+      "position": [
+        0,
+        0.1,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#3A3A3A",
+      "material": "SmoothPlastic",
+      "root": true,
+      "transparency": 1
+    },
+    {
+      "name": "Body",
+      "shape": "Ball",
+      "size": [
+        2.2,
+        2.2,
+        2.2
+      ],
+      "position": [
+        0,
+        1.1,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#3A3A3A",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "Head",
+      "shape": "Block",
+      "size": [
+        1.4,
+        1.2,
+        1.3
+      ],
+      "position": [
+        0,
+        2.5,
+        -0.55
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8A3B3B",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "WingMembrane_L",
+      "shape": "Wedge",
+      "size": [
+        4.5,
+        0.45,
+        3.2
+      ],
+      "position": [
+        -3,
+        2,
+        0.3
+      ],
+      "orientation": [
+        0,
+        0,
+        -8
+      ],
+      "color": "#8A3B3B",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "WingHook_L",
+      "shape": "Wedge",
+      "size": [
+        2,
+        0.35,
+        1.4
+      ],
+      "position": [
+        -5.6,
+        2.5,
+        0.1
+      ],
+      "orientation": [
+        0,
+        -25,
+        -8
+      ],
+      "color": "#3A3A3A",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "Ear_L",
+      "shape": "Wedge",
+      "size": [
+        0.3,
+        0.85,
+        0.4
+      ],
+      "position": [
+        -0.47,
+        3.25,
+        -0.5
+      ],
+      "orientation": [
+        0,
+        0,
+        15
+      ],
+      "color": "#3A3A3A",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "WingMembrane_R",
+      "shape": "Wedge",
+      "size": [
+        4.5,
+        0.45,
+        3.2
+      ],
+      "position": [
+        3,
+        2,
+        0.3
+      ],
+      "orientation": [
+        0,
+        0,
+        8
+      ],
+      "color": "#8A3B3B",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "WingHook_R",
+      "shape": "Wedge",
+      "size": [
+        2,
+        0.35,
+        1.4
+      ],
+      "position": [
+        5.6,
+        2.5,
+        0.1
+      ],
+      "orientation": [
+        0,
+        25,
+        8
+      ],
+      "color": "#3A3A3A",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "Ear_R",
+      "shape": "Wedge",
+      "size": [
+        0.3,
+        0.85,
+        0.4
+      ],
+      "position": [
+        0.47,
+        3.25,
+        -0.5
+      ],
+      "orientation": [
+        0,
+        0,
+        -15
+      ],
+      "color": "#3A3A3A",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "Tail",
+      "shape": "Wedge",
+      "size": [
+        0.5,
+        0.5,
+        1.5
+      ],
+      "position": [
+        0,
+        0.7,
+        1.6
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8A3B3B",
+      "material": "SmoothPlastic"
+    }
+  ]
+}

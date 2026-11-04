@@ -1,0 +1,2762 @@
+{
+  "source": "Config_v2.luau existing values; no stat modifications",
+  "config_sha256": "b075b6ec09683f8c5f9c86f8785a39c5ef0e0136e442bd76089e7ee1b46dab5b",
+  "stats_for_arithmetic_only": {
+    "weakling": {
+      "Hp": 45.0,
+      "GoldDrop": 1.0,
+      "Speed": 7.0,
+      "Damage": 5.0
+    },
+    "swordsman": {
+      "Hp": 125.0,
+      "GoldDrop": 2.0,
+      "Speed": 9.0,
+      "Damage": 13.0
+    },
+    "archer_e": {
+      "Hp": 100.0,
+      "GoldDrop": 2.0,
+      "Speed": 9.0,
+      "Damage": 13.0
+    },
+    "pikeman": {
+      "Hp": 125.0,
+      "GoldDrop": 3.0,
+      "Speed": 9.0,
+      "Damage": 18.0
+    },
+    "ogre": {
+      "Hp": 1000.0,
+      "GoldDrop": 8.0,
+      "Speed": 7.0,
+      "Damage": 100.0
+    },
+    "darkwarrior": {
+      "Hp": 675.0,
+      "GoldDrop": 7.0,
+      "Speed": 13.0,
+      "Damage": 50.0
+    },
+    "slime": {
+      "Hp": 63.0,
+      "GoldDrop": 1.0,
+      "Speed": 9.0,
+      "Damage": 6.0
+    },
+    "racer": {
+      "Hp": 175.0,
+      "GoldDrop": 3.0,
+      "Speed": 18.0,
+      "Damage": 13.0
+    },
+    "spiderling": {
+      "Hp": 63.0,
+      "GoldDrop": 2.0,
+      "Speed": 27.0,
+      "Damage": 12.0
+    },
+    "wasp": {
+      "Hp": 125.0,
+      "GoldDrop": 3.0,
+      "Speed": 14.0,
+      "Damage": 13.0
+    },
+    "bloodwing": {
+      "Hp": 250.0,
+      "GoldDrop": 5.0,
+      "Speed": 21.0,
+      "Damage": 15.0
+    },
+    "exploder": {
+      "Hp": 325.0,
+      "GoldDrop": 5.0,
+      "Speed": 16.0,
+      "Damage": 450.0
+    },
+    "ram": {
+      "Hp": 1250.0,
+      "GoldDrop": 10.0,
+      "Speed": 4.0,
+      "Damage": 75.0
+    },
+    "catapult": {
+      "Hp": 225.0,
+      "GoldDrop": 12.0,
+      "Speed": 4.0,
+      "Damage": 750.0
+    },
+    "fenwraith": {
+      "Hp": 50000.0,
+      "GoldDrop": 120.0,
+      "Speed": 6.0,
+      "Damage": 78.0
+    }
+  },
+  "old": {
+    "ashridge": [
+      {
+        "Night": 1,
+        "Entries": [
+          {
+            "EnemyId": "weakling",
+            "Count": 12,
+            "SpawnIndex": 1,
+            "StartDelay": 0.0,
+            "Interval": 0.55
+          },
+          {
+            "EnemyId": "slime",
+            "Count": 4,
+            "SpawnIndex": 1,
+            "StartDelay": 8.0,
+            "Interval": 0.7
+          }
+        ]
+      },
+      {
+        "Night": 2,
+        "Entries": [
+          {
+            "EnemyId": "weakling",
+            "Count": 12,
+            "SpawnIndex": 1,
+            "StartDelay": 0.0,
+            "Interval": 0.5
+          },
+          {
+            "EnemyId": "swordsman",
+            "Count": 6,
+            "SpawnIndex": 2,
+            "StartDelay": 3.0,
+            "Interval": 0.65
+          },
+          {
+            "EnemyId": "slime",
+            "Count": 6,
+            "SpawnIndex": 2,
+            "StartDelay": 9.0,
+            "Interval": 0.55
+          }
+        ]
+      },
+      {
+        "Night": 3,
+        "Entries": [
+          {
+            "EnemyId": "swordsman",
+            "Count": 10,
+            "SpawnIndex": 1,
+            "StartDelay": 0.0,
+            "Interval": 0.6
+          },
+          {
+            "EnemyId": "weakling",
+            "Count": 12,
+            "SpawnIndex": 3,
+            "StartDelay": 0.0,
+            "Interval": 0.5
+          },
+          {
+            "EnemyId": "slime",
+            "Count": 8,
+            "SpawnIndex": 2,
+            "StartDelay": 4.0,
+            "Interval": 0.55
+          },
+          {
+            "EnemyId": "racer",
+            "Count": 2,
+            "SpawnIndex": 2,
+            "StartDelay": 12.0,
+            "Interval": 0.8
+          }
+        ]
+      },
+      {
+        "Night": 4,
+        "Entries": [
+          {
+            "EnemyId": "swordsman",
+            "Count": 12,
+            "SpawnIndex": 1,
+            "StartDelay": 0.0,
+            "Interval": 0.5
+          },
+          {
+            "EnemyId": "archer_e",
+            "Count": 6,
+            "SpawnIndex": 1,
+            "StartDelay": 5.0,
+            "Interval": 0.6
+          },
+          {
+            "EnemyId": "slime",
+            "Count": 14,
+            "SpawnIndex": 3,
+            "StartDelay": 0.0,
+            "Interval": 0.45
+          },
+          {
+            "EnemyId": "pikeman",
+            "Count": 8,
+            "SpawnIndex": 2,
+            "StartDelay": 3.0,
+            "Interval": 0.6
+          }
+        ]
+      },
+      {
+        "Night": 5,
+        "Entries": [
+          {
+            "EnemyId": "swordsman",
+            "Count": 14,
+            "SpawnIndex": 1,
+            "StartDelay": 0.0,
+            "Interval": 0.45
+          },
+          {
+            "EnemyId": "slime",
+            "Count": 16,
+            "SpawnIndex": 3,
+            "StartDelay": 0.0,
+            "Interval": 0.4
+          },
+          {
+            "EnemyId": "pikeman",
+            "Count": 10,
+            "SpawnIndex": 2,
+            "StartDelay": 2.0,
+            "Interval": 0.55
+          },
+          {
+            "EnemyId": "wasp",
+            "Count": 4,
+            "SpawnIndex": 2,
+            "StartDelay": 10.0,
+            "Interval": 0.7
+          },
+          {
+            "EnemyId": "racer",
+            "Count": 4,
+            "SpawnIndex": 3,
+            "StartDelay": 10.0,
+            "Interval": 0.7
+          }
+        ]
+      },
+      {
+        "Night": 6,
+        "Entries": [
+          {
+            "EnemyId": "ram",
+            "Count": 1,
+            "SpawnIndex": 2,
+            "StartDelay": 0.0,
+            "Interval": 0.6
+          },
+          {
+            "EnemyId": "swordsman",
+            "Count": 18,
+            "SpawnIndex": 1,
+            "StartDelay": 0.0,
+            "Interval": 0.4
+          },
+          {
+            "EnemyId": "slime",
+            "Count": 18,
+            "SpawnIndex": 3,
+            "StartDelay": 0.0,
+            "Interval": 0.4
+          },
+          {
+            "EnemyId": "archer_e",
+            "Count": 8,
+            "SpawnIndex": 2,
+            "StartDelay": 2.0,
+            "Interval": 0.55
+          },
+          {
+            "EnemyId": "pikeman",
+            "Count": 7,
+            "SpawnIndex": 2,
+            "StartDelay": 4.0,
+            "Interval": 0.55
+          },
+          {
+            "EnemyId": "wasp",
+            "Count": 4,
+            "SpawnIndex": 3,
+            "StartDelay": 12.0,
+            "Interval": 0.6
+          }
+        ]
+      },
+      {
+        "Night": 7,
+        "Entries": [
+          {
+            "EnemyId": "swordsman",
+            "Count": 20,
+            "SpawnIndex": 1,
+            "StartDelay": 0.0,
+            "Interval": 0.35
+          },
+          {
+            "EnemyId": "slime",
+            "Count": 20,
+            "SpawnIndex": 3,
+            "StartDelay": 0.0,
+            "Interval": 0.35
+          },
+          {
+            "EnemyId": "pikeman",
+            "Count": 10,
+            "SpawnIndex": 2,
+            "StartDelay": 0.0,
+            "Interval": 0.45
+          },
+          {
+            "EnemyId": "archer_e",
+            "Count": 6,
+            "SpawnIndex": 2,
+            "StartDelay": 4.0,
+            "Interval": 0.5
+          },
+          {
+            "EnemyId": "racer",
+            "Count": 4,
+            "SpawnIndex": 3,
+            "StartDelay": 10.0,
+            "Interval": 0.6
+          },
+          {
+            "EnemyId": "wasp",
+            "Count": 3,
+            "SpawnIndex": 1,
+            "StartDelay": 12.0,
+            "Interval": 0.6
+          },
+          {
+            "EnemyId": "ogre",
+            "Count": 1,
+            "SpawnIndex": 2,
+            "StartDelay": 0.0,
+            "Interval": 0.6
+          }
+        ]
+      },
+      {
+        "Night": 8,
+        "Entries": [
+          {
+            "EnemyId": "swordsman",
+            "Count": 22,
+            "SpawnIndex": 1,
+            "StartDelay": 0.0,
+            "Interval": 0.3
+          },
+          {
+            "EnemyId": "slime",
+            "Count": 22,
+            "SpawnIndex": 3,
+            "StartDelay": 0.0,
+            "Interval": 0.3
+          },
+          {
+            "EnemyId": "pikeman",
+            "Count": 14,
+            "SpawnIndex": 2,
+            "StartDelay": 0.0,
+            "Interval": 0.4
+          },
+          {
+            "EnemyId": "archer_e",
+            "Count": 8,
+            "SpawnIndex": 2,
+            "StartDelay": 3.0,
+            "Interval": 0.45
+          },
+          {
+            "EnemyId": "racer",
+            "Count": 4,
+            "SpawnIndex": 3,
+            "StartDelay": 10.0,
+            "Interval": 0.6
+          },
+          {
+            "EnemyId": "wasp",
+            "Count": 4,
+            "SpawnIndex": 1,
+            "StartDelay": 10.0,
+            "Interval": 0.6
+          },
+          {
+            "EnemyId": "ogre",
+            "Count": 2,
+            "SpawnIndex": 2,
+            "StartDelay": 0.0,
+            "Interval": 0.6
+          }
+        ]
+      }
+    ],
+    "frostmere": [
+      {
+        "Night": 1,
+        "Entries": [
+          {
+            "EnemyId": "weakling",
+            "Count": 18,
+            "SpawnIndex": 1,
+            "StartDelay": 0.0,
+            "Interval": 0.4
+          },
+          {
+            "EnemyId": "slime",
+            "Count": 6,
+            "SpawnIndex": 1,
+            "StartDelay": 4.0,
+            "Interval": 0.5
+          }
+        ]
+      },
+      {
+        "Night": 2,
+        "Entries": [
+          {
+            "EnemyId": "swordsman",
+            "Count": 12,
+            "SpawnIndex": 1,
+            "StartDelay": 0.0,
+            "Interval": 0.4
+          },
+          {
+            "EnemyId": "weakling",
+            "Count": 14,
+            "SpawnIndex": 2,
+            "StartDelay": 0.0,
+            "Interval": 0.35
+          },
+          {
+            "EnemyId": "racer",
+            "Count": 6,
+            "SpawnIndex": 2,
+            "StartDelay": 6.0,
+            "Interval": 0.4
+          }
+        ]
+      },
+      {
+        "Night": 3,
+        "Entries": [
+          {
+            "EnemyId": "swordsman",
+            "Count": 14,
+            "SpawnIndex": 1,
+            "StartDelay": 0.0,
+            "Interval": 0.35
+          },
+          {
+            "EnemyId": "slime",
+            "Count": 12,
+            "SpawnIndex": 3,
+            "StartDelay": 0.0,
+            "Interval": 0.35
+          },
+          {
+            "EnemyId": "pikeman",
+            "Count": 8,
+            "SpawnIndex": 2,
+            "StartDelay": 0.0,
+            "Interval": 0.45
+          },
+          {
+            "EnemyId": "racer",
+            "Count": 6,
+            "SpawnIndex": 3,
+            "StartDelay": 6.0,
+            "Interval": 0.4
+          }
+        ]
+      },
+      {
+        "Night": 4,
+        "Entries": [
+          {
+            "EnemyId": "swordsman",
+            "Count": 14,
+            "SpawnIndex": 1,
+            "StartDelay": 0.0,
+            "Interval": 0.35
+          },
+          {
+            "EnemyId": "slime",
+            "Count": 12,
+            "SpawnIndex": 3,
+            "StartDelay": 0.0,
+            "Interval": 0.35
+          },
+          {
+            "EnemyId": "pikeman",
+            "Count": 10,
+            "SpawnIndex": 2,
+            "StartDelay": 0.0,
+            "Interval": 0.4
+          },
+          {
+            "EnemyId": "wasp",
+            "Count": 6,
+            "SpawnIndex": 3,
+            "StartDelay": 6.0,
+            "Interval": 0.4
+          },
+          {
+            "EnemyId": "archer_e",
+            "Count": 6,
+            "SpawnIndex": 2,
+            "StartDelay": 3.0,
+            "Interval": 0.4
+          }
+        ]
+      },
+      {
+        "Night": 5,
+        "Entries": [
+          {
+            "EnemyId": "swordsman",
+            "Count": 16,
+            "SpawnIndex": 1,
+            "StartDelay": 0.0,
+            "Interval": 0.3
+          },
+          {
+            "EnemyId": "pikeman",
+            "Count": 12,
+            "SpawnIndex": 2,
+            "StartDelay": 0.0,
+            "Interval": 0.35
+          },
+          {
+            "EnemyId": "racer",
+            "Count": 14,
+            "SpawnIndex": 3,
+            "StartDelay": 3.0,
+            "Interval": 0.3
+          },
+          {
+            "EnemyId": "wasp",
+            "Count": 8,
+            "SpawnIndex": 1,
+            "StartDelay": 5.0,
+            "Interval": 0.35
+          },
+          {
+            "EnemyId": "archer_e",
+            "Count": 6,
+            "SpawnIndex": 2,
+            "StartDelay": 2.0,
+            "Interval": 0.4
+          }
+        ]
+      },
+      {
+        "Night": 6,
+        "Entries": [
+          {
+            "EnemyId": "ram",
+            "Count": 1,
+            "SpawnIndex": 2,
+            "StartDelay": 0.0,
+            "Interval": 0.4
+          },
+          {
+            "EnemyId": "ogre",
+            "Count": 2,
+            "SpawnIndex": 2,
+            "StartDelay": 0.0,
+            "Interval": 0.5
+          },
+          {
+            "EnemyId": "swordsman",
+            "Count": 16,
+            "SpawnIndex": 1,
+            "StartDelay": 0.0,
+            "Interval": 0.3
+          },
+          {
+            "EnemyId": "pikeman",
+            "Count": 12,
+            "SpawnIndex": 2,
+            "StartDelay": 0.0,
+            "Interval": 0.35
+          },
+          {
+            "EnemyId": "racer",
+            "Count": 16,
+            "SpawnIndex": 3,
+            "StartDelay": 2.0,
+            "Interval": 0.3
+          },
+          {
+            "EnemyId": "wasp",
+            "Count": 9,
+            "SpawnIndex": 3,
+            "StartDelay": 4.0,
+            "Interval": 0.35
+          },
+          {
+            "EnemyId": "archer_e",
+            "Count": 8,
+            "SpawnIndex": 1,
+            "StartDelay": 2.0,
+            "Interval": 0.35
+          }
+        ]
+      },
+      {
+        "Night": 7,
+        "Entries": [
+          {
+            "EnemyId": "ogre",
+            "Count": 3,
+            "SpawnIndex": 2,
+            "StartDelay": 0.0,
+            "Interval": 0.5
+          },
+          {
+            "EnemyId": "swordsman",
+            "Count": 18,
+            "SpawnIndex": 1,
+            "StartDelay": 0.0,
+            "Interval": 0.3
+          },
+          {
+            "EnemyId": "pikeman",
+            "Count": 16,
+            "SpawnIndex": 2,
+            "StartDelay": 0.0,
+            "Interval": 0.3
+          },
+          {
+            "EnemyId": "racer",
+            "Count": 18,
+            "SpawnIndex": 3,
+            "StartDelay": 1.0,
+            "Interval": 0.3
+          },
+          {
+            "EnemyId": "wasp",
+            "Count": 11,
+            "SpawnIndex": 1,
+            "StartDelay": 3.0,
+            "Interval": 0.3
+          },
+          {
+            "EnemyId": "archer_e",
+            "Count": 6,
+            "SpawnIndex": 3,
+            "StartDelay": 2.0,
+            "Interval": 0.35
+          }
+        ]
+      },
+      {
+        "Night": 8,
+        "Entries": [
+          {
+            "EnemyId": "ogre",
+            "Count": 4,
+            "SpawnIndex": 2,
+            "StartDelay": 0.0,
+            "Interval": 0.45
+          },
+          {
+            "EnemyId": "swordsman",
+            "Count": 20,
+            "SpawnIndex": 1,
+            "StartDelay": 0.0,
+            "Interval": 0.28
+          },
+          {
+            "EnemyId": "pikeman",
+            "Count": 18,
+            "SpawnIndex": 2,
+            "StartDelay": 0.0,
+            "Interval": 0.3
+          },
+          {
+            "EnemyId": "racer",
+            "Count": 20,
+            "SpawnIndex": 3,
+            "StartDelay": 0.0,
+            "Interval": 0.28
+          },
+          {
+            "EnemyId": "wasp",
+            "Count": 14,
+            "SpawnIndex": 3,
+            "StartDelay": 2.0,
+            "Interval": 0.3
+          },
+          {
+            "EnemyId": "archer_e",
+            "Count": 6,
+            "SpawnIndex": 1,
+            "StartDelay": 1.0,
+            "Interval": 0.35
+          }
+        ]
+      }
+    ],
+    "blackfen": [
+      {
+        "Night": 1,
+        "Entries": [
+          {
+            "EnemyId": "weakling",
+            "Count": 16,
+            "SpawnIndex": 1,
+            "StartDelay": 0.0,
+            "Interval": 0.35
+          },
+          {
+            "EnemyId": "swordsman",
+            "Count": 8,
+            "SpawnIndex": 1,
+            "StartDelay": 1.0,
+            "Interval": 0.4
+          }
+        ]
+      },
+      {
+        "Night": 2,
+        "Entries": [
+          {
+            "EnemyId": "swordsman",
+            "Count": 16,
+            "SpawnIndex": 1,
+            "StartDelay": 0.0,
+            "Interval": 0.3
+          },
+          {
+            "EnemyId": "slime",
+            "Count": 10,
+            "SpawnIndex": 2,
+            "StartDelay": 0.0,
+            "Interval": 0.35
+          },
+          {
+            "EnemyId": "pikeman",
+            "Count": 4,
+            "SpawnIndex": 2,
+            "StartDelay": 1.0,
+            "Interval": 0.4
+          }
+        ]
+      },
+      {
+        "Night": 3,
+        "Entries": [
+          {
+            "EnemyId": "ram",
+            "Count": 1,
+            "SpawnIndex": 1,
+            "StartDelay": 0.0,
+            "Interval": 0.5
+          },
+          {
+            "EnemyId": "swordsman",
+            "Count": 16,
+            "SpawnIndex": 1,
+            "StartDelay": 0.0,
+            "Interval": 0.3
+          },
+          {
+            "EnemyId": "pikeman",
+            "Count": 9,
+            "SpawnIndex": 2,
+            "StartDelay": 0.0,
+            "Interval": 0.35
+          },
+          {
+            "EnemyId": "racer",
+            "Count": 10,
+            "SpawnIndex": 3,
+            "StartDelay": 1.0,
+            "Interval": 0.3
+          }
+        ]
+      },
+      {
+        "Night": 4,
+        "Entries": [
+          {
+            "EnemyId": "ram",
+            "Count": 2,
+            "SpawnIndex": 2,
+            "StartDelay": 0.0,
+            "Interval": 0.5
+          },
+          {
+            "EnemyId": "swordsman",
+            "Count": 16,
+            "SpawnIndex": 2,
+            "StartDelay": 0.0,
+            "Interval": 0.3
+          },
+          {
+            "EnemyId": "pikeman",
+            "Count": 12,
+            "SpawnIndex": 3,
+            "StartDelay": 0.0,
+            "Interval": 0.3
+          },
+          {
+            "EnemyId": "wasp",
+            "Count": 6,
+            "SpawnIndex": 4,
+            "StartDelay": 2.0,
+            "Interval": 0.35
+          },
+          {
+            "EnemyId": "racer",
+            "Count": 6,
+            "SpawnIndex": 4,
+            "StartDelay": 0.0,
+            "Interval": 0.35
+          }
+        ]
+      },
+      {
+        "Night": 5,
+        "Entries": [
+          {
+            "EnemyId": "ram",
+            "Count": 1,
+            "SpawnIndex": 1,
+            "StartDelay": 0.0,
+            "Interval": 0.5
+          },
+          {
+            "EnemyId": "ram",
+            "Count": 1,
+            "SpawnIndex": 3,
+            "StartDelay": 0.0,
+            "Interval": 0.5
+          },
+          {
+            "EnemyId": "swordsman",
+            "Count": 18,
+            "SpawnIndex": 1,
+            "StartDelay": 0.0,
+            "Interval": 0.28
+          },
+          {
+            "EnemyId": "pikeman",
+            "Count": 14,
+            "SpawnIndex": 3,
+            "StartDelay": 0.0,
+            "Interval": 0.3
+          },
+          {
+            "EnemyId": "wasp",
+            "Count": 8,
+            "SpawnIndex": 2,
+            "StartDelay": 2.0,
+            "Interval": 0.3
+          },
+          {
+            "EnemyId": "archer_e",
+            "Count": 6,
+            "SpawnIndex": 4,
+            "StartDelay": 1.0,
+            "Interval": 0.35
+          }
+        ]
+      },
+      {
+        "Night": 6,
+        "Entries": [
+          {
+            "EnemyId": "ram",
+            "Count": 3,
+            "SpawnIndex": 2,
+            "StartDelay": 0.0,
+            "Interval": 0.5
+          },
+          {
+            "EnemyId": "catapult",
+            "Count": 1,
+            "SpawnIndex": 2,
+            "StartDelay": 0.0,
+            "Interval": 0.5
+          },
+          {
+            "EnemyId": "swordsman",
+            "Count": 18,
+            "SpawnIndex": 1,
+            "StartDelay": 0.0,
+            "Interval": 0.28
+          },
+          {
+            "EnemyId": "pikeman",
+            "Count": 16,
+            "SpawnIndex": 3,
+            "StartDelay": 0.0,
+            "Interval": 0.28
+          },
+          {
+            "EnemyId": "wasp",
+            "Count": 10,
+            "SpawnIndex": 4,
+            "StartDelay": 1.0,
+            "Interval": 0.3
+          },
+          {
+            "EnemyId": "archer_e",
+            "Count": 6,
+            "SpawnIndex": 2,
+            "StartDelay": 1.0,
+            "Interval": 0.3
+          }
+        ]
+      },
+      {
+        "Night": 7,
+        "Entries": [
+          {
+            "EnemyId": "ram",
+            "Count": 3,
+            "SpawnIndex": 3,
+            "StartDelay": 0.0,
+            "Interval": 0.5
+          },
+          {
+            "EnemyId": "catapult",
+            "Count": 1,
+            "SpawnIndex": 3,
+            "StartDelay": 0.0,
+            "Interval": 0.5
+          },
+          {
+            "EnemyId": "ogre",
+            "Count": 2,
+            "SpawnIndex": 1,
+            "StartDelay": 0.0,
+            "Interval": 0.5
+          },
+          {
+            "EnemyId": "swordsman",
+            "Count": 18,
+            "SpawnIndex": 4,
+            "StartDelay": 0.0,
+            "Interval": 0.28
+          },
+          {
+            "EnemyId": "pikeman",
+            "Count": 16,
+            "SpawnIndex": 2,
+            "StartDelay": 0.0,
+            "Interval": 0.28
+          },
+          {
+            "EnemyId": "wasp",
+            "Count": 12,
+            "SpawnIndex": 1,
+            "StartDelay": 1.0,
+            "Interval": 0.3
+          },
+          {
+            "EnemyId": "racer",
+            "Count": 8,
+            "SpawnIndex": 4,
+            "StartDelay": 0.0,
+            "Interval": 0.3
+          }
+        ]
+      },
+      {
+        "Night": 8,
+        "Entries": [
+          {
+            "EnemyId": "ram",
+            "Count": 2,
+            "SpawnIndex": 1,
+            "StartDelay": 0.0,
+            "Interval": 0.5
+          },
+          {
+            "EnemyId": "ram",
+            "Count": 2,
+            "SpawnIndex": 4,
+            "StartDelay": 0.0,
+            "Interval": 0.5
+          },
+          {
+            "EnemyId": "catapult",
+            "Count": 2,
+            "SpawnIndex": 4,
+            "StartDelay": 0.0,
+            "Interval": 0.5
+          },
+          {
+            "EnemyId": "ogre",
+            "Count": 2,
+            "SpawnIndex": 2,
+            "StartDelay": 0.0,
+            "Interval": 0.5
+          },
+          {
+            "EnemyId": "swordsman",
+            "Count": 20,
+            "SpawnIndex": 3,
+            "StartDelay": 0.0,
+            "Interval": 0.27
+          },
+          {
+            "EnemyId": "pikeman",
+            "Count": 18,
+            "SpawnIndex": 1,
+            "StartDelay": 0.0,
+            "Interval": 0.28
+          },
+          {
+            "EnemyId": "wasp",
+            "Count": 12,
+            "SpawnIndex": 2,
+            "StartDelay": 1.0,
+            "Interval": 0.3
+          },
+          {
+            "EnemyId": "racer",
+            "Count": 10,
+            "SpawnIndex": 3,
+            "StartDelay": 0.0,
+            "Interval": 0.3
+          }
+        ]
+      },
+      {
+        "Night": 9,
+        "Entries": [
+          {
+            "EnemyId": "ram",
+            "Count": 3,
+            "SpawnIndex": 1,
+            "StartDelay": 0.0,
+            "Interval": 0.45
+          },
+          {
+            "EnemyId": "ram",
+            "Count": 2,
+            "SpawnIndex": 3,
+            "StartDelay": 0.0,
+            "Interval": 0.45
+          },
+          {
+            "EnemyId": "catapult",
+            "Count": 2,
+            "SpawnIndex": 2,
+            "StartDelay": 0.0,
+            "Interval": 0.5
+          },
+          {
+            "EnemyId": "ogre",
+            "Count": 3,
+            "SpawnIndex": 4,
+            "StartDelay": 0.0,
+            "Interval": 0.45
+          },
+          {
+            "EnemyId": "swordsman",
+            "Count": 22,
+            "SpawnIndex": 3,
+            "StartDelay": 0.0,
+            "Interval": 0.26
+          },
+          {
+            "EnemyId": "pikeman",
+            "Count": 20,
+            "SpawnIndex": 1,
+            "StartDelay": 0.0,
+            "Interval": 0.27
+          },
+          {
+            "EnemyId": "wasp",
+            "Count": 14,
+            "SpawnIndex": 4,
+            "StartDelay": 1.0,
+            "Interval": 0.28
+          },
+          {
+            "EnemyId": "racer",
+            "Count": 10,
+            "SpawnIndex": 2,
+            "StartDelay": 0.0,
+            "Interval": 0.28
+          }
+        ]
+      },
+      {
+        "Night": 10,
+        "Entries": [
+          {
+            "EnemyId": "ram",
+            "Count": 3,
+            "SpawnIndex": 1,
+            "StartDelay": 0.0,
+            "Interval": 0.45
+          },
+          {
+            "EnemyId": "ram",
+            "Count": 3,
+            "SpawnIndex": 3,
+            "StartDelay": 0.0,
+            "Interval": 0.45
+          },
+          {
+            "EnemyId": "catapult",
+            "Count": 2,
+            "SpawnIndex": 2,
+            "StartDelay": 0.0,
+            "Interval": 0.5
+          },
+          {
+            "EnemyId": "ogre",
+            "Count": 4,
+            "SpawnIndex": 4,
+            "StartDelay": 0.0,
+            "Interval": 0.45
+          },
+          {
+            "EnemyId": "swordsman",
+            "Count": 22,
+            "SpawnIndex": 1,
+            "StartDelay": 0.0,
+            "Interval": 0.26
+          },
+          {
+            "EnemyId": "pikeman",
+            "Count": 20,
+            "SpawnIndex": 2,
+            "StartDelay": 0.0,
+            "Interval": 0.27
+          },
+          {
+            "EnemyId": "racer",
+            "Count": 16,
+            "SpawnIndex": 3,
+            "StartDelay": 0.0,
+            "Interval": 0.27
+          },
+          {
+            "EnemyId": "wasp",
+            "Count": 14,
+            "SpawnIndex": 4,
+            "StartDelay": 1.0,
+            "Interval": 0.28
+          }
+        ]
+      }
+    ],
+    "greenhollow": [
+      {
+        "Night": 1,
+        "Entries": [
+          {
+            "EnemyId": "weakling",
+            "Count": 6,
+            "SpawnIndex": 1,
+            "StartDelay": 0.0,
+            "Interval": 0.9
+          }
+        ]
+      },
+      {
+        "Night": 2,
+        "Entries": [
+          {
+            "EnemyId": "weakling",
+            "Count": 9,
+            "SpawnIndex": 1,
+            "StartDelay": 0.0,
+            "Interval": 0.8
+          },
+          {
+            "EnemyId": "slime",
+            "Count": 4,
+            "SpawnIndex": 2,
+            "StartDelay": 8.0,
+            "Interval": 1.0
+          }
+        ]
+      },
+      {
+        "Night": 3,
+        "Entries": [
+          {
+            "EnemyId": "weakling",
+            "Count": 10,
+            "SpawnIndex": 1,
+            "StartDelay": 0.0,
+            "Interval": 0.7
+          },
+          {
+            "EnemyId": "swordsman",
+            "Count": 4,
+            "SpawnIndex": 2,
+            "StartDelay": 10.0,
+            "Interval": 1.2
+          }
+        ]
+      },
+      {
+        "Night": 4,
+        "Entries": [
+          {
+            "EnemyId": "swordsman",
+            "Count": 8,
+            "SpawnIndex": 1,
+            "StartDelay": 0.0,
+            "Interval": 0.9
+          },
+          {
+            "EnemyId": "slime",
+            "Count": 8,
+            "SpawnIndex": 2,
+            "StartDelay": 6.0,
+            "Interval": 0.8
+          },
+          {
+            "EnemyId": "racer",
+            "Count": 2,
+            "SpawnIndex": 2,
+            "StartDelay": 16.0,
+            "Interval": 2.0
+          }
+        ]
+      },
+      {
+        "Night": 5,
+        "Entries": [
+          {
+            "EnemyId": "swordsman",
+            "Count": 10,
+            "SpawnIndex": 1,
+            "StartDelay": 0.0,
+            "Interval": 0.8
+          },
+          {
+            "EnemyId": "archer_e",
+            "Count": 4,
+            "SpawnIndex": 1,
+            "StartDelay": 8.0,
+            "Interval": 1.4
+          },
+          {
+            "EnemyId": "slime",
+            "Count": 10,
+            "SpawnIndex": 2,
+            "StartDelay": 4.0,
+            "Interval": 0.7
+          },
+          {
+            "EnemyId": "ogre",
+            "Count": 1,
+            "SpawnIndex": 2,
+            "StartDelay": 25.0,
+            "Interval": 1.0
+          }
+        ]
+      }
+    ]
+  },
+  "new": {
+    "ashridge": [
+      {
+        "Night": 1,
+        "Entries": [
+          {
+            "EnemyId": "weakling",
+            "Count": 12,
+            "SpawnIndex": 1,
+            "StartDelay": 0.0,
+            "Interval": 0.55
+          },
+          {
+            "EnemyId": "slime",
+            "Count": 4,
+            "SpawnIndex": 1,
+            "StartDelay": 8.0,
+            "Interval": 0.7
+          }
+        ]
+      },
+      {
+        "Night": 2,
+        "Entries": [
+          {
+            "EnemyId": "weakling",
+            "Count": 12,
+            "SpawnIndex": 1,
+            "StartDelay": 0.0,
+            "Interval": 0.5
+          },
+          {
+            "EnemyId": "swordsman",
+            "Count": 6,
+            "SpawnIndex": 2,
+            "StartDelay": 3.0,
+            "Interval": 0.65
+          },
+          {
+            "EnemyId": "slime",
+            "Count": 6,
+            "SpawnIndex": 2,
+            "StartDelay": 9.0,
+            "Interval": 0.55
+          }
+        ]
+      },
+      {
+        "Night": 3,
+        "Entries": [
+          {
+            "EnemyId": "swordsman",
+            "Count": 10,
+            "SpawnIndex": 1,
+            "StartDelay": 0.0,
+            "Interval": 0.6
+          },
+          {
+            "EnemyId": "weakling",
+            "Count": 12,
+            "SpawnIndex": 3,
+            "StartDelay": 0.0,
+            "Interval": 0.5
+          },
+          {
+            "EnemyId": "slime",
+            "Count": 2,
+            "SpawnIndex": 2,
+            "StartDelay": 4.0,
+            "Interval": 0.55
+          },
+          {
+            "EnemyId": "racer",
+            "Count": 2,
+            "SpawnIndex": 2,
+            "StartDelay": 12.0,
+            "Interval": 0.8
+          },
+          {
+            "EnemyId": "spiderling",
+            "Count": 6,
+            "SpawnIndex": 2,
+            "StartDelay": 10,
+            "Interval": 0.45
+          }
+        ]
+      },
+      {
+        "Night": 4,
+        "Entries": [
+          {
+            "EnemyId": "swordsman",
+            "Count": 12,
+            "SpawnIndex": 1,
+            "StartDelay": 0.0,
+            "Interval": 0.5
+          },
+          {
+            "EnemyId": "archer_e",
+            "Count": 6,
+            "SpawnIndex": 1,
+            "StartDelay": 5.0,
+            "Interval": 0.6
+          },
+          {
+            "EnemyId": "slime",
+            "Count": 6,
+            "SpawnIndex": 3,
+            "StartDelay": 0.0,
+            "Interval": 0.45
+          },
+          {
+            "EnemyId": "pikeman",
+            "Count": 8,
+            "SpawnIndex": 2,
+            "StartDelay": 3.0,
+            "Interval": 0.6
+          },
+          {
+            "EnemyId": "spiderling",
+            "Count": 8,
+            "SpawnIndex": 3,
+            "StartDelay": 8,
+            "Interval": 0.45
+          }
+        ]
+      },
+      {
+        "Night": 5,
+        "Entries": [
+          {
+            "EnemyId": "swordsman",
+            "Count": 14,
+            "SpawnIndex": 1,
+            "StartDelay": 0.0,
+            "Interval": 0.45
+          },
+          {
+            "EnemyId": "slime",
+            "Count": 8,
+            "SpawnIndex": 3,
+            "StartDelay": 0.0,
+            "Interval": 0.4
+          },
+          {
+            "EnemyId": "pikeman",
+            "Count": 10,
+            "SpawnIndex": 2,
+            "StartDelay": 2.0,
+            "Interval": 0.55
+          },
+          {
+            "EnemyId": "wasp",
+            "Count": 4,
+            "SpawnIndex": 2,
+            "StartDelay": 10.0,
+            "Interval": 0.7
+          },
+          {
+            "EnemyId": "racer",
+            "Count": 4,
+            "SpawnIndex": 3,
+            "StartDelay": 10.0,
+            "Interval": 0.7
+          },
+          {
+            "EnemyId": "spiderling",
+            "Count": 8,
+            "SpawnIndex": 3,
+            "StartDelay": 8,
+            "Interval": 0.45
+          }
+        ]
+      },
+      {
+        "Night": 6,
+        "Entries": [
+          {
+            "EnemyId": "ram",
+            "Count": 1,
+            "SpawnIndex": 2,
+            "StartDelay": 0.0,
+            "Interval": 0.6
+          },
+          {
+            "EnemyId": "swordsman",
+            "Count": 18,
+            "SpawnIndex": 1,
+            "StartDelay": 0.0,
+            "Interval": 0.4
+          },
+          {
+            "EnemyId": "slime",
+            "Count": 18,
+            "SpawnIndex": 3,
+            "StartDelay": 0.0,
+            "Interval": 0.4
+          },
+          {
+            "EnemyId": "archer_e",
+            "Count": 6,
+            "SpawnIndex": 2,
+            "StartDelay": 2.0,
+            "Interval": 0.55
+          },
+          {
+            "EnemyId": "pikeman",
+            "Count": 7,
+            "SpawnIndex": 2,
+            "StartDelay": 4.0,
+            "Interval": 0.55
+          },
+          {
+            "EnemyId": "wasp",
+            "Count": 4,
+            "SpawnIndex": 3,
+            "StartDelay": 12.0,
+            "Interval": 0.6
+          },
+          {
+            "EnemyId": "exploder",
+            "Count": 1,
+            "SpawnIndex": 2,
+            "StartDelay": 10,
+            "Interval": 1.2
+          }
+        ]
+      },
+      {
+        "Night": 7,
+        "Entries": [
+          {
+            "EnemyId": "swordsman",
+            "Count": 18,
+            "SpawnIndex": 1,
+            "StartDelay": 0.0,
+            "Interval": 0.35
+          },
+          {
+            "EnemyId": "slime",
+            "Count": 10,
+            "SpawnIndex": 3,
+            "StartDelay": 0.0,
+            "Interval": 0.35
+          },
+          {
+            "EnemyId": "pikeman",
+            "Count": 10,
+            "SpawnIndex": 2,
+            "StartDelay": 0.0,
+            "Interval": 0.45
+          },
+          {
+            "EnemyId": "archer_e",
+            "Count": 6,
+            "SpawnIndex": 2,
+            "StartDelay": 4.0,
+            "Interval": 0.5
+          },
+          {
+            "EnemyId": "racer",
+            "Count": 4,
+            "SpawnIndex": 3,
+            "StartDelay": 10.0,
+            "Interval": 0.6
+          },
+          {
+            "EnemyId": "wasp",
+            "Count": 3,
+            "SpawnIndex": 1,
+            "StartDelay": 12.0,
+            "Interval": 0.6
+          },
+          {
+            "EnemyId": "ogre",
+            "Count": 1,
+            "SpawnIndex": 2,
+            "StartDelay": 0.0,
+            "Interval": 0.6
+          },
+          {
+            "EnemyId": "spiderling",
+            "Count": 10,
+            "SpawnIndex": 3,
+            "StartDelay": 7,
+            "Interval": 0.45
+          },
+          {
+            "EnemyId": "exploder",
+            "Count": 1,
+            "SpawnIndex": 1,
+            "StartDelay": 10,
+            "Interval": 1.2
+          }
+        ]
+      },
+      {
+        "Night": 8,
+        "Entries": [
+          {
+            "EnemyId": "swordsman",
+            "Count": 20,
+            "SpawnIndex": 1,
+            "StartDelay": 0.0,
+            "Interval": 0.3
+          },
+          {
+            "EnemyId": "slime",
+            "Count": 12,
+            "SpawnIndex": 3,
+            "StartDelay": 0.0,
+            "Interval": 0.3
+          },
+          {
+            "EnemyId": "pikeman",
+            "Count": 14,
+            "SpawnIndex": 2,
+            "StartDelay": 0.0,
+            "Interval": 0.4
+          },
+          {
+            "EnemyId": "archer_e",
+            "Count": 8,
+            "SpawnIndex": 2,
+            "StartDelay": 3.0,
+            "Interval": 0.45
+          },
+          {
+            "EnemyId": "racer",
+            "Count": 4,
+            "SpawnIndex": 3,
+            "StartDelay": 10.0,
+            "Interval": 0.6
+          },
+          {
+            "EnemyId": "wasp",
+            "Count": 4,
+            "SpawnIndex": 1,
+            "StartDelay": 10.0,
+            "Interval": 0.6
+          },
+          {
+            "EnemyId": "ogre",
+            "Count": 2,
+            "SpawnIndex": 2,
+            "StartDelay": 0.0,
+            "Interval": 0.6
+          },
+          {
+            "EnemyId": "spiderling",
+            "Count": 10,
+            "SpawnIndex": 3,
+            "StartDelay": 7,
+            "Interval": 0.45
+          },
+          {
+            "EnemyId": "exploder",
+            "Count": 1,
+            "SpawnIndex": 1,
+            "StartDelay": 10,
+            "Interval": 1.2
+          }
+        ]
+      }
+    ],
+    "frostmere": [
+      {
+        "Night": 1,
+        "Entries": [
+          {
+            "EnemyId": "weakling",
+            "Count": 18,
+            "SpawnIndex": 1,
+            "StartDelay": 0.0,
+            "Interval": 0.4
+          },
+          {
+            "EnemyId": "slime",
+            "Count": 6,
+            "SpawnIndex": 1,
+            "StartDelay": 4.0,
+            "Interval": 0.5
+          }
+        ]
+      },
+      {
+        "Night": 2,
+        "Entries": [
+          {
+            "EnemyId": "swordsman",
+            "Count": 12,
+            "SpawnIndex": 1,
+            "StartDelay": 0.0,
+            "Interval": 0.4
+          },
+          {
+            "EnemyId": "weakling",
+            "Count": 6,
+            "SpawnIndex": 2,
+            "StartDelay": 0.0,
+            "Interval": 0.35
+          },
+          {
+            "EnemyId": "racer",
+            "Count": 6,
+            "SpawnIndex": 2,
+            "StartDelay": 6.0,
+            "Interval": 0.4
+          },
+          {
+            "EnemyId": "spiderling",
+            "Count": 8,
+            "SpawnIndex": 2,
+            "StartDelay": 6,
+            "Interval": 0.45
+          }
+        ]
+      },
+      {
+        "Night": 3,
+        "Entries": [
+          {
+            "EnemyId": "swordsman",
+            "Count": 12,
+            "SpawnIndex": 1,
+            "StartDelay": 0.0,
+            "Interval": 0.35
+          },
+          {
+            "EnemyId": "slime",
+            "Count": 12,
+            "SpawnIndex": 3,
+            "StartDelay": 0.0,
+            "Interval": 0.35
+          },
+          {
+            "EnemyId": "pikeman",
+            "Count": 8,
+            "SpawnIndex": 2,
+            "StartDelay": 0.0,
+            "Interval": 0.45
+          },
+          {
+            "EnemyId": "racer",
+            "Count": 6,
+            "SpawnIndex": 3,
+            "StartDelay": 6.0,
+            "Interval": 0.4
+          },
+          {
+            "EnemyId": "exploder",
+            "Count": 1,
+            "SpawnIndex": 1,
+            "StartDelay": 9,
+            "Interval": 1.2
+          }
+        ]
+      },
+      {
+        "Night": 4,
+        "Entries": [
+          {
+            "EnemyId": "swordsman",
+            "Count": 14,
+            "SpawnIndex": 1,
+            "StartDelay": 0.0,
+            "Interval": 0.35
+          },
+          {
+            "EnemyId": "slime",
+            "Count": 12,
+            "SpawnIndex": 3,
+            "StartDelay": 0.0,
+            "Interval": 0.35
+          },
+          {
+            "EnemyId": "pikeman",
+            "Count": 10,
+            "SpawnIndex": 2,
+            "StartDelay": 0.0,
+            "Interval": 0.4
+          },
+          {
+            "EnemyId": "wasp",
+            "Count": 2,
+            "SpawnIndex": 3,
+            "StartDelay": 6.0,
+            "Interval": 0.4
+          },
+          {
+            "EnemyId": "archer_e",
+            "Count": 6,
+            "SpawnIndex": 2,
+            "StartDelay": 3.0,
+            "Interval": 0.4
+          },
+          {
+            "EnemyId": "bloodwing",
+            "Count": 2,
+            "SpawnIndex": 3,
+            "StartDelay": 8,
+            "Interval": 0.8
+          }
+        ]
+      },
+      {
+        "Night": 5,
+        "Entries": [
+          {
+            "EnemyId": "swordsman",
+            "Count": 16,
+            "SpawnIndex": 1,
+            "StartDelay": 0.0,
+            "Interval": 0.3
+          },
+          {
+            "EnemyId": "pikeman",
+            "Count": 12,
+            "SpawnIndex": 2,
+            "StartDelay": 0.0,
+            "Interval": 0.35
+          },
+          {
+            "EnemyId": "racer",
+            "Count": 10,
+            "SpawnIndex": 3,
+            "StartDelay": 3.0,
+            "Interval": 0.3
+          },
+          {
+            "EnemyId": "wasp",
+            "Count": 4,
+            "SpawnIndex": 1,
+            "StartDelay": 5.0,
+            "Interval": 0.35
+          },
+          {
+            "EnemyId": "archer_e",
+            "Count": 6,
+            "SpawnIndex": 2,
+            "StartDelay": 2.0,
+            "Interval": 0.4
+          },
+          {
+            "EnemyId": "bloodwing",
+            "Count": 2,
+            "SpawnIndex": 1,
+            "StartDelay": 7,
+            "Interval": 0.8
+          },
+          {
+            "EnemyId": "spiderling",
+            "Count": 8,
+            "SpawnIndex": 3,
+            "StartDelay": 6,
+            "Interval": 0.35
+          }
+        ]
+      },
+      {
+        "Night": 6,
+        "Entries": [
+          {
+            "EnemyId": "ram",
+            "Count": 1,
+            "SpawnIndex": 2,
+            "StartDelay": 0.0,
+            "Interval": 0.4
+          },
+          {
+            "EnemyId": "ogre",
+            "Count": 1,
+            "SpawnIndex": 2,
+            "StartDelay": 0.0,
+            "Interval": 0.5
+          },
+          {
+            "EnemyId": "swordsman",
+            "Count": 16,
+            "SpawnIndex": 1,
+            "StartDelay": 0.0,
+            "Interval": 0.3
+          },
+          {
+            "EnemyId": "pikeman",
+            "Count": 12,
+            "SpawnIndex": 2,
+            "StartDelay": 0.0,
+            "Interval": 0.35
+          },
+          {
+            "EnemyId": "racer",
+            "Count": 16,
+            "SpawnIndex": 3,
+            "StartDelay": 2.0,
+            "Interval": 0.3
+          },
+          {
+            "EnemyId": "wasp",
+            "Count": 5,
+            "SpawnIndex": 3,
+            "StartDelay": 4.0,
+            "Interval": 0.35
+          },
+          {
+            "EnemyId": "archer_e",
+            "Count": 6,
+            "SpawnIndex": 1,
+            "StartDelay": 2.0,
+            "Interval": 0.35
+          },
+          {
+            "EnemyId": "bloodwing",
+            "Count": 2,
+            "SpawnIndex": 3,
+            "StartDelay": 7,
+            "Interval": 0.8
+          },
+          {
+            "EnemyId": "darkwarrior",
+            "Count": 1,
+            "SpawnIndex": 2,
+            "StartDelay": 4,
+            "Interval": 0.9
+          },
+          {
+            "EnemyId": "exploder",
+            "Count": 1,
+            "SpawnIndex": 1,
+            "StartDelay": 10,
+            "Interval": 1.2
+          }
+        ]
+      },
+      {
+        "Night": 7,
+        "Entries": [
+          {
+            "EnemyId": "ogre",
+            "Count": 1,
+            "SpawnIndex": 2,
+            "StartDelay": 0.0,
+            "Interval": 0.5
+          },
+          {
+            "EnemyId": "swordsman",
+            "Count": 18,
+            "SpawnIndex": 1,
+            "StartDelay": 0.0,
+            "Interval": 0.3
+          },
+          {
+            "EnemyId": "pikeman",
+            "Count": 16,
+            "SpawnIndex": 2,
+            "StartDelay": 0.0,
+            "Interval": 0.3
+          },
+          {
+            "EnemyId": "racer",
+            "Count": 12,
+            "SpawnIndex": 3,
+            "StartDelay": 1.0,
+            "Interval": 0.3
+          },
+          {
+            "EnemyId": "wasp",
+            "Count": 5,
+            "SpawnIndex": 1,
+            "StartDelay": 3.0,
+            "Interval": 0.3
+          },
+          {
+            "EnemyId": "archer_e",
+            "Count": 6,
+            "SpawnIndex": 3,
+            "StartDelay": 2.0,
+            "Interval": 0.35
+          },
+          {
+            "EnemyId": "bloodwing",
+            "Count": 3,
+            "SpawnIndex": 1,
+            "StartDelay": 6,
+            "Interval": 0.8
+          },
+          {
+            "EnemyId": "spiderling",
+            "Count": 10,
+            "SpawnIndex": 3,
+            "StartDelay": 6,
+            "Interval": 0.35
+          },
+          {
+            "EnemyId": "darkwarrior",
+            "Count": 3,
+            "SpawnIndex": 2,
+            "StartDelay": 4,
+            "Interval": 0.9
+          }
+        ]
+      },
+      {
+        "Night": 8,
+        "Entries": [
+          {
+            "EnemyId": "ogre",
+            "Count": 2,
+            "SpawnIndex": 2,
+            "StartDelay": 0.0,
+            "Interval": 0.45
+          },
+          {
+            "EnemyId": "swordsman",
+            "Count": 20,
+            "SpawnIndex": 1,
+            "StartDelay": 0.0,
+            "Interval": 0.28
+          },
+          {
+            "EnemyId": "pikeman",
+            "Count": 18,
+            "SpawnIndex": 2,
+            "StartDelay": 0.0,
+            "Interval": 0.3
+          },
+          {
+            "EnemyId": "racer",
+            "Count": 12,
+            "SpawnIndex": 3,
+            "StartDelay": 0.0,
+            "Interval": 0.28
+          },
+          {
+            "EnemyId": "wasp",
+            "Count": 6,
+            "SpawnIndex": 3,
+            "StartDelay": 2.0,
+            "Interval": 0.3
+          },
+          {
+            "EnemyId": "archer_e",
+            "Count": 4,
+            "SpawnIndex": 1,
+            "StartDelay": 1.0,
+            "Interval": 0.35
+          },
+          {
+            "EnemyId": "bloodwing",
+            "Count": 4,
+            "SpawnIndex": 3,
+            "StartDelay": 6,
+            "Interval": 0.8
+          },
+          {
+            "EnemyId": "spiderling",
+            "Count": 14,
+            "SpawnIndex": 3,
+            "StartDelay": 6,
+            "Interval": 0.35
+          },
+          {
+            "EnemyId": "darkwarrior",
+            "Count": 3,
+            "SpawnIndex": 2,
+            "StartDelay": 4,
+            "Interval": 0.9
+          },
+          {
+            "EnemyId": "exploder",
+            "Count": 1,
+            "SpawnIndex": 1,
+            "StartDelay": 10,
+            "Interval": 1.2
+          }
+        ]
+      }
+    ],
+    "blackfen": [
+      {
+        "Night": 1,
+        "Entries": [
+          {
+            "EnemyId": "weakling",
+            "Count": 16,
+            "SpawnIndex": 1,
+            "StartDelay": 0.0,
+            "Interval": 0.35
+          },
+          {
+            "EnemyId": "swordsman",
+            "Count": 8,
+            "SpawnIndex": 1,
+            "StartDelay": 1.0,
+            "Interval": 0.4
+          }
+        ]
+      },
+      {
+        "Night": 2,
+        "Entries": [
+          {
+            "EnemyId": "swordsman",
+            "Count": 16,
+            "SpawnIndex": 1,
+            "StartDelay": 0.0,
+            "Interval": 0.3
+          },
+          {
+            "EnemyId": "slime",
+            "Count": 4,
+            "SpawnIndex": 2,
+            "StartDelay": 0.0,
+            "Interval": 0.35
+          },
+          {
+            "EnemyId": "pikeman",
+            "Count": 4,
+            "SpawnIndex": 2,
+            "StartDelay": 1.0,
+            "Interval": 0.4
+          },
+          {
+            "EnemyId": "spiderling",
+            "Count": 6,
+            "SpawnIndex": 2,
+            "StartDelay": 5,
+            "Interval": 0.4
+          }
+        ]
+      },
+      {
+        "Night": 3,
+        "Entries": [
+          {
+            "EnemyId": "ram",
+            "Count": 1,
+            "SpawnIndex": 1,
+            "StartDelay": 0.0,
+            "Interval": 0.5
+          },
+          {
+            "EnemyId": "swordsman",
+            "Count": 16,
+            "SpawnIndex": 1,
+            "StartDelay": 0.0,
+            "Interval": 0.3
+          },
+          {
+            "EnemyId": "pikeman",
+            "Count": 9,
+            "SpawnIndex": 2,
+            "StartDelay": 0.0,
+            "Interval": 0.35
+          },
+          {
+            "EnemyId": "racer",
+            "Count": 8,
+            "SpawnIndex": 3,
+            "StartDelay": 1.0,
+            "Interval": 0.3
+          },
+          {
+            "EnemyId": "exploder",
+            "Count": 1,
+            "SpawnIndex": 3,
+            "StartDelay": 8,
+            "Interval": 1.2
+          }
+        ]
+      },
+      {
+        "Night": 4,
+        "Entries": [
+          {
+            "EnemyId": "ram",
+            "Count": 2,
+            "SpawnIndex": 2,
+            "StartDelay": 0.0,
+            "Interval": 0.5
+          },
+          {
+            "EnemyId": "swordsman",
+            "Count": 16,
+            "SpawnIndex": 2,
+            "StartDelay": 0.0,
+            "Interval": 0.3
+          },
+          {
+            "EnemyId": "pikeman",
+            "Count": 12,
+            "SpawnIndex": 3,
+            "StartDelay": 0.0,
+            "Interval": 0.3
+          },
+          {
+            "EnemyId": "wasp",
+            "Count": 2,
+            "SpawnIndex": 4,
+            "StartDelay": 2.0,
+            "Interval": 0.35
+          },
+          {
+            "EnemyId": "racer",
+            "Count": 6,
+            "SpawnIndex": 4,
+            "StartDelay": 0.0,
+            "Interval": 0.35
+          },
+          {
+            "EnemyId": "bloodwing",
+            "Count": 2,
+            "SpawnIndex": 4,
+            "StartDelay": 6,
+            "Interval": 0.8
+          }
+        ]
+      },
+      {
+        "Night": 5,
+        "Entries": [
+          {
+            "EnemyId": "ram",
+            "Count": 1,
+            "SpawnIndex": 1,
+            "StartDelay": 0.0,
+            "Interval": 0.5
+          },
+          {
+            "EnemyId": "ram",
+            "Count": 1,
+            "SpawnIndex": 3,
+            "StartDelay": 0.0,
+            "Interval": 0.5
+          },
+          {
+            "EnemyId": "swordsman",
+            "Count": 12,
+            "SpawnIndex": 1,
+            "StartDelay": 0.0,
+            "Interval": 0.28
+          },
+          {
+            "EnemyId": "pikeman",
+            "Count": 14,
+            "SpawnIndex": 3,
+            "StartDelay": 0.0,
+            "Interval": 0.3
+          },
+          {
+            "EnemyId": "wasp",
+            "Count": 4,
+            "SpawnIndex": 2,
+            "StartDelay": 2.0,
+            "Interval": 0.3
+          },
+          {
+            "EnemyId": "archer_e",
+            "Count": 6,
+            "SpawnIndex": 4,
+            "StartDelay": 1.0,
+            "Interval": 0.35
+          },
+          {
+            "EnemyId": "bloodwing",
+            "Count": 2,
+            "SpawnIndex": 2,
+            "StartDelay": 6,
+            "Interval": 0.8
+          },
+          {
+            "EnemyId": "darkwarrior",
+            "Count": 1,
+            "SpawnIndex": 1,
+            "StartDelay": 4,
+            "Interval": 1
+          }
+        ]
+      },
+      {
+        "Night": 6,
+        "Entries": [
+          {
+            "EnemyId": "ram",
+            "Count": 3,
+            "SpawnIndex": 2,
+            "StartDelay": 0.0,
+            "Interval": 0.5
+          },
+          {
+            "EnemyId": "catapult",
+            "Count": 1,
+            "SpawnIndex": 2,
+            "StartDelay": 0.0,
+            "Interval": 0.5
+          },
+          {
+            "EnemyId": "swordsman",
+            "Count": 12,
+            "SpawnIndex": 1,
+            "StartDelay": 0.0,
+            "Interval": 0.28
+          },
+          {
+            "EnemyId": "pikeman",
+            "Count": 16,
+            "SpawnIndex": 3,
+            "StartDelay": 0.0,
+            "Interval": 0.28
+          },
+          {
+            "EnemyId": "wasp",
+            "Count": 4,
+            "SpawnIndex": 4,
+            "StartDelay": 1.0,
+            "Interval": 0.3
+          },
+          {
+            "EnemyId": "archer_e",
+            "Count": 4,
+            "SpawnIndex": 2,
+            "StartDelay": 1.0,
+            "Interval": 0.3
+          },
+          {
+            "EnemyId": "bloodwing",
+            "Count": 3,
+            "SpawnIndex": 4,
+            "StartDelay": 6,
+            "Interval": 0.8
+          },
+          {
+            "EnemyId": "darkwarrior",
+            "Count": 1,
+            "SpawnIndex": 1,
+            "StartDelay": 4,
+            "Interval": 1
+          },
+          {
+            "EnemyId": "exploder",
+            "Count": 1,
+            "SpawnIndex": 2,
+            "StartDelay": 9,
+            "Interval": 1.2
+          }
+        ]
+      },
+      {
+        "Night": 7,
+        "Entries": [
+          {
+            "EnemyId": "ram",
+            "Count": 3,
+            "SpawnIndex": 3,
+            "StartDelay": 0.0,
+            "Interval": 0.5
+          },
+          {
+            "EnemyId": "catapult",
+            "Count": 1,
+            "SpawnIndex": 3,
+            "StartDelay": 0.0,
+            "Interval": 0.5
+          },
+          {
+            "EnemyId": "ogre",
+            "Count": 1,
+            "SpawnIndex": 1,
+            "StartDelay": 0.0,
+            "Interval": 0.5
+          },
+          {
+            "EnemyId": "swordsman",
+            "Count": 18,
+            "SpawnIndex": 4,
+            "StartDelay": 0.0,
+            "Interval": 0.28
+          },
+          {
+            "EnemyId": "pikeman",
+            "Count": 16,
+            "SpawnIndex": 2,
+            "StartDelay": 0.0,
+            "Interval": 0.28
+          },
+          {
+            "EnemyId": "wasp",
+            "Count": 6,
+            "SpawnIndex": 1,
+            "StartDelay": 1.0,
+            "Interval": 0.3
+          },
+          {
+            "EnemyId": "racer",
+            "Count": 4,
+            "SpawnIndex": 4,
+            "StartDelay": 0.0,
+            "Interval": 0.3
+          },
+          {
+            "EnemyId": "bloodwing",
+            "Count": 3,
+            "SpawnIndex": 1,
+            "StartDelay": 6,
+            "Interval": 0.8
+          },
+          {
+            "EnemyId": "darkwarrior",
+            "Count": 1,
+            "SpawnIndex": 1,
+            "StartDelay": 4,
+            "Interval": 1
+          },
+          {
+            "EnemyId": "spiderling",
+            "Count": 8,
+            "SpawnIndex": 4,
+            "StartDelay": 5,
+            "Interval": 0.35
+          }
+        ]
+      },
+      {
+        "Night": 8,
+        "Entries": [
+          {
+            "EnemyId": "ram",
+            "Count": 2,
+            "SpawnIndex": 1,
+            "StartDelay": 0.0,
+            "Interval": 0.5
+          },
+          {
+            "EnemyId": "ram",
+            "Count": 2,
+            "SpawnIndex": 4,
+            "StartDelay": 0.0,
+            "Interval": 0.5
+          },
+          {
+            "EnemyId": "catapult",
+            "Count": 2,
+            "SpawnIndex": 4,
+            "StartDelay": 0.0,
+            "Interval": 0.5
+          },
+          {
+            "EnemyId": "ogre",
+            "Count": 2,
+            "SpawnIndex": 2,
+            "StartDelay": 0.0,
+            "Interval": 0.5
+          },
+          {
+            "EnemyId": "swordsman",
+            "Count": 14,
+            "SpawnIndex": 3,
+            "StartDelay": 0.0,
+            "Interval": 0.27
+          },
+          {
+            "EnemyId": "pikeman",
+            "Count": 18,
+            "SpawnIndex": 1,
+            "StartDelay": 0.0,
+            "Interval": 0.28
+          },
+          {
+            "EnemyId": "wasp",
+            "Count": 6,
+            "SpawnIndex": 2,
+            "StartDelay": 1.0,
+            "Interval": 0.3
+          },
+          {
+            "EnemyId": "racer",
+            "Count": 6,
+            "SpawnIndex": 3,
+            "StartDelay": 0.0,
+            "Interval": 0.3
+          },
+          {
+            "EnemyId": "bloodwing",
+            "Count": 3,
+            "SpawnIndex": 2,
+            "StartDelay": 6,
+            "Interval": 0.8
+          },
+          {
+            "EnemyId": "darkwarrior",
+            "Count": 1,
+            "SpawnIndex": 3,
+            "StartDelay": 4,
+            "Interval": 1
+          },
+          {
+            "EnemyId": "spiderling",
+            "Count": 8,
+            "SpawnIndex": 3,
+            "StartDelay": 5,
+            "Interval": 0.35
+          }
+        ]
+      },
+      {
+        "Night": 9,
+        "Entries": [
+          {
+            "EnemyId": "ram",
+            "Count": 3,
+            "SpawnIndex": 1,
+            "StartDelay": 0.0,
+            "Interval": 0.45
+          },
+          {
+            "EnemyId": "ram",
+            "Count": 2,
+            "SpawnIndex": 3,
+            "StartDelay": 0.0,
+            "Interval": 0.45
+          },
+          {
+            "EnemyId": "catapult",
+            "Count": 2,
+            "SpawnIndex": 2,
+            "StartDelay": 0.0,
+            "Interval": 0.5
+          },
+          {
+            "EnemyId": "ogre",
+            "Count": 2,
+            "SpawnIndex": 4,
+            "StartDelay": 0.0,
+            "Interval": 0.45
+          },
+          {
+            "EnemyId": "swordsman",
+            "Count": 22,
+            "SpawnIndex": 3,
+            "StartDelay": 0.0,
+            "Interval": 0.26
+          },
+          {
+            "EnemyId": "pikeman",
+            "Count": 18,
+            "SpawnIndex": 1,
+            "StartDelay": 0.0,
+            "Interval": 0.27
+          },
+          {
+            "EnemyId": "wasp",
+            "Count": 6,
+            "SpawnIndex": 4,
+            "StartDelay": 1.0,
+            "Interval": 0.28
+          },
+          {
+            "EnemyId": "racer",
+            "Count": 6,
+            "SpawnIndex": 2,
+            "StartDelay": 0.0,
+            "Interval": 0.28
+          },
+          {
+            "EnemyId": "bloodwing",
+            "Count": 4,
+            "SpawnIndex": 4,
+            "StartDelay": 6,
+            "Interval": 0.8
+          },
+          {
+            "EnemyId": "darkwarrior",
+            "Count": 2,
+            "SpawnIndex": 4,
+            "StartDelay": 4,
+            "Interval": 0.9
+          },
+          {
+            "EnemyId": "spiderling",
+            "Count": 8,
+            "SpawnIndex": 2,
+            "StartDelay": 5,
+            "Interval": 0.35
+          },
+          {
+            "EnemyId": "exploder",
+            "Count": 1,
+            "SpawnIndex": 1,
+            "StartDelay": 9,
+            "Interval": 1.2
+          }
+        ]
+      },
+      {
+        "Night": 10,
+        "Entries": [
+          {
+            "EnemyId": "fenwraith",
+            "Count": 1,
+            "SpawnIndex": 2,
+            "StartDelay": 0,
+            "Interval": 1
+          },
+          {
+            "EnemyId": "ram",
+            "Count": 1,
+            "SpawnIndex": 1,
+            "StartDelay": 0,
+            "Interval": 0.4
+          },
+          {
+            "EnemyId": "ram",
+            "Count": 1,
+            "SpawnIndex": 3,
+            "StartDelay": 0,
+            "Interval": 0.4
+          },
+          {
+            "EnemyId": "catapult",
+            "Count": 1,
+            "SpawnIndex": 2,
+            "StartDelay": 0,
+            "Interval": 0.4
+          },
+          {
+            "EnemyId": "swordsman",
+            "Count": 10,
+            "SpawnIndex": 1,
+            "StartDelay": 3,
+            "Interval": 0.35
+          },
+          {
+            "EnemyId": "pikeman",
+            "Count": 8,
+            "SpawnIndex": 2,
+            "StartDelay": 3,
+            "Interval": 0.4
+          },
+          {
+            "EnemyId": "spiderling",
+            "Count": 12,
+            "SpawnIndex": 3,
+            "StartDelay": 8,
+            "Interval": 0.35
+          },
+          {
+            "EnemyId": "wasp",
+            "Count": 4,
+            "SpawnIndex": 4,
+            "StartDelay": 7,
+            "Interval": 0.5
+          },
+          {
+            "EnemyId": "bloodwing",
+            "Count": 2,
+            "SpawnIndex": 4,
+            "StartDelay": 10,
+            "Interval": 1
+          },
+          {
+            "EnemyId": "darkwarrior",
+            "Count": 2,
+            "SpawnIndex": 2,
+            "StartDelay": 6,
+            "Interval": 1.2
+          }
+        ]
+      }
+    ],
+    "greenhollow": [
+      {
+        "Night": 1,
+        "Entries": [
+          {
+            "EnemyId": "weakling",
+            "Count": 6,
+            "SpawnIndex": 1,
+            "StartDelay": 0.0,
+            "Interval": 0.9
+          }
+        ]
+      },
+      {
+        "Night": 2,
+        "Entries": [
+          {
+            "EnemyId": "weakling",
+            "Count": 9,
+            "SpawnIndex": 1,
+            "StartDelay": 0.0,
+            "Interval": 0.8
+          },
+          {
+            "EnemyId": "slime",
+            "Count": 4,
+            "SpawnIndex": 2,
+            "StartDelay": 8.0,
+            "Interval": 1.0
+          }
+        ]
+      },
+      {
+        "Night": 3,
+        "Entries": [
+          {
+            "EnemyId": "weakling",
+            "Count": 10,
+            "SpawnIndex": 1,
+            "StartDelay": 0.0,
+            "Interval": 0.7
+          },
+          {
+            "EnemyId": "swordsman",
+            "Count": 4,
+            "SpawnIndex": 2,
+            "StartDelay": 10.0,
+            "Interval": 1.2
+          }
+        ]
+      },
+      {
+        "Night": 4,
+        "Entries": [
+          {
+            "EnemyId": "swordsman",
+            "Count": 8,
+            "SpawnIndex": 1,
+            "StartDelay": 0.0,
+            "Interval": 0.9
+          },
+          {
+            "EnemyId": "slime",
+            "Count": 8,
+            "SpawnIndex": 2,
+            "StartDelay": 6.0,
+            "Interval": 0.8
+          },
+          {
+            "EnemyId": "racer",
+            "Count": 2,
+            "SpawnIndex": 2,
+            "StartDelay": 16.0,
+            "Interval": 2.0
+          }
+        ]
+      },
+      {
+        "Night": 5,
+        "Entries": [
+          {
+            "EnemyId": "swordsman",
+            "Count": 10,
+            "SpawnIndex": 1,
+            "StartDelay": 0.0,
+            "Interval": 0.8
+          },
+          {
+            "EnemyId": "archer_e",
+            "Count": 4,
+            "SpawnIndex": 1,
+            "StartDelay": 8.0,
+            "Interval": 1.4
+          },
+          {
+            "EnemyId": "slime",
+            "Count": 10,
+            "SpawnIndex": 2,
+            "StartDelay": 4.0,
+            "Interval": 0.7
+          },
+          {
+            "EnemyId": "ogre",
+            "Count": 1,
+            "SpawnIndex": 2,
+            "StartDelay": 25.0,
+            "Interval": 1.0
+          }
+        ]
+      }
+    ]
+  },
+  "baseline_sha256": {
+    "ashridge": "30f0a9f45443bda311f19fddf2a5e82aaad5f0227687d7e1fe27fb03ac1a8f3b",
+    "frostmere": "d7f062f7a83967933ce1d1bd0bf2541836619264839c3b5082232c4093200e79",
+    "blackfen": "56b659676c74d51e99dcaf4c47b20f798f194debbb49e84643d5b2d0b225bf89"
+  }
+}

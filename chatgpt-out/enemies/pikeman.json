@@ -1,0 +1,201 @@
+{
+  "format": "kn-asset/1",
+  "kind": "enemy",
+  "name": "pikeman",
+  "version": 1,
+  "author": "ChatGPT",
+  "notes": "Five-stud crimson humanoid under a sloped iron helm, with a vertical 12.5-stud pike from Y=0 to 12.5 (2.5 times body height). Nine parts, three colours. Total model height 12.5 intentionally includes the pike; do not rescale the model to five studs. Root included in the roster budget. One invisible HumanoidRootPart at the local base, front -Z; importer anchors only root and welds unanchored visible children, all non-colliding/non-query/non-touch. No Humanoid, scripts, animation or behaviour in this data. Claude imports and tests pooling/gameplay readability.",
+  "parts": [
+    {
+      "name": "HumanoidRootPart",
+      "shape": "Block",
+      "size": [
+        1,
+        0.2,
+        1
+      ],
+      "position": [
+        0,
+        0.1,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#3A3A3A",
+      "material": "SmoothPlastic",
+      "root": true,
+      "transparency": 1
+    },
+    {
+      "name": "Torso",
+      "shape": "Block",
+      "size": [
+        1.6,
+        2,
+        1.15
+      ],
+      "position": [
+        0,
+        2.2,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8A3B3B",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "SlopedHelm",
+      "shape": "Wedge",
+      "size": [
+        1.5,
+        1.45,
+        1.35
+      ],
+      "position": [
+        0,
+        4.275,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#747778",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "LegLeft",
+      "shape": "Block",
+      "size": [
+        0.65,
+        1.2,
+        0.85
+      ],
+      "position": [
+        -0.48,
+        0.6,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#3A3A3A",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "LegRight",
+      "shape": "Block",
+      "size": [
+        0.65,
+        1.2,
+        0.85
+      ],
+      "position": [
+        0.48,
+        0.6,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#3A3A3A",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "ShoulderBar",
+      "shape": "Block",
+      "size": [
+        2.4,
+        0.5,
+        1.2
+      ],
+      "position": [
+        0,
+        3.05,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#747778",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "PikeGrip",
+      "shape": "Block",
+      "size": [
+        1.05,
+        0.55,
+        0.65
+      ],
+      "position": [
+        1.02,
+        2.65,
+        -0.1
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8A3B3B",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "PikeShaft",
+      "shape": "Cylinder",
+      "size": [
+        11.3,
+        0.35,
+        0.35
+      ],
+      "position": [
+        1.6,
+        5.65,
+        -0.1
+      ],
+      "orientation": [
+        0,
+        0,
+        90
+      ],
+      "color": "#3A3A3A",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "PikeHead",
+      "shape": "Wedge",
+      "size": [
+        0.85,
+        1.2,
+        0.5
+      ],
+      "position": [
+        1.6,
+        11.9,
+        -0.1
+      ],
+      "orientation": [
+        0,
+        90,
+        0
+      ],
+      "color": "#747778",
+      "material": "SmoothPlastic"
+    }
+  ]
+}

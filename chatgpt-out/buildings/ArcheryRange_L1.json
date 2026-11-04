@@ -1,0 +1,556 @@
+{
+  "format": "kn-asset/1",
+  "kind": "building",
+  "name": "ArcheryRange/L1",
+  "version": 1,
+  "author": "ChatGPT",
+  "notes": "Open-front covered range and three large blue/cream/gold circular butts, visible from above. Low fence with central entrance and shooting stripe. Growing broad shelter, braces and banners mark upgrades; no troop fitting requirement. Base-centred origin; front -Z; no root or physics fields. Dark stone matches B1 v2.",
+  "parts": [
+    {
+      "name": "YardFoundation",
+      "shape": "Block",
+      "size": [
+        11,
+        0.4,
+        11
+      ],
+      "position": [
+        0,
+        0.2,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#A39B83",
+      "material": "Cobblestone"
+    },
+    {
+      "name": "SideFence-5",
+      "shape": "Block",
+      "size": [
+        0.35,
+        1.3,
+        9
+      ],
+      "position": [
+        -5,
+        1.05,
+        -0.1
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#765743",
+      "material": "WoodPlanks"
+    },
+    {
+      "name": "GatePost-5",
+      "shape": "Block",
+      "size": [
+        0.65,
+        2,
+        0.65
+      ],
+      "position": [
+        -5,
+        1.4,
+        -4.8
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#F1E4C5",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "SideFence5",
+      "shape": "Block",
+      "size": [
+        0.35,
+        1.3,
+        9
+      ],
+      "position": [
+        5,
+        1.05,
+        -0.1
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#765743",
+      "material": "WoodPlanks"
+    },
+    {
+      "name": "GatePost5",
+      "shape": "Block",
+      "size": [
+        0.65,
+        2,
+        0.65
+      ],
+      "position": [
+        5,
+        1.4,
+        -4.8
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#F1E4C5",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "FrontFence-3.4",
+      "shape": "Block",
+      "size": [
+        3.2,
+        1.3,
+        0.35
+      ],
+      "position": [
+        -3.4,
+        1.05,
+        -4.8
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#765743",
+      "material": "WoodPlanks"
+    },
+    {
+      "name": "FrontFence3.4",
+      "shape": "Block",
+      "size": [
+        3.2,
+        1.3,
+        0.35
+      ],
+      "position": [
+        3.4,
+        1.05,
+        -4.8
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#765743",
+      "material": "WoodPlanks"
+    },
+    {
+      "name": "RearBackstop",
+      "shape": "Block",
+      "size": [
+        8.8,
+        3.8000000000000003,
+        0.55
+      ],
+      "position": [
+        0,
+        2.3000000000000003,
+        4.3
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#765743",
+      "material": "WoodPlanks"
+    },
+    {
+      "name": "ShelterPost-4.15",
+      "shape": "Block",
+      "size": [
+        0.5,
+        3.8000000000000003,
+        0.5
+      ],
+      "position": [
+        -4.15,
+        2.3000000000000003,
+        1.3
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#765743",
+      "material": "Wood"
+    },
+    {
+      "name": "ShelterPost4.15",
+      "shape": "Block",
+      "size": [
+        0.5,
+        3.8000000000000003,
+        0.5
+      ],
+      "position": [
+        4.15,
+        2.3000000000000003,
+        1.3
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#765743",
+      "material": "Wood"
+    },
+    {
+      "name": "ShelterBeam",
+      "shape": "Block",
+      "size": [
+        9,
+        0.5,
+        0.6
+      ],
+      "position": [
+        0,
+        3.95,
+        1.3
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#F1E4C5",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "ShelterRoofFront",
+      "shape": "Wedge",
+      "size": [
+        9.6,
+        1.8,
+        2.0
+      ],
+      "position": [
+        0,
+        5.1000000000000005,
+        1.7999999999999998
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#426C8C",
+      "material": "Slate"
+    },
+    {
+      "name": "ShelterRoofRear",
+      "shape": "Wedge",
+      "size": [
+        9.6,
+        1.8,
+        2.0
+      ],
+      "position": [
+        0,
+        5.1000000000000005,
+        3.8
+      ],
+      "orientation": [
+        0,
+        180,
+        0
+      ],
+      "color": "#426C8C",
+      "material": "Slate"
+    },
+    {
+      "name": "TargetPost-2.8",
+      "shape": "Block",
+      "size": [
+        0.35,
+        2.8,
+        0.35
+      ],
+      "position": [
+        -2.8,
+        1.8,
+        -0.9
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#765743",
+      "material": "Wood"
+    },
+    {
+      "name": "TargetOuter-2.8",
+      "shape": "Cylinder",
+      "size": [
+        0.3,
+        1.9,
+        1.9
+      ],
+      "position": [
+        -2.8,
+        2.9,
+        -1.15
+      ],
+      "orientation": [
+        0,
+        90,
+        0
+      ],
+      "color": "#F1E4C5",
+      "material": "Wood"
+    },
+    {
+      "name": "TargetRing-2.8",
+      "shape": "Cylinder",
+      "size": [
+        0.12,
+        1.25,
+        1.25
+      ],
+      "position": [
+        -2.8,
+        2.9,
+        -1.36
+      ],
+      "orientation": [
+        0,
+        90,
+        0
+      ],
+      "color": "#426C8C",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "TargetBull-2.8",
+      "shape": "Cylinder",
+      "size": [
+        0.12,
+        0.5,
+        0.5
+      ],
+      "position": [
+        -2.8,
+        2.9,
+        -1.48
+      ],
+      "orientation": [
+        0,
+        90,
+        0
+      ],
+      "color": "#D5AC55",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "TargetPost0",
+      "shape": "Block",
+      "size": [
+        0.35,
+        2.8,
+        0.35
+      ],
+      "position": [
+        0,
+        1.8,
+        -0.9
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#765743",
+      "material": "Wood"
+    },
+    {
+      "name": "TargetOuter0",
+      "shape": "Cylinder",
+      "size": [
+        0.3,
+        1.9,
+        1.9
+      ],
+      "position": [
+        0,
+        2.9,
+        -1.15
+      ],
+      "orientation": [
+        0,
+        90,
+        0
+      ],
+      "color": "#F1E4C5",
+      "material": "Wood"
+    },
+    {
+      "name": "TargetRing0",
+      "shape": "Cylinder",
+      "size": [
+        0.12,
+        1.25,
+        1.25
+      ],
+      "position": [
+        0,
+        2.9,
+        -1.36
+      ],
+      "orientation": [
+        0,
+        90,
+        0
+      ],
+      "color": "#426C8C",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "TargetBull0",
+      "shape": "Cylinder",
+      "size": [
+        0.12,
+        0.5,
+        0.5
+      ],
+      "position": [
+        0,
+        2.9,
+        -1.48
+      ],
+      "orientation": [
+        0,
+        90,
+        0
+      ],
+      "color": "#D5AC55",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "TargetPost2.8",
+      "shape": "Block",
+      "size": [
+        0.35,
+        2.8,
+        0.35
+      ],
+      "position": [
+        2.8,
+        1.8,
+        -0.9
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#765743",
+      "material": "Wood"
+    },
+    {
+      "name": "TargetOuter2.8",
+      "shape": "Cylinder",
+      "size": [
+        0.3,
+        1.9,
+        1.9
+      ],
+      "position": [
+        2.8,
+        2.9,
+        -1.15
+      ],
+      "orientation": [
+        0,
+        90,
+        0
+      ],
+      "color": "#F1E4C5",
+      "material": "Wood"
+    },
+    {
+      "name": "TargetRing2.8",
+      "shape": "Cylinder",
+      "size": [
+        0.12,
+        1.25,
+        1.25
+      ],
+      "position": [
+        2.8,
+        2.9,
+        -1.36
+      ],
+      "orientation": [
+        0,
+        90,
+        0
+      ],
+      "color": "#426C8C",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "TargetBull2.8",
+      "shape": "Cylinder",
+      "size": [
+        0.12,
+        0.5,
+        0.5
+      ],
+      "position": [
+        2.8,
+        2.9,
+        -1.48
+      ],
+      "orientation": [
+        0,
+        90,
+        0
+      ],
+      "color": "#D5AC55",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "ShootingLine",
+      "shape": "Block",
+      "size": [
+        8,
+        0.08,
+        0.2
+      ],
+      "position": [
+        0,
+        0.44,
+        -3.7
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#F1E4C5",
+      "material": "SmoothPlastic"
+    }
+  ]
+}

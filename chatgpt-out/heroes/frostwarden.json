@@ -1,0 +1,474 @@
+{
+  "format": "kn-asset/1",
+  "kind": "hero",
+  "name": "frostwarden",
+  "version": 1,
+  "author": "ChatGPT",
+  "notes": "Epic: deep blue, pale cyan and ivory. Six large shoulder ice shards form a broad jagged fan; two Neon coat seams and one detached Neon ice ornament. One invisible base root; front -Z; no built-in flight offset or particles.",
+  "parts": [
+    {
+      "name": "HumanoidRootPart",
+      "shape": "Block",
+      "size": [
+        1,
+        0.2,
+        1
+      ],
+      "position": [
+        0,
+        0.1,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#28343D",
+      "material": "SmoothPlastic",
+      "root": true,
+      "transparency": 1
+    },
+    {
+      "name": "Torso",
+      "shape": "Block",
+      "size": [
+        1.9,
+        2.1,
+        1.2
+      ],
+      "position": [
+        0,
+        2.65,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#426D94",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "Head",
+      "shape": "Block",
+      "size": [
+        1.75,
+        1.65,
+        1.6
+      ],
+      "position": [
+        0,
+        4.525,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#E9E2CD",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "CrownIce",
+      "shape": "Block",
+      "size": [
+        0.6,
+        0.6,
+        0.6
+      ],
+      "position": [
+        0,
+        5.48,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        45
+      ],
+      "color": "#9FD8DC",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "Leg_L",
+      "shape": "Block",
+      "size": [
+        0.72,
+        1.6,
+        0.9
+      ],
+      "position": [
+        -0.5,
+        0.8,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#426D94",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "Arm_L",
+      "shape": "Block",
+      "size": [
+        0.65,
+        1.9,
+        0.9
+      ],
+      "position": [
+        -1.28,
+        2.85,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#426D94",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "Shoulder_L",
+      "shape": "Block",
+      "size": [
+        1,
+        0.6,
+        1.35
+      ],
+      "position": [
+        -1.2,
+        3.7,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#E9E2CD",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "IceShardTall_L",
+      "shape": "Wedge",
+      "size": [
+        0.55,
+        1.65,
+        0.6
+      ],
+      "position": [
+        -1.45,
+        4.62,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        25
+      ],
+      "color": "#9FD8DC",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "IceShardWide_L",
+      "shape": "Wedge",
+      "size": [
+        0.65,
+        1.8,
+        0.75
+      ],
+      "position": [
+        -2.2,
+        4.05,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        60
+      ],
+      "color": "#9FD8DC",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "IceShardBack_L",
+      "shape": "Wedge",
+      "size": [
+        0.5,
+        1.25,
+        0.6
+      ],
+      "position": [
+        -1.25,
+        4.2,
+        0.85
+      ],
+      "orientation": [
+        25,
+        0,
+        32
+      ],
+      "color": "#9FD8DC",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "IceSeam_L",
+      "shape": "Block",
+      "size": [
+        0.11,
+        1.5,
+        0.06
+      ],
+      "position": [
+        -0.45,
+        2.8,
+        -0.635
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#9FD8DC",
+      "material": "Neon"
+    },
+    {
+      "name": "Leg_R",
+      "shape": "Block",
+      "size": [
+        0.72,
+        1.6,
+        0.9
+      ],
+      "position": [
+        0.5,
+        0.8,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#426D94",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "Arm_R",
+      "shape": "Block",
+      "size": [
+        0.65,
+        1.9,
+        0.9
+      ],
+      "position": [
+        1.28,
+        2.85,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#426D94",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "Shoulder_R",
+      "shape": "Block",
+      "size": [
+        1,
+        0.6,
+        1.35
+      ],
+      "position": [
+        1.2,
+        3.7,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#E9E2CD",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "IceShardTall_R",
+      "shape": "Wedge",
+      "size": [
+        0.55,
+        1.65,
+        0.6
+      ],
+      "position": [
+        1.45,
+        4.62,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        -25
+      ],
+      "color": "#9FD8DC",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "IceShardWide_R",
+      "shape": "Wedge",
+      "size": [
+        0.65,
+        1.8,
+        0.75
+      ],
+      "position": [
+        2.2,
+        4.05,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        -60
+      ],
+      "color": "#9FD8DC",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "IceShardBack_R",
+      "shape": "Wedge",
+      "size": [
+        0.5,
+        1.25,
+        0.6
+      ],
+      "position": [
+        1.25,
+        4.2,
+        0.85
+      ],
+      "orientation": [
+        25,
+        0,
+        -32
+      ],
+      "color": "#9FD8DC",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "IceSeam_R",
+      "shape": "Block",
+      "size": [
+        0.11,
+        1.5,
+        0.06
+      ],
+      "position": [
+        0.45,
+        2.8,
+        -0.635
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#9FD8DC",
+      "material": "Neon"
+    },
+    {
+      "name": "Eye_L",
+      "shape": "Block",
+      "size": [
+        0.22,
+        0.16,
+        0.05
+      ],
+      "position": [
+        -0.36,
+        4.6,
+        -0.825
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#28343D",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "Eye_R",
+      "shape": "Block",
+      "size": [
+        0.22,
+        0.16,
+        0.05
+      ],
+      "position": [
+        0.36,
+        4.6,
+        -0.825
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#28343D",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "FloatingIce",
+      "shape": "Block",
+      "size": [
+        0.52,
+        0.52,
+        0.52
+      ],
+      "position": [
+        2.7,
+        5.5,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        45
+      ],
+      "color": "#9FD8DC",
+      "material": "Neon"
+    },
+    {
+      "name": "Belt",
+      "shape": "Block",
+      "size": [
+        2,
+        0.25,
+        1.25
+      ],
+      "position": [
+        0,
+        2.0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#E9E2CD",
+      "material": "SmoothPlastic"
+    }
+  ]
+}

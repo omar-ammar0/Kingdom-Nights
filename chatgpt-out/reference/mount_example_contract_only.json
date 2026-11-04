@@ -1,0 +1,221 @@
+{
+    "format":  "kn-asset/1",
+    "kind":  "mount",
+    "name":  "bay_horse",
+    "version":  1,
+    "author":  "Claude-importer-test",
+    "parts":  [
+                  {
+                      "name":  "Root",
+                      "shape":  "Block",
+                      "size":  [
+                                   1.6,
+                                   0.2,
+                                   3.6
+                               ],
+                      "position":  [
+                                       0,
+                                       0.1,
+                                       0
+                                   ],
+                      "orientation":  [
+                                          0,
+                                          0,
+                                          0
+                                      ],
+                      "color":  "#3C2819",
+                      "material":  "SmoothPlastic",
+                      "transparency":  1,
+                      "root":  true
+                  },
+                  {
+                      "name":  "Body",
+                      "shape":  "Block",
+                      "size":  [
+                                   1.8,
+                                   1.3,
+                                   4.2
+                               ],
+                      "position":  [
+                                       0,
+                                       1.25,
+                                       0
+                                   ],
+                      "orientation":  [
+                                          0,
+                                          0,
+                                          0
+                                      ],
+                      "color":  "#8C5A32",
+                      "material":  "SmoothPlastic"
+                  },
+                  {
+                      "name":  "Saddle",
+                      "shape":  "Block",
+                      "size":  [
+                                   1.9,
+                                   0.1,
+                                   1.4
+                               ],
+                      "position":  [
+                                       0,
+                                       1.95,
+                                       0.2
+                                   ],
+                      "orientation":  [
+                                          0,
+                                          0,
+                                          0
+                                      ],
+                      "color":  "#962828",
+                      "material":  "SmoothPlastic"
+                  },
+                  {
+                      "name":  "LegFL",
+                      "shape":  "Block",
+                      "size":  [
+                                   0.45,
+                                   0.6,
+                                   0.45
+                               ],
+                      "position":  [
+                                       -0.6,
+                                       0.3,
+                                       -1.6
+                                   ],
+                      "orientation":  [
+                                          0,
+                                          0,
+                                          0
+                                      ],
+                      "color":  "#3C2819",
+                      "material":  "SmoothPlastic"
+                  },
+                  {
+                      "name":  "LegFR",
+                      "shape":  "Block",
+                      "size":  [
+                                   0.45,
+                                   0.6,
+                                   0.45
+                               ],
+                      "position":  [
+                                       0.6,
+                                       0.3,
+                                       -1.6
+                                   ],
+                      "orientation":  [
+                                          0,
+                                          0,
+                                          0
+                                      ],
+                      "color":  "#3C2819",
+                      "material":  "SmoothPlastic"
+                  },
+                  {
+                      "name":  "LegBL",
+                      "shape":  "Block",
+                      "size":  [
+                                   0.45,
+                                   0.6,
+                                   0.45
+                               ],
+                      "position":  [
+                                       -0.6,
+                                       0.3,
+                                       1.6
+                                   ],
+                      "orientation":  [
+                                          0,
+                                          0,
+                                          0
+                                      ],
+                      "color":  "#3C2819",
+                      "material":  "SmoothPlastic"
+                  },
+                  {
+                      "name":  "LegBR",
+                      "shape":  "Block",
+                      "size":  [
+                                   0.45,
+                                   0.6,
+                                   0.45
+                               ],
+                      "position":  [
+                                       0.6,
+                                       0.3,
+                                       1.6
+                                   ],
+                      "orientation":  [
+                                          0,
+                                          0,
+                                          0
+                                      ],
+                      "color":  "#3C2819",
+                      "material":  "SmoothPlastic"
+                  },
+                  {
+                      "name":  "Neck",
+                      "shape":  "Block",
+                      "size":  [
+                                   0.8,
+                                   1.3,
+                                   0.9
+                               ],
+                      "position":  [
+                                       0,
+                                       2.2,
+                                       -2
+                                   ],
+                      "orientation":  [
+                                          0,
+                                          0,
+                                          0
+                                      ],
+                      "color":  "#8C5A32",
+                      "material":  "SmoothPlastic"
+                  },
+                  {
+                      "name":  "Head",
+                      "shape":  "Block",
+                      "size":  [
+                                   0.8,
+                                   0.7,
+                                   1.4
+                               ],
+                      "position":  [
+                                       0,
+                                       2.75,
+                                       -2.6
+                                   ],
+                      "orientation":  [
+                                          0,
+                                          0,
+                                          0
+                                      ],
+                      "color":  "#8C5A32",
+                      "material":  "SmoothPlastic"
+                  },
+                  {
+                      "name":  "Tail",
+                      "shape":  "Block",
+                      "size":  [
+                                   0.3,
+                                   1,
+                                   0.3
+                               ],
+                      "position":  [
+                                       0,
+                                       1.4,
+                                       2.25
+                                   ],
+                      "orientation":  [
+                                          0,
+                                          0,
+                                          0
+                                      ],
+                      "color":  "#3C2819",
+                      "material":  "SmoothPlastic"
+                  }
+              ]
+}

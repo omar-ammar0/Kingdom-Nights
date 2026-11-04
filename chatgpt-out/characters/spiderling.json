@@ -1,0 +1,222 @@
+{
+  "format": "kn-asset/1",
+  "kind": "character",
+  "name": "spiderling",
+  "version": 1,
+  "author": "ChatGPT",
+  "notes": "10 parts including root. Tiny crimson body, eight thin charcoal legs in a wide low X; ground-relative and deliberately much smaller than standard enemies. Front -Z; single invisible base root. No hover offset, physics fields or particles. Importer anchors root only and welds unanchored children.",
+  "parts": [
+    {
+      "name": "HumanoidRootPart",
+      "shape": "Block",
+      "size": [
+        1,
+        0.2,
+        1
+      ],
+      "position": [
+        0,
+        0.1,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#3A3A3A",
+      "material": "SmoothPlastic",
+      "root": true,
+      "transparency": 1
+    },
+    {
+      "name": "Body",
+      "shape": "Block",
+      "size": [
+        0.85,
+        0.6,
+        1.05
+      ],
+      "position": [
+        0,
+        0.55,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8A3B3B",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "Leg_L1",
+      "shape": "Block",
+      "size": [
+        2.3,
+        0.12,
+        0.12
+      ],
+      "position": [
+        -1.05,
+        0.3746586609458481,
+        -0.75
+      ],
+      "orientation": [
+        0,
+        -32,
+        16
+      ],
+      "color": "#3A3A3A",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "Leg_L2",
+      "shape": "Block",
+      "size": [
+        2.3,
+        0.12,
+        0.12
+      ],
+      "position": [
+        -1.05,
+        0.3746586609458481,
+        -0.25
+      ],
+      "orientation": [
+        0,
+        -12,
+        16
+      ],
+      "color": "#3A3A3A",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "Leg_L3",
+      "shape": "Block",
+      "size": [
+        2.3,
+        0.12,
+        0.12
+      ],
+      "position": [
+        -1.05,
+        0.3746586609458481,
+        0.25
+      ],
+      "orientation": [
+        0,
+        12,
+        16
+      ],
+      "color": "#3A3A3A",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "Leg_L4",
+      "shape": "Block",
+      "size": [
+        2.3,
+        0.12,
+        0.12
+      ],
+      "position": [
+        -1.05,
+        0.3746586609458481,
+        0.75
+      ],
+      "orientation": [
+        0,
+        32,
+        16
+      ],
+      "color": "#3A3A3A",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "Leg_R1",
+      "shape": "Block",
+      "size": [
+        2.3,
+        0.12,
+        0.12
+      ],
+      "position": [
+        1.05,
+        0.3746586609458481,
+        -0.75
+      ],
+      "orientation": [
+        0,
+        32,
+        -16
+      ],
+      "color": "#3A3A3A",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "Leg_R2",
+      "shape": "Block",
+      "size": [
+        2.3,
+        0.12,
+        0.12
+      ],
+      "position": [
+        1.05,
+        0.3746586609458481,
+        -0.25
+      ],
+      "orientation": [
+        0,
+        12,
+        -16
+      ],
+      "color": "#3A3A3A",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "Leg_R3",
+      "shape": "Block",
+      "size": [
+        2.3,
+        0.12,
+        0.12
+      ],
+      "position": [
+        1.05,
+        0.3746586609458481,
+        0.25
+      ],
+      "orientation": [
+        0,
+        -12,
+        -16
+      ],
+      "color": "#3A3A3A",
+      "material": "SmoothPlastic"
+    },
+    {
+      "name": "Leg_R4",
+      "shape": "Block",
+      "size": [
+        2.3,
+        0.12,
+        0.12
+      ],
+      "position": [
+        1.05,
+        0.3746586609458481,
+        0.75
+      ],
+      "orientation": [
+        0,
+        -32,
+        -16
+      ],
+      "color": "#3A3A3A",
+      "material": "SmoothPlastic"
+    }
+  ]
+}
