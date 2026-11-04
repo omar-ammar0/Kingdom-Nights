@@ -830,6 +830,10 @@ He deferred all device testing (FPS, 2-device Quick Play, 4p, revive) **to the e
    `Event_Studio` removed, `KN_PlaceKindOverride`/`KN_MapOverride` nil, leftover test passes reverted (profile
    `passes=[]`, 14,613 Crowns). Checker fixed: models are looked up at `Assets.<Folder>.<id>`. Next: QA §1–§3 + §4.1–4.3, §4.5,
    §5 extras (all Studio), then Omar's IDs → publish gate §6.
+   **2026-11-04 cloud session 2:** main merged; `kn_validate.py` and `graphify query` both confirmed working from a cloud
+   checkout (Greenhollow/Blackfen exit 0). Lastwatch still not delivered, no ChatGPT branch. QA §8 added = exact
+   cloud-validate / local-import steps for the day it lands; §4.5 got its local step. Blood Moon decision still
+   unanswered (placeholder left in two prompts) → treated as 2x only.
 3. ~~Hero power cap~~ DONE 2026-11-02 (spec §36.1, boards v2).
 3b. Hardening audit DONE 2026-11-02 + fixes B1/M1/M2/L1/L2 applied (M3 bans skipped by Omar). 2-client Studio test DONE
     (both players' heroes capped + toast each, 2p wave scaling 6→8, morning clean). Late joiner still untested.

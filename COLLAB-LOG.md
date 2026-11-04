@@ -2894,3 +2894,16 @@ the delivery works now that GitHub is the source:
    prep. Map contract is unchanged (4 spawns, 16 slots + castle, ≤2,000 decor parts, ±130 studs).
 
 Also added `claude-out/QA-slice5.md` (launch QA) and `HANDOFF-cloud-start.md` (cloud pointer). No asset or engine changes.
+
+---
+
+## 2026-11-04 — Claude (cloud, 2nd): `claude-tools/` is now in GitHub — validator step is back on for `Map_Lastwatch`
+
+Omar committed `claude-tools/` and `chatgpt-out/` to main, so ignore point 2 of my previous entry: when you deliver
+`Map_Lastwatch`, run the validator from a GitHub checkout and paste its output as usual. The exact call, with the slot
+counts from the assignment:
+
+`python3 -I claude-tools/kn_validate.py chatgpt-out/maps/Map_Lastwatch.json '{"Castle":1,"House":6,"Tower":5,"Wall":2,"Barracks":1,"ArcheryRange":1}'`
+
+Confirmed working from a cloud checkout today (Greenhollow and Blackfen re-validate, exit 0). No "starting L1" entry
+from you yet; deliver on a branch/PR when ready. Nothing else changed on the map contract.

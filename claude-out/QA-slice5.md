@@ -94,7 +94,7 @@ Pass bar for this section: every row green with server + both client Outputs cle
 | 4.2 | 2 Endless | Lobby level ≥5 → Lastwatch → play 6 nights | Milestone elite pack night 5; defeat → crowns + `[Leaderboard] ... lastwatch` ok; RANKS 5th tab shows it. Map is still the **Blackfen stand-in** until ChatGPT's `Map_Lastwatch` lands | ☐ |
 | 4.3 | 3 Monetization | `Debug_SetPass` royal_treasury+double_xp true, debug win | Crowns ×1.5, XP ×2, shards ×1.25 (e.g. 642/320/37 pattern); `Debug_Purchase` same id twice → granted once; revert passes after | ☐ |
 | 4.4 | 4 Codes + Blood Moon | Lobby: redeem a fresh test code via CODES tab, repeat, spam 20× | Granted once; "already redeemed"; rate-limited to 1 per 5 s. Match: with `Event_Studio` set, debug win → **Crowns ×2, shards ×2, `EventProgress.Wins` 1**; banner shows "BLOOD MOON - 2x ... left" | ✅ Lobby half 2026-11-03 (LAUNCH via UI +1,000/+40; repeat "already redeemed"; unknown/number/5000-char rejected; 20× NIGHTFALL → 1 grant). Match 2026-11-04: `+1284 crowns` (428 × 1.5 treasury × **2**), `+75 hero shards` (30 × 1.25 × **2**); saved profile `EventProgress = BloodMoon/1793896044/wins=1`, Crowns 13,329 → 14,613 |
-| 4.5 | 4 Event poll | Clear `Event_Studio`, publish `KN_Event` message (or wait `PollSeconds`) | Banner disappears; multipliers back to ×1; failed DataStore read keeps last value (simulate by renaming key, watch no error) | ☐ key cleared, but the banner-disappears / ×1 boot not yet observed |
+| 4.5 | 4 Event poll | Clear `Event_Studio`, publish `KN_Event` message (or wait `PollSeconds`) | Banner disappears; multipliers back to ×1; failed DataStore read keeps last value (simulate by renaming key, watch no error) | ☐ key cleared, but the banner-disappears / ×1 boot not yet observed. **Local step:** boot Match with no `Event_Studio` key → Output shows no `[Event] flag now BloodMoon`, no banner on either client; debug win with passes off → `+428 crowns`, `+30 shards` (×1). Then set the key, fire `KN_Event` on MessagingService, confirm the banner appears without waiting `PollSeconds`; clear the key again |
 
 Blood Moon decision still open with Omar: ships as **2x rewards only** (no `ForcedMutator`, no banner cosmetic) unless
 he says "build mutators". If he does, that is new slice work, not QA.
@@ -135,6 +135,35 @@ dummy template field → reconcile fills it, nothing else changes). Paste the pr
    time, 15 min thermal. Needs `EnablePerfTools` true for that build only, then back and republish.
 7. Update HANDOFF §7 2b: "Slice 5 DONE, published <date>, both places", and write the ChatGPT-facing line in
    COLLAB-LOG only if a map or asset problem surfaced.
+
+---
+
+## 8. When `Map_Lastwatch` lands (cloud validates, local imports)
+
+ChatGPT has not logged "starting L1" yet (as of 2026-11-04 cloud session 2). Delivery goes to `chatgpt-out/maps/Map_Lastwatch.json`
++ `chatgpt-out/reference/Map_Lastwatch-v1-topdown.png` on a branch or PR.
+
+**Cloud session (no Studio):** from a scratch directory, never from inside `chatgpt-out/`:
+
+```bash
+python3 -I claude-tools/kn_validate.py chatgpt-out/maps/Map_Lastwatch.json '{"Castle":1,"House":6,"Tower":5,"Wall":2,"Barracks":1,"ArcheryRange":1}'
+```
+
+Exit 0 and `spawns: 4` in the parts line = accept. Errors → COLLAB-LOG entry to ChatGPT with the exact output (as always).
+Warnings are judgement calls; list them. Then generate the import chunks for the local session:
+
+```bash
+python3 -I claude-tools/kn_import_map.py chatgpt-out/maps/Map_Lastwatch.json claude-out/studio-patches/<date>-lastwatch/
+```
+
+Commit the chunks, log acceptance in COLLAB-LOG, note it in HANDOFF §7 2b. (Validator and graphify both confirmed
+working from a cloud checkout on 2026-11-04: Greenhollow and Blackfen re-validate exit 0.)
+
+**Local session (Studio):** run the chunks through `execute_luau` in the Edit datamodel in filename order
+(`_0_shell` → `_1_parts`… → `_9_finalise`; the map builds as `Map_Lastwatch__importing` and is renamed only when counts
+match). Then `Config.Maps.lastwatch.Model = "Map_Lastwatch"` (string replace via `ScriptEditorService:UpdateSourceAsync`),
+boot Match with `KN_MapOverride = "lastwatch"`, confirm 4 spawns feed 4 lanes, rerun §4.2 on the real map, clear the
+override. Spawn/slot/lane wave tables are not needed: Endless generates its nights.
 
 ---
 
